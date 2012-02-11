@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="439" BowlYear="2012" RoundName="Round TieBreaker" CompetitionName="Regional Competition 1">
+  <Questions>
+    <Question QuestionID="23195" QuestionIDString="0000023195">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the name of the U.S. Coast Guard Academy’s training ship based in New London, Connecticut?</QuestionText>
+      <AnswerW>Alvin</AnswerW>
+      <AnswerX>Stars and Stripes</AnswerX>
+      <AnswerY>Eagle</AnswerY>
+      <AnswerZ>Columbia</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8577" QuestionIDString="0000008577">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>When does the solubility of oxygen decrease?</QuestionText>
+      <AnswerW>With decreased temperature and salinity</AnswerW>
+      <AnswerX>With increased temperature and salinity</AnswerX>
+      <AnswerY>With increased temperature and decreased salinity</AnswerY>
+      <AnswerZ>With decreased temperature and increased salinity</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12683" QuestionIDString="0000012683">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The ancient ocean Panthalassa (pan-thuh-LASS-uh) is the ancestor of which modern day ocean?</QuestionText>
+      <AnswerW>Atlantic</AnswerW>
+      <AnswerX>Pacific</AnswerX>
+      <AnswerY>Indian</AnswerY>
+      <AnswerZ>Arctic</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13284" QuestionIDString="0000013284">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Black smoker chimneys are a form of what?</QuestionText>
+      <AnswerW>Diffuse venting</AnswerW>
+      <AnswerX>Cold seeps</AnswerX>
+      <AnswerY>Sheet flows</AnswerY>
+      <AnswerZ>Hydrothermal vents</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26818" QuestionIDString="0000026818">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the most intelligent marine invertebrate?</QuestionText>
+      <AnswerW>Nautilus</AnswerW>
+      <AnswerX>Clam</AnswerX>
+      <AnswerY>Octopus</AnswerY>
+      <AnswerZ>Whelk</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23058" QuestionIDString="0000023058">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The largest oil spill in United States history occurred in which of the following waters?</QuestionText>
+      <AnswerW>Prince William Sound, Alaska</AnswerW>
+      <AnswerX>Port Arthur, Texas</AnswerX>
+      <AnswerY>New Orleans, Louisiana</AnswerY>
+      <AnswerZ>The Gulf of Mexico</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27419" QuestionIDString="0000027419">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>State waters extend three miles offshore, EXCEPT for one state whose state waters extend ten miles. Which state is that?</QuestionText>
+      <AnswerW>California</AnswerW>
+      <AnswerX>Texas</AnswerX>
+      <AnswerY>Hawaii</AnswerY>
+      <AnswerZ>New Hampshire</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7859" QuestionIDString="0000007859">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which kind of shore is likely to have the weakest currents?</QuestionText>
+      <AnswerW>Sandy shore</AnswerW>
+      <AnswerX>Rocky shore</AnswerX>
+      <AnswerY>Silty shore</AnswerY>
+      <AnswerZ>Muddy shore</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12217" QuestionIDString="0000012217">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Where is one location where seafloor processes are working to create an island arc system?</QuestionText>
+      <AnswerW>Mid-Atlantic Ridge</AnswerW>
+      <AnswerX>East Pacific Rise</AnswerX>
+      <AnswerY>Tonga Trench</AnswerY>
+      <AnswerZ>Peru-Chile Trench</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26135" QuestionIDString="0000026135">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the name of the technique developed by Howard Sanders to compare the species richness of different sample sizes in marine sediments?</QuestionText>
+      <AnswerW>Shannon Index</AnswerW>
+      <AnswerX>Simpson Index</AnswerX>
+      <AnswerY>Rarefaction curve</AnswerY>
+      <AnswerZ>Reflection curve</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

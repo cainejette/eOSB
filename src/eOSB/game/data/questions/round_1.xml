@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="408" BowlYear="2012" RoundName="Round 01" CompetitionName="Regional Competition 1">
+  <Questions>
+    <Question QuestionID="26155" QuestionIDString="0000026155">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following types of organisms must use sunlight to produce energy?</QuestionText>
+      <AnswerW>Heterotrophs</AnswerW>
+      <AnswerX>Autotrophs</AnswerX>
+      <AnswerY>Phototrophs</AnswerY>
+      <AnswerZ>Symbiotrophs</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25111" QuestionIDString="0000025111">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the approximate average salinity of the ocean?</QuestionText>
+      <CorrectAnswer>34.5 to 35 is acceptable</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24022" QuestionIDString="0000024022">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>At what latitude, degrees North, would you find the Arctic Circle?</QuestionText>
+      <AnswerW>80.5</AnswerW>
+      <AnswerX>66.5</AnswerX>
+      <AnswerY>72.5</AnswerY>
+      <AnswerZ>58.5</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="16414" QuestionIDString="0000016414">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Historically, salinity was measured in what units?</QuestionText>
+      <CorrectAnswer>Parts per thousand by weight OR grams per kilogram</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13085" QuestionIDString="0000013085">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The majority of finfish and shellfish are caught in which region?</QuestionText>
+      <AnswerW>Arctic</AnswerW>
+      <AnswerX>Sub-Arctic</AnswerX>
+      <AnswerY>Temperate</AnswerY>
+      <AnswerZ>Equatorial</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26920" QuestionIDString="0000026920">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What animal once ranged from Japan to California, but was wiped out by humans in 1768 on Bering Island?</QuestionText>
+      <CorrectAnswer>Stellar's sea cow (sea cow is acceptable)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26539" QuestionIDString="0000026539">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following processes is NOT a main mechanism for bringing nutrient-rich water to the surface?</QuestionText>
+      <AnswerW>Wind mixing</AnswerW>
+      <AnswerX>Convective mixing</AnswerX>
+      <AnswerY>Downwelling</AnswerY>
+      <AnswerZ>Tidal mixing</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="17979" QuestionIDString="0000017979">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the bathyscaphe that was able to achieve the deepest dive ever taken?</QuestionText>
+      <CorrectAnswer>Trieste</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26461" QuestionIDString="0000026461">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>When was Seasat, the first satellite dedicated to ocean studies, launched?</QuestionText>
+      <AnswerW>1978</AnswerW>
+      <AnswerX>1998</AnswerX>
+      <AnswerY>1968</AnswerY>
+      <AnswerZ>1988</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25503" QuestionIDString="0000025503">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How long is a tidal day?</QuestionText>
+      <CorrectAnswer>24 hours and 50 minutes</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26757" QuestionIDString="0000026757">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Shrimp aquaculture in developing countries often results in the clearing of which resource?</QuestionText>
+      <AnswerW>Salt Marshes</AnswerW>
+      <AnswerX>Beaches</AnswerX>
+      <AnswerY>Mangroves</AnswerY>
+      <AnswerZ>Seagrasses</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26935" QuestionIDString="0000026935">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>To what kingdom do marine brown algae, such as kelps, belong?</QuestionText>
+      <CorrectAnswer>Chromista</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26831" QuestionIDString="0000026831">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following statements is true about ocean garbage patches?</QuestionText>
+      <AnswerW>Only occur in the Pacific Ocean</AnswerW>
+      <AnswerX>Limited to depths of 1 meter</AnswerX>
+      <AnswerY>Primarily composed of large fragments of plastic</AnswerY>
+      <AnswerZ>More widespread and deeper than first believed</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25429" QuestionIDString="0000025429">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What causes the movements of deep water currents?</QuestionText>
+      <CorrectAnswer>Differences in density OR temperature OR salinity</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26218" QuestionIDString="0000026218">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Over 90 percent of marine primary production is from which of the following sources?</QuestionText>
+      <AnswerW>Phytoplankton</AnswerW>
+      <AnswerX>Macroalgae</AnswerX>
+      <AnswerY>Seagrasses</AnswerY>
+      <AnswerZ>Zooplankton</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26783" QuestionIDString="0000026783">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What coring device do scientists use to collect undisturbed biological samples from the benthos?</QuestionText>
+      <CorrectAnswer>Box corer (Also accept Van Veen Grab)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27187" QuestionIDString="0000027187">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is another name for Forchhammer's Principle?</QuestionText>
+      <AnswerW>Law of Constant Proportions</AnswerW>
+      <AnswerX>Principle of Constant Proportions</AnswerX>
+      <AnswerY>Law of Definite Proportions</AnswerY>
+      <AnswerZ>Constant of Definite Proportions</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24769" QuestionIDString="0000024769">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is a name of a major western boundary current in the northwest Indian Ocean off northeast Africa?</QuestionText>
+      <CorrectAnswer>Somali Current</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26226" QuestionIDString="0000026226">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following mammals have larger brains than any other nonhuman animal in proportion to body size?</QuestionText>
+      <AnswerW>Sperm whales</AnswerW>
+      <AnswerX>Sea lions</AnswerX>
+      <AnswerY>Gray whales</AnswerY>
+      <AnswerZ>Bottlenose dolphins</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23975" QuestionIDString="0000023975">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What does the acronym NOAA stand for?</QuestionText>
+      <CorrectAnswer>National Oceanic and Atmospheric Administration</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24487" QuestionIDString="0000024487">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the term for the area that encompasses the continental shelf plus the continental slope?</QuestionText>
+      <AnswerW>Coastline</AnswerW>
+      <AnswerX>Continental margin</AnswerX>
+      <AnswerY>Continental rise</AnswerY>
+      <AnswerZ>Abyssal zone</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26944" QuestionIDString="0000026944">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What organ do sharks use to control their buoyancy?</QuestionText>
+      <CorrectAnswer>Liver</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26616" QuestionIDString="0000026616">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which Western Boundary Current runs north along the East Coast of Asia?</QuestionText>
+      <AnswerW>Oyashio</AnswerW>
+      <AnswerX>Kuroshio</AnswerX>
+      <AnswerY>North Pacific</AnswerY>
+      <AnswerZ>Agulhas</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="16738" QuestionIDString="0000016738">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In general, why are nitrate concentrations lower in surface waters than at depth?</QuestionText>
+      <CorrectAnswer>Primary production in surface waters consumes the available nitrogen.  At depth there is decomposition, but no photosynthetic (primary production) activity, so nitrogen levels increase.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12344" QuestionIDString="0000012344">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Water covers approximately what percentage of the Earth's surface?</QuestionText>
+      <AnswerW>32</AnswerW>
+      <AnswerX>57</AnswerX>
+      <AnswerY>63</AnswerY>
+      <AnswerZ>71</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26966" QuestionIDString="0000026966">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What Indo-Pacific fish, commonly found in aquariums, was introduced to Atlantic and Caribbean waters and is now taking over coral reef habitats due to their rapid growth rate and lack of predators?</QuestionText>
+      <CorrectAnswer>Lionfish</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26654" QuestionIDString="0000026654">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is a Secchi disk used to estimate?</QuestionText>
+      <AnswerW>Underwater currents</AnswerW>
+      <AnswerX>Conductivity</AnswerX>
+      <AnswerY>Water transparency</AnswerY>
+      <AnswerZ>Depth-specific temperature</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24778" QuestionIDString="0000024778">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the deepest trench in the ocean?</QuestionText>
+      <CorrectAnswer>Mariana Trench</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26366" QuestionIDString="0000026366">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Coccolithophores and pteropods have shells made of which of the following?</QuestionText>
+      <AnswerW>Manganese</AnswerW>
+      <AnswerX>Silicon dioxide</AnswerX>
+      <AnswerY>Calcium carbonate</AnswerY>
+      <AnswerZ>Nitrate</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="18067" QuestionIDString="0000018067">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The first nuclear powered submarine was also the first to cross the North Pole under the ice in 1958. What was its name?</QuestionText>
+      <CorrectAnswer>USS Nautilus</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26659" QuestionIDString="0000026659">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What causes a tsunami?</QuestionText>
+      <AnswerW>Sun and Moon gravitational attraction</AnswerW>
+      <AnswerX>Seasonally strong Monsoon winds</AnswerX>
+      <AnswerY>Earthquakes or movements of Earth’s crust</AnswerY>
+      <AnswerZ>Distant wind-induced storms</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27170" QuestionIDString="0000027170">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which two major classifications of marine mammals was NOAA given the responsibility to conserve and manage under the Marine Mammal Protection Act?</QuestionText>
+      <CorrectAnswer>Pinnipeds AND cetaceans. Also accept: Seals/sea lions AND whales/dolphins.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26790" QuestionIDString="0000026790">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is a vector measurement?</QuestionText>
+      <AnswerW>Salinity</AnswerW>
+      <AnswerX>Temperature</AnswerX>
+      <AnswerY>Current velocity</AnswerY>
+      <AnswerZ>Fluorescence</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26838" QuestionIDString="0000026838">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How many times faster does sound travel in water than in air?</QuestionText>
+      <CorrectAnswer>4 times</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26694" QuestionIDString="0000026694">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The Japanese tsunami in March 2011 was generated by an earthquake of what magnitude?</QuestionText>
+      <AnswerW>9.5</AnswerW>
+      <AnswerX>8.5</AnswerX>
+      <AnswerY>9.0</AnswerY>
+      <AnswerZ>8.0</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26198" QuestionIDString="0000026198">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the scientific endeavor which lasted a full decade, involved 2,700 scientists and resulted in the discovery of over 6,000 potential new species?</QuestionText>
+      <CorrectAnswer>Census of Marine Life</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26007" QuestionIDString="0000026007">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In 2010, the Ocean Renewable Power Company deployed its tidal power system, the largest ocean energy device ever deployed in U.S. waters, at which of the following sites?</QuestionText>
+      <AnswerW>Cobscook Bay, Maine</AnswerW>
+      <AnswerX>Buzzards Bay, Massachusetts</AnswerX>
+      <AnswerY>Tampa Bay, Florida</AnswerY>
+      <AnswerZ>Catalina Island, California</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26228" QuestionIDString="0000026228">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What body of water borders the western side of the island of Newfoundland?</QuestionText>
+      <CorrectAnswer>Gulf of St. Lawrence</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26950" QuestionIDString="0000026950">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of these ions has the shortest residence time in seawater?</QuestionText>
+      <AnswerW>Chloride</AnswerW>
+      <AnswerX>Calcium</AnswerX>
+      <AnswerY>Iron</AnswerY>
+      <AnswerZ>Potassium</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26233" QuestionIDString="0000026233">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What type of wave is expected to form at the pycnocline?</QuestionText>
+      <CorrectAnswer>Internal wave OR gravity wave</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

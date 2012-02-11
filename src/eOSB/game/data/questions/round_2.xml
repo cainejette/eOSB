@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="405" BowlYear="2012" RoundName="Round 02" CompetitionName="Regional Competition 1">
+  <Questions>
+    <Question QuestionID="26066" QuestionIDString="0000026066">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The symbiotic relationship whereby one organism benefits at the expense of another is know as which of the following?</QuestionText>
+      <AnswerW>Parasitism</AnswerW>
+      <AnswerX>Altruism</AnswerX>
+      <AnswerY>Mutualism</AnswerY>
+      <AnswerZ>Commensalism</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27213" QuestionIDString="0000027213">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In which country is Lake Baikal (bye-call) located?</QuestionText>
+      <CorrectAnswer>Russia</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26299" QuestionIDString="0000026299">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What term applies to the speed at which a wave advances?</QuestionText>
+      <AnswerW>Frequency</AnswerW>
+      <AnswerX>Fetch</AnswerX>
+      <AnswerY>Period</AnswerY>
+      <AnswerZ>Phase velocity</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26568" QuestionIDString="0000026568">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term refers to the integrated approach to management that does not focus on a single species, sector, activity, or concern?</QuestionText>
+      <CorrectAnswer>Ecosystem-based management</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26368" QuestionIDString="0000026368">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is one of the few locations on Earth where oceanic crust can be found above sea level?</QuestionText>
+      <AnswerW>Galapagos Islands</AnswerW>
+      <AnswerX>Aleutian Islands</AnswerX>
+      <AnswerY>Iceland</AnswerY>
+      <AnswerZ>Crete</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26671" QuestionIDString="0000026671">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term describes benthic organisms that are found in muddy substrates and digest the organic matter within the sediment?</QuestionText>
+      <CorrectAnswer>Deposit feeders (Also accept: detritivores)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26524" QuestionIDString="0000026524">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which term describes a small scale subsistence fishery, carried out for the benefit of a family or village?</QuestionText>
+      <AnswerW>Demersal</AnswerW>
+      <AnswerX>Public</AnswerX>
+      <AnswerY>Communal</AnswerY>
+      <AnswerZ>Artisanal</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26965" QuestionIDString="0000026965">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the most abundant gas dissolved in surface seawater?</QuestionText>
+      <CorrectAnswer>Nitrogen gas OR dinitrogen gas OR N2</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27228" QuestionIDString="0000027228">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the five U.S. Great Lakes has the highest elevation above sea level?</QuestionText>
+      <AnswerW>Michigan</AnswerW>
+      <AnswerX>Ontario</AnswerX>
+      <AnswerY>Superior</AnswerY>
+      <AnswerZ>Huron</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26468" QuestionIDString="0000026468">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which tectonic plate is the largest?</QuestionText>
+      <CorrectAnswer>Pacific</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26095" QuestionIDString="0000026095">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following organisms are most likely to benefit from an increase in the partial pressure of carbon dioxide in seawater?</QuestionText>
+      <AnswerW>Oysters</AnswerW>
+      <AnswerX>Sea grass</AnswerX>
+      <AnswerY>Calcareous (kal-KAIR-ee-uhs) red algae</AnswerY>
+      <AnswerZ>Coccolithophores (cock-oh-lith-oh-fores)</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26907" QuestionIDString="0000026907">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name given to sediment-laden flows pulled downhill by gravity?</QuestionText>
+      <CorrectAnswer>Turbidity currents</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26134" QuestionIDString="0000026134">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following nets is most suitable for collecting copepods?</QuestionText>
+      <AnswerW>Bongo</AnswerW>
+      <AnswerX>Trawl</AnswerX>
+      <AnswerY>Gill</AnswerY>
+      <AnswerZ>Seine</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26711" QuestionIDString="0000026711">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The water vascular system is a hydraulic system used for locomotion, food and waste transport, and respiration in what phylum of organisms?</QuestionText>
+      <CorrectAnswer>Echinodermata (also acceptable: echinoderms)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26429" QuestionIDString="0000026429">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which term describes low-lying, exposed deposits of sediment that lie parallel to the shore and are separated from the mainland by a lagoon or bay?</QuestionText>
+      <AnswerW>Atolls</AnswerW>
+      <AnswerX>Barrier Islands</AnswerX>
+      <AnswerY>Dunes</AnswerY>
+      <AnswerZ>Cliffs</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="22975" QuestionIDString="0000022975">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>A driving force for the exploration of the Arctic was the desire of European monarchs to find an alternate trading route to China. Name one of the two most common routes explored and the coasts they traveled along.</QuestionText>
+      <CorrectAnswer>The Northwest Passage along the northern coast of North America OR The Northeast Passage along the northern coast of Siberia</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26690" QuestionIDString="0000026690">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What group is charged with developing fisheries management plans for fisheries that exist in the US EEZ?</QuestionText>
+      <AnswerW>Regional Fisheries Management Councils</AnswerW>
+      <AnswerX>States' Department of Marine Fisheries</AnswerX>
+      <AnswerY>Regional Seafood Councils</AnswerY>
+      <AnswerZ>US Fish and Wildlife Service</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26565" QuestionIDString="0000026565">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>One way to reduce atmospheric levels of carbon dioxide is to increase the productivity of phytoplankton in oceanic surface water. What chemical element can be added to seawater to help stimulate primary productivity?</QuestionText>
+      <CorrectAnswer>Iron</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26598" QuestionIDString="0000026598">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Who was the first European explorer to navigate the waters of present-day New York City?</QuestionText>
+      <AnswerW>Henry Hudson</AnswerW>
+      <AnswerX>James Cook</AnswerX>
+      <AnswerY>Giovanni da Verrazano</AnswerY>
+      <AnswerZ>Francis Drake</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26256" QuestionIDString="0000026256">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What biologically produced greenhouse gas is expected to decline as a consequence of ocean acidification's effect on the nitrogen cycle?</QuestionText>
+      <CorrectAnswer>Nitrous oxide (Also accept N2O)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26300" QuestionIDString="0000026300">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which phenomenon is caused by a rush of seawater returning to a shallow and narrowing inlet from a broad bay?</QuestionText>
+      <AnswerW>Tsunami</AnswerW>
+      <AnswerX>Tidal Bore</AnswerX>
+      <AnswerY>Rogue wave</AnswerY>
+      <AnswerZ>Shoaling wave</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23187" QuestionIDString="0000023187">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Areas of the world where freshwater resources are scarce turn to the sea for additional freshwater supply through what process?</QuestionText>
+      <CorrectAnswer>Desalinization OR Desalination</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7654" QuestionIDString="0000007654">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is NOT a source of dissolved oxygen in the ocean?</QuestionText>
+      <AnswerW>The atmosphere</AnswerW>
+      <AnswerX>Photosynthesis</AnswerX>
+      <AnswerY>Bubble injection</AnswerY>
+      <AnswerZ>Respiration</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27227" QuestionIDString="0000027227">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the tide formed when the gravitational forces of the sun and moon are perpendicular to one another?</QuestionText>
+      <CorrectAnswer>Neap tide</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26434" QuestionIDString="0000026434">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which term is used to describe when one lithospheric plate descends beneath another and is destroyed?</QuestionText>
+      <AnswerW>Subduction</AnswerW>
+      <AnswerX>Subtraction</AnswerX>
+      <AnswerY>Refraction</AnswerY>
+      <AnswerZ>Destruction</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26201" QuestionIDString="0000026201">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What natural disaster does the DART buoy system warn people about?</QuestionText>
+      <CorrectAnswer>Tsunamis</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27292" QuestionIDString="0000027292">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is NOT an environmental condition needed by hard corals in order to thrive?</QuestionText>
+      <AnswerW>Presence of algae grazers</AnswerW>
+      <AnswerX>Water temperature greater then 20 degrees Celsius</AnswerX>
+      <AnswerY>A hard substrate</AnswerY>
+      <AnswerZ>High sediment input</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27152" QuestionIDString="0000027152">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical - Waves</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In what direction does a particle of water in a non-breaking wave on the surface of the ocean move?</QuestionText>
+      <CorrectAnswer>Circular OR elliptical</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26113" QuestionIDString="0000026113">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The zebra mussel is a nuisance species in the Great Lakes and was thought to be introduced by which of the following means?</QuestionText>
+      <AnswerW>Aquaculture escape</AnswerW>
+      <AnswerX>Long-distance larval dispersal</AnswerX>
+      <AnswerY>Release by aquarium hobbyist</AnswerY>
+      <AnswerZ>Ballast water</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26550" QuestionIDString="0000026550">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>A plate boundary in which the plates slide past each other is known as what type of margin?</QuestionText>
+      <CorrectAnswer>Transform</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26442" QuestionIDString="0000026442">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Water Properties</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following factors does NOT affect the speed at which sound travels through seawater?</QuestionText>
+      <AnswerW>Pressure</AnswerW>
+      <AnswerX>Salinity</AnswerX>
+      <AnswerY>Temperature</AnswerY>
+      <AnswerZ>Turbidity</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24067" QuestionIDString="0000024067">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What are four U.S. states that border the Gulf of Mexico?</QuestionText>
+      <CorrectAnswer>Any 4 are acceptable: Alabama, Florida, Louisiana, Mississippi, Texas</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26022" QuestionIDString="0000026022">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>How many extant species of Walrus are there?</QuestionText>
+      <AnswerW>1</AnswerW>
+      <AnswerX>7</AnswerX>
+      <AnswerY>4</AnswerY>
+      <AnswerZ>2</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27188" QuestionIDString="0000027188">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term describes a surface of constant density?</QuestionText>
+      <CorrectAnswer>Isopycnal</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27335" QuestionIDString="0000027335">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which one of the following is the name given to the coastline of Namibia?</QuestionText>
+      <AnswerW>Gold Coast</AnswerW>
+      <AnswerX>Skeleton Coast</AnswerX>
+      <AnswerY>Diamond Coast</AnswerY>
+      <AnswerZ>Forgotten Coast</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27073" QuestionIDString="0000027073">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What are the four most significant biogeochemical cycles in the ocean?</QuestionText>
+      <CorrectAnswer>Water, carbon, nitrogen AND phosphorus</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26464" QuestionIDString="0000026464">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the densest water mass?</QuestionText>
+      <AnswerW>Antarctic Bottom Water</AnswerW>
+      <AnswerX>Antarctic Intermediate Water</AnswerX>
+      <AnswerY>North Atlantic Deep Water</AnswerY>
+      <AnswerZ>Mediterranean Deep Water</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26110" QuestionIDString="0000026110">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the term that describes the depth at which net primary productivity is zero?</QuestionText>
+      <CorrectAnswer>Critical depth</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26502" QuestionIDString="0000026502">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which term best describes the average amount of time that a chemical constituent spends in the ocean?</QuestionText>
+      <AnswerW>Habitation</AnswerW>
+      <AnswerX>Local</AnswerX>
+      <AnswerY>Residence</AnswerY>
+      <AnswerZ>Dwelling</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26333" QuestionIDString="0000026333">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What seafloor feature is known by its characteristic v-shaped valley that lies perpendicular to the shoreline and cuts deeply across the edge of the continental slope?</QuestionText>
+      <CorrectAnswer>Submarine canyon</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

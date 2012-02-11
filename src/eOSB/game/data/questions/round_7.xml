@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="420" BowlYear="2012" RoundName="Round 07" CompetitionName="Regional Competition 1">
+  <Questions>
+    <Question QuestionID="27276" QuestionIDString="0000027276">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In a typical gravity wave with a wavelength of ten meters, at what depth, in meters, is the orbital motion virtually nothing?</QuestionText>
+      <AnswerW>5</AnswerW>
+      <AnswerX>20</AnswerX>
+      <AnswerY>10</AnswerY>
+      <AnswerZ>50</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12677" QuestionIDString="0000012677">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Where is the best hiding place for submarines in the ocean?</QuestionText>
+      <CorrectAnswer>At the thermocline (Also accept: below the thermocline due to the shadow effect)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27336" QuestionIDString="0000027336">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Approximately when did the earliest marine mammals appear?</QuestionText>
+      <AnswerW>75 Million years ago</AnswerW>
+      <AnswerX>55 Million years ago</AnswerX>
+      <AnswerY>35 Million years ago</AnswerY>
+      <AnswerZ>15 Million years ago</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12912" QuestionIDString="0000012912">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the inland sea between Ukraine and Russia?</QuestionText>
+      <CorrectAnswer>Azov Sea OR Sea of Azov (Also accept: Black Sea)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13119" QuestionIDString="0000013119">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following whales has the highest take limit under the International Whaling Commission's scientific permit issued to Japan?</QuestionText>
+      <AnswerW>Minke</AnswerW>
+      <AnswerX>Sei</AnswerX>
+      <AnswerY>Humpback</AnswerY>
+      <AnswerZ>Bryde's</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="9536" QuestionIDString="0000009536">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>On which US coast, East or West, would you expect to find warmer water and why?</QuestionText>
+      <CorrectAnswer>Warmer water would be found on the East Coast, because the Gulf Stream brings warm water from the south.  (On the West Coast, winds from the north cause surface water to move away from the coast and deeper colder water replaces it (upwelling)).</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12638" QuestionIDString="0000012638">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In which ocean would you find the Kelvin Seamounts and Sohm Abyssal Plain?</QuestionText>
+      <AnswerW>Atlantic</AnswerW>
+      <AnswerX>Pacific</AnswerX>
+      <AnswerY>Indian</AnswerY>
+      <AnswerZ>Arctic</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27296" QuestionIDString="0000027296">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What are the two primary factors that effect the upper AND lower limits of barnacle growth in the rocky intertidal?</QuestionText>
+      <CorrectAnswer>Desiccation (upper) and Predation (lower)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13206" QuestionIDString="0000013206">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is NOT a common measurement of fish length?</QuestionText>
+      <AnswerW>Tip of the snout to caudal peduncle</AnswerW>
+      <AnswerX>Tip of the snout to fork of the caudal fin</AnswerX>
+      <AnswerY>Tip of the snout to tip of the caudal fin</AnswerY>
+      <AnswerZ>Tip of the snout to posterior end of last vertebra</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="9142" QuestionIDString="0000009142">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What does the oceanographic term fetch mean?</QuestionText>
+      <CorrectAnswer>The distance over which wind blows across the water</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8501" QuestionIDString="0000008501">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>According to the Redfield ratio, how many moles of nitrogen are present for every mole of phosphorus in ocean phytoplankton?</QuestionText>
+      <AnswerW>106</AnswerW>
+      <AnswerX>138</AnswerX>
+      <AnswerY>16</AnswerY>
+      <AnswerZ>76</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26954" QuestionIDString="0000026954">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term describes how large predatory and pelagic sharks must continuously swim in order to maintain the flow of water over their gills?</QuestionText>
+      <CorrectAnswer>Ram ventilation</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26405" QuestionIDString="0000026405">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Large reservoirs of hydrocarbons that are buried in the sediments of continental slopes are most often composed of which substance?</QuestionText>
+      <AnswerW>Crude oil</AnswerW>
+      <AnswerX>Natural gas</AnswerX>
+      <AnswerY>Sub-bituminous (sub-bih-tomb-ih-nus) coal</AnswerY>
+      <AnswerZ>Methane hydrates</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27309" QuestionIDString="0000027309">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Why are Right whales in the North Atlantic separated from the Right whales in the South Atlantic?</QuestionText>
+      <CorrectAnswer>The amount of blubber both species have prohibits them from entering warmer waters and crossing the equator (they are unable to shed heat).</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27491" QuestionIDString="0000027491">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The direct effect of Milankovitch cycles on the Earth is a change in which of the following parameters?</QuestionText>
+      <AnswerW>Amount of solar radiation received</AnswerW>
+      <AnswerX>Tide-generating forces</AnswerX>
+      <AnswerY>Number of meteorites strikes</AnswerY>
+      <AnswerZ>Length of El Niño cycles</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26486" QuestionIDString="0000026486">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The loss of snow or ice from a glacier by melting, calving, or other processes is known as what?</QuestionText>
+      <CorrectAnswer>Ablation</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26640" QuestionIDString="0000026640">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following describes the habitat of polychaete worms (Phylum Annelida)?</QuestionText>
+      <AnswerW>Exclusively planktonic</AnswerW>
+      <AnswerX>Exclusively found in hydrothermal vents</AnswerX>
+      <AnswerY>Planktonic and benthic representatives</AnswerY>
+      <AnswerZ>Exclusively benthic</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27244" QuestionIDString="0000027244">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Some scientists believe dust from which continent is responsible for carrying and/or stimulating microbes that might be harmful to Caribbean coral reefs?</QuestionText>
+      <CorrectAnswer>Africa</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27369" QuestionIDString="0000027369">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What was the name of the first (and only) nuclear-powered cargo ship, launched in 1962?</QuestionText>
+      <AnswerW>Savannah</AnswerW>
+      <AnswerX>Henry Hyde</AnswerX>
+      <AnswerY>Eisenhower</AnswerY>
+      <AnswerZ>Knoll</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27505" QuestionIDString="0000027505">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In order to participate in the governance of the Antarctic continent and the Southern Ocean, what international agreement must a country ratify?</QuestionText>
+      <CorrectAnswer>The Antarctic Treaty</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12885" QuestionIDString="0000012885">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Approximately how long in kilometers is the Great Barrier Reef?</QuestionText>
+      <AnswerW>4200</AnswerW>
+      <AnswerX>2,500</AnswerX>
+      <AnswerY>1600</AnswerY>
+      <AnswerZ>6,000</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26712" QuestionIDString="0000026712">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What type of plate boundary exists between the Nazca and South American plates?</QuestionText>
+      <CorrectAnswer>Subduction OR convergent</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26244" QuestionIDString="0000026244">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which book, written by Matthew F. Maury in 1855, has been credited as the first textbook of oceanography?</QuestionText>
+      <AnswerW>The Depths of the Sea</AnswerW>
+      <AnswerX>The Physical Geography of the Seas and Its Meteorology</AnswerX>
+      <AnswerY>Surveying Voyages of Ships Adventures</AnswerY>
+      <AnswerZ>The Voyage of the Challenger</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14066" QuestionIDString="0000014066">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What cnidarian structure is found in the polyp phase but not in the medusa phase of cnidarians?</QuestionText>
+      <CorrectAnswer>Pedal disc</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26538" QuestionIDString="0000026538">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In what year was the International Whaling Commission established?</QuestionText>
+      <AnswerW>1966</AnswerW>
+      <AnswerX>1946</AnswerX>
+      <AnswerY>1956</AnswerY>
+      <AnswerZ>1936</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26987" QuestionIDString="0000026987">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>From what species of whale have weapon fragments been recovered, indicating that the animals were over 100 years old?</QuestionText>
+      <CorrectAnswer>Bowhead</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26266" QuestionIDString="0000026266">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>A triploid oyster can NOT produce which of the following?</QuestionText>
+      <AnswerW>Pearls</AnswerW>
+      <AnswerX>Gametes</AnswerX>
+      <AnswerY>Calcium carbonate</AnswerY>
+      <AnswerZ>Byssal threads</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12886" QuestionIDString="0000012886">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the longest barrier reef in the Western Hemisphere?</QuestionText>
+      <CorrectAnswer>Belize Barrier Reef</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26951" QuestionIDString="0000026951">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following wavelengths of visible light, in nanometers, penetrates deepest into ocean waters?</QuestionText>
+      <AnswerW>450</AnswerW>
+      <AnswerX>700</AnswerX>
+      <AnswerY>650</AnswerY>
+      <AnswerZ>300</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27333" QuestionIDString="0000027333">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Why is the temperature of air over oceans less variable than the temperature of air over land?</QuestionText>
+      <CorrectAnswer>Water has a high specific heat capacity (Specific heat is also acceptable; Heat capacity is NOT acceptable)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14086" QuestionIDString="0000014086">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following pirates was most famous for attacking Panama?</QuestionText>
+      <AnswerW>Calico Jack</AnswerW>
+      <AnswerX>Henry Morgan</AnswerX>
+      <AnswerY>Black Beard</AnswerY>
+      <AnswerZ>Anne Bonny</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27344" QuestionIDString="0000027344">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What seismic waves produced by earthquakes travel outward and CAN transmit through liquid?</QuestionText>
+      <CorrectAnswer>P-waves</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26166" QuestionIDString="0000026166">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following phenomena is one of the main reasons for repeated rises in atmospheric carbon dioxide throughout Earth's history?</QuestionText>
+      <AnswerW>Melting of polar ice caps</AnswerW>
+      <AnswerX>Increased volcanism</AnswerX>
+      <AnswerY>Sea-level drop</AnswerY>
+      <AnswerZ>Extinction events</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26674" QuestionIDString="0000026674">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>On a global scale, is the current productivity of marine phytoplankton larger, roughly
+equal to, or less than that of land plants?</QuestionText>
+      <CorrectAnswer>Roughly equal</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13878" QuestionIDString="0000013878">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Where is the northernmost colony of the smallest penguin species located?</QuestionText>
+      <AnswerW>Antarctica</AnswerW>
+      <AnswerX>Northern Argentina</AnswerX>
+      <AnswerY>Galápagos</AnswerY>
+      <AnswerZ>Southern Australia</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26409" QuestionIDString="0000026409">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What type of marine sediments are produced in situ by chemical processes in seawater?</QuestionText>
+      <CorrectAnswer>Authigenic (Also accept hydrogenous)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13057" QuestionIDString="0000013057">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>No U.S. Government-issued maps delineate the boundaries of which mythical geographic area located off the southeastern Atlantic coast of the United States?</QuestionText>
+      <AnswerW>Sea Of Verazzano</AnswerW>
+      <AnswerX>Island of Frisland</AnswerX>
+      <AnswerY>Area 51</AnswerY>
+      <AnswerZ>Bermuda Triangle</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="22290" QuestionIDString="0000022290">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>A spectrometer is an instrument designed to operate over a wide range of wavelengths in the electromagnetic spectrum.  What is the type of spectrometer operates over only the visible spectrum?</QuestionText>
+      <CorrectAnswer>Spectrophotometer</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13599" QuestionIDString="0000013599">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following mid-ocean ridges is spreading at the slowest rate?</QuestionText>
+      <AnswerW>East Pacific Rise</AnswerW>
+      <AnswerX>Ninety East Ridge</AnswerX>
+      <AnswerY>Southeast Indian Ridge</AnswerY>
+      <AnswerZ>Gakkel Ridge</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27397" QuestionIDString="0000027397">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Science</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which body of water is rapidly disappearing, at a rate of three feet per year, largely due to humans using its main source, the Jordan River, for drinking water?</QuestionText>
+      <CorrectAnswer>Dead Sea</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

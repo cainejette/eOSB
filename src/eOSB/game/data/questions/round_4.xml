@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="411" BowlYear="2012" RoundName="Round 04" CompetitionName="Regional Competition 1">
+  <Questions>
+    <Question QuestionID="26269" QuestionIDString="0000026269">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following fish species typically prefers the warmest water?</QuestionText>
+      <AnswerW>Cod</AnswerW>
+      <AnswerX>Salmon</AnswerX>
+      <AnswerY>Tuna</AnswerY>
+      <AnswerZ>Mackerel</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="22302" QuestionIDString="0000022302">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which U.S. federal law established the national Marine Mammal Health and Stranding Response Program?</QuestionText>
+      <CorrectAnswer>Marine Mammal Protection Act</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26934" QuestionIDString="0000026934">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following causes net forward motion for a swimming object?</QuestionText>
+      <AnswerW>Lift</AnswerW>
+      <AnswerX>Thrust</AnswerX>
+      <AnswerY>Drag</AnswerY>
+      <AnswerZ>buoyancy</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26930" QuestionIDString="0000026930">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>A famous expedition from 1872-1876 is credited with documenting physical, chemical, geological, and biological information from 362 ocean stations including the first discovery of deep sea organisms. What ship was involved in this voyage?</QuestionText>
+      <CorrectAnswer>H.M.S. Challenger</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26989" QuestionIDString="0000026989">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What type of climate would you expect to find along the ITCZ?</QuestionText>
+      <AnswerW>Driest</AnswerW>
+      <AnswerX>Temperate</AnswerX>
+      <AnswerY>Wettest</AnswerY>
+      <AnswerZ>Polar</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26970" QuestionIDString="0000026970">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Through what process is oxygen mixed from surface waters into the deep ocean?</QuestionText>
+      <CorrectAnswer>Downwelling</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27020" QuestionIDString="0000027020">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What industry is trying to determine the chemical composition of barnacle cement in order to replicate it?</QuestionText>
+      <AnswerW>Furniture</AnswerW>
+      <AnswerX>Office supplies</AnswerX>
+      <AnswerY>Construction</AnswerY>
+      <AnswerZ>Dentistry</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26870" QuestionIDString="0000026870">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term describes the relatively flat pieces of sea ice that are 20 meters or greater in diameter?</QuestionText>
+      <CorrectAnswer>Floe</CorrectAnswer>
+    </Question>
+    <Question QuestionID="21772" QuestionIDString="0000021772">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which landmass straddles a mid-ocean ridge?</QuestionText>
+      <AnswerW>Madagascar</AnswerW>
+      <AnswerX>Iceland</AnswerX>
+      <AnswerY>Greenland</AnswerY>
+      <AnswerZ>Australia</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8140" QuestionIDString="0000008140">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the term for the conversion of organic nitrogen to ammonium by the action of decomposers?</QuestionText>
+      <CorrectAnswer>Ammonification</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26853" QuestionIDString="0000026853">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which type of continental margin exists off the western coast of South America?</QuestionText>
+      <AnswerW>Active</AnswerW>
+      <AnswerX>Passive</AnswerX>
+      <AnswerY>Transform</AnswerY>
+      <AnswerZ>Divergent</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27017" QuestionIDString="0000027017">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Plankton can be divided into two groups, holoplankton and meroplankton. How do they differ from one another?</QuestionText>
+      <CorrectAnswer>Holoplankton spend their whole lives as plankton (drifting on the currents). Meroplankton spend a small part of their life as plankton before changing to free-swimming or benthic organisms.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27068" QuestionIDString="0000027068">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the name of the upward force caused by the displacement of water?</QuestionText>
+      <AnswerW>Elastic force</AnswerW>
+      <AnswerX>Gravity</AnswerX>
+      <AnswerY>Electromagnetic force</AnswerY>
+      <AnswerZ>Buoyancy</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26805" QuestionIDString="0000026805">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term describes the distance from the water-line to the lowest part of a ship's hull?</QuestionText>
+      <CorrectAnswer>Draft</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26424" QuestionIDString="0000026424">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following terms is used to describe the symbiotic interaction that occurs between corals and their zooxanthellae?</QuestionText>
+      <AnswerW>Mutualism</AnswerW>
+      <AnswerX>Parasitism</AnswerX>
+      <AnswerY>Predation</AnswerY>
+      <AnswerZ>Competition</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26628" QuestionIDString="0000026628">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What current runs north along the West coast of South America and is also associated with coastal upwelling?</QuestionText>
+      <CorrectAnswer>Humboldt</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27010" QuestionIDString="0000027010">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>According to the United Nations Environmental Programme, what is the largest source of global marine pollution?</QuestionText>
+      <AnswerW>Dumping of industrial municipal agricultural waste</AnswerW>
+      <AnswerX>Offshore mining and drilling</AnswerX>
+      <AnswerY>Airborne emissions from land</AnswerY>
+      <AnswerZ>Land run-off and discharge from agriculture and industry</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26639" QuestionIDString="0000026639">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The spicules, or skeletal structures that support the body of a sponge, are predominantly made of which two substances?</QuestionText>
+      <CorrectAnswer>Calcium carbonate AND Silicon dioxide (OR silica)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26972" QuestionIDString="0000026972">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which type of tide is the only one experienced in the Gulf of Mexico?</QuestionText>
+      <AnswerW>Diurnal</AnswerW>
+      <AnswerX>Semi-diurnal</AnswerX>
+      <AnswerY>Neap</AnswerY>
+      <AnswerZ>Mixed</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27067" QuestionIDString="0000027067">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the scientific term for a tail fin?</QuestionText>
+      <CorrectAnswer>Caudal Fin</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23420" QuestionIDString="0000023420">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following areas historically has NOT developed a runoff-based, benthic hypoxic zone?</QuestionText>
+      <AnswerW>Gulf of California</AnswerW>
+      <AnswerX>Gulf of Mexico</AnswerX>
+      <AnswerY>Baltic Sea</AnswerY>
+      <AnswerZ>Chesapeake Bay</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26861" QuestionIDString="0000026861">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What section of the continental margin has the lowest slope?</QuestionText>
+      <CorrectAnswer>Continental shelf</CorrectAnswer>
+    </Question>
+    <Question QuestionID="21511" QuestionIDString="0000021511">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which continent does not border the Indian Ocean?</QuestionText>
+      <AnswerW>Africa</AnswerW>
+      <AnswerX>Asia</AnswerX>
+      <AnswerY>North America</AnswerY>
+      <AnswerZ>Australia</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26996" QuestionIDString="0000026996">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term describes wind-forced net transport of water due perpendicular to the wind?</QuestionText>
+      <CorrectAnswer>Ekman transport</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27483" QuestionIDString="0000027483">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The ice of an ice shelf originally forms as which of the following?</QuestionText>
+      <AnswerW>Sea ice</AnswerW>
+      <AnswerX>Ice in seafloor sediments</AnswerX>
+      <AnswerY>Icebergs</AnswerY>
+      <AnswerZ>Glacial ice on land</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27509" QuestionIDString="0000027509">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The United States Congress passed the Ocean Thermal Energy Conversion Act of 1980 to promote the development of ocean thermal energy conversion, with the hopes of minimizing dependence on what foreign resource?</QuestionText>
+      <CorrectAnswer>Oil</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26850" QuestionIDString="0000026850">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following sampling devices has an open steel container that is dragged over the ocean bottom at the end of a cable?</QuestionText>
+      <AnswerW>Rock corer</AnswerW>
+      <AnswerX>Sea-floor sampler</AnswerX>
+      <AnswerY>Rock dredge</AnswerY>
+      <AnswerZ>Sidescan sampler</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27225" QuestionIDString="0000027225">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The book “The Sea Around Us” was written by what famous naturalist?</QuestionText>
+      <CorrectAnswer>Rachel Carson</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26477" QuestionIDString="0000026477">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Some paleoceanographic reconstructions use organisms that lived in pelagic and benthic environments. Which of the following terms describes these single-celled protists?</QuestionText>
+      <AnswerW>Radiolarians</AnswerW>
+      <AnswerX>Foraminifera</AnswerX>
+      <AnswerY>Diatoms</AnswerY>
+      <AnswerZ>Dinoflagellates</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="21428" QuestionIDString="0000021428">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What carbonate mineral is re-precipitated as calcite after dissolved in seawater?</QuestionText>
+      <CorrectAnswer>Aragonite</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26874" QuestionIDString="0000026874">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Ocean sediments that are composed of the insoluble remains of shells, teeth, and bones are considered which of the following?</QuestionText>
+      <AnswerW>Hydrogenous</AnswerW>
+      <AnswerX>Biogenous</AnswerX>
+      <AnswerY>Lithogenous</AnswerY>
+      <AnswerZ>Cosmogenous</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26800" QuestionIDString="0000026800">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What principle is used by an electromagnetic flow meter to measure water flow?</QuestionText>
+      <CorrectAnswer>Faraday effect OR Faraday's Law</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26116" QuestionIDString="0000026116">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the term used to describe how some copepods spend different life stages at different depths?</QuestionText>
+      <AnswerW>Diel vertical migration</AnswerW>
+      <AnswerX>Ontogenetic migration</AnswerX>
+      <AnswerY>Diapause</AnswerY>
+      <AnswerZ>Emergence</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26435" QuestionIDString="0000026435">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The Lomonosov (lo-mon-o-sov) Ridge is located in which ocean?</QuestionText>
+      <CorrectAnswer>Arctic Ocean</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26126" QuestionIDString="0000026126">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Argo, the global array of 3,000 free-drifting profiling floats, does NOT routinely measure which of the following parameters?</QuestionText>
+      <AnswerW>pH</AnswerW>
+      <AnswerX>Temperature</AnswerX>
+      <AnswerY>Salinity</AnswerY>
+      <AnswerZ>Pressure</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27496" QuestionIDString="0000027496">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>By the year 2100, the Intergovernmental Panel on Climate Change results predict a sea-level rise of approximately how many meters?</QuestionText>
+      <CorrectAnswer>0.5 OR half a meter</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26120" QuestionIDString="0000026120">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>To understand the origin of fish larvae, scientists analyze the elemental ratio of which of the following body parts?</QuestionText>
+      <AnswerW>Scales</AnswerW>
+      <AnswerX>Rays</AnswerX>
+      <AnswerY>Haemolymphs (he-muh-lim-pfs)</AnswerY>
+      <AnswerZ>Otoliths (oh-toe-liths)</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26305" QuestionIDString="0000026305">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>On the Wentworth Scale, which sediment would be classified as being finer than 62.5 micro meters and coarser than 3.9 micro meters?</QuestionText>
+      <CorrectAnswer>Silt</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26301" QuestionIDString="0000026301">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following statements about the Gulf Stream is NOT accurate?</QuestionText>
+      <AnswerW>It is prone to a high amount of eddy activity</AnswerW>
+      <AnswerX>Once it reaches the Grand Banks, its structure changes from a single, meandering front to multiple, branching fronts</AnswerX>
+      <AnswerY>It transports a maximum amount of water in the fall</AnswerY>
+      <AnswerZ>It cools the European subcontinent</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26375" QuestionIDString="0000026375">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What method uses lasers to take 3D images of tiny plankton?</QuestionText>
+      <CorrectAnswer>Holography</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

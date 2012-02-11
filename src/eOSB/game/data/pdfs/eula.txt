@@ -1,0 +1,11 @@
+LICENSEE agrees that the Program shall not be used as the basis of a commercial software or hardware product and that the same shall not be rewritten in another computer language or otherwise adapted to circumvent the need for obtaining a license from M.I.T. for use of the Program other than as specified by this Agreement.
+
+M.I.T. reserves the right to inspect LICENSEE's use of the Program for the purpose of verifying LICENSEE's compliance with this Agreement.
+
+LICENSEE agrees that it shall obtain prior written approval from M.I.T. before using the Program in conjunction with commercially-funded educational research so that M.I.T. can grant such sponsor any necessary or desired license to the Program.
+
+LICENSEE acknowledges that title to the Program (including copyright) shall remain with M.I.T. and that any copies of the Program or portions thereof made by LICENSEE in accordance with the RIGHTS GRANTED hereunder shall include an M.I.T. copyright notice thereon. The notice shall be affixed to all copies or portions thereof in such manner and location as to give reasonable notice of M.I.T.'s claim of copyright and shall be in the following format: "Copyright 2009 Massachusetts Institute of Technology. All rights reserved." or "© 2009 M.I.T. All Rights Reserved."
+
+LICENSEE shall at all times hereafter protect the Program, and all related documentation, if any, from transfer using measures at least as strong as those used by LICENSEE in protecting its own proprietary software.
+
+LICENSEE accepts the above materials on an "AS IS" basis. Accordingly, M.I.T. shall not be required to load the Program onto LICENSEE's machines, test for proper operation, perform any debugging, make any corrections, provide maintenance, provide any updates, or assist in the understanding or use of the Program. The Program is a research program, and M.I.T. does not represent that it is free of errors or bugs or suitable for any particular tasks.
