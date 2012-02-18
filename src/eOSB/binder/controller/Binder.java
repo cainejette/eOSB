@@ -35,7 +35,7 @@ import javax.swing.JSplitPane;
 import javax.swing.JTextPane;
 import javax.swing.KeyStroke;
 import javax.swing.SwingConstants;
-import javax.swing.border.EtchedBorder;
+import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Style;
@@ -722,15 +722,19 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.questionPanelScroller.getViewport().removeAll();
 		
 		JTextPane textPane = this.createJTextPane(this.getQuestionBackground(question));
-		textPane.setBorder(new TitledBorder(new EtchedBorder(), "Question " + question.getNumber()));
+//		textPane.setBorder(new TitledBorder(new EtchedBorder(), "Question " + question.getNumber()));
+//		textPane.setBorder(new LineBorder(Color.GRAY, 10 ,true));
 
 		StyledDocument document = this.configureStyledDocument(textPane);
 
 		try {
 			// formats and inserts the question metadata to precede question content
-			String questionType = question.getType() + " in ";
-			String questionCategoryAndFormat =  question.getCategory().toLowerCase() + ", " + question.getFormat() + ":";
-			document.insertString(document.getLength(), questionType, document.getStyle(META_SMALL_STYLE));
+			String questionNumber = "Question " + question.getNumber() + " is a ";
+			String questionType = question.getType().toString().toLowerCase() + ", " + question.getFormat();
+			String questionCategoryAndFormat =  question.getCategory().toLowerCase() + ":";
+			document.insertString(document.getLength(), questionNumber, document.getStyle(META_SMALL_STYLE));
+			document.insertString(document.getLength(), questionType, document.getStyle(META_BOLD_STYLE));
+			document.insertString(document.getLength(), " in ", document.getStyle(META_SMALL_STYLE));
 			document.insertString(document.getLength(), questionCategoryAndFormat, document.getStyle(META_BOLD_STYLE));
 
 			// inserts the question text
@@ -763,7 +767,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.answerPanelScroller.getViewport().remove(0);
 		
 		JTextPane textPane = this.createJTextPane(this.getQuestionBackground(question));
-		textPane.setBorder(new TitledBorder("Correct Answer"));
+//		textPane.setBorder(new TitledBorder("Correct Answer"));
 		
 		StyledDocument document = this.configureStyledDocument(textPane);
 		
@@ -788,7 +792,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		}
 		
 		try {
-			this.addTextToDocument(this.TAB + textToAdd, document);
+			document.insertString(document.getLength(), "Correct answer:", document.getStyle(META_SMALL_STYLE));
+			this.addTextToDocument("\n\n" + this.TAB + textToAdd, document);
 		} 
 		catch (BadLocationException e) {
 			e.printStackTrace();
@@ -905,7 +910,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private JTextPane createJTextPane(Color background) {
 		JTextPane textPane = new JTextPane();
 		textPane.setEditable(false);
-		textPane.setMargin(new Insets(10, 55, 10, 10));
+		textPane.setMargin(new Insets(10, 10, 10, 10));
 		textPane.setBackground(background);
 		textPane.setCaretPosition(0);
 		return textPane;
