@@ -120,6 +120,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private String teamBName = "Team B";
 	private int teamAScore = 0;
 	private int teamBScore = 0;
+	private boolean hasSeenTcqReminder;
 
 	/**
 	 * @param handler
@@ -135,6 +136,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(HideBuzzerQuestionsEvent.class, this);
 		EventBus.subscribe(ShowBuzzerQuestionsEvent.class, this);
 		EventBus.subscribe(UpdateAndShowQuestionEvent.class, this);
+		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 
 		final Font titleFont = new Font("Helvetica", Font.BOLD, 14);
 		this.teamABorder.setTitleFont(titleFont);
@@ -476,6 +478,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.backButton = this.createNavigationButton();
 
 		this.configureButtons();
+		this.hasSeenTcqReminder = false;
 //		this.setFontSize(16);
 	}
 
@@ -639,13 +642,13 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			
 			this.currentQuestion = question;
 			
-			if (question.getNumber().equals("11")) {
+			if (question.getNumber().equals("11") && !this.hasSeenTcqReminder) {
 				this.hideQuestions();
 
 				RemindTcqEvent event = new RemindTcqEvent(this);
 				EventBus.publish(event);
+				this.hasSeenTcqReminder = true;
 			}
-
 			
 			// update question text and answer panels and buttons
 			this.createQuestionPanel(question);
@@ -1047,6 +1050,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		else if (ese instanceof ShowBuzzerQuestionsEvent) {
 			System.out.println("[Binder/onEvent] showing buzzer questions");
 			this.showQuestions();
+		}
+		else if (ese instanceof OpenTcqPreambleEvent) {
+			this.hasSeenTcqReminder = true;
 		}
 	}
 
