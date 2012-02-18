@@ -103,7 +103,7 @@ public class QuestionReader {
       }
 
       else if (currentLine.startsWith("Category")) {
-        question.setCategory(currentLine.substring(10));
+        question.setCategory(currentLine.substring(10).toLowerCase());
       }
 
       else if (previousLine.startsWith("Question:")) {

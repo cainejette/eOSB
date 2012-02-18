@@ -144,7 +144,7 @@
     <Question QuestionID="26144" QuestionIDString="0000026144">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology - Ecology</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Organisms that obtain energy from bacteria that metabolize inorganic chemicals in the environment are referred to as which of the following?</QuestionText>
       <AnswerW>Chemosynthetic</AnswerW>

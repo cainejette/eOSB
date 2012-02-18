@@ -15,10 +15,18 @@ public class Question {
   public enum Type {
 
     /** a tossup question */
-    TOSSUP,
+    TOSSUP {
+    	public String toString() {
+    		return "Tossup";
+    	}
+    },
 
     /** a bonus question */
-    BONUS;
+    BONUS {
+    	public String toString() {
+    		return "Bonus";
+    	}
+    }
   };
 
   /**
@@ -29,14 +37,14 @@ public class Question {
     /** a multiple-choice question */
     MULTIPLE_CHOICE {
       public String toString() {
-        return "MULTIPLE CHOICE";
+        return "multiple choice";
       }
     },
 
     /** a short-answer question */
     SHORT_ANSWER {
       public String toString() {
-        return "SHORT ANSWER";
+        return "short answer";
       }
     },
   };

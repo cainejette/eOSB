@@ -19,11 +19,8 @@ public class GameState {
 	private boolean teamBInterrupt;
 	private boolean backButton;
 	private boolean submitButton;
-	private String questionText;
-	private String questionAnswer;
-	private Color color;
 
-	public GameState(boolean teamACorrect, boolean teamAIncorrect, boolean teamAInterrupt, boolean teamBCorrect, boolean teamBIncorrect, boolean teamBInterrupt, boolean backButton, boolean submitButton, String questionText, String questionAnswer, Color color) {
+	public GameState(boolean teamACorrect, boolean teamAIncorrect, boolean teamAInterrupt, boolean teamBCorrect, boolean teamBIncorrect, boolean teamBInterrupt, boolean backButton, boolean submitButton) {
 		this.teamACorrect = teamACorrect;
 		this.teamAIncorrect = teamAIncorrect;
 		this.teamAInterrupt = teamAInterrupt;
@@ -34,11 +31,6 @@ public class GameState {
 		
 		this.backButton = backButton;
 		this.submitButton = submitButton;
-		
-		this.questionText = questionText;
-		this.questionAnswer = questionAnswer;
-		
-		this.color = color;
 	}
 	
 	public boolean isTeamACorrectEnabled() {
@@ -71,17 +63,5 @@ public class GameState {
 	
 	public boolean isSubmitEnabled() {
 		return this.submitButton;
-	}
-	
-	public String getQuestionText() {
-		return this.questionText;
-	}
-	
-	public String getQuestionAnswerText() {
-		return this.questionAnswer;
-	}
-	
-	public Color getQuestionColor() {
-		return this.color;
 	}
 }

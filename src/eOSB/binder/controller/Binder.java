@@ -2,6 +2,7 @@ package eOSB.binder.controller;
 
 import java.awt.Color;
 import java.awt.Container;
+import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Frame;
@@ -9,8 +10,12 @@ import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.awt.font.TextAttribute;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 import javax.imageio.ImageIO;
 import javax.swing.BoxLayout;
@@ -18,16 +23,23 @@ import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
+import javax.swing.JSplitPane;
+import javax.swing.JTextPane;
 import javax.swing.KeyStroke;
 import javax.swing.SwingConstants;
+import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Style;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
 
 import net.miginfocom.swing.MigLayout;
 
@@ -52,7 +64,6 @@ import eOSB.game.controller.GameState;
 import eOSB.game.controller.Handler;
 import eOSB.game.controller.NewRoundEvent;
 import eOSB.game.controller.Question;
-import eOSB.game.controller.Question.Format;
 import eOSB.game.controller.Round;
 import eOSB.game.data.IconFactory;
 import eOSB.game.data.PdfFactory;
@@ -71,9 +82,6 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private JFrame frame = new JFrame();
 	private BufferedImage splash;
 
-	private JTextArea currentQuestionText;
-	private JTextArea currentQuestionAnswer;
-
 	private JButton teamA_correct;
 	private JButton teamA_incorrect;
 	private JButton teamA_interrupt;
@@ -87,10 +95,6 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private JButton backButton;
 	private JButton submitButton;
 
-	private String teamAName = "Team A";
-	private String teamBName = "Team B";
-	private int teamAScore = 0;
-	private int teamBScore = 0;
 
 	private TitledBorder teamABorder = new TitledBorder(this.teamAName);
 	private TitledBorder teamBBorder = new TitledBorder(this.teamBName);
@@ -98,6 +102,24 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private int fontSize = 16;
 	
 	private boolean hidingQuestions = false;
+	private Question currentQuestion;
+	private JScrollPane questionPanelScroller;
+	private JScrollPane answerPanelScroller;
+	
+	private static final String REGULAR_STYLE = "regular";
+	private static final String PRONUNCIATION_STYLE = "pronunciation";
+	private static final String META_SMALL_STYLE = "metaSmall";
+	private static final String META_BOLD_STYLE = "metaBold";
+	
+	private final String TAB = "            ";
+	private final String HALF_TAB = "      ";
+
+	private JLabel teamALabel = new JLabel();
+	private JLabel teamBLabel = new JLabel();
+	private String teamAName = "Team A";
+	private String teamBName = "Team B";
+	private int teamAScore = 0;
+	private int teamBScore = 0;
 
 	/**
 	 * @param handler
@@ -324,16 +346,18 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 
 		if (this.handler.isUsingTimer()) {
 			panel.setLayout(new MigLayout("fill, insets 0"));
-			panel.add(this.createQuestionTextPanel(), "grow, pushy, dock north");
-			panel.add(this.createQuestionAnswerPanel(), "growx, sizegroup group1, wrap");
+			panel.add(this.questionPanelScroller, "grow, pushy, dock north");
+			panel.add(this.answerPanelScroller, "growx, sizegroup group1, wrap");
 			panel.add(this.createTimePanel(), "dock east");
-			panel.add(this.createAnswerPanel(), "growx, sizegroup group1");
+			panel.add(this.createSubmissionPanel(), "growx, sizegroup group1");
 		} 
 		else {
+			JSplitPane splitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT,
+					this.questionPanelScroller, this.answerPanelScroller);
+			splitPane.setResizeWeight(1);
 			panel.setLayout(new MigLayout("wrap 1, fill, insets 0"));
-			panel.add(this.createQuestionTextPanel(), "grow, pushy, sizegroupx group1");
-			panel.add(this.createQuestionAnswerPanel(), "growx, sizegroupx group1");
-			panel.add(this.createAnswerPanel(), "growx, sizegroupx group1, sizegroupy group2");
+			panel.add(splitPane, "grow, push, span");
+			panel.add(this.createSubmissionPanel(), "growx, sizegroupx group1");
 		}
 
 		Container contentPane = this.frame.getContentPane();
@@ -388,60 +412,30 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	}
 
 	/**
-	 * @return the panel containing the question text component
-	 */
-	private JPanel createQuestionTextPanel() {
-		JPanel panel = new JPanel();
-		panel.setBorder(new TitledBorder("Question Text"));
-		panel.setLayout(new MigLayout("insets 0, fill"));
-
-		JScrollPane scrollPane = new JScrollPane(this.currentQuestionText);
-		scrollPane.setPreferredSize(new Dimension(600, 250));
-		panel.add(scrollPane, "grow");
-
-		return panel;
-	}
-
-	/**
-	 * @return the panel containing the question answer component
-	 */
-	private JPanel createQuestionAnswerPanel() {
-		JPanel panel = new JPanel();
-		panel.setBorder(new TitledBorder("Correct Answer"));
-		panel.setLayout(new MigLayout("insets 0, fill"));
-
-		JScrollPane scrollPane = new JScrollPane(this.currentQuestionAnswer);
-		scrollPane.setPreferredSize(new Dimension(700, 75));
-		scrollPane.setMinimumSize(new Dimension(700, 70));
-		panel.add(scrollPane, "grow");
-
-		return panel;
-	}
-
-	/**
 	 * @return the panel containing the team-associated (+scoring) and navigation
 	 *         buttons
 	 */
-	private JPanel createAnswerPanel() {
+	private JPanel createSubmissionPanel() {
 		final JPanel teamAPanel = new JPanel();
-		teamAPanel.setBorder(this.teamABorder);
+//		teamAPanel.setBorder(this.teamABorder);
 		teamAPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
 		this.teamA_interrupt.setMinimumSize(new Dimension(35, 35));
+
+		this.updateBorders();
+		
+		teamAPanel.add(this.teamALabel, "span, wrap, align left, gaptop 5, gapleft 15");
 		teamAPanel.add(this.teamA_interrupt, "span, growx");
-		teamAPanel.add(this.teamA_correct,
-				"sizegroupy group1y, sizegroupx group1x, growx");
-		teamAPanel.add(this.teamA_incorrect,
-				"sizegroupy group1y, sizegroupx group1x, growx");
+		teamAPanel.add(this.teamA_correct, "sizegroupy group1y, sizegroupx group1x, growx");
+		teamAPanel.add(this.teamA_incorrect, "sizegroupy group1y, sizegroupx group1x, growx");
 
 		final JPanel teamBPanel = new JPanel();
-		teamBPanel.setBorder(this.teamBBorder);
 		teamBPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
 		this.teamB_interrupt.setMinimumSize(new Dimension(35, 35));
+		
+		teamBPanel.add(this.teamBLabel, "span, wrap, align left, gaptop 5, gapleft 15");
 		teamBPanel.add(this.teamB_interrupt, "span, growx");
-		teamBPanel.add(this.teamB_correct,
-				"sizegroupy group2y, sizegroupx group2x, growx");
-		teamBPanel.add(this.teamB_incorrect,
-				"sizegroupy group2y, sizegroupx group2x, growx");
+		teamBPanel.add(this.teamB_correct, "sizegroupy group2y, sizegroupx group2x, growx");
+		teamBPanel.add(this.teamB_incorrect, "sizegroupy group2y, sizegroupx group2x, growx");
 
 		final JPanel submitBackPanel = new JPanel();
 		submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
@@ -461,18 +455,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 * Initializes the main components used by the UI
 	 */
 	private void initComponents() {
-		this.currentQuestionText = new JTextArea();
-		this.currentQuestionText.setEditable(false);
-		this.currentQuestionText.setLineWrap(true);
-		this.currentQuestionText.setWrapStyleWord(true);
-		this.currentQuestionText.setMargin(new Insets(5, 5, 5, 5));
-
-		this.currentQuestionAnswer = new JTextArea();
-		this.currentQuestionAnswer.setEditable(false);
-		this.currentQuestionAnswer.setLineWrap(true);
-		this.currentQuestionAnswer.setWrapStyleWord(true);
-		this.currentQuestionAnswer.setMargin(new Insets(5, 5, 5, 5));
-
+		this.initQuestionPanel();
+		this.initAnswerPanel();
+		
 		this.teamA_correct = new JButton();
 		this.teamA_incorrect = new JButton();
 		this.teamA_interrupt = new JButton();
@@ -491,7 +476,33 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.backButton = this.createNavigationButton();
 
 		this.configureButtons();
-		this.setFontSize(16);
+//		this.setFontSize(16);
+	}
+
+	/**
+	 * Initializing the components in the question panel
+	 */
+	private void initQuestionPanel() {
+		JTextPane questionTextPane = new JTextPane();
+		questionTextPane.setBorder(new TitledBorder("Question Text"));
+
+		this.questionPanelScroller = new JScrollPane();
+		this.questionPanelScroller.setPreferredSize(new Dimension(700, 300));
+		this.questionPanelScroller.setMinimumSize(new Dimension(700, 200));
+		this.questionPanelScroller.getViewport().setView(questionTextPane);
+	}
+
+	/**
+	 * Initializing the components in the answer panel
+	 */
+	private void initAnswerPanel() {
+		JTextPane answerTextPane = new JTextPane();
+		answerTextPane.setBorder(new TitledBorder("Question Answer"));
+
+		this.answerPanelScroller = new JScrollPane();
+		this.answerPanelScroller.setPreferredSize(new Dimension(700, 100));
+		this.answerPanelScroller.setMinimumSize(new Dimension(700, 70));
+		this.answerPanelScroller.getViewport().setView(answerTextPane);
 	}
 
 	/**
@@ -517,37 +528,45 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.teamA_correct.setAction(submitAction);
 		this.teamA_correct.setActionCommand("TEAM_A");
 		this.teamA_correct.setIcon(correctIcon);
+		this.teamA_correct.setFocusable(false);
 
 		this.teamA_incorrect.setAction(incorrectAction);
 		this.teamA_incorrect.setActionCommand("TEAM_A");
 		this.teamA_incorrect.setIcon(incorrectIcon);
+		this.teamA_incorrect.setFocusable(false);
 
 		this.teamA_interrupt.setAction(new InterruptAction(this.teamA_interrupt));
 		this.teamA_interrupt.setText("Interrupt");
 		this.teamA_interrupt.setMinimumSize(new Dimension(50, 30));
+		this.teamA_interrupt.setFocusable(false);
 
 		this.teamB_correct.setAction(submitAction);
 		this.teamB_correct.setActionCommand("TEAM_B");
 		this.teamB_correct.setIcon(correctIcon);
+		this.teamB_correct.setFocusable(false);
 
 		this.teamB_incorrect.setAction(incorrectAction);
 		this.teamB_incorrect.setActionCommand("TEAM_B");
 		this.teamB_incorrect.setIcon(incorrectIcon);
+		this.teamB_incorrect.setFocusable(false);
 
 		this.teamB_interrupt.setAction(new InterruptAction(this.teamB_interrupt));
 		this.teamB_interrupt.setText("Interrupt");
+		this.teamB_interrupt.setFocusable(false);
 
 		this.submitButton.setAction(submitAction);
 		this.submitButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
 				IconFactory.NEXT)));
 		this.submitButton.setText("Submit");
 		this.submitButton.setHorizontalTextPosition(SwingConstants.LEFT);
+		this.submitButton.setFocusable(false);
 
 		this.backButton.setAction(new BackButtonAction(this.handler));
 		this.backButton.setText("Back");
 		this.backButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
 				IconFactory.BACK)));
 		this.backButton.setHorizontalTextPosition(SwingConstants.RIGHT);
+		this.backButton.setFocusable(false);
 	}
 
 	/**
@@ -610,108 +629,15 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			this.teamB_interrupt.setEnabled(false);
 		}
 	}
-
+	
 	/**
-	 * Updates the binder to display a new {@link Question}.
-	 * 
-	 * @param question
-	 *          the question to display on the binder
+	 * Updates the question displayed.
+	 * @param question the new question
 	 */
-	private void updateQuestion(Question question, boolean shouldEnableTeamA, boolean shouldEnableTeamB) {
-			System.out.println("new question: " + question);
-
-			this.resetButtons();
-
-			// set Team A's buttons
-			if (shouldEnableTeamA) {
-				this.enableTeamA();
-			} else {
-				this.disableTeamA();
-			}
-
-			// set Team B's buttons
-			if (shouldEnableTeamB) {
-				this.enableTeamB();
-			} else {
-				this.disableTeamB();
-			}
-
-			final String spacer = "          ";
-
-			String questionTextString = "QUESTION #";
-			String questionAnswerString = "";
-
-			questionTextString += question.getNumber();
-			questionTextString += " is a " + question.getType() + ", "
-					+ question.getFormat() + ", " + question.getCategory().toUpperCase()
-					+ ":";
-			questionTextString += "\n\n" + spacer + question.getText();
-
-			if (question.getFormat().equals(Format.MULTIPLE_CHOICE)) {
-				questionTextString += "\n\n" + spacer + spacer + "W -- "
-						+ question.getAnswerOptions().get(0);
-				questionTextString += "\n\n" + spacer + spacer + "X -- "
-						+ question.getAnswerOptions().get(1);
-				questionTextString += "\n\n" + spacer + spacer + "Y -- "
-						+ question.getAnswerOptions().get(2);
-				questionTextString += "\n\n" + spacer + spacer + "Z -- "
-						+ question.getAnswerOptions().get(3);
-
-				/** populate the correct answer text field */
-				questionAnswerString += spacer + spacer
-						+ question.getCorrectAnswers().get(0);
-				if (question.getCorrectAnswers().get(0).contains("W"))
-					questionAnswerString += " -- " + question.getAnswerOptions().get(0);
-				else if (question.getCorrectAnswers().get(0).contains("X"))
-					questionAnswerString += " -- " + question.getAnswerOptions().get(1);
-				else if (question.getCorrectAnswers().get(0).contains("Y"))
-					questionAnswerString += " --  " + question.getAnswerOptions().get(2);
-				else if (question.getCorrectAnswers().get(0).contains("Z"))
-					questionAnswerString += " -- " + question.getAnswerOptions().get(3);
-			} else {
-				questionAnswerString += spacer + spacer
-						+ question.getCorrectAnswers().get(0);
-			}
-
-			this.currentQuestionText.setText(questionTextString);
-			this.currentQuestionText.setFont(new Font("Helvetica", Font.PLAIN,
-					this.fontSize));
-			this.currentQuestionAnswer.setText(questionAnswerString);
-			this.currentQuestionAnswer.setFont(new Font("Helvetica", Font.PLAIN,
-					this.fontSize));
-
-			if (question.getNumber().equals("1")) {
-				this.backButton.setEnabled(false);
-			} else {
-				this.backButton.setEnabled(true);
-			}
-
-			this.submitButton.setEnabled(true);
-
-			if (question.getType() == Question.Type.TOSSUP) {
-				// both teams get to answer a tossup
-				this.enableTeamA();
-				this.enableTeamB();
-
-				// color the background white for a tossup
-				this.currentQuestionText.setBackground(Color.WHITE);
-				this.currentQuestionAnswer.setBackground(Color.WHITE);
-			} else {
-				this.currentQuestionText.setBackground(new Color(255, 255, 150));
-				this.currentQuestionAnswer.setBackground(new Color(255, 255, 150));
-			}
-
-			this.updateBorders();
-
-			if (this.handler.isUsingTimer()) {
-				if (question.getType() == Question.Type.TOSSUP) {
-					this.handler.getTimekeeper().getQuestionClock().setTime(5000, true);
-					this.handler.getTimekeeper().getQuestionClock().clearThresholds();
-				} else {
-					this.handler.getTimekeeper().getQuestionClock().setTime(20000, true);
-					this.handler.getTimekeeper().getQuestionClock().addThreshold(5000);
-				}
-			}
+	private void updateQuestion(Question question) {
+			System.out.println("[binder/updateQuestion] updating question to " + question.getNumber());
+			
+			this.currentQuestion = question;
 			
 			if (question.getNumber().equals("11")) {
 				this.hideQuestions();
@@ -720,8 +646,246 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 				EventBus.publish(event);
 			}
 
+			
+			// update question text and answer panels and buttons
+			this.createQuestionPanel(question);
+			this.createAnswerPanel(question);
+			this.updateButtonStates(question);
+			
+			// update team scores if scorekeeping package enabled
+//		this.updateTeamScores();
+			
+			// update question clock if timekeeping package enabled
+		this.updateQuestionClock(question);
+	}
+	
+	/**
+	 * Updates the clocks for the given question
+	 * @param question
+	 */
+	private void updateQuestionClock(Question question) {
+		if (this.handler.isUsingTimer()) {
+			if (question.getType() == Question.Type.TOSSUP) {
+				this.handler.getTimekeeper().getQuestionClock().setTime(5000, true);
+				this.handler.getTimekeeper().getQuestionClock().clearThresholds();
+			} else {
+				this.handler.getTimekeeper().getQuestionClock().setTime(20000, true);
+				this.handler.getTimekeeper().getQuestionClock().addThreshold(5000);
+			}
+		}
 	}
 
+	/**
+	 * Creates a new text panel to display the question 
+	 * @param question the new question 
+	 */
+	private void createQuestionPanel(Question question) {
+		this.questionPanelScroller.getViewport().removeAll();
+		
+		JTextPane textPane = this.createJTextPane(this.getQuestionBackground(question));
+		textPane.setBorder(new TitledBorder(new EtchedBorder(), "Question " + question.getNumber()));
+
+		StyledDocument document = this.configureStyledDocument(textPane);
+
+		try {
+			// formats and inserts the question metadata to precede question content
+			String questionType = question.getType() + " in ";
+			String questionCategoryAndFormat =  question.getCategory().toLowerCase() + ", " + question.getFormat() + ":";
+			document.insertString(document.getLength(), questionType, document.getStyle(META_SMALL_STYLE));
+			document.insertString(document.getLength(), questionCategoryAndFormat, document.getStyle(META_BOLD_STYLE));
+
+			// inserts the question text
+			this.addTextToDocument("\n\n" + HALF_TAB + question.getText(), document);
+
+			// inserts the question choices
+			List<String> questionChoices = question.getAnswerOptions();
+			List<String> questionChoicePrefixes = new ArrayList<String>();
+			questionChoicePrefixes.add("W");
+			questionChoicePrefixes.add("X");
+			questionChoicePrefixes.add("Y");
+			questionChoicePrefixes.add("Z");
+
+			for (int i = 0; i < questionChoices.size(); i++) {
+				this.addTextToDocument("\n\n" + TAB + questionChoicePrefixes.get(i) + ") " + questionChoices.get(i), document);
+			}
+		} 
+		catch (BadLocationException e) {
+			e.printStackTrace();
+		}
+
+		textPane.setCaretPosition(0);
+		this.questionPanelScroller.getViewport().setView(textPane);
+	}
+	
+	/**
+	 * Creates a new text panel to display the question answer.
+	 */
+	private void createAnswerPanel(Question question) {
+		this.answerPanelScroller.getViewport().remove(0);
+		
+		JTextPane textPane = this.createJTextPane(this.getQuestionBackground(question));
+		textPane.setBorder(new TitledBorder("Correct Answer"));
+		
+		StyledDocument document = this.configureStyledDocument(textPane);
+		
+		String textToAdd = "";
+		if (question.getFormat() == Question.Format.MULTIPLE_CHOICE) {
+			String answerLetter = question.getCorrectAnswers().get(0).trim();
+			if (answerLetter.equals("W")) {
+				textToAdd = "W) " + question.getAnswerOptions().get(0);
+			}
+			else if (answerLetter.equals("X")) {
+				textToAdd = "X) " + question.getAnswerOptions().get(1);
+			}
+			else if (answerLetter.equals("Y")) {
+				textToAdd = "Y) " + question.getAnswerOptions().get(2);
+			}
+			else if (answerLetter.equals("Z")) {
+				textToAdd = "Z) " + question.getAnswerOptions().get(3);
+			}
+		}
+		else {
+			textToAdd = question.getCorrectAnswers().get(0).trim();
+		}
+		
+		try {
+			this.addTextToDocument(this.TAB + textToAdd, document);
+		} 
+		catch (BadLocationException e) {
+			e.printStackTrace();
+		}
+		
+		textPane.setCaretPosition(0);
+		this.answerPanelScroller.getViewport().setView(textPane);
+	}
+	
+	/**
+	 * Updates the various buttons based on the type of question
+	 * @param question the current question, to update button states against
+	 */
+	private void updateButtonStates(Question question) {
+		// disable back button if viewing the very first question
+		this.backButton.setEnabled(!question.getNumber().equals("1"));
+
+		this.submitButton.setEnabled(true);
+
+		// ensure both teams enabled if tossup
+		if (question.getType() == Question.Type.TOSSUP) {
+			this.toggleTeamButtons(true, true);
+			this.toggleTeamButtons(true, false);
+		}
+	}
+
+	/**
+	 * Toggles the state of the team buttons
+	 * @param shouldEnable whether the buttons should be enabled or not
+	 * @param isTeamA whether the buttons to operate on are TeamA or TeamB
+	 */
+	private void toggleTeamButtons(boolean shouldEnable, boolean isTeamA) {
+		if (isTeamA) {
+			this.teamA_correct.setEnabled(shouldEnable);
+			this.teamA_incorrect.setEnabled(shouldEnable);
+			if (this.handler.isUsingScoreboard()) {
+				this.teamA_interrupt.setEnabled(shouldEnable);
+			}
+		}
+		else {
+			this.teamB_correct.setEnabled(shouldEnable);
+			this.teamB_incorrect.setEnabled(shouldEnable);
+			if (this.handler.isUsingScoreboard()) {
+				this.teamB_interrupt.setEnabled(shouldEnable);
+			}
+		}
+	}
+
+	/**
+	 * Adds the text to the question doc
+	 * @param text the text to add
+	 * @throws BadLocationException
+	 */
+	private void addTextToDocument(String text, StyledDocument document) throws BadLocationException {
+		boolean done = false;
+		while (!done) {
+			if (text.contains("[") && text.contains("]")) {
+				int pronunciationStart = text.indexOf("[");
+				int pronunciationEnd = text.indexOf("]");
+
+				document.insertString(document.getLength(),
+						text.substring(0, pronunciationStart), document.getStyle(REGULAR_STYLE));
+				document.insertString(document.getLength(),
+						text.substring(pronunciationStart, pronunciationEnd + 1),
+						document.getStyle(PRONUNCIATION_STYLE));
+				text = text.substring(pronunciationEnd + 1);
+			} 
+			else {
+				done = true;
+			}
+		}
+		document.insertString(document.getLength(), text, document.getStyle(REGULAR_STYLE));
+	}
+
+	
+	/**
+	 * Configures and returns the styled document for a given textPane
+	 * @param textPane the input text pane
+	 * @return a styled document loaded with styles
+	 */
+	private StyledDocument configureStyledDocument(JTextPane textPane) {
+		StyledDocument document = (StyledDocument) textPane.getDocument();
+		
+		// add the various formatting styles to the document
+		Style regular = document.addStyle(REGULAR_STYLE, null);
+		StyleConstants.setFontFamily(regular, "Helvetica");
+		StyleConstants.setFontSize(regular, this.fontSize);
+
+		Style pronunciation = document.addStyle(PRONUNCIATION_STYLE, null);
+		StyleConstants.setFontFamily(pronunciation, "Helvetica");
+		StyleConstants.setFontSize(pronunciation, this.fontSize - 2);
+		StyleConstants.setForeground(pronunciation, Color.GRAY);
+		
+		Style metaRegular = document.addStyle(META_SMALL_STYLE, null);
+		StyleConstants.setFontFamily(metaRegular, "Helvetica");
+		StyleConstants.setFontSize(metaRegular, this.fontSize - 2);
+		StyleConstants.setForeground(metaRegular, Color.GRAY);
+		
+		Style metaBold = document.addStyle(META_BOLD_STYLE, null);
+		StyleConstants.setFontFamily(metaBold, "Helvetica");
+		StyleConstants.setFontSize(metaBold, this.fontSize - 2);
+		StyleConstants.setForeground(metaBold, Color.GRAY);
+		StyleConstants.setBold(metaBold, true);
+
+		return document;
+	}
+
+	
+	/**
+	 * Creates a formatted JTextPane
+	 * @param background background color for the jTextPane
+	 * @return a formatted JTextPane
+	 */
+	private JTextPane createJTextPane(Color background) {
+		JTextPane textPane = new JTextPane();
+		textPane.setEditable(false);
+		textPane.setMargin(new Insets(10, 55, 10, 10));
+		textPane.setBackground(background);
+		textPane.setCaretPosition(0);
+		return textPane;
+	}
+	
+	/**
+	 * Returns a white background if question is tossup, yellow if question is bonus
+	 * @param question the input question
+	 * @return the appropriate background color
+	 */
+	private Color getQuestionBackground(Question question) {
+		if (question.getNumber().contains("b")) {
+			return new Color(255, 255, 200);
+		} 
+		else {
+			return Color.WHITE;
+		}
+	}
+	
 	/**
 	 * Disables the back button
 	 */
@@ -731,29 +895,67 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	}
 
 	/**
-	 * Displays end of round text in the question area
+	 * Updates UI to represent the end of a round
 	 */
-	public void roundOver() {
-		String text = "Round over! Select new round from file menu.";
-		this.currentQuestionText.setText(text);
-		this.currentQuestionAnswer.setText("");
-		this.disableTeamA();
-		this.disableTeamB();
+	private void roundOver() {
+		this.currentQuestion = null;
+		final JButton newRoundButton = new JButton("Round over! Open a new round here.");
+		newRoundButton.setFont(new Font("Helvetica", Font.PLAIN, this.fontSize));
+		newRoundButton.setBorderPainted(false);
+		newRoundButton.setContentAreaFilled(false);
+		newRoundButton.setAction(new OpenValidateUserDialogAction(this.handler));
+		newRoundButton.setText("Round over! Open a new round here.");
+		newRoundButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+
+		newRoundButton.addMouseListener(new java.awt.event.MouseAdapter() {
+			Font originalFont = null;
+	 
+	    public void mouseEntered(java.awt.event.MouseEvent evt) {
+	        originalFont = newRoundButton.getFont();
+	        Map attributes = originalFont.getAttributes();
+	        attributes.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON);
+	        newRoundButton.setFont(originalFont.deriveFont(attributes));
+	    }
+	 
+	    public void mouseExited(java.awt.event.MouseEvent evt) {
+	        newRoundButton.setFont(originalFont);
+	    }
+		});
+
+		this.questionPanelScroller.getViewport().remove(0);
+
+		JTextPane questionPane = this.createJTextPane(Color.WHITE);
+		StyledDocument document = this.configureStyledDocument(questionPane);
+
+		try {
+			this.addTextToDocument("\n\n\n\n\n" + this.HALF_TAB, document);
+			questionPane.insertComponent(newRoundButton);
+		} 
+		catch (BadLocationException e) {
+			e.printStackTrace();
+		}
+		
+		this.questionPanelScroller.getViewport().add(questionPane);
+
+		this.answerPanelScroller.getViewport().remove(0);
+		JTextPane answerPane = this.createJTextPane(Color.WHITE);
+		this.answerPanelScroller.getViewport().add(answerPane);
+
+		this.toggleTeamButtons(false, true);
+		this.toggleTeamButtons(false, false);
 		this.submitButton.setEnabled(false);
 	}
 
+
 	/**
-	 * Sets the font size of the question area
-	 * 
-	 * @param size
-	 *          the new font size
+	 * Sets the size of the font
+	 * @param size the new size
 	 */
 	public void setFontSize(int size) {
-		this.fontSize  = size;
-		Font currentFont = currentQuestionText.getFont();
-		Font newFont = new Font("Helvetica", currentFont.getStyle(), this.fontSize);
-		this.currentQuestionText.setFont(newFont);
-		this.currentQuestionAnswer.setFont(newFont);
+		System.out.println("[Binder/setFontSize] setting font size to: " + size);
+		this.fontSize = size;
+		
+		this.updateQuestion(this.currentQuestion);
 	}
 
 	/**
@@ -786,11 +988,23 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			
 			UpdateAndShowQuestionEvent aqe = (UpdateAndShowQuestionEvent) ese;
 			Question question = aqe.getQuestion();
-			boolean shouldEnableTeamA = aqe.shouldEnableTeamA();
-			boolean shouldEnableTeamB = aqe.shouldEnableTeamB();
 
 			if (question != null) {
-				this.updateQuestion(question, shouldEnableTeamA, shouldEnableTeamB);
+				this.resetButtons();
+
+				if (aqe.shouldEnableTeamA())
+					this.toggleTeamButtons(true, true);
+				else {
+					this.toggleTeamButtons(false, true);
+				}
+
+				if (aqe.shouldEnableTeamB())
+					this.toggleTeamButtons(true, false);
+				else {
+					this.toggleTeamButtons(false, false);
+				}
+
+				this.updateQuestion(question);
 			} 
 			else {
 				this.roundOver();
@@ -800,11 +1014,23 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			System.out.println("[Binder/onEvent] received UpdateQuestionEvent");
 			UpdateQuestionEvent aqe = (UpdateQuestionEvent) ese;
 			Question question = aqe.getQuestion();
-			boolean shouldEnableTeamA = aqe.shouldEnableTeamA();
-			boolean shouldEnableTeamB = aqe.shouldEnableTeamB();
 
 			if (question != null) {
-				this.updateQuestion(question, shouldEnableTeamA, shouldEnableTeamB);
+				this.resetButtons();
+
+				if (aqe.shouldEnableTeamA())
+					this.toggleTeamButtons(true, true);
+				else {
+					this.toggleTeamButtons(false, true);
+				}
+
+				if (aqe.shouldEnableTeamB())
+					this.toggleTeamButtons(true, false);
+				else {
+					this.toggleTeamButtons(false, false);
+				}
+
+				this.updateQuestion(question);
 			} 
 			else {
 				this.roundOver();
@@ -851,15 +1077,18 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	}
 
 	private void updateBorders() {
+		String labelA = this.teamAName;
+		String labelB = this.teamBName;
+		
 		if (this.handler.isUsingScoreboard()) {
-			this.teamABorder.setTitle(this.teamAName + " -- Score: "
-					+ this.teamAScore);
-			this.teamBBorder.setTitle(this.teamBName + " -- Score: "
-					+ this.teamBScore);
-		} else {
-			this.teamABorder.setTitle(this.teamAName);
-			this.teamBBorder.setTitle(this.teamBName);
+			labelA += ": " + this.teamAScore;
+			labelB += ": " + this.teamBScore;
 		}
+		
+		this.teamALabel.setText(labelA);
+		this.teamALabel.setFont(new Font("Helvetica", Font.BOLD, 20));
+		this.teamBLabel.setText(labelB);
+		this.teamBLabel.setFont(new Font("Helvetica", Font.BOLD, 20));
 
 		this.frame.repaint();
 	}
@@ -878,14 +1107,6 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.backButton.setEnabled(this.gameState.isBackEnabled());
 		this.submitButton.setEnabled(this.gameState.isSubmitEnabled());
 
-		System.out.println("game state text: " + this.gameState.getQuestionText());
-		this.currentQuestionText.setText(this.gameState.getQuestionText());
-		this.currentQuestionText.setBackground(this.gameState.getQuestionColor());
-		this.currentQuestionText.setEnabled(true);
-		this.currentQuestionAnswer.setText(this.gameState.getQuestionAnswerText());
-		this.currentQuestionAnswer.setBackground(this.gameState.getQuestionColor());
-		this.currentQuestionAnswer.setEnabled(true);
-		
 		this.hidingQuestions = false;
 		this.frame.setState(Frame.NORMAL);
 	}
@@ -899,15 +1120,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 					this.teamA_incorrect.isEnabled(), this.teamA_interrupt.isEnabled(),
 					this.teamB_correct.isEnabled(), this.teamB_incorrect.isEnabled(),
 					this.teamB_interrupt.isEnabled(), this.backButton.isEnabled(),
-					this.submitButton.isEnabled(), this.currentQuestionText.getText(),
-					this.currentQuestionAnswer.getText(), this.currentQuestionText
-							.getBackground());
-	
-			this.currentQuestionText
-					.setText("Close the TCQ dialog to proceed with the buzzer portion of the competition.");
-			this.currentQuestionText.setEnabled(false);
-			this.currentQuestionAnswer.setText("");
-			this.currentQuestionAnswer.setEnabled(false);
+					this.submitButton.isEnabled());
 	
 			this.disableTeamA();
 			this.disableTeamB();
