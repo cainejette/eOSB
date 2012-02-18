@@ -1,405 +1,405 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Round RoundID="401" BowlYear="2012" RoundName="Round 03" CompetitionName="Regional Competition 1">
+<Round RoundID="409" BowlYear="2012" RoundName="Round 03" CompetitionName="Regional Competition 2">
   <Questions>
-    <Question QuestionID="26618" QuestionIDString="0000026618">
+    <Question QuestionID="26176" QuestionIDString="0000026176">
       <QuestionPair>1</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following landmasses is NOT part of the Mid-Atlantic Ridge?</QuestionText>
-      <AnswerW>The Azores</AnswerW>
-      <AnswerX>Ascension Island</AnswerX>
-      <AnswerY>Aleutian Islands</AnswerY>
-      <AnswerZ>Iceland</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26048" QuestionIDString="0000026048">
-      <QuestionPair>1</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Due to ozone depletion, phytoplankton may suffer increased damage due to what type of radiation?</QuestionText>
-      <CorrectAnswer>Ultraviolet</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26011" QuestionIDString="0000026011">
-      <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following fish species is anadramous (ah-nah-dre-mas)?</QuestionText>
-      <AnswerW>Chinook Salmon</AnswerW>
-      <AnswerX>American Eel</AnswerX>
-      <AnswerY>Bluegill Sunfish</AnswerY>
-      <AnswerZ>Pacific Herring</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <QuestionText>Which of the following would NOT be an adaptation for deep diving marine mammals?</QuestionText>
+      <AnswerW>Increased levels of myoglobin</AnswerW>
+      <AnswerX>Large blood volume</AnswerX>
+      <AnswerY>Increased tolerance to aerobic conditions</AnswerY>
+      <AnswerZ>Bradycardia [brad-ee-card-ee-ah]</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="26306" QuestionIDString="0000026306">
-      <QuestionPair>2</QuestionPair>
+    <Question QuestionID="19799" QuestionIDString="0000019799">
+      <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What are four of the six major ions dissolved in sea water?</QuestionText>
-      <CorrectAnswer>Accept any four of the following: Chloride, Sodium, Sulfate, Magnesium, Calcium, OR Potassium</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26038" QuestionIDString="0000026038">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
       <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the process of desalination by forcing seawater through a semi-permeable membrane called?</QuestionText>
+      <CorrectAnswer>Reverse osmosis</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27320" QuestionIDString="0000027320">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following tools allows scientists to extract samples of various layers of sediment that have accumulated over thousands of years?</QuestionText>
-      <AnswerW>Box corer</AnswerW>
-      <AnswerX>Piston drill</AnswerX>
-      <AnswerY>Clam shell sampler</AnswerY>
-      <AnswerZ>Piston corer</AnswerZ>
+      <QuestionText>Which term describes the total amount of an element found in the ocean divided by the total rate of flow of the element through the system?</QuestionText>
+      <AnswerW>Equilibrium ratio</AnswerW>
+      <AnswerX>Forchammer number</AnswerX>
+      <AnswerY>Solution ratio</AnswerY>
+      <AnswerZ>Residence time</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="26764" QuestionIDString="0000026764">
+    <Question QuestionID="27183" QuestionIDString="0000027183">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What cycle relates to the opening and closing of oceans basins?</QuestionText>
+      <CorrectAnswer>Wilson (Cycle)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26621" QuestionIDString="0000026621">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following reptile groups does NOT have representatives that spend most of their lives by salt water?</QuestionText>
+      <AnswerW>Iguanas</AnswerW>
+      <AnswerX>Crocodiles</AnswerX>
+      <AnswerY>Snakes</AnswerY>
+      <AnswerZ>Alligators</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25312" QuestionIDString="0000025312">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What ocean ridge divides the Arctic ocean?</QuestionText>
-      <CorrectAnswer>Lomonosov (lo-mo-no-sof)</CorrectAnswer>
+      <QuestionText>What is the transition between the continental shelf and continental slope called?</QuestionText>
+      <CorrectAnswer>Shelf break</CorrectAnswer>
     </Question>
-    <Question QuestionID="26029" QuestionIDString="0000026029">
+    <Question QuestionID="7813" QuestionIDString="0000007813">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Low frequency waves that propogate through the Earth's layers and can cause earthquakes are called which of the following?</QuestionText>
-      <AnswerW>Seismic</AnswerW>
-      <AnswerX>Electromagnetic</AnswerX>
-      <AnswerY>Propagation</AnswerY>
-      <AnswerZ>Stratified</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <QuestionText>Which body of water has the highest salinity?</QuestionText>
+      <AnswerW>Atlantic Ocean</AnswerW>
+      <AnswerX>Pacific Ocean</AnswerX>
+      <AnswerY>Red Sea</AnswerY>
+      <AnswerZ>Mediterranean Sea</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="26139" QuestionIDString="0000026139">
+    <Question QuestionID="26940" QuestionIDString="0000026940">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How does raising the salinity of seawater affect the freezing point?</QuestionText>
-      <CorrectAnswer>Lowers OR decreases the freezing point</CorrectAnswer>
+      <QuestionText>To what Cnidarian class do fire corals and siphonophores [sigh-fah-nuh-fores] belong?</QuestionText>
+      <CorrectAnswer>Hydrozoa</CorrectAnswer>
     </Question>
-    <Question QuestionID="26043" QuestionIDString="0000026043">
+    <Question QuestionID="26872" QuestionIDString="0000026872">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Who wrote the "Origin of Continents and Oceans" which details the idea of continental drift?</QuestionText>
-      <AnswerW>Charles Darwin</AnswerW>
-      <AnswerX>Alfred Wegener</AnswerX>
-      <AnswerY>Jacques Piccard</AnswerY>
-      <AnswerZ>Matthew Maury</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26209" QuestionIDString="0000026209">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the full name of the international agreement which extended a nation's economic interests 200 nautical miles from the coast?</QuestionText>
-      <CorrectAnswer>United Nations Convention on the Law of the Sea</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26041" QuestionIDString="0000026041">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What term describes the heat that is absorbed or released as a result of a phase change?</QuestionText>
-      <AnswerW>Latent heat</AnswerW>
-      <AnswerX>Heat of fusion</AnswerX>
-      <AnswerY>Freezing point</AnswerY>
-      <AnswerZ>Fission</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26024" QuestionIDString="0000026024">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the primary law governing fisheries management in the United States?</QuestionText>
-      <CorrectAnswer>Magnuson–Stevens Fishery Conservation and Management Act OR Magnuson–Stevens Act</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26684" QuestionIDString="0000026684">
-      <QuestionPair>7</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following countries borders the Red Sea?</QuestionText>
-      <AnswerW>Iraq</AnswerW>
-      <AnswerX>Syria</AnswerX>
-      <AnswerY>Turkey</AnswerY>
-      <AnswerZ>Sudan</AnswerZ>
+      <QuestionText>Which of the following is an example of point source pollution?</QuestionText>
+      <AnswerW>Groundwater runoff</AnswerW>
+      <AnswerX>Acid rain</AnswerX>
+      <AnswerY>Lawn fertilizer runoff</AnswerY>
+      <AnswerZ>Sewage outfall pipe</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="26215" QuestionIDString="0000026215">
-      <QuestionPair>7</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What are two of the three parameters of seawater that affect the amount of dissolved carbon dioxide gas?</QuestionText>
-      <CorrectAnswer>Temperature OR salinity OR pressure (must name two of these)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26082" QuestionIDString="0000026082">
-      <QuestionPair>8</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which type of microscopic algae contributes to most of the silica found in biogenic sediments?</QuestionText>
-      <AnswerW>Diatoms</AnswerW>
-      <AnswerX>Pteropods (tare-oh-pods)</AnswerX>
-      <AnswerY>Foraminiferans (for-am-ih-nif-er-ans)</AnswerY>
-      <AnswerZ>Coccolithophores (cock-oh-lith-oh-fores)</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26246" QuestionIDString="0000026246">
-      <QuestionPair>8</QuestionPair>
+    <Question QuestionID="27266" QuestionIDString="0000027266">
+      <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the calcareous structure with five teeth-like extensions that sea urchins use to feed?</QuestionText>
-      <CorrectAnswer>Aristotle's lantern</CorrectAnswer>
+      <QuestionText>Seals, sea lions and walruses belong to which taxonomic suborder?</QuestionText>
+      <CorrectAnswer>Pinnipedia</CorrectAnswer>
     </Question>
-    <Question QuestionID="26069" QuestionIDString="0000026069">
-      <QuestionPair>9</QuestionPair>
+    <Question QuestionID="26549" QuestionIDString="0000026549">
+      <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which type of tides produce the greatest distance between the high and low tide marks?</QuestionText>
-      <AnswerW>Lunar</AnswerW>
-      <AnswerX>Solar</AnswerX>
-      <AnswerY>Spring</AnswerY>
-      <AnswerZ>Neap</AnswerZ>
+      <QuestionText>Which of the following falls into the category of a tropical cyclone?</QuestionText>
+      <AnswerW>Tornado</AnswerW>
+      <AnswerX>Monsoon</AnswerX>
+      <AnswerY>Hurricane</AnswerY>
+      <AnswerZ>Eddy</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="27474" QuestionIDString="0000027474">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Where are sediment records of Earth's climate history during the past 65 million years generally more complete? On land or in the ocean?</QuestionText>
-      <CorrectAnswer>In the ocean</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26361" QuestionIDString="0000026361">
-      <QuestionPair>10</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The Juan de Fuca Ridge is located closest to which terrestrial feature?</QuestionText>
-      <AnswerW>Vancouver Island</AnswerW>
-      <AnswerX>Baja Mexico</AnswerX>
-      <AnswerY>Baffin Island</AnswerY>
-      <AnswerZ>Galapagos Archipelago</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26271" QuestionIDString="0000026271">
-      <QuestionPair>10</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What two factors determine whether a wave is considered a shallow water wave or a deep water wave?</QuestionText>
-      <CorrectAnswer>The depth of the water AND wavelength of the wave. (Note: frequency OR period are NOT acceptable)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26023" QuestionIDString="0000026023">
-      <QuestionPair>11</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is most important to the eutrophication (yew-tro-fick-ay-shun) of estuaries?</QuestionText>
-      <AnswerW>Adverse impacts from human activity</AnswerW>
-      <AnswerX>Global warming</AnswerX>
-      <AnswerY>Increased nutrient loading</AnswerY>
-      <AnswerZ>Increase in biological oxygen demand</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26161" QuestionIDString="0000026161">
-      <QuestionPair>11</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Why are seamounts considered relatively resistant to forces of erosion?</QuestionText>
-      <CorrectAnswer>Seamounts are generally formed by volcanic processes, and therefore mainly consist of hard substrates</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26039" QuestionIDString="0000026039">
-      <QuestionPair>12</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which property of water allows it to absorb or release large amounts of heat?</QuestionText>
-      <AnswerW>Retention heat</AnswerW>
-      <AnswerX>Heat capacity</AnswerX>
-      <AnswerY>Heat exchange</AnswerY>
-      <AnswerZ>Sensible heat</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26531" QuestionIDString="0000026531">
-      <QuestionPair>12</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Due to habitat destruction resulting from a decrease in Arctic sea ice, which animal was listed by the United States as a threatened species in 2008?</QuestionText>
-      <CorrectAnswer>Polar bear</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13725" QuestionIDString="0000013725">
-      <QuestionPair>13</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is the name of a submarine canyon?</QuestionText>
-      <AnswerW>Lomonosov</AnswerW>
-      <AnswerX>Nansen</AnswerX>
-      <AnswerY>Monterey</AnswerY>
-      <AnswerZ>Waimea (wy-a-MAY-ah)</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26085" QuestionIDString="0000026085">
-      <QuestionPair>13</QuestionPair>
+    <Question QuestionID="26655" QuestionIDString="0000026655">
+      <QuestionPair>6</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What addition to the neck of trawling nets reduced sea turtle by-catch?</QuestionText>
-      <CorrectAnswer>Turtle Excluder Device OR TED</CorrectAnswer>
+      <QuestionText>What instruments do physical oceanographers deploy to profile water velocity?</QuestionText>
+      <CorrectAnswer>Acoustic Doppler Current Profilers (ACCEPT: ADCPs, Profiling Acoustic Doppler Velocimeters, ADVs, current meters of any type)</CorrectAnswer>
     </Question>
-    <Question QuestionID="20284" QuestionIDString="0000020284">
-      <QuestionPair>14</QuestionPair>
+    <Question QuestionID="24851" QuestionIDString="0000024851">
+      <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Scientists can track ocean water movement and residence times using which of the following?</QuestionText>
-      <AnswerW>Altimeters</AnswerW>
-      <AnswerX>Radiometers</AnswerX>
-      <AnswerY>Sonar</AnswerY>
-      <AnswerZ>Chemical tracers</AnswerZ>
+      <QuestionText>Milford Sound in southwestern New Zealand is considered to be which of the following?</QuestionText>
+      <AnswerW>An atoll</AnswerW>
+      <AnswerX>A barrier island</AnswerX>
+      <AnswerY>A fringing reef</AnswerY>
+      <AnswerZ>A fjord</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="26425" QuestionIDString="0000026425">
-      <QuestionPair>14</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What reaction produces carbohydrates in deep-sea autotrophs?</QuestionText>
-      <CorrectAnswer>Chemosynthesis</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27500" QuestionIDString="0000027500">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The Law of the Sea grants significant undersea portions of the Arctic to Norway, Denmark, Russia, Canada, and which of the following?</QuestionText>
-      <AnswerW>Germany</AnswerW>
-      <AnswerX>Thailand</AnswerX>
-      <AnswerY>Iceland</AnswerY>
-      <AnswerZ>United States</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26249" QuestionIDString="0000026249">
-      <QuestionPair>15</QuestionPair>
+    <Question QuestionID="25430" QuestionIDString="0000025430">
+      <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The minimum extent of sea ice in the Arctic typically occurs during what month?</QuestionText>
-      <CorrectAnswer>September</CorrectAnswer>
+      <QuestionText>How is the length of a lunar day different from the length of a solar day?</QuestionText>
+      <CorrectAnswer>A solar day (24 hrs) is shorter than a lunar day (24 hrs and 50 mins).</CorrectAnswer>
     </Question>
-    <Question QuestionID="26031" QuestionIDString="0000026031">
-      <QuestionPair>16</QuestionPair>
+    <Question QuestionID="11036" QuestionIDString="0000011036">
+      <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Approximately how much of the total primary productivity on Earth occurs in the ocean?</QuestionText>
-      <AnswerW>One fourth</AnswerW>
-      <AnswerX>One third</AnswerX>
-      <AnswerY>Half</AnswerY>
-      <AnswerZ>Two thirds</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
+      <QuestionText>Which of the following is NOT a complaint lodged against current fish farming practices?</QuestionText>
+      <AnswerW>Environmental degradation</AnswerW>
+      <AnswerX>Bioconcentration of dangerous chemicals</AnswerX>
+      <AnswerY>Escape and subsequent interbreeding with local species</AnswerY>
+      <AnswerZ>Reduction in sea lice infestations</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="26172" QuestionIDString="0000026172">
-      <QuestionPair>16</QuestionPair>
+    <Question QuestionID="12681" QuestionIDString="0000012681">
+      <QuestionPair>8</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How are hydrogenous sediments formed?</QuestionText>
-      <CorrectAnswer>By precipitation from seawater OR by precipitation of dissolved minerals (answer MUST include precipitation)</CorrectAnswer>
+      <QuestionText>Chalk beds are often made out of the tests of what organisms?</QuestionText>
+      <CorrectAnswer>Coccolithophores (ACCEPT: Coccolithophorids)</CorrectAnswer>
     </Question>
-    <Question QuestionID="26700" QuestionIDString="0000026700">
-      <QuestionPair>17</QuestionPair>
+    <Question QuestionID="26278" QuestionIDString="0000026278">
+      <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is NOT a goal of Coastal and Marine Spatial Planning ?</QuestionText>
-      <AnswerW>Reduce conflicts between users</AnswerW>
-      <AnswerX>Reduce environmental impacts</AnswerX>
-      <AnswerY>Minimize overall resource usage</AnswerY>
-      <AnswerZ>Preserve critical ecosystem services</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
+      <QuestionText>Coral reefs are threatened by coastal nutrient pollution because corals prefer which of the following conditions?</QuestionText>
+      <AnswerW>Oligotrophic</AnswerW>
+      <AnswerX>Eutrophic</AnswerX>
+      <AnswerY>Hypersaline</AnswerY>
+      <AnswerZ>Anoxic</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="26455" QuestionIDString="0000026455">
-      <QuestionPair>17</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What term is used to describe the largest number of fishes that can be harvested year after year without diminishing the stocks?</QuestionText>
-      <CorrectAnswer>Maximum sustainable yield</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26589" QuestionIDString="0000026589">
-      <QuestionPair>18</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Of the nearly five years on his voyage aboard the H.M.S. Beagle, Charles Darwin, spent only 18 months at sea, while the rest of the time was devoted to exploration on land. On which continent did he spend most of this time on dry land?</QuestionText>
-      <AnswerW>North America</AnswerW>
-      <AnswerX>South America</AnswerX>
-      <AnswerY>Africa</AnswerY>
-      <AnswerZ>Australia</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26274" QuestionIDString="0000026274">
-      <QuestionPair>18</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>There are points on the Earth's surface in the center of ocean basins that experience very limited or no tidal amplitude. What is the name of these points?</QuestionText>
-      <CorrectAnswer>Amphidromic points (Also accept: amphidromic OR amphidromes)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26032" QuestionIDString="0000026032">
-      <QuestionPair>19</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What theory was developed through the concepts of continental drift and seafloor spreading?</QuestionText>
-      <AnswerW>Uniformitarianism</AnswerW>
-      <AnswerX>Catastrophism</AnswerX>
-      <AnswerY>Paleomagnetism</AnswerY>
-      <AnswerZ>Plate tectonics</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26634" QuestionIDString="0000026634">
-      <QuestionPair>19</QuestionPair>
+    <Question QuestionID="24779" QuestionIDString="0000024779">
+      <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What line of latitude lies at 23 degrees, 26 minutes and 16 seconds south of the Equator?</QuestionText>
-      <CorrectAnswer>Tropic of Capricorn</CorrectAnswer>
+      <QuestionText>What is the world's largest sea?</QuestionText>
+      <CorrectAnswer>Mediterranean Sea</CorrectAnswer>
     </Question>
-    <Question QuestionID="26050" QuestionIDString="0000026050">
-      <QuestionPair>20</QuestionPair>
+    <Question QuestionID="26511" QuestionIDString="0000026511">
+      <QuestionPair>10</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following indicate lines of equal air pressure on a weather map?</QuestionText>
-      <AnswerW>Isobars</AnswerW>
-      <AnswerX>Isotherms</AnswerX>
-      <AnswerY>Isopycnals</AnswerY>
-      <AnswerZ>Isoclines</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <QuestionText>What scientific law states that sediments at the bottom of an undisturbed depositional sequence are older than those at the top?</QuestionText>
+      <AnswerW>Law of Uniformitarianism</AnswerW>
+      <AnswerX>Law of Superposition</AnswerX>
+      <AnswerY>Law of Original Horizontality</AnswerY>
+      <AnswerZ>Law of Cross-Cutting Relationships</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="26167" QuestionIDString="0000026167">
-      <QuestionPair>20</QuestionPair>
+    <Question QuestionID="17567" QuestionIDString="0000017567">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical - Salinity</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the definition of salinity?</QuestionText>
+      <CorrectAnswer>The mass of dissolved salts per unit mass of sea water</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26617" QuestionIDString="0000026617">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Currents</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which Western Boundary Current runs south along the east coast of Africa?</QuestionText>
+      <AnswerW>Benguela [ben-GWAY-lah]</AnswerW>
+      <AnswerX>Guinea</AnswerX>
+      <AnswerY>Agulhas [ah-GULL-us]</AnswerY>
+      <AnswerZ>Canary</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27371" QuestionIDString="0000027371">
+      <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Place the following reefs in the correct seaward to landward sequence typically found in Florida: patch reefs, outlier reefs, and bank barrier-reefs.</QuestionText>
-      <CorrectAnswer>Outlier reefs, bank barrier-reefs and patch reefs</CorrectAnswer>
+      <QuestionText>What is the name for a narrow strip of land that connects two larger land masses and is bordered on two sides by water?</QuestionText>
+      <CorrectAnswer>Isthmus</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26705" QuestionIDString="0000026705">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Salt marsh zonation results from varying vegetation tolerances to which of the following?</QuestionText>
+      <AnswerW>Soil type</AnswerW>
+      <AnswerX>Temperature</AnswerX>
+      <AnswerY>Salinity</AnswerY>
+      <AnswerZ>pH</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13795" QuestionIDString="0000013795">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What was the name given to the Hawaiian Islands by Captain James Cook?</QuestionText>
+      <CorrectAnswer>Sandwich Islands</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26652" QuestionIDString="0000026652">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>An Ekman grab is used to sample which of the following?</QuestionText>
+      <AnswerW>Fish larvae</AnswerW>
+      <AnswerX>Nepheloid layers</AnswerX>
+      <AnswerY>Marine sediments</AnswerY>
+      <AnswerZ>Plankton</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26969" QuestionIDString="0000026969">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term defines the depth at which the rate of photosynthesis balances the rate of respiration?</QuestionText>
+      <CorrectAnswer>Compensation depth</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26736" QuestionIDString="0000026736">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following laws do NOT assign NOAA with responsibilities in by-catch monitoring and reduction?</QuestionText>
+      <AnswerW>Magnuson-Stevens Act</AnswerW>
+      <AnswerX>Endangered Species Act</AnswerX>
+      <AnswerY>Marine Mammal Protection Act</AnswerY>
+      <AnswerZ>Coastal Zone Management Act</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27217" QuestionIDString="0000027217">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How many statute miles are in 200 nautical miles?</QuestionText>
+      <CorrectAnswer>230 (ACCEPT: 229, 231)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26408" QuestionIDString="0000026408">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Red tides are caused by the sudden growth and accumulation of which group of algal organisms?</QuestionText>
+      <AnswerW>Cyanobacteria</AnswerW>
+      <AnswerX>Dinoflagellates</AnswerX>
+      <AnswerY>Diatoms</AnswerY>
+      <AnswerZ>Radiolarians</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26040" QuestionIDString="0000026040">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What part of the visible spectrum is the first to be absorbed by seawater?</QuestionText>
+      <CorrectAnswer>Red</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13066" QuestionIDString="0000013066">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which country was the first to build a tidal power station?</QuestionText>
+      <AnswerW>United States</AnswerW>
+      <AnswerX>Japan</AnswerX>
+      <AnswerY>France</AnswerY>
+      <AnswerZ>Italy</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27013" QuestionIDString="0000027013">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>If orca whales reduced the number of sea otters, what might happen to the density of the kelp bed?</QuestionText>
+      <CorrectAnswer>The kelp density would be reduced</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26632" QuestionIDString="0000026632">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Approximately how many degrees of longitude separate the Prime Meridian from the International Date Line?</QuestionText>
+      <AnswerW>360</AnswerW>
+      <AnswerX>180</AnswerX>
+      <AnswerY>270</AnswerY>
+      <AnswerZ>90</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25879" QuestionIDString="0000025879">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In the Northern hemisphere, which way do low pressure systems rotate?</QuestionText>
+      <CorrectAnswer>Counterclockwise (ACCEPT: Cyclonic)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26411" QuestionIDString="0000026411">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Organisms that live on or attached to substrates such as sand, mud, or rock are known as which of the following?</QuestionText>
+      <AnswerW>Megafauna</AnswerW>
+      <AnswerX>Plankton</AnswerX>
+      <AnswerY>Epifauna</AnswerY>
+      <AnswerZ>Infauna</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26229" QuestionIDString="0000026229">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which TWO South American countries border Lake Titicaca [tit-tee-kaka]?</QuestionText>
+      <CorrectAnswer>Peru and Bolivia</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26125" QuestionIDString="0000026125">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following instruments has been used in the Gulf of Mexico near the Deepwater Horizon oil well-head looking for Colored Dissolved Organic Matter as a proxy for the subsurface oil plume?</QuestionText>
+      <AnswerW>CTD</AnswerW>
+      <AnswerX>ADCP</AnswerX>
+      <AnswerY>Transmissometer</AnswerY>
+      <AnswerZ>Fluorometer</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26277" QuestionIDString="0000026277">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Diatoms require silica for growth at approximately a 1:1 ratio to what other macronutrient?</QuestionText>
+      <CorrectAnswer>Nitrogen</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26094" QuestionIDString="0000026094">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following organisms has been coined the keystone species of rocky intertidal zones of the north Pacific coast of the U.S.?</QuestionText>
+      <AnswerW>Limpet</AnswerW>
+      <AnswerX>Predatory whelk</AnswerX>
+      <AnswerY>Pisaster seastar</AnswerY>
+      <AnswerZ>Blue mussel</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26285" QuestionIDString="0000026285">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The largest oil release in world history took place in what country?</QuestionText>
+      <CorrectAnswer>Kuwait</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

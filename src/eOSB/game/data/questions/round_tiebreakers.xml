@@ -1,124 +1,124 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Round RoundID="439" BowlYear="2012" RoundName="Round TieBreaker" CompetitionName="Regional Competition 1">
+<Round RoundID="441" BowlYear="2012" RoundName="Round TieBreaker" CompetitionName="Regional Competition 2">
   <Questions>
-    <Question QuestionID="23195" QuestionIDString="0000023195">
+    <Question QuestionID="26817" QuestionIDString="0000026817">
       <QuestionPair>1</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the name of the U.S. Coast Guard Academy’s training ship based in New London, Connecticut?</QuestionText>
-      <AnswerW>Alvin</AnswerW>
-      <AnswerX>Stars and Stripes</AnswerX>
-      <AnswerY>Eagle</AnswerY>
-      <AnswerZ>Columbia</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="8577" QuestionIDString="0000008577">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>When does the solubility of oxygen decrease?</QuestionText>
-      <AnswerW>With decreased temperature and salinity</AnswerW>
-      <AnswerX>With increased temperature and salinity</AnswerX>
-      <AnswerY>With increased temperature and decreased salinity</AnswerY>
-      <AnswerZ>With decreased temperature and increased salinity</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12683" QuestionIDString="0000012683">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The ancient ocean Panthalassa (pan-thuh-LASS-uh) is the ancestor of which modern day ocean?</QuestionText>
-      <AnswerW>Atlantic</AnswerW>
-      <AnswerX>Pacific</AnswerX>
-      <AnswerY>Indian</AnswerY>
-      <AnswerZ>Arctic</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13284" QuestionIDString="0000013284">
-      <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Black smoker chimneys are a form of what?</QuestionText>
-      <AnswerW>Diffuse venting</AnswerW>
-      <AnswerX>Cold seeps</AnswerX>
-      <AnswerY>Sheet flows</AnswerY>
-      <AnswerZ>Hydrothermal vents</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>Which of the following is NOT a type of estuary?</QuestionText>
+      <AnswerW>Uplift</AnswerW>
+      <AnswerX>Tectonic</AnswerX>
+      <AnswerY>Fjord</AnswerY>
+      <AnswerZ>Coastal plain</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="26818" QuestionIDString="0000026818">
-      <QuestionPair>5</QuestionPair>
+    <Question QuestionID="13450" QuestionIDString="0000013450">
+      <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is the most intelligent marine invertebrate?</QuestionText>
-      <AnswerW>Nautilus</AnswerW>
-      <AnswerX>Clam</AnswerX>
-      <AnswerY>Octopus</AnswerY>
-      <AnswerZ>Whelk</AnswerZ>
+      <QuestionText>The primary goal of the Joint Global Ocean Flux Study was to measure which of the following?</QuestionText>
+      <AnswerW>Changes in sea level for all major ocean basins</AnswerW>
+      <AnswerX>Oceanic carbon cycle</AnswerX>
+      <AnswerY>Changes in ocean circulation associated with global warming</AnswerY>
+      <AnswerZ>Bentho-pelagic coupling and benthic nutrient fluxes</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7956" QuestionIDString="0000007956">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In the northern Atlantic, when does the hurricane season occur?</QuestionText>
+      <AnswerW>June-November</AnswerW>
+      <AnswerX>February-May</AnswerX>
+      <AnswerY>November-February</AnswerY>
+      <AnswerZ>Throughout the entire year</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8494" QuestionIDString="0000008494">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Where is sea surface salinity highest?</QuestionText>
+      <AnswerW>In regions of higher precipitation</AnswerW>
+      <AnswerX>In high polar latitudes</AnswerX>
+      <AnswerY>Between the latitudes of 20 degrees North and 30 degrees North</AnswerY>
+      <AnswerZ>In coastal areas</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="23058" QuestionIDString="0000023058">
+    <Question QuestionID="12218" QuestionIDString="0000012218">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is NOT true about the Territorial Sea boundary?</QuestionText>
+      <AnswerW>It was proclaimed in 1988</AnswerW>
+      <AnswerX>It extended the territorial sea for international law purposes</AnswerX>
+      <AnswerY>It altered domestic law</AnswerY>
+      <AnswerZ>It was extended to a 12 nautical mile limit</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12745" QuestionIDString="0000012745">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The largest oil spill in United States history occurred in which of the following waters?</QuestionText>
-      <AnswerW>Prince William Sound, Alaska</AnswerW>
-      <AnswerX>Port Arthur, Texas</AnswerX>
-      <AnswerY>New Orleans, Louisiana</AnswerY>
-      <AnswerZ>The Gulf of Mexico</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>On the east coast of the U.S., longshore currents generally move in which direction?</QuestionText>
+      <AnswerW>From the north to the south</AnswerW>
+      <AnswerX>From the south to the north</AnswerX>
+      <AnswerY>They reverse direction twice per day due to tides</AnswerY>
+      <AnswerZ>They switch direction with lunar oscillation</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="27419" QuestionIDString="0000027419">
+    <Question QuestionID="22805" QuestionIDString="0000022805">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>State waters extend three miles offshore, EXCEPT for one state whose state waters extend ten miles. Which state is that?</QuestionText>
-      <AnswerW>California</AnswerW>
-      <AnswerX>Texas</AnswerX>
-      <AnswerY>Hawaii</AnswerY>
-      <AnswerZ>New Hampshire</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="7859" QuestionIDString="0000007859">
-      <QuestionPair>8</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which kind of shore is likely to have the weakest currents?</QuestionText>
-      <AnswerW>Sandy shore</AnswerW>
-      <AnswerX>Rocky shore</AnswerX>
-      <AnswerY>Silty shore</AnswerY>
-      <AnswerZ>Muddy shore</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12217" QuestionIDString="0000012217">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Where is one location where seafloor processes are working to create an island arc system?</QuestionText>
-      <AnswerW>Mid-Atlantic Ridge</AnswerW>
-      <AnswerX>East Pacific Rise</AnswerX>
-      <AnswerY>Tonga Trench</AnswerY>
-      <AnswerZ>Peru-Chile Trench</AnswerZ>
+      <QuestionText>The 1969 Stratton Commission Report paved the way for which 1972 act that focused on balancing competing land and water issues?</QuestionText>
+      <AnswerW>National Flood Insurance Act</AnswerW>
+      <AnswerX>Coastal Jurisdictional Act</AnswerX>
+      <AnswerY>Coastal Zone Management Act</AnswerY>
+      <AnswerZ>Coastal Barrier Resources Act</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="26135" QuestionIDString="0000026135">
-      <QuestionPair>10</QuestionPair>
+    <Question QuestionID="27019" QuestionIDString="0000027019">
+      <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is the name of the technique developed by Howard Sanders to compare the species richness of different sample sizes in marine sediments?</QuestionText>
-      <AnswerW>Shannon Index</AnswerW>
-      <AnswerX>Simpson Index</AnswerX>
-      <AnswerY>Rarefaction curve</AnswerY>
-      <AnswerZ>Reflection curve</AnswerZ>
+      <QuestionText>What is a name for a larval snail?</QuestionText>
+      <AnswerW>Mitraria [my-TRAR-ee-ah]</AnswerW>
+      <AnswerX>Pluteus [PLUE-tee-us]</AnswerX>
+      <AnswerY>Protoconch [pro-TOE-conk]</AnswerY>
+      <AnswerZ>Veliger [VEL-eh-gerr]</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8223" QuestionIDString="0000008223">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following best describes the Reynolds number?</QuestionText>
+      <AnswerW>Ratio of viscosity to density</AnswerW>
+      <AnswerX>Ratio of inertial to viscous forces </AnswerX>
+      <AnswerY>Product of velocity and mass</AnswerY>
+      <AnswerZ>Rate per area at which momentum is transported by a fluid</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13811" QuestionIDString="0000013811">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the largest river that empties into the Sea of Okhotsk (oh-cot-sk)?</QuestionText>
+      <AnswerW>Tumen</AnswerW>
+      <AnswerX>Shilka</AnswerX>
+      <AnswerY>Amur</AnswerY>
+      <AnswerZ>Lena</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
   </Questions>

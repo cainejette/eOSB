@@ -1,406 +1,405 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Round RoundID="432" BowlYear="2012" RoundName="Round 10" CompetitionName="Regional Competition 1">
+<Round RoundID="433" BowlYear="2012" RoundName="Round 10" CompetitionName="Regional Competition 2">
   <Questions>
-    <Question QuestionID="27524" QuestionIDString="0000027524">
+    <Question QuestionID="7723" QuestionIDString="0000007723">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is NOT considered a cause for the formation of Cretaceous black shales?</QuestionText>
-      <AnswerW>High ocean surface productivity</AnswerW>
-      <AnswerX>Warm ocean temperatures</AnswerX>
-      <AnswerY>Ocean current stagnation</AnswerY>
-      <AnswerZ>Vigorous bottom water circulation</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>Which of the following is an indicator of the North Atlantic Oscillation pattern?</QuestionText>
+      <AnswerW>Strength of the westerlies across the North Atlantic</AnswerW>
+      <AnswerX>Strength of the easterlies across the North Atlantic</AnswerX>
+      <AnswerY>Strength of the Coriolis force in the North Atlantic</AnswerY>
+      <AnswerZ>Strength of the Ekman forcing in the North Atlantic</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="13884" QuestionIDString="0000013884">
+    <Question QuestionID="12798" QuestionIDString="0000012798">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Name the species of abalone endemic to New Zealand?</QuestionText>
-      <CorrectAnswer>Paua  (pow-a)
-OR Haliotis iris  (Hal-ee-oh-tis  eye-ris)</CorrectAnswer>
+      <QuestionText>Rank these four categories of plankton from largest size to smallest size: ultraplankton, mesoplankton, nannoplankton, picoplankton.</QuestionText>
+      <CorrectAnswer>Mesoplankton, nanoplankton, ultraplankton, picoplankton</CorrectAnswer>
     </Question>
-    <Question QuestionID="27456" QuestionIDString="0000027456">
+    <Question QuestionID="12626" QuestionIDString="0000012626">
       <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which type of deep sea ooze is mainly accumulated in the cold, near-pole regions at depths between 1000 and 6000 meters?</QuestionText>
+      <AnswerW>Diatomaceous [DYE-uh-tow-MAY-sish]</AnswerW>
+      <AnswerX>Foraminiferous [FOR-uh-min-NIF-er-ous]</AnswerX>
+      <AnswerY>Radiolarian </AnswerY>
+      <AnswerZ>Red clays</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27428" QuestionIDString="0000027428">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In November 2011, President Obama's administration announced its proposed five-year plan for offshore oil drilling, which bars development along the East and West coasts but calls for opening new areas in which TWO U.S. regions?</QuestionText>
+      <CorrectAnswer>Gulf of Mexico and Alaska</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26953" QuestionIDString="0000026953">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Minke whales got their specific name, acutorostrata [uh-KYOOT-uh-ROS-trah-tuh], from which morphological feature?</QuestionText>
+      <AnswerW>Sharp snout</AnswerW>
+      <AnswerX>Ash color</AnswerX>
+      <AnswerY>Long beak</AnswerY>
+      <AnswerZ>Broad forehead</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7824" QuestionIDString="0000007824">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>If you wanted to explore all the oceans of the world using one boat, how many times would you have to move the boat over land?</QuestionText>
+      <CorrectAnswer>None (ACCEPT: Zero)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26194" QuestionIDString="0000026194">
+      <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Ocean thermal energy conversion technologies normally require thermal gradients of no less than what degree Celsius in order to commercially produce energy?</QuestionText>
-      <AnswerW>1</AnswerW>
-      <AnswerX>5</AnswerX>
-      <AnswerY>10</AnswerY>
-      <AnswerZ>20</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13003" QuestionIDString="0000013003">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Which strait connects the Japan Sea to the open Pacific Ocean and separates Hokkaido (Haw-KI- dough) from Honshu?</QuestionText>
-      <CorrectAnswer>Tsugaru (SUE-ga-rue) Strait</CorrectAnswer>
-    </Question>
-    <Question QuestionID="8361" QuestionIDString="0000008361">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What statement best describes the relationship between biological oxygen demand (BOD) of seawater and dissolved organic matter (DOM) in seawater?</QuestionText>
-      <AnswerW>BOD is positively correlated to DOM</AnswerW>
-      <AnswerX>BOD is inversely related to DOM</AnswerX>
-      <AnswerY>BOD increases with DOM up to a certain point, then decreases</AnswerY>
-      <AnswerZ>There is no relationship between BOD and DOM</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27394" QuestionIDString="0000027394">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Abundance of Oxygen-18 isotopes in foraminefera (for-am-ih-nif-er-ah) tests can be used to reconstruct what paleo condition?</QuestionText>
-      <CorrectAnswer>Paleo temperature (Also acceptable: temperature OR ocean temperature)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26470" QuestionIDString="0000026470">
-      <QuestionPair>4</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which dinoflagellate genus is associated with ciguatera (see-gwah-tare-uh)?</QuestionText>
-      <AnswerW>Ceratium (sare-at-ee-um)</AnswerW>
-      <AnswerX>Pfiesteria (fee-steer-ee-uh)</AnswerX>
-      <AnswerY>Gambierdiscus (gam-bee-er-disk-us)</AnswerY>
-      <AnswerZ>Noctiluca (nok-tuh-loo-kuh)</AnswerZ>
+      <QuestionText>The primary goal of the US-Argentine Aquarius satellite, launched in June 2011, is to measure which oceanic parameter?</QuestionText>
+      <AnswerW>pH</AnswerW>
+      <AnswerX>Temperature</AnswerX>
+      <AnswerY>Salinity</AnswerY>
+      <AnswerZ>Primary productivity</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="12597" QuestionIDString="0000012597">
+    <Question QuestionID="8297" QuestionIDString="0000008297">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Marine Policy</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In which geologic period did the first sea turtles appear?</QuestionText>
-      <CorrectAnswer>Jurassic</CorrectAnswer>
+      <QuestionText>In October 2001, the International Maritime Organization passed a treaty mandating that no Tributyltin-containing paint shall remain in use after January 2008. What is the main reason for this drastic change?</QuestionText>
+      <CorrectAnswer>TBTs have been discovered to be highly toxic to marine organisms</CorrectAnswer>
     </Question>
-    <Question QuestionID="26573" QuestionIDString="0000026573">
+    <Question QuestionID="8784" QuestionIDString="0000008784">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Theme</Category>
+      <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which type of jaw suspension evolved in the elasmobranch (ee-laz-mo-brank) lineages that include modern sharks, skates and rays?</QuestionText>
-      <AnswerW>Holostyly (ho-loh-sty-lee)</AnswerW>
-      <AnswerX>Hyostyly (hi-oh-sty-lee)</AnswerX>
-      <AnswerY>Amphistyly (amph-ih-sty-lee)</AnswerY>
-      <AnswerZ>Craniostyly (cray-nee-oh-sty-lee)</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
+      <QuestionText>Which of the following currents links the North Equatorial Current to the Caribbean system?</QuestionText>
+      <AnswerW>Brazil</AnswerW>
+      <AnswerX>Peru</AnswerX>
+      <AnswerY>Jamaica</AnswerY>
+      <AnswerZ>Guiana [gy-AH-nuh]</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="26943" QuestionIDString="0000026943">
+    <Question QuestionID="12720" QuestionIDString="0000012720">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the structure that barnacles use to feed?</QuestionText>
-      <CorrectAnswer>Cirri (sear-eye)</CorrectAnswer>
+      <QuestionText>Gastropods and bivalves are prominent members of which phylum?</QuestionText>
+      <CorrectAnswer>Mollusca (ACCEPT: Mollusc, Molluscs)</CorrectAnswer>
     </Question>
-    <Question QuestionID="27473" QuestionIDString="0000027473">
+    <Question QuestionID="27503" QuestionIDString="0000027503">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following practices does NOT help in the reduction of bird bycatch in longlines?</QuestionText>
-      <AnswerW>Towing buoys</AnswerW>
-      <AnswerX>Using blue-dyed bait</AnswerX>
-      <AnswerY>Deploying sets at night</AnswerY>
-      <AnswerZ>Setting lines at the stern of the boat</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>The first major challenge to the freedom-of-the-seas doctrine came in 1945 when President Harry S. Truman responded to pressure from domestic oil interests regarding jurisdiction over which of the following?</QuestionText>
+      <AnswerW>Exclusive Economic Zone</AnswerW>
+      <AnswerX>Continental shelf</AnswerX>
+      <AnswerY>Deep sea zone</AnswerY>
+      <AnswerZ>Riparian state</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="8389" QuestionIDString="0000008389">
+    <Question QuestionID="22831" QuestionIDString="0000022831">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Persistent winds blowing across the surface of the water can lead to corkscrew-shaped flows that are roughly parallel to the direction of the wind.  What is this kind of circulation called?</QuestionText>
-      <CorrectAnswer>Langmuir circulation</CorrectAnswer>
+      <QuestionText>What type of island forms along the outer edges of passive continental margins?</QuestionText>
+      <CorrectAnswer>Barrier island</CorrectAnswer>
     </Question>
-    <Question QuestionID="26848" QuestionIDString="0000026848">
+    <Question QuestionID="26338" QuestionIDString="0000026338">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which class of Cnidaria contains true jellies, such as the moon jelly?</QuestionText>
-      <AnswerW>Hydrozoa</AnswerW>
-      <AnswerX>Scyphozoa (sky-pho-zoh-ah)</AnswerX>
-      <AnswerY>Anthozoa (an-tho-zoh-ah)</AnswerY>
-      <AnswerZ>Cubozoa</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
+      <QuestionText>The extremely invasive algae Caulerpa taxifolia [kuh-lair-pah TAX-ih-FOL-ee-ah] is believed to have escaped from aquaria in which of the following two countries?</QuestionText>
+      <AnswerW>Spain and Portugal</AnswerW>
+      <AnswerX>United States and Mexico</AnswerX>
+      <AnswerY>France and Monaco</AnswerY>
+      <AnswerZ>Germany and Poland</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="12883" QuestionIDString="0000012883">
+    <Question QuestionID="13305" QuestionIDString="0000013305">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
+      <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is a strait that connects the Red Sea to the Indian Ocean?</QuestionText>
-      <CorrectAnswer>Bab-el-Mandeb (Also accept Mandab Strait)</CorrectAnswer>
+      <QuestionText>What is a line of constant longitude called?</QuestionText>
+      <CorrectAnswer>A meridian</CorrectAnswer>
     </Question>
-    <Question QuestionID="27493" QuestionIDString="0000027493">
+    <Question QuestionID="27363" QuestionIDString="0000027363">
       <QuestionPair>8</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The so called Heinrich Events of the North Atlantic lasted approximately how many years?</QuestionText>
-      <AnswerW>1 to 10</AnswerW>
-      <AnswerX>100 to 1,000</AnswerX>
-      <AnswerY>10 to 100</AnswerY>
-      <AnswerZ>1,000 to 10,000</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27375" QuestionIDString="0000027375">
-      <QuestionPair>8</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What are the definitions of gross AND net rates of primary production?</QuestionText>
-      <CorrectAnswer>Gross primary production is the amount of inorganic carbon fixed photosynthetically. Net primary production is gross primary production less the rate of carbon loss from plant respiration.</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27255" QuestionIDString="0000027255">
-      <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>On July 19, 2010, President Obama established what organization to provide sustained, high-level, and coordinated attention to ocean, coastal, and Great Lakes issues?</QuestionText>
-      <AnswerW>Pew Ocean Commission</AnswerW>
-      <AnswerX>US Commission on Ocean Policy</AnswerX>
-      <AnswerY>Interagency Ocean Policy Task Force</AnswerY>
-      <AnswerZ>National Ocean Council</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>In 2010, which convention established an international agreement to protect the following seven shark species: Great White, Basking, Whale, Porbeagle, Spiny Dogfish, Shortfin and Longfin Makos?</QuestionText>
+      <AnswerW>Convention for the International Trade in Endangered Species</AnswerW>
+      <AnswerX>Convention on the Conservation of Migratory Species of Wild Animals</AnswerX>
+      <AnswerY>International Commission for the Conservation of Atlantic Tunas</AnswerY>
+      <AnswerZ>Convention on Biological Diversity</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="27005" QuestionIDString="0000027005">
-      <QuestionPair>9</QuestionPair>
+    <Question QuestionID="3092" QuestionIDString="0000003092">
+      <QuestionPair>8</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Oceanic sediments cover about 75 percent of the ocean bottom. What is the correct order, from MOST to LEAST percent coverage of the following: siliceous ooze, abyssal clay and calcareous ooze?</QuestionText>
-      <CorrectAnswer>Calcareous ooze, abyssal clay, siliceous ooze</CorrectAnswer>
+      <QuestionText>Each ice age is made up of several periods related to the amount of sunlight reaching the Earth. What are the two names for these periods?</QuestionText>
+      <CorrectAnswer>Glacials and interglacials</CorrectAnswer>
     </Question>
-    <Question QuestionID="27464" QuestionIDString="0000027464">
-      <QuestionPair>10</QuestionPair>
+    <Question QuestionID="27459" QuestionIDString="0000027459">
+      <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Acoustic Doppler Current Profilers use divergent beam geometry. Which type do Acoustic Doppler Velocimeters use?</QuestionText>
-      <AnswerW>Divergent</AnswerW>
-      <AnswerX>Bistatic</AnswerX>
-      <AnswerY>Transferred</AnswerY>
-      <AnswerZ>Induced</AnswerZ>
+      <QuestionText>Underwater electric cables create induced magnetic fields around them. Organisms moving through these magnetic fields will create which of the following?</QuestionText>
+      <AnswerW>Induced electric field or charge</AnswerW>
+      <AnswerX>Proton field</AnswerX>
+      <AnswerY>Reversed polarity magnetic field</AnswerY>
+      <AnswerZ>Cavitation</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="26311" QuestionIDString="0000026311">
-      <QuestionPair>10</QuestionPair>
+    <Question QuestionID="27041" QuestionIDString="0000027041">
+      <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the scientific term for the paired male copulatory organs, or claspers, characteristic of the class Chondrichthyes (kon-drik-thee-ees)?</QuestionText>
-      <CorrectAnswer>Myxopterygia</CorrectAnswer>
+      <QuestionText>What is the primary function of the radula?</QuestionText>
+      <CorrectAnswer>Eating (ACCEPT: Scraping, obtaining food)</CorrectAnswer>
     </Question>
-    <Question QuestionID="26906" QuestionIDString="0000026906">
+    <Question QuestionID="27494" QuestionIDString="0000027494">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The so-called Heinrich events of the North Atlantic were produced by which of the following?</QuestionText>
+      <AnswerW>Release of large numbers of icebergs</AnswerW>
+      <AnswerX>Formation of extensive sea ice</AnswerX>
+      <AnswerY>Large areas of upwelling and high productivity</AnswerY>
+      <AnswerZ>Dramatic changes in tidal forces</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12957" QuestionIDString="0000012957">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which two seas are connected by the Kerch Strait?</QuestionText>
+      <CorrectAnswer>The Black Sea and Azov Sea (Sea of Azov)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27040" QuestionIDString="0000027040">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>During foraging, sea otters use baggy skin pockets to store food during the ascent. Where, on the body, are these pockets located?</QuestionText>
-      <AnswerW>Belly</AnswerW>
-      <AnswerX>Armpit</AnswerX>
-      <AnswerY>Leg</AnswerY>
-      <AnswerZ>Back</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
+      <QuestionText>Which of the following fish does NOT have a bioluminescent organ?</QuestionText>
+      <AnswerW>Viper fish</AnswerW>
+      <AnswerX>Dragon fish</AnswerX>
+      <AnswerY>Tubular-eyed fish</AnswerY>
+      <AnswerZ>Angler fish</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="27510" QuestionIDString="0000027510">
+    <Question QuestionID="8498" QuestionIDString="0000008498">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Under the Outer Continental Shelf Lands Act, what term defines the process of searching for minerals, including geophysical surveys where magnetic, gravity, seismic, or other systems are deployed?</QuestionText>
-      <CorrectAnswer>Exploration</CorrectAnswer>
+      <QuestionText>What effect would an increase in the transport of carbon dioxide to the deep oceans have on the Carbonate Compensation Depth?</QuestionText>
+      <CorrectAnswer>It would cause the CCD to rise to shallower depths.</CorrectAnswer>
     </Question>
-    <Question QuestionID="26114" QuestionIDString="0000026114">
+    <Question QuestionID="26286" QuestionIDString="0000026286">
       <QuestionPair>12</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is the term used to describe the mechanism through which bacteria locate and aggregate towards dissolved organic matter around a phytoplankton cell?</QuestionText>
-      <AnswerW>Phytotaxsis</AnswerW>
-      <AnswerX>Rheotaxsis</AnswerX>
-      <AnswerY>Chemotaxis</AnswerY>
-      <AnswerZ>Phototaxsis</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12326" QuestionIDString="0000012326">
-      <QuestionPair>12</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What nomenclature system did Swedish botanist Carl von Linne invent?</QuestionText>
-      <CorrectAnswer>Binomial system</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26123" QuestionIDString="0000026123">
-      <QuestionPair>13</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Theme</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which term best describe the process through which two species arise from the same ancestral species through physical separation such as the formation of an island arc cutting off dispersal current?</QuestionText>
-      <AnswerW>Parapatric speciation</AnswerW>
-      <AnswerX>Hybrid speciation</AnswerX>
-      <AnswerY>Allopatric speciation</AnswerY>
-      <AnswerZ>Sympatric speciation</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="9535" QuestionIDString="0000009535">
-      <QuestionPair>13</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the technique in which temperature structure of a part of the ocean is determined by comparing travel times of acoustic signals among multiple locations?</QuestionText>
-      <CorrectAnswer>Acoustic Tomography</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13981" QuestionIDString="0000013981">
-      <QuestionPair>14</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>An epibiont (ep-ee-BUY-ont) is an organism that, during the sessile phase of its life cycle, is attached to the surface of a living substratum. The organism that serves as a substratum is called the:</QuestionText>
-      <AnswerW>zoobiont  (zoh-buy-ont)</AnswerW>
-      <AnswerX>surfactant</AnswerX>
-      <AnswerY>biont (buy-ont)</AnswerY>
-      <AnswerZ>basibiont   (base-ee-BUY-ont)</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13424" QuestionIDString="0000013424">
-      <QuestionPair>14</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>If a ship sails 10 leagues, how many nautical miles has it sailed?</QuestionText>
-      <CorrectAnswer>30 nautical miles</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26582" QuestionIDString="0000026582">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Physostomus swimbladders of some fish are connected to the esophagus via what vessel?</QuestionText>
-      <AnswerW>Trachea</AnswerW>
-      <AnswerX>Pneumatic duct</AnswerX>
-      <AnswerY>Stomach</AnswerY>
-      <AnswerZ>Otophysic duct</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13853" QuestionIDString="0000013853">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How were most undisturbed marine sediment cores obtained during the Ocean Drilling Program?</QuestionText>
-      <CorrectAnswer>Hydraulic Piston Coring</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26021" QuestionIDString="0000026021">
-      <QuestionPair>16</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Theme</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is likely to cause the greatest sea level rise over the 21st century?</QuestionText>
-      <AnswerW>Melting of land ice</AnswerW>
-      <AnswerX>Melting of sea ice</AnswerX>
-      <AnswerY>Increased precipitation</AnswerY>
-      <AnswerZ>Thermal expansion of ocean water</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12905" QuestionIDString="0000012905">
-      <QuestionPair>16</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What sea is situated between the Mediterranean Sea and the Black Sea?</QuestionText>
-      <CorrectAnswer>Marmara Sea (Sea of Marmara)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26864" QuestionIDString="0000026864">
-      <QuestionPair>17</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the term for a seismically inactive linear feature on the seafloor?</QuestionText>
-      <AnswerW>Sea Mount</AnswerW>
-      <AnswerX>Mid-ocean ridge</AnswerX>
-      <AnswerY>Fracture Zone</AnswerY>
-      <AnswerZ>Transform Fault</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26446" QuestionIDString="0000026446">
-      <QuestionPair>17</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Pressure retarded osmosis or reversed electrodialysis are potential means for generating renewable energy from the gradient of what sea water parameter?</QuestionText>
-      <CorrectAnswer>Salinity (Accept salinity gradients)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="7657" QuestionIDString="0000007657">
-      <QuestionPair>18</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the mean time for a particle to pass through an estuarine system?</QuestionText>
-      <AnswerW>Flushing time</AnswerW>
-      <AnswerX>Tidal period</AnswerX>
-      <AnswerY>Flow velocity</AnswerY>
-      <AnswerZ>Absorption time</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <QuestionText>Which term describes a fluid in which the isopycnals and isobars are parallel?</QuestionText>
+      <AnswerW>Baroclinic</AnswerW>
+      <AnswerX>Euryhaline</AnswerX>
+      <AnswerY>Isotropic</AnswerY>
+      <AnswerZ>Barotropic</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="13818" QuestionIDString="0000013818">
-      <QuestionPair>18</QuestionPair>
+    <Question QuestionID="26836" QuestionIDString="0000026836">
+      <QuestionPair>12</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is suspected to have created the Chesapeake Bay's present opening to the Atlantic Ocean?</QuestionText>
-      <CorrectAnswer>Meteorite</CorrectAnswer>
+      <QuestionText>Marine carbon dioxide seeps have been found in hydrothermal vent areas and near volcanoes. What are they commonly called?</QuestionText>
+      <CorrectAnswer>Champagne vents</CorrectAnswer>
     </Question>
-    <Question QuestionID="26088" QuestionIDString="0000026088">
-      <QuestionPair>19</QuestionPair>
+    <Question QuestionID="27115" QuestionIDString="0000027115">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following groups contains the smallest marine fish?</QuestionText>
+      <AnswerW>Angel fish</AnswerW>
+      <AnswerX>Damsel fish</AnswerX>
+      <AnswerY>Wrasses</AnswerY>
+      <AnswerZ>Angler fish</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13259" QuestionIDString="0000013259">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In 1902, why did European scientists organize a meeting forum called the International Council for the Exploration of the Sea (ICES) [EYE-sees]?</QuestionText>
+      <CorrectAnswer>To discuss and/or improve international fisheries (ACCEPT: North Atlantic fisheries)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27111" QuestionIDString="0000027111">
+      <QuestionPair>14</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Chemical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which one of the following ionic buffer systems in the ocean affects sound transmission so significantly that a reduction in ocean pH could impact whale calls?</QuestionText>
-      <AnswerW>Carbonate</AnswerW>
-      <AnswerX>Sulphate</AnswerX>
-      <AnswerY>Borate and carbonate</AnswerY>
-      <AnswerZ>Phosphate</AnswerZ>
+      <QuestionText>Which of the following areas has the lowest chlorophyll concentration?</QuestionText>
+      <AnswerW>Southern Ocean</AnswerW>
+      <AnswerX>North Atlantic</AnswerX>
+      <AnswerY>Equator</AnswerY>
+      <AnswerZ>South Pacific Gyre</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27406" QuestionIDString="0000027406">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Why is the seabird Stercorarius parasiticus [STAIR-core-AIR-ee-oos para-sit-i-cus], the Arctic Skua, commonly known as the Parasitic Jaeger [YAY-ger]?</QuestionText>
+      <CorrectAnswer>Because it robs other seabirds of their catches</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14032" QuestionIDString="0000014032">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>A cable length or cable is a nautical unit of measure equal to how many feet?</QuestionText>
+      <AnswerW>100</AnswerW>
+      <AnswerX>453</AnswerX>
+      <AnswerY>501</AnswerY>
+      <AnswerZ>608</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27454" QuestionIDString="0000027454">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>If a pressure sensor rated to 100 meters has a specified accuracy of 0.1 percent of full scale, what is the accuracy of the sensor in meters?</QuestionText>
+      <CorrectAnswer>0.1 meters</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27420" QuestionIDString="0000027420">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>According to the United State Commission on Ocean Policy, what is the value, in dollars, of the merchandise handled annually by U.S. ports?</QuestionText>
+      <AnswerW>900 million</AnswerW>
+      <AnswerX>2 billion</AnswerX>
+      <AnswerY>700 billion</AnswerY>
+      <AnswerZ>2 trillion</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="26841" QuestionIDString="0000026841">
-      <QuestionPair>19</QuestionPair>
+    <Question QuestionID="27404" QuestionIDString="0000027404">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the common name of only species of nocturnal gull, and where is it found?</QuestionText>
+      <CorrectAnswer>The Swallow-tailed Gull and the Galápagos Islands</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26715" QuestionIDString="0000026715">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following substances behaves conservatively in seawater?</QuestionText>
+      <AnswerW>Bicarbonate</AnswerW>
+      <AnswerX>Helium</AnswerX>
+      <AnswerY>Ammonia</AnswerY>
+      <AnswerZ>Nitrate</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27318" QuestionIDString="0000027318">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Shrouding the propeller of a ship within a metal duct was found to produce significantly more thrust at relatively low speeds. What term is used for a shrouded, ducted propeller?</QuestionText>
+      <CorrectAnswer>Kort nozzle</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26128" QuestionIDString="0000026128">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following seabirds does NOT lay their eggs in a burrow?</QuestionText>
+      <AnswerW>Double-crested cormorant</AnswerW>
+      <AnswerX>Tufted puffin</AnswerX>
+      <AnswerY>Fairy penquin</AnswerY>
+      <AnswerZ>Rhinoceros auklet</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27506" QuestionIDString="0000027506">
+      <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In order to protect and conserve ocean and Great Lakes areas of exceptional environmental and cultural value, what federal program was created within the National Oceanic and Atmospheric Administration?</QuestionText>
-      <CorrectAnswer>National Marine Sanctuary Program</CorrectAnswer>
+      <QuestionText>What act was adopted to set standards for the behavior of United States citizens in Antarctica by regulating the discharge of pollutants and the take of native mammals or birds?</QuestionText>
+      <CorrectAnswer>The Antarctic Conservation Act of 1978 (ACCEPT: Antarctic Conservation Act)</CorrectAnswer>
     </Question>
-    <Question QuestionID="12306" QuestionIDString="0000012306">
-      <QuestionPair>20</QuestionPair>
+    <Question QuestionID="27395" QuestionIDString="0000027395">
+      <QuestionPair>19</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The core and mantle of the Earth are separated by a layer named for which seismologist?</QuestionText>
-      <AnswerW>Mohorovicic (mo-ho-RO-vee-chic)</AnswerW>
-      <AnswerX>Gutenberg</AnswerX>
-      <AnswerY>Wegner</AnswerY>
-      <AnswerZ>Hudson</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
+      <QuestionText>Which of the following is favorable to the preservation of varved sediment?</QuestionText>
+      <AnswerW>Rich benthic fauna</AnswerW>
+      <AnswerX>Coarse sediment flux</AnswerX>
+      <AnswerY>Agitated water column</AnswerY>
+      <AnswerZ>Anoxic conditions</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="26270" QuestionIDString="0000026270">
+    <Question QuestionID="26403" QuestionIDString="0000026403">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>To what phylum do foraminifera belong?</QuestionText>
+      <CorrectAnswer>Protozoa</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26138" QuestionIDString="0000026138">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following proteins is expressed at the top and base of the tube feet of purple urchins, suggesting the possibility of complex light detection?</QuestionText>
+      <AnswerW>Actin</AnswerW>
+      <AnswerX>Myosin</AnswerX>
+      <AnswerY>Fibrin</AnswerY>
+      <AnswerZ>Opsin</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12913" QuestionIDString="0000012913">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the primary drawback of the Mercator map projection?</QuestionText>
-      <CorrectAnswer>Polar exaggeration (scale is much larger at the poles than equator)</CorrectAnswer>
+      <QuestionText>What are the TWO straits that connect the North Sea to the Baltic Sea?</QuestionText>
+      <CorrectAnswer>Skagerrak [SKA-ger-ak] and Kattegat [KAT-uh-gat]</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

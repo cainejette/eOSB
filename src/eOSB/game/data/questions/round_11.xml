@@ -1,405 +1,405 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Round RoundID="435" BowlYear="2012" RoundName="Round 11" CompetitionName="Regional Competition 1">
+<Round RoundID="436" BowlYear="2012" RoundName="Round 11" CompetitionName="Regional Competition 2">
   <Questions>
-    <Question QuestionID="7823" QuestionIDString="0000007823">
+    <Question QuestionID="26087" QuestionIDString="0000026087">
       <QuestionPair>1</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What does the phrase "steady state assumption" imply?</QuestionText>
-      <AnswerW>We assume that the world ocean is changing very slowly with time.</AnswerW>
-      <AnswerX>The ocean basins are interconnected so processes acting in the most remote basins eventually affect all the oceans.</AnswerX>
-      <AnswerY>Sea water is generally well mixed.</AnswerY>
-      <AnswerZ>Bottom water in the deep ocean returns to the surface in 1000 to 2000 years.</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12614" QuestionIDString="0000012614">
-      <QuestionPair>1</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Who received the honor in 2005 of knighthood, as Dame Commander of the Order of the British Empire, following her fastest ever single handed circumnavigation?</QuestionText>
-      <CorrectAnswer>(Dame) Ellen MacArthur</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27322" QuestionIDString="0000027322">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Theme</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In 2004, a fossilized organism was discovered and nicknamed "fishapod" because it had fins with shoulder-, elbow-, and wrist-like bones. Which of the following processes could that fin structure NOT have enabled?</QuestionText>
-      <AnswerW>Diving to deep water</AnswerW>
-      <AnswerX>Pushing itself along the seafloor bottom</AnswerX>
-      <AnswerY>Stabilizing itself in the water column</AnswerY>
-      <AnswerZ>Making short excursions on to land</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26397" QuestionIDString="0000026397">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Why do internal waves move more slowly than surface waves?</QuestionText>
-      <CorrectAnswer>The density difference between the two media at the wave interference is small</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27169" QuestionIDString="0000027169">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Phenological monitoring is an important tool in the study of climate change. What does the study of phenology focus on?</QuestionText>
-      <AnswerW>The study of sea ice</AnswerW>
-      <AnswerX>The study of ocean acidification</AnswerX>
-      <AnswerY>The study of the pole-ward migration of tropical species</AnswerY>
-      <AnswerZ>The study of the timing of natural events</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="22212" QuestionIDString="0000022212">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the English translation of the Japanese word tsunami?</QuestionText>
-      <CorrectAnswer>Great wave in harbor</CorrectAnswer>
-    </Question>
-    <Question QuestionID="22292" QuestionIDString="0000022292">
-      <QuestionPair>4</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the approximate maximum altitude in kilometers at which weather balloons can be used?</QuestionText>
-      <AnswerW>20</AnswerW>
-      <AnswerX>40</AnswerX>
-      <AnswerY>80</AnswerY>
-      <AnswerZ>120</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26080" QuestionIDString="0000026080">
-      <QuestionPair>4</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>A unit commonly used for water flow is the Sverdrup. How much flow constitutes one Sverdrup?</QuestionText>
-      <CorrectAnswer>One million cubic meters per second (also accept .001 cubic kilometers per second, one billion liters per second, OR 264 million gallons per second)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27245" QuestionIDString="0000027245">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>“Tusk shell” is a common term used to describe which of the following organisms?</QuestionText>
-      <AnswerW>Scaphopods (SKA-foh-pahds)</AnswerW>
-      <AnswerX>Cone snails</AnswerX>
-      <AnswerY>Nautiloids</AnswerY>
-      <AnswerZ>Chitons (KY-tuhns)</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="9038" QuestionIDString="0000009038">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What form of hydrate has inspired dreams of energy independence among some gas-importing countries?</QuestionText>
-      <CorrectAnswer>Methane Hydrate</CorrectAnswer>
-    </Question>
-    <Question QuestionID="14054" QuestionIDString="0000014054">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>During times of environmental stress tardigrades enter a state of suspended animation known as which of the following?</QuestionText>
-      <AnswerW>Cristae</AnswerW>
-      <AnswerX>Cryostasis</AnswerX>
-      <AnswerY>Comatose</AnswerY>
-      <AnswerZ>Cryptobiosis</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13263" QuestionIDString="0000013263">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What branch of geology focuses on the structure, chemical composition and formation of rocks?</QuestionText>
-      <CorrectAnswer>Petrology</CorrectAnswer>
-    </Question>
-    <Question QuestionID="8490" QuestionIDString="0000008490">
-      <QuestionPair>7</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>A water sample with an oxygen saturation of 125 percent was collected, but the bottle label only noted that it was collected at night. Which of the following is the most likely location from where the sample was collected?</QuestionText>
-      <AnswerW>Surf zone on a beach</AnswerW>
-      <AnswerX>Top surface waters of a pond</AnswerX>
-      <AnswerY>Deep ocean</AnswerY>
-      <AnswerZ>A percent saturation of over 100% is not possible</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12958" QuestionIDString="0000012958">
-      <QuestionPair>7</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Which TWO seas are connected by the La Perouse Strait?</QuestionText>
-      <CorrectAnswer>Japan Sea AND Okhotsk Sea</CorrectAnswer>
-    </Question>
-    <Question QuestionID="7937" QuestionIDString="0000007937">
-      <QuestionPair>8</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>At what latitude degree South does the Antarctic Convergence Zone begin?</QuestionText>
-      <AnswerW>50</AnswerW>
-      <AnswerX>90</AnswerX>
-      <AnswerY>80</AnswerY>
-      <AnswerZ>70</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26243" QuestionIDString="0000026243">
-      <QuestionPair>8</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Limacina (lih-ma-seen-ah) helicina (hell-ih-seen-ah), abundant in the cold waters of the Southern Ocean, is what type of gastropod?</QuestionText>
-      <CorrectAnswer>Accept: Thecastomate OR Sea butterfly OR Limacinid. DO NOT ACCEPT: Pteropod</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26650" QuestionIDString="0000026650">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which country's government is determined to produce up to 10 million tons of seaweed by 2012, making it the world`s largest seaweed producer?</QuestionText>
-      <AnswerW>China</AnswerW>
-      <AnswerX>Indonesia</AnswerX>
-      <AnswerY>Japan</AnswerY>
-      <AnswerZ>France</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="22369" QuestionIDString="0000022369">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Why are the Emperor Seamounts just north of the Hawaiian Island chain submerged, whereas the Hawaiian Islands are not?</QuestionText>
-      <CorrectAnswer>Because the Emperor Seamounts are older and have eroded over time as they moved farther away from the Hawaiian hot spot.</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27252" QuestionIDString="0000027252">
-      <QuestionPair>10</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the function of the ventral throat grooves found on rorqual, blue and pygmy right whales?</QuestionText>
-      <AnswerW>Storing energy as blubber</AnswerW>
-      <AnswerX>Increasing volume of songs</AnswerX>
-      <AnswerY>Allowing for expanded intake of water during feeding</AnswerY>
-      <AnswerZ>Increasing arch of back when diving</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26799" QuestionIDString="0000026799">
-      <QuestionPair>10</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the process that causes a chaotic, stormy sea to eventually sort waves by wavelength?</QuestionText>
-      <CorrectAnswer>Dispersion</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27403" QuestionIDString="0000027403">
-      <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following cargo ships collided with a steamer off Halifax, Nova Scotia in 1917, exploding and causing over 1,000 deaths, and blinding nearly one hundred people who came to the harbor to view the scene?</QuestionText>
-      <AnswerW>Imo</AnswerW>
-      <AnswerX>Royal Edward</AnswerX>
-      <AnswerY>Mont Blanc</AnswerY>
-      <AnswerZ>Royal George</AnswerZ>
+      <QuestionText>Approximately how many people living within an elevation of 1 meter above mean high water worldwide are projected to be impacted by sea level rise in the next century?</QuestionText>
+      <AnswerW>1.5 million</AnswerW>
+      <AnswerX>15 million</AnswerX>
+      <AnswerY>150 million</AnswerY>
+      <AnswerZ>200 million</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="26111" QuestionIDString="0000026111">
-      <QuestionPair>11</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Theme</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Marine viruses are suggested to play a role in the evolution of single cell organisms by what process that alters their host genome?</QuestionText>
-      <CorrectAnswer>Transduction</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27127" QuestionIDString="0000027127">
-      <QuestionPair>12</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What term is commonly used to describe diatoms that are radially symmetric in valve view?</QuestionText>
-      <AnswerW>Round</AnswerW>
-      <AnswerX>Circular</AnswerX>
-      <AnswerY>Centric</AnswerY>
-      <AnswerZ>Pennate</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27458" QuestionIDString="0000027458">
-      <QuestionPair>12</QuestionPair>
+    <Question QuestionID="22452" QuestionIDString="0000022452">
+      <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Coastal high frequency radar stations are used primarily to map what ocean property?</QuestionText>
-      <CorrectAnswer>Surface currents</CorrectAnswer>
+      <QuestionText>How does NITROX [NI-trocks], used by divers, extend bottom time?</QuestionText>
+      <CorrectAnswer>Reduced nitrogen in the breathing mixture reduces nitrogen uptake in body tissues, therefore extending dive time (ACCEPT: Reducing risk of decompression sickness)</CorrectAnswer>
     </Question>
-    <Question QuestionID="26510" QuestionIDString="0000026510">
-      <QuestionPair>13</QuestionPair>
+    <Question QuestionID="8395" QuestionIDString="0000008395">
+      <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>From which marine organism was the antiviral drug Cytarabine, used in the treatment of Leukemia, extracted?</QuestionText>
-      <AnswerW>Seaweed</AnswerW>
-      <AnswerX>Cone snail</AnswerX>
-      <AnswerY>Jellyfish</AnswerY>
-      <AnswerZ>Sponge</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>What is the depth, in meters, of the permanent thermocline in low and middle latitudes?</QuestionText>
+      <AnswerW>20-200</AnswerW>
+      <AnswerX>200-1500</AnswerX>
+      <AnswerY>1500-3000</AnswerY>
+      <AnswerZ>000-5000</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="12977" QuestionIDString="0000012977">
-      <QuestionPair>13</QuestionPair>
+    <Question QuestionID="26770" QuestionIDString="0000026770">
+      <QuestionPair>2</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the world's narrowest strait used for international navigation?</QuestionText>
-      <CorrectAnswer>Bosporus OR Bosphorus</CorrectAnswer>
+      <QuestionText>After the breakup of the supercontinent Pangaea 200 million years ago, two supercontinents were formed: Laurasia and Gondwana. Which five of the modern continents or subcontinents made up the bulk of the ancient supercontinent of Gondwana?</QuestionText>
+      <CorrectAnswer>Antarctica, South America, Africa, India, and Australia</CorrectAnswer>
     </Question>
-    <Question QuestionID="13874" QuestionIDString="0000013874">
-      <QuestionPair>14</QuestionPair>
+    <Question QuestionID="26188" QuestionIDString="0000026188">
+      <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In which of the following geologic periods were conditions NOT suitable for petroleum formation?</QuestionText>
-      <AnswerW>Jurassic</AnswerW>
-      <AnswerX>Permian</AnswerX>
-      <AnswerY>Cambrian</AnswerY>
-      <AnswerZ>Cretaceous</AnswerZ>
+      <QuestionText>The only borehole to have sampled a full, intact section of the upper oceanic crust is IODP hole 1256D. On which tectonic plate was it located?</QuestionText>
+      <AnswerW>Antarctic</AnswerW>
+      <AnswerX>Philippine</AnswerX>
+      <AnswerY>Cocos</AnswerY>
+      <AnswerZ>Arabian</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="27306" QuestionIDString="0000027306">
-      <QuestionPair>14</QuestionPair>
+    <Question QuestionID="8659" QuestionIDString="0000008659">
+      <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In general, what happens to the concentration of carbon, oxygen and nutrients in deep water as it moves away from where it is formed?</QuestionText>
-      <CorrectAnswer>Carbon dioxide and nutrients increase, while oxygen decreases</CorrectAnswer>
+      <QuestionText>The majority of dissolved inorganic carbon in the ocean is in what form?</QuestionText>
+      <CorrectAnswer>Bicarbonate</CorrectAnswer>
     </Question>
-    <Question QuestionID="26391" QuestionIDString="0000026391">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What naturally-occurring chemical compound do several species of seabirds and reef fish use as an olfactory cue to locate phytoplankton?</QuestionText>
-      <AnswerW>Carbonyl sulfate</AnswerW>
-      <AnswerX>Methane</AnswerX>
-      <AnswerY>Dimethylsulfide</AnswerY>
-      <AnswerZ>Ammonium sulfide</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13840" QuestionIDString="0000013840">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the sea-borne observatory for studying the upper ocean that is towed to its destination as a barge, and then turns upright by filling ballast tanks with sea water?</QuestionText>
-      <CorrectAnswer>FLIP (Accept Floating Instrument Platform)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12860" QuestionIDString="0000012860">
-      <QuestionPair>16</QuestionPair>
+    <Question QuestionID="22319" QuestionIDString="0000022319">
+      <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which organisms are NOT primary contributors to the famous pink sand on the beaches of the islands of Bermuda?</QuestionText>
-      <AnswerW>Crustaceans</AnswerW>
-      <AnswerX>Mollusks</AnswerX>
-      <AnswerY>Foraminiferans</AnswerY>
-      <AnswerZ>Corals</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <QuestionText>Which of the following elements is NOT a major component of manganese nodules?</QuestionText>
+      <AnswerW>Copper</AnswerW>
+      <AnswerX>Nickel</AnswerX>
+      <AnswerY>Cobalt</AnswerY>
+      <AnswerZ>Argon</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="22333" QuestionIDString="0000022333">
-      <QuestionPair>16</QuestionPair>
+    <Question QuestionID="27105" QuestionIDString="0000027105">
+      <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Define caballing as it applies to ocean mixing.</QuestionText>
-      <CorrectAnswer>Two distinct water masses with the same density, but different temparatures and salinities, combine to form a new water mass of greater density.</CorrectAnswer>
+      <QuestionText>What is the angle between a diapycnal [DIE-ah-PICK-nawl] and an along-isopycnal [EYE-so-PICK-nawl] flux?</QuestionText>
+      <CorrectAnswer>Ninety degrees (ACCEPT: The direction of the diapycnal is found at a right angle to the isopycnal)</CorrectAnswer>
     </Question>
-    <Question QuestionID="14038" QuestionIDString="0000014038">
-      <QuestionPair>17</QuestionPair>
+    <Question QuestionID="25067" QuestionIDString="0000025067">
+      <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What term is used to describe the unique characteristic of crustacean appendages?</QuestionText>
-      <AnswerW>Ciliated</AnswerW>
-      <AnswerX>Uniramous</AnswerX>
-      <AnswerY>Biramous</AnswerY>
-      <AnswerZ>Triramous</AnswerZ>
+      <QuestionText>Which of these water bodies is a marginal sea separated from the open ocean by an island arc?</QuestionText>
+      <AnswerW>Bering Sea</AnswerW>
+      <AnswerX>Red Sea</AnswerX>
+      <AnswerY>Mediterranean  Sea</AnswerY>
+      <AnswerZ>Aral Sea</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12431" QuestionIDString="0000012431">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the term for the asexual macroscopic stage of a kelp?</QuestionText>
+      <CorrectAnswer>Sporophyte</CorrectAnswer>
+    </Question>
+    <Question QuestionID="9293" QuestionIDString="0000009293">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What are the partial pressures of oxygen and nitrogen, respectively, in the atmosphere?</QuestionText>
+      <AnswerW>1 and 0.64 atm</AnswerW>
+      <AnswerX>0.21 and 0.78 atm</AnswerX>
+      <AnswerY>0.21 and 1 atm</AnswerY>
+      <AnswerZ>0.52 and 0.64 atm</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="3135" QuestionIDString="0000003135">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What two general types of current measurements made at a fixed point and by following the water motion?</QuestionText>
+      <CorrectAnswer>Lagrangian [luh-GRAN-jee-an] and Eulerian [oi-LAIR-ee-an] meters</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23133" QuestionIDString="0000023133">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Coastal counties account for what percent of the U.S. land area?</QuestionText>
+      <AnswerW>27</AnswerW>
+      <AnswerX>17</AnswerX>
+      <AnswerY>37</AnswerY>
+      <AnswerZ>7</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="9290" QuestionIDString="0000009290">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Explain Marcet's principle and state why it holds true.</QuestionText>
+      <CorrectAnswer>Marcet's principle is the principle of constant proportions (ACCEPT: Ratios of major ions are constant) and holds true because all major ions have very long residence times in the open ocean and therefore are very well mixed</CorrectAnswer>
+    </Question>
+    <Question QuestionID="10007" QuestionIDString="0000010007">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which shoreline mapping technique can map several hundred kilometers of coastline in only a few hours with an accuracy of 15 cm?</QuestionText>
+      <AnswerW>Airborne laser terrain</AnswerW>
+      <AnswerX>Aerial photography</AnswerX>
+      <AnswerY>Satellite bathymetry</AnswerY>
+      <AnswerZ>Total station surveying</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12325" QuestionIDString="0000012325">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What phylum has larval forms that include trochophores (troke-o-phores) and veligers?</QuestionText>
+      <CorrectAnswer>Mollusca</CorrectAnswer>
+    </Question>
+    <Question QuestionID="9320" QuestionIDString="0000009320">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Seasonal variations in atmospheric carbon dioxide concentrations are most pronounced at which location?</QuestionText>
+      <AnswerW>American Samoa</AnswerW>
+      <AnswerX>Mauna Loa, Hawaii</AnswerX>
+      <AnswerY>Barrow, Alaska</AnswerY>
+      <AnswerZ>South Pole</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="27350" QuestionIDString="0000027350">
-      <QuestionPair>17</QuestionPair>
+    <Question QuestionID="19137" QuestionIDString="0000019137">
+      <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The Food and Agriculture Organization's Code of Conduct for Responsible Fisheries and the United Nation's Fish Stocks Agreement both outline the responsibilities of which bodies?</QuestionText>
-      <CorrectAnswer>Regional Fisheries Management Organizations (Also accept: RFMOs)</CorrectAnswer>
+      <QuestionText>What act did the U.S. Congress adopt in 1966, and recently reauthorize in 2008 to provide nonmilitary funding for marine science education and research?</QuestionText>
+      <CorrectAnswer>Sea Grant College and Programs Act</CorrectAnswer>
     </Question>
-    <Question QuestionID="26292" QuestionIDString="0000026292">
-      <QuestionPair>18</QuestionPair>
+    <Question QuestionID="9377" QuestionIDString="0000009377">
+      <QuestionPair>10</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the standard length (in meters) of a drill core recovered by the JOIDES Resolution?</QuestionText>
-      <AnswerW>15</AnswerW>
-      <AnswerX>9.5</AnswerX>
-      <AnswerY>13</AnswerY>
-      <AnswerZ>5.5</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27298" QuestionIDString="0000027298">
-      <QuestionPair>18</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
       <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is one major difference between the global nitrogen and phosphorus cycles?</QuestionText>
-      <CorrectAnswer>Phosphorus has no gaseous phase</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26136" QuestionIDString="0000026136">
-      <QuestionPair>19</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the term used to describe the two sub groups of marine cyanobacteria Prochlorococcus (pro-clor-oh-cock-us) that occupy distinct niches based on light requirements?</QuestionText>
-      <AnswerW>Haplotypes</AnswerW>
-      <AnswerX>Ecotypes</AnswerX>
-      <AnswerY>OTUs</AnswerY>
-      <AnswerZ>Strains</AnswerZ>
+      <QuestionText>Which of the following is NOT one of the the four essential parameters necessary for calculating the concentrations of all the inorganic carbon species in sea water?</QuestionText>
+      <AnswerW>pH</AnswerW>
+      <AnswerX>Total alkalinity</AnswerX>
+      <AnswerY>Precipitated organic carbon</AnswerY>
+      <AnswerZ>Partial Pressure of carbon dioxide</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26559" QuestionIDString="0000026559">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Several phytoplankton species are mixotrophic. What is mixotrophy?</QuestionText>
+      <CorrectAnswer>Having the capacity to be both autotrophic and heterotrophic (ACCEPT: Having the ability to produce its own food while also getting nutrition from other sources)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26376" QuestionIDString="0000026376">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The Environmental Sample Processor is a new method for real-time detection via DNA analysis of which phenomenon?</QuestionText>
+      <AnswerW>Harmful algal blooms</AnswerW>
+      <AnswerX>Hypoxia</AnswerX>
+      <AnswerY>Internal wave generation</AnswerY>
+      <AnswerZ>Ocean acidification</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13022" QuestionIDString="0000013022">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which western Pacific boundary current flows southward off the Philippines?</QuestionText>
+      <CorrectAnswer>Mindanao Current</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27477" QuestionIDString="0000027477">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Over periods of 10,000 years or longer, which of the following has the largest effect on the oxygen isotope composition of seawater?</QuestionText>
+      <AnswerW>Changes in the amount and geographic distribution of coastal upwelling</AnswerW>
+      <AnswerX>Changes in the volume of large continental ice sheets</AnswerX>
+      <AnswerY>Changes in surface current patterns</AnswerY>
+      <AnswerZ>Changes in pH </AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="12269" QuestionIDString="0000012269">
-      <QuestionPair>19</QuestionPair>
+    <Question QuestionID="26977" QuestionIDString="0000026977">
+      <QuestionPair>12</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Who created the underwater vessel The Turtle used during the American Revolution?</QuestionText>
-      <CorrectAnswer>David Bushnell</CorrectAnswer>
+      <QuestionText>What is the process by which one species evolves into multiple species that exploit different niches?</QuestionText>
+      <CorrectAnswer>Adaptive radiation</CorrectAnswer>
     </Question>
-    <Question QuestionID="27382" QuestionIDString="0000027382">
-      <QuestionPair>20</QuestionPair>
+    <Question QuestionID="25315" QuestionIDString="0000025315">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Where in North America would one find the narrowest continental shelf?</QuestionText>
+      <AnswerW>Gulf of Mexico</AnswerW>
+      <AnswerX>Canada's Arctic coast</AnswerX>
+      <AnswerY>South Carolina to Georgia</AnswerY>
+      <AnswerZ>Oregon to Washington State</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27356" QuestionIDString="0000027356">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>According to the Alaska Fisheries Science Center, what species is reported as the primary shark bycatch in the Alaskan halibut fishery?</QuestionText>
+      <CorrectAnswer>Spiny dogfish</CorrectAnswer>
+    </Question>
+    <Question QuestionID="9064" QuestionIDString="0000009064">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The organochlorine compound cryptophycin [KRIP-toe-FIE-kin] is a promising anticancer agent derived from which of the following organisms?</QuestionText>
+      <AnswerW>Sponge</AnswerW>
+      <AnswerX>Sea hare</AnswerX>
+      <AnswerY>Blue-green algae</AnswerY>
+      <AnswerZ>Nudibranch</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="22400" QuestionIDString="0000022400">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the deep, active seismic area that delineates a subduction zone?</QuestionText>
+      <CorrectAnswer>Wadati-Benioff zone (ACCEPT: Benioff zone)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27130" QuestionIDString="0000027130">
+      <QuestionPair>15</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following drives the Equatorial Counter Current?</QuestionText>
-      <AnswerW>Trade winds</AnswerW>
-      <AnswerX>Earth’s rotation</AnswerX>
-      <AnswerY>Sea level differences</AnswerY>
-      <AnswerZ>Thermohaline conditions</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
+      <QuestionText>Approximately what percent of the world’s ocean is considered a high nutrient, low chlorophyll region?</QuestionText>
+      <AnswerW>10</AnswerW>
+      <AnswerX>20</AnswerX>
+      <AnswerY>30</AnswerY>
+      <AnswerZ>40</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="26664" QuestionIDString="0000026664">
+    <Question QuestionID="17734" QuestionIDString="0000017734">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What was the name of the group that kidnapped men to serve in the Royal Navy in London pubs?</QuestionText>
+      <CorrectAnswer>The Press Gang</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26143" QuestionIDString="0000026143">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is NOT a member of the group Ecdysozoa [eck-deh-soh-zoh-a]?</QuestionText>
+      <AnswerW>Tardigrades [tar-dee-grades]</AnswerW>
+      <AnswerX>Crustaceans</AnswerX>
+      <AnswerY>Nematodes</AnswerY>
+      <AnswerZ>Annelids [AN-uh-lids]</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8190" QuestionIDString="0000008190">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>When measured at a depth of 5000 meters, a water parcel has a temperature of 1 degree Celsius. When brought to the surface adiabatically (ad-ee-uh-BAT-ik-lee), the same water parcel now has a temperature of 0.6 degrees Celsius. What is this new temperature measurement known as?</QuestionText>
+      <CorrectAnswer>Potential temperature</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26706" QuestionIDString="0000026706">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>As of February 2012, how many states and territories have Federal-State Coastal Management Programs?</QuestionText>
+      <AnswerW>21</AnswerW>
+      <AnswerX>34</AnswerX>
+      <AnswerY>41</AnswerY>
+      <AnswerZ>50</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7865" QuestionIDString="0000007865">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Name three electron acceptors found in anoxic benthic sediments.</QuestionText>
+      <CorrectAnswer>Any THREE of: Iron, manganese, nitrate, oxygen, sulfate</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26421" QuestionIDString="0000026421">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Classification</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Approximately how many extant species belong to order Cetacea [se-TAY-sha]?</QuestionText>
+      <AnswerW>13</AnswerW>
+      <AnswerX>26</AnswerX>
+      <AnswerY>51</AnswerY>
+      <AnswerZ>78</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26748" QuestionIDString="0000026748">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What model simulates the dominant processes involved in wetland conversions and shoreline modifications during long-term sea level rise?</QuestionText>
+      <CorrectAnswer>Sea Level Affecting Marshes Model (ACCEPT: SLAMM)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12944" QuestionIDString="0000012944">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Who was reputedly the most famous English Romantic marine artist?</QuestionText>
+      <AnswerW>Joseph Turner</AnswerW>
+      <AnswerX>Edwin Church</AnswerX>
+      <AnswerY>Claude Monet</AnswerY>
+      <AnswerZ>Henry Scott Tuke</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="17936" QuestionIDString="0000017936">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What are the degradation products of algal chlorophyll COLLECTIVELY referred to as?</QuestionText>
+      <CorrectAnswer>Phaeopigments</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26518" QuestionIDString="0000026518">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of these types of scales is common in elasmobranchs (ee-laz-mo-branks) and is homologous to their teeth?</QuestionText>
+      <AnswerW>Ctenoid [TEN-oyd]</AnswerW>
+      <AnswerX>Cycloid</AnswerX>
+      <AnswerY>Ganoid</AnswerY>
+      <AnswerZ>Placoid</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13029" QuestionIDString="0000013029">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the main morphological difference between albatrosses and petrels?</QuestionText>
-      <CorrectAnswer>Albatrosses have two short nasal tubes (one on each side of the beak), while Petrels have a double nasal tube (on the top of the beak)</CorrectAnswer>
+      <QuestionText>What is the name of the archipelago that includes the island of Spitsbergen?</QuestionText>
+      <CorrectAnswer>Svalbard [sval-bard]</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

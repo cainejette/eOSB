@@ -1,405 +1,406 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Round RoundID="414" BowlYear="2012" RoundName="Round 05" CompetitionName="Regional Competition 1">
+<Round RoundID="415" BowlYear="2012" RoundName="Round 05" CompetitionName="Regional Competition 2">
   <Questions>
-    <Question QuestionID="27446" QuestionIDString="0000027446">
+    <Question QuestionID="27181" QuestionIDString="0000027181">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Animals living in underwater caves can be subdivided into stygobites [STY-go-bites] and stygophiles [STY-go-files]. What is the difference between them?</QuestionText>
+      <AnswerW>Stygobites are entirely restricted to cave waters</AnswerW>
+      <AnswerX>Stygobites are highly pigmented</AnswerX>
+      <AnswerY>Stygophiles can only complete their life cycle in open waters</AnswerY>
+      <AnswerZ>No stygobites are found in the United Kingdom</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27447" QuestionIDString="0000027447">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Satellite-based sea surface temperature readings best represent the temperature of what portion of the ocean?</QuestionText>
-      <AnswerW>Top 1 cm</AnswerW>
-      <AnswerX>Top 1 m</AnswerX>
-      <AnswerY>Top 10 m</AnswerY>
-      <AnswerZ>Down to the thermocline</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="8306" QuestionIDString="0000008306">
-      <QuestionPair>1</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What happens to the speed of tsunamis when they approach coastal waters?</QuestionText>
-      <CorrectAnswer>The speed diminishes OR they slow down</CorrectAnswer>
+      <QuestionText>What instrument is used to monitor the vocalizations of marine mammals?</QuestionText>
+      <CorrectAnswer>Hydrophone</CorrectAnswer>
     </Question>
-    <Question QuestionID="12256" QuestionIDString="0000012256">
+    <Question QuestionID="26636" QuestionIDString="0000026636">
       <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
+      <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which ecosystem did environmentalist Marjory Stoneman Douglas name The River of Grass?</QuestionText>
-      <AnswerW>Gulf of California</AnswerW>
-      <AnswerX>South Atlantic Bight</AnswerX>
-      <AnswerY>Mississippi River Delta</AnswerY>
-      <AnswerZ>Florida Everglades</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>Which of the following ocean currents flows predominantly in a South to North direction?</QuestionText>
+      <AnswerW>Humboldt</AnswerW>
+      <AnswerX>California</AnswerX>
+      <AnswerY>Agulhas [uh-GUHL-uhs]</AnswerY>
+      <AnswerZ>Canary</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="7661" QuestionIDString="0000007661">
+    <Question QuestionID="8134" QuestionIDString="0000008134">
       <QuestionPair>2</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is another term for oxygen depletion?</QuestionText>
-      <CorrectAnswer>Hypoxia OR anoxia</CorrectAnswer>
+      <QuestionText>Explain the solubility of silica in the ocean in terms of depth and temperature.</QuestionText>
+      <CorrectAnswer>Silica solubility increases with decreasing pressure and increasing temperature</CorrectAnswer>
     </Question>
-    <Question QuestionID="12281" QuestionIDString="0000012281">
+    <Question QuestionID="18421" QuestionIDString="0000018421">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is NOT threatened by coastal development?</QuestionText>
-      <AnswerW>Water quality</AnswerW>
-      <AnswerX>Beach erosion</AnswerX>
-      <AnswerY>Beach access</AnswerY>
-      <AnswerZ>Hydrostatic pressure</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>Where does the Gulf Stream separate from the coast before heading to deeper waters?</QuestionText>
+      <AnswerW>Near the tip of Florida</AnswerW>
+      <AnswerX>Near Cape Hatteras</AnswerX>
+      <AnswerY>Near Cape Cod</AnswerY>
+      <AnswerZ>Near Nova Scotia</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="27175" QuestionIDString="0000027175">
+    <Question QuestionID="26206" QuestionIDString="0000026206">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Marine Policy</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What term is used to describe benthic zones greater than 6 kilometers deep?</QuestionText>
-      <CorrectAnswer>Hadal OR hadopelagic zone OR trench zone</CorrectAnswer>
+      <QuestionText>What is the full name of the agency which manages the Red List of Threatened Species?</QuestionText>
+      <CorrectAnswer>International Union for Conservation of Nature</CorrectAnswer>
     </Question>
-    <Question QuestionID="26635" QuestionIDString="0000026635">
+    <Question QuestionID="26501" QuestionIDString="0000026501">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following ocean currents flows predominantly in a north to south direction?</QuestionText>
-      <AnswerW>Brazil current</AnswerW>
-      <AnswerX>Falkland/Malvinas current</AnswerX>
-      <AnswerY>Gulf Stream</AnswerY>
-      <AnswerZ>Benguela current</AnswerZ>
+      <QuestionText>The electric organ of fish, such as the torpedo ray, is derived primarily from which type of tissue?</QuestionText>
+      <AnswerW>Muscle</AnswerW>
+      <AnswerX>Connective</AnswerX>
+      <AnswerY>Neural</AnswerY>
+      <AnswerZ>Integument [in-teg-yuh-muh]</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="12311" QuestionIDString="0000012311">
+    <Question QuestionID="24227" QuestionIDString="0000024227">
       <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Arrange these sediment grain sizes from largest to smallest: Clay, Silt, Cobble, Sand</QuestionText>
+      <CorrectAnswer>Cobble, Sand, Silt, Clay</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26318" QuestionIDString="0000026318">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>At hydrothermal vents, which substance is absorbed and converted into energy by symbiotic bacteria?</QuestionText>
+      <AnswerW>Potassium sulfate</AnswerW>
+      <AnswerX>Hydrogen sulfide</AnswerX>
+      <AnswerY>Ammonium polysulfide</AnswerY>
+      <AnswerZ>Sodium sulfite</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12312" QuestionIDString="0000012312">
+      <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Isobaths are lines on maps connecting points that have equal value of what parameter?</QuestionText>
-      <CorrectAnswer>Depth below water</CorrectAnswer>
+      <QuestionText>What is the term for the lines on a chart that connect points of equal temperature?</QuestionText>
+      <CorrectAnswer>Isotherms</CorrectAnswer>
     </Question>
-    <Question QuestionID="26489" QuestionIDString="0000026489">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which type of phytoplankton lives in the surface waters of oceans, produces shells made from opal, and is also responsible for siliceous oozes on the seafloor?</QuestionText>
-      <AnswerW>Coccolithophorids (cock-oh-lith-oh-fore-ids)</AnswerW>
-      <AnswerX>Radiolarians (radio-lar-ee-uns)</AnswerX>
-      <AnswerY>Dinoflagellates (die-no-flah-gel-ates)</AnswerY>
-      <AnswerZ>Diatoms</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="8112" QuestionIDString="0000008112">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Why does the concentration of particulate organic matter in the water column decrease with depth in the open ocean?</QuestionText>
-      <CorrectAnswer>As particles sink, organic matter is continually remineralized by bacteria</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26895" QuestionIDString="0000026895">
+    <Question QuestionID="26395" QuestionIDString="0000026395">
       <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The Rossby number can be used to determine the significance of which physical forcing on ocean currents?</QuestionText>
+      <AnswerW>Gravitational</AnswerW>
+      <AnswerX>Buoyancy</AnswerX>
+      <AnswerY>Coriolis</AnswerY>
+      <AnswerZ>Tidal</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27222" QuestionIDString="0000027222">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Why were silver carp originally brought to the United States?</QuestionText>
+      <CorrectAnswer>To control plankton in aquaculture ponds (ACCEPT: As a food fish, for control in municipal wastewater treatment facilities)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27061" QuestionIDString="0000027061">
+      <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the average slope angle, in degrees, of the continental slope?</QuestionText>
-      <AnswerW>7</AnswerW>
-      <AnswerX>4</AnswerX>
-      <AnswerY>1</AnswerY>
-      <AnswerZ>10</AnswerZ>
+      <QuestionText>Which of the following is NOT an island arc?</QuestionText>
+      <AnswerW>Aleutians</AnswerW>
+      <AnswerX>Magdalen Islands</AnswerX>
+      <AnswerY>Japan</AnswerY>
+      <AnswerZ>Vanuatu [van-wa-tu]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="12608" QuestionIDString="0000012608">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Who is known as Her Deepness in honor of her dive to more than 1000 meters?</QuestionText>
-      <CorrectAnswer>Sylvia Earle</CorrectAnswer>
-    </Question>
-    <Question QuestionID="7609" QuestionIDString="0000007609">
-      <QuestionPair>7</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following environmental stressors has been reduced in the Great Lakes over the last decade?</QuestionText>
-      <AnswerW>Direct release of toxins into the water</AnswerW>
-      <AnswerX>Input of airborne mercury</AnswerX>
-      <AnswerY>Presence of invasive species</AnswerY>
-      <AnswerZ>Loss of lakeshore land to urbanization</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12847" QuestionIDString="0000012847">
+    <Question QuestionID="12287" QuestionIDString="0000012287">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is a factory ship?</QuestionText>
-      <CorrectAnswer>A fishing vessel designed to process large amounts of fish (filleting and freezing) onboard</CorrectAnswer>
+      <QuestionText>LNG is the abbreviation for what energy source?</QuestionText>
+      <CorrectAnswer>Liquefied natural gas</CorrectAnswer>
     </Question>
-    <Question QuestionID="26496" QuestionIDString="0000026496">
+    <Question QuestionID="26580" QuestionIDString="0000026580">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following marine relationships is an example of commensalism?</QuestionText>
-      <AnswerW>A cleaner shrimp removing parasites from fish</AnswerW>
-      <AnswerX>A barnacle attached to the body of a gray whale</AnswerX>
-      <AnswerY>An isopod that attaches to the body of a fish</AnswerY>
-      <AnswerZ>A boxer crab that carries a pair of small anemones in its claws</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
+      <QuestionText>What are the stinging cells of cnidarians [nih-DARE-ee-uhnz] called?</QuestionText>
+      <AnswerW>Photophores</AnswerW>
+      <AnswerX>Nematoblast [neh-MAH-tow-blast]</AnswerX>
+      <AnswerY>Pneumatophores [new-MAH-tow-fores]</AnswerY>
+      <AnswerZ>Cnidocytes [NIGH-doh-sites]</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="7719" QuestionIDString="0000007719">
+    <Question QuestionID="27445" QuestionIDString="0000027445">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Where is the Coriolis effect weakest?</QuestionText>
-      <CorrectAnswer>Equator</CorrectAnswer>
-    </Question>
-    <Question QuestionID="7512" QuestionIDString="0000007512">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The alignment of waves by refraction will cause the waves to break at approximately what orientation to the shore?</QuestionText>
-      <AnswerW>90 degrees</AnswerW>
-      <AnswerX>Parallel</AnswerX>
-      <AnswerY>45 degrees</AnswerY>
-      <AnswerZ>Non-obliquely</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27109" QuestionIDString="0000027109">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What technology was instrumental in the discovery of the deep scattering layer?</QuestionText>
-      <CorrectAnswer>Sonar</CorrectAnswer>
+      <QuestionText>Active sonar transmits sound in order to detect objects underwater. What does passive sonar transmit?</QuestionText>
+      <CorrectAnswer>Nothing
+(Explanation: unlike active sonar, passive sonar does not emit its own signal, which is an advantage for military vessels that do not want to be found or for scientific missions that concentrate on quietly listening to the ocean. Rather, it only detects sound waves coming towards it.</CorrectAnswer>
     </Question>
-    <Question QuestionID="12290" QuestionIDString="0000012290">
-      <QuestionPair>10</QuestionPair>
+    <Question QuestionID="12544" QuestionIDString="0000012544">
+      <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following substances accumulates in fish and poses potential health risks to humans?</QuestionText>
-      <AnswerW>Lithium</AnswerW>
-      <AnswerX>Helium</AnswerX>
-      <AnswerY>Mercury</AnswerY>
-      <AnswerZ>Sodium</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27215" QuestionIDString="0000027215">
-      <QuestionPair>10</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How were sea lamprey introduced to the Great Lakes?</QuestionText>
-      <CorrectAnswer>Through the Welland Canal (Also accept shipping canals OR by swimming through canals)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26601" QuestionIDString="0000026601">
-      <QuestionPair>11</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>To which of the following arthropods is the horseshoe crab (Limulus polyphemus) most closely related?</QuestionText>
-      <AnswerW>Crayfish</AnswerW>
-      <AnswerX>Blue crab</AnswerX>
-      <AnswerY>Spider</AnswerY>
-      <AnswerZ>Spiny lobster</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="8636" QuestionIDString="0000008636">
-      <QuestionPair>11</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
       <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The glass-like casing around a diatom is composed of what compound?</QuestionText>
-      <CorrectAnswer>Silicon dioxide (also acceptable: silicate, silica)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26509" QuestionIDString="0000026509">
-      <QuestionPair>12</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the term for seasonal or annual layers of sediment that accumulate in relatively undisturbed lakes?</QuestionText>
-      <AnswerW>Rings</AnswerW>
-      <AnswerX>Bands</AnswerX>
-      <AnswerY>Varves</AnswerY>
-      <AnswerZ>Couplets</AnswerZ>
+      <QuestionText>Which of the following compounds is hypothesized to have been released in vast quantities some 55 million years ago, leading to a rapid global climate change?</QuestionText>
+      <AnswerW>Calcium carbonates</AnswerW>
+      <AnswerX>Hydrogen sulphides</AnswerX>
+      <AnswerY>Methane hydrates</AnswerY>
+      <AnswerZ>Ozone molecules</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="22194" QuestionIDString="0000022194">
-      <QuestionPair>12</QuestionPair>
+    <Question QuestionID="27015" QuestionIDString="0000027015">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Name three of the five subtropical gyres.</QuestionText>
+      <CorrectAnswer>Any THREE of: Indian Ocean Gyre, North Atlantic Gyre, North Pacific Gyre, South Atlantic Gyre, South Pacific Gyre</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7665" QuestionIDString="0000007665">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The majority of advisories to limit fish consumption for health reasons are due to high levels of which of the following?</QuestionText>
+      <AnswerW>PCBs</AnswerW>
+      <AnswerX>Chlordane</AnswerX>
+      <AnswerY>Dioxins</AnswerY>
+      <AnswerZ>Mercury</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12908" QuestionIDString="0000012908">
+      <QuestionPair>10</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What percentage of the underwater world remains unexplored?</QuestionText>
-      <CorrectAnswer>95 percent</CorrectAnswer>
+      <QuestionText>What was the name of the first submarine to reach the North Pole?</QuestionText>
+      <CorrectAnswer>Nautilus</CorrectAnswer>
     </Question>
-    <Question QuestionID="26035" QuestionIDString="0000026035">
-      <QuestionPair>13</QuestionPair>
+    <Question QuestionID="26178" QuestionIDString="0000026178">
+      <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following describes the depth at which calcareous sediments accumulate at the same rate at which they dissolve?</QuestionText>
-      <AnswerW>Carbonate compensation depth</AnswerW>
-      <AnswerX>Carbonic acid compensation depth</AnswerX>
-      <AnswerY>Carbonite dissolution depth</AnswerY>
-      <AnswerZ>Carbon dissolution depth</AnswerZ>
+      <QuestionText>Which of the following terms describes the adaptations of vascular plants living in high salinity soils, whereby plants maintain high water concentrations in tissues to act as a buffer against water loss by osmosis?</QuestionText>
+      <AnswerW>Succulence strategy</AnswerW>
+      <AnswerX>Autotrophic regulation</AnswerX>
+      <AnswerY>Vegetative osmosis</AnswerY>
+      <AnswerZ>Primary productivity zonation</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="12341" QuestionIDString="0000012341">
-      <QuestionPair>13</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What are four principal oceans of the Earth?</QuestionText>
-      <CorrectAnswer>Atlantic, Pacific, Indian, Arctic. Also acceptable Antarctic or Southern Ocean.</CorrectAnswer>
-    </Question>
-    <Question QuestionID="7767" QuestionIDString="0000007767">
-      <QuestionPair>14</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Breakers will spill, plunge or surge depending on which of the following?</QuestionText>
-      <AnswerW>Volume of seawater</AnswerW>
-      <AnswerX>Velocity of the wind</AnswerX>
-      <AnswerY>Velocity of the deep-water wave</AnswerY>
-      <AnswerZ>Steepness of the underwater slope</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27422" QuestionIDString="0000027422">
-      <QuestionPair>14</QuestionPair>
+    <Question QuestionID="23315" QuestionIDString="0000023315">
+      <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What are four of the five main types of offshore renewable energy?</QuestionText>
-      <CorrectAnswer>Four of the following: Wind, wave, tidal, current, and OTEC (also accept: Ocean Thermal Electric Conversion)</CorrectAnswer>
+      <QuestionText>What man-made structure connects the Atlantic Ocean to the Pacific Ocean?</QuestionText>
+      <CorrectAnswer>Panama Canal</CorrectAnswer>
     </Question>
-    <Question QuestionID="26165" QuestionIDString="0000026165">
+    <Question QuestionID="27065" QuestionIDString="0000027065">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is contained in the superheated fluid exiting the seafloor at hydrothermal vents?</QuestionText>
+      <AnswerW>Hydrocarbons from oil deposits below the surface</AnswerW>
+      <AnswerX>Metals and sulfide leached from subsurface ocean crust</AnswerX>
+      <AnswerY>Concentrated salts from the evaporated sea water</AnswerY>
+      <AnswerZ>Neon and argon</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26192" QuestionIDString="0000026192">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The dinoflagellate Gambierdiscus [gam-beer-dis-cuss] toxicus is infamous for causing what disease?</QuestionText>
+      <CorrectAnswer>Ciguatera [SIG-wah-TARE-uh] (DO NOT ACCEPT: Paralytic or amnesic shellfish poisoning)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27161" QuestionIDString="0000027161">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Why is it much less likely that a locally generated tsunami will occur on the U.S. east coast than the U.S. west coast?</QuestionText>
+      <AnswerW>Large earthquakes are less frequent along the east coast</AnswerW>
+      <AnswerX>The continental shelf is much broader along the east coast</AnswerX>
+      <AnswerY>The mid-Atlantic ridge protects the east coast from tsunamis</AnswerY>
+      <AnswerZ>The Atlantic Ocean is much shallower than the Pacific Ocean</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12924" QuestionIDString="0000012924">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Who was the Roman god of the sea?</QuestionText>
+      <CorrectAnswer>Neptune</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27212" QuestionIDString="0000027212">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of these large fresh-water lakes is contained in only one country?</QuestionText>
+      <AnswerW>Lake Superior</AnswerW>
+      <AnswerX>Lake Victoria</AnswerX>
+      <AnswerY>Lake Tanganyika [tang-ga-knee-ka]</AnswerY>
+      <AnswerZ>Lake Baikal [bye-call]</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8563" QuestionIDString="0000008563">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which current carries water from West to East along the equator in the Pacific?</QuestionText>
+      <CorrectAnswer>Equatorial Undercurrent (ACCEPT: Cromwell Current, North Equatorial Counter Current, Equatorial Counter Current)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26602" QuestionIDString="0000026602">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is NOT a feature of dugongs, but is a feature of manatees?</QuestionText>
-      <AnswerW>Males have tusk-like incisors</AnswerW>
-      <AnswerX>Notched tail</AnswerX>
-      <AnswerY>Strongly downturned snout</AnswerY>
-      <AnswerZ>Six neck vertebrae</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>Oil from within the protoplasm of diatoms is hypothesized to have created which of the following?</QuestionText>
+      <AnswerW>Methane hydrates</AnswerW>
+      <AnswerX>Luciferin</AnswerX>
+      <AnswerY>Petroleum</AnswerY>
+      <AnswerZ>Cod liver oil</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="12901" QuestionIDString="0000012901">
+    <Question QuestionID="26460" QuestionIDString="0000026460">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What was the name of a ship used by Jacques-Yves Cousteau for several decades in his exploration of the World Ocean?</QuestionText>
-      <CorrectAnswer>Calypso</CorrectAnswer>
+      <QuestionText>Why are stromatolites important to our understanding of early Earth history?</QuestionText>
+      <CorrectAnswer>They are one of the first organisms (cyanobacteria) preserved in the fossil record (ACCEPT: They provide evidence of early life on Earth)</CorrectAnswer>
     </Question>
-    <Question QuestionID="26093" QuestionIDString="0000026093">
+    <Question QuestionID="26212" QuestionIDString="0000026212">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The Environmental Protection Agency recommended in 2010 that threats from ocean acidification be included as part of which Act?</QuestionText>
-      <AnswerW>The Marine Mammal Protection Act</AnswerW>
-      <AnswerX>The Endangered Species Act</AnswerX>
-      <AnswerY>The Clean Water Act</AnswerY>
-      <AnswerZ>The Coastal Protection Act</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
+      <QuestionText>Occurring in the 1950's and 1970's, the Cod Wars were a series of confrontations over fishing rights between which two countries?</QuestionText>
+      <AnswerW>Russia and Greenland</AnswerW>
+      <AnswerX>Britain and the U.S.</AnswerX>
+      <AnswerY>Iceland and Poland</AnswerY>
+      <AnswerZ>Britain and Iceland</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="26973" QuestionIDString="0000026973">
+    <Question QuestionID="26974" QuestionIDString="0000026974">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Sailboats are designed to sail straight, so while the ship moves forward, wind pressure on the sail pushes it to one side. What is this lateral movement called?</QuestionText>
-      <CorrectAnswer>Leeway</CorrectAnswer>
+      <QuestionText>What is the name for the portion of a sail boat that reduces leeway?</QuestionText>
+      <CorrectAnswer>Keel (ACCEPT: Centerboard, daggerboard)</CorrectAnswer>
     </Question>
-    <Question QuestionID="26231" QuestionIDString="0000026231">
+    <Question QuestionID="26137" QuestionIDString="0000026137">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following separates the Persian Gulf and the Gulf of Oman?</QuestionText>
-      <AnswerW>Red Sea</AnswerW>
-      <AnswerX>Strait of Gibraltar</AnswerX>
-      <AnswerY>Strait of Hormuz</AnswerY>
-      <AnswerZ>Suez Canal</AnswerZ>
+      <QuestionText>Which of the following best describes the foraging strategy of the brittlestar Amphiuria filiformis [am-fee-ur-ee-uh fill-ih-fore-miss]?</QuestionText>
+      <AnswerW>Ambush predator</AnswerW>
+      <AnswerX>Filter feeder</AnswerX>
+      <AnswerY>Suspension feeder</AnswerY>
+      <AnswerZ>Cruising predator</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="26337" QuestionIDString="0000026337">
+    <Question QuestionID="27202" QuestionIDString="0000027202">
       <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In what ocean basin would you find the Blake Plateau?</QuestionText>
+      <CorrectAnswer>Atlantic</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27138" QuestionIDString="0000027138">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following does NOT occur when carbon dioxide enters the ocean?</QuestionText>
+      <AnswerW>Carbonic acid forms</AnswerW>
+      <AnswerX>Bicarbonate and carbonate are formed</AnswerX>
+      <AnswerY>pH decreases</AnswerY>
+      <AnswerZ>Carbon dioxide is permanently trapped in the water column</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26377" QuestionIDString="0000026377">
+      <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What condition is caused by a free-swimming trematode parasite penetrating human skin?</QuestionText>
-      <CorrectAnswer>Swimmer's itch</CorrectAnswer>
+      <QuestionText>What important trophic pathway, part of the marine food web, increases efficiency by allowing for the utilization of dissolved organic matter?</QuestionText>
+      <CorrectAnswer>Microbial loop</CorrectAnswer>
     </Question>
-    <Question QuestionID="26258" QuestionIDString="0000026258">
-      <QuestionPair>18</QuestionPair>
+    <Question QuestionID="26030" QuestionIDString="0000026030">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which TWO processes are responsible for heat transfer within the Earth's interior?</QuestionText>
+      <AnswerW>Induction and radiation</AnswerW>
+      <AnswerX>Conduction and convection</AnswerX>
+      <AnswerY>Convection and dispersion</AnswerY>
+      <AnswerZ>Scattering and induction</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26729" QuestionIDString="0000026729">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>ADCPs measure water currents using what principle of sound waves?</QuestionText>
+      <CorrectAnswer>Doppler effect (ACCEPT: Doppler shift)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26261" QuestionIDString="0000026261">
+      <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What recent performance upgrade made to Alvin will allow the submersible to operate for up to 12 hours?</QuestionText>
-      <AnswerW>Lithium-ion batteries</AnswerW>
-      <AnswerX>Buoyancy foam</AnswerX>
-      <AnswerY>Overlapping view ports</AnswerY>
-      <AnswerZ>Lead-acid batteries</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <QuestionText>What is the name of the type of trawl which allows fishermen to target haddock while releasing species like cod, helping to reduce the catch of non-target species by more then 50 percent?</QuestionText>
+      <AnswerW>Otter</AnswerW>
+      <AnswerX>Wet fish</AnswerX>
+      <AnswerY>Ruhle</AnswerY>
+      <AnswerZ>Jones-Davis</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="26373" QuestionIDString="0000026373">
-      <QuestionPair>18</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is a Hadley Cell and where does it occur?</QuestionText>
-      <CorrectAnswer>An atmospheric circulation cell 0-30 degrees on North and South sides of the Equator</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26131" QuestionIDString="0000026131">
-      <QuestionPair>19</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Males from which of the following taxa provide exclusive post-zygotic care by carrying fertilized eggs until they hatch?</QuestionText>
-      <AnswerW>Guppies</AnswerW>
-      <AnswerX>Sea spiders</AnswerX>
-      <AnswerY>Sea cucumbers</AnswerY>
-      <AnswerZ>African cichlids (sick-lids)</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26447" QuestionIDString="0000026447">
-      <QuestionPair>19</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What two tectonic plates created the Cascade Mountains?</QuestionText>
-      <CorrectAnswer>Juan de Fuca plate AND North American plate</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26340" QuestionIDString="0000026340">
-      <QuestionPair>20</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What large, slow waves in the open ocean have been associated with El Niño?</QuestionText>
-      <AnswerW>Rossby wave</AnswerW>
-      <AnswerX>Kelvin wave</AnswerX>
-      <AnswerY>Murray wave</AnswerY>
-      <AnswerZ>Ekman wave</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26419" QuestionIDString="0000026419">
+    <Question QuestionID="26492" QuestionIDString="0000026492">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Some cyanobacteria can take elemental nitrogen and convert it to ammonia. What is the name of this process?</QuestionText>
-      <CorrectAnswer>Nitrogen fixation</CorrectAnswer>
+      <QuestionText>What TWO benefits do zooplankton accrue from their production of lipids?</QuestionText>
+      <CorrectAnswer>Maintaining buoyancy and energy storage</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

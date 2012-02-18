@@ -1,405 +1,405 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Round RoundID="426" BowlYear="2012" RoundName="Round 09" CompetitionName="Regional Competition 1">
+<Round RoundID="427" BowlYear="2012" RoundName="Round 09" CompetitionName="Regional Competition 2">
   <Questions>
-    <Question QuestionID="26835" QuestionIDString="0000026835">
+    <Question QuestionID="27532" QuestionIDString="0000027532">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Behavioral scientists working in the US Virgin Islands demonstrated that hermit crabs were less alert to the approach of potential predators as a result of which of the following?</QuestionText>
-      <AnswerW>Sewage pollution</AnswerW>
-      <AnswerX>Light pollution</AnswerX>
-      <AnswerY>Lack of snail shells on the shore</AnswerY>
-      <AnswerZ>Boat noise pollution</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="21059" QuestionIDString="0000021059">
-      <QuestionPair>1</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In the Atlantic and Pacific oceans, the Western Boundary Currents tend to be much stronger, deeper, and narrower in cross section than the currents on the eastern side. What is the name of this phenomenon?</QuestionText>
-      <CorrectAnswer>Western intensification</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26597" QuestionIDString="0000026597">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Who was the first European to navigate into the Pacific Ocean from the Atlantic Ocean, through the Strait between continental South America and Tierra del Fuego?</QuestionText>
-      <AnswerW>Francis Drake</AnswerW>
-      <AnswerX>James Cook</AnswerX>
-      <AnswerY>Ferdinand Magellan</AnswerY>
-      <AnswerZ>Vasco da Gama</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="21589" QuestionIDString="0000021589">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What climate cycle generates glacial and interglacial events on time scales driven by orbital variations of the Earth and Sun?</QuestionText>
-      <CorrectAnswer>Milankovitch cycle</CorrectAnswer>
-    </Question>
-    <Question QuestionID="20263" QuestionIDString="0000020263">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following ocean waters is the most dense?</QuestionText>
-      <AnswerW>Surface water in the tropics</AnswerW>
-      <AnswerX>Surface water in the Arctic</AnswerX>
-      <AnswerY>Bottom water in the Antarctic</AnswerY>
-      <AnswerZ>Bottom water in the tropics</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="19800" QuestionIDString="0000019800">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What instrument will measure "D" in a CTD?</QuestionText>
-      <CorrectAnswer>Pressure sensor</CorrectAnswer>
-    </Question>
-    <Question QuestionID="14059" QuestionIDString="0000014059">
-      <QuestionPair>4</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What phylum of invertebrates gives birth to live young?</QuestionText>
-      <AnswerW>Chaetognatha</AnswerW>
-      <AnswerX>Tardigrada</AnswerX>
-      <AnswerY>Onycophora</AnswerY>
-      <AnswerZ>Bryozoa</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
+      <QuestionText>Which type of foundation is NOT currently used in placing wind turbines in transitional water, characterized as depths ranging from 30 to 60 meters?</QuestionText>
+      <AnswerW>Tripod</AnswerW>
+      <AnswerX>Ballast</AnswerX>
+      <AnswerY>Jacket</AnswerY>
+      <AnswerZ>Truss</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="26307" QuestionIDString="0000026307">
-      <QuestionPair>4</QuestionPair>
+    <Question QuestionID="26703" QuestionIDString="0000026703">
+      <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What term describes the upper layer of a meromictic lake?</QuestionText>
-      <CorrectAnswer>Mixomolimnion OR miximolimnion</CorrectAnswer>
+      <QuestionText>Although species have adapted to changing climates in the past, what is the fear with current climate change as it relates to adaptation?</QuestionText>
+      <CorrectAnswer>Climate will change faster than species can adapt</CorrectAnswer>
     </Question>
-    <Question QuestionID="10535" QuestionIDString="0000010535">
-      <QuestionPair>5</QuestionPair>
+    <Question QuestionID="10554" QuestionIDString="0000010554">
+      <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Near what island group is the New Hebrides Trench?</QuestionText>
+      <QuestionText>Where would you be if you were on a research vessel sailing over the Wharton Basin?</QuestionText>
+      <AnswerW>West of Australia</AnswerW>
+      <AnswerX>Midway between New Zealand and Australia</AnswerX>
+      <AnswerY>Off the Antarctic coast south of Australia</AnswerY>
+      <AnswerZ>West of the Philippines</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27082" QuestionIDString="0000027082">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What pulmonary adaptation allows whales to dive deeply in the ocean?</QuestionText>
+      <CorrectAnswer>Their lungs are collapsible (ACCEPT: Small lung volume)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27466" QuestionIDString="0000027466">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Starting in June 2011, island hotels closed, beachgoers were warned not to swim, and oil containment booms were deployed due to an unprecedented invasion of which of the following in the eastern Caribbean?</QuestionText>
+      <AnswerW>Fucus</AnswerW>
+      <AnswerX>Coconut crabs</AnswerX>
+      <AnswerY>Sargassum</AnswerY>
+      <AnswerZ>Sally lightfoot crabs</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12640" QuestionIDString="0000012640">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Between which two continents does the Scotia tectonic plate lie?</QuestionText>
+      <CorrectAnswer>Antarctica and South America</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27527" QuestionIDString="0000027527">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following best characterizes the distribution of planktonic foraminifera in the modern ocean?</QuestionText>
+      <AnswerW>Species diversity is highest at lower latitudes</AnswerW>
+      <AnswerX>Species are most diverse at polar latitudes</AnswerX>
+      <AnswerY>Species are evenly distributed at all latitudes</AnswerY>
+      <AnswerZ>Species diversity is greatest in the upper 10 meters of the ocean</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="19920" QuestionIDString="0000019920">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What are TWO positioning readings that can be taken when operating an ROV?</QuestionText>
+      <CorrectAnswer>Any TWO of: Depth, heading, geographic location, latitude, longitude</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26773" QuestionIDString="0000026773">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following statements is NOT true of sponges?</QuestionText>
+      <AnswerW>They are invertebrate animals</AnswerW>
+      <AnswerX>They are planktonic at all stages of their life cycle</AnswerX>
+      <AnswerY>They circulate water through their bodies</AnswerY>
+      <AnswerZ>They have many shapes, colors, and sizes</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="20276" QuestionIDString="0000020276">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Explain what would happen if you added dye to salt water and slowly added the salt water to a cup of fresh water, and why this reaction occurred.</QuestionText>
+      <CorrectAnswer>The dyed salt water would sink to the bottom because the density of salt water is higher than that of fresh water</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27455" QuestionIDString="0000027455">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Biofouling of oceanographic instrumentation is least likely to be a problem in which type of environment?</QuestionText>
+      <AnswerW>Low currents</AnswerW>
+      <AnswerX>High nutrients</AnswerX>
+      <AnswerY>Low light</AnswerY>
+      <AnswerZ>Large waves</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12388" QuestionIDString="0000012388">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What Canadian body of water is famous for its dramatic fluctuation in tidal height?</QuestionText>
+      <CorrectAnswer>Bay of Fundy</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26583" QuestionIDString="0000026583">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Gas is secreted into and resorbed through the physoclistous [FIE-suh-KLIS-tus] swim bladder of some fish through a network of blood vessels known as which of the following?</QuestionText>
+      <AnswerW>Pneumatic duct</AnswerW>
+      <AnswerX>Carpi dorsale</AnswerX>
+      <AnswerY>Rete mirabile [REE-tee mee-RAH-bee-leh]</AnswerY>
+      <AnswerZ>Pulmonary plexus</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26431" QuestionIDString="0000026431">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Since 2010, what country has been responsible for the largest amount of fisheries landings by volume?</QuestionText>
+      <CorrectAnswer>China</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12535" QuestionIDString="0000012535">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the name of the trench which extends north of the North Island of New Zealand where the Pacific plate subducts beneath the Australia plate?</QuestionText>
       <AnswerW>Japan</AnswerW>
-      <AnswerX>New Zealand</AnswerX>
-      <AnswerY>Puerto Rico</AnswerY>
-      <AnswerZ>Fiji Islands</AnswerZ>
+      <AnswerX>Phillipine</AnswerX>
+      <AnswerY>Kuril</AnswerY>
+      <AnswerZ>Tonga-Kermadec</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="27168" QuestionIDString="0000027168">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Motorboats and sailboats at anchor must display anchor lights. What is the required anchor light, visible for 2 miles, for a watercraft less than 50 meters in length?</QuestionText>
-      <CorrectAnswer>An all-around white light (Accept: white light OR 360 degrees white light)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26812" QuestionIDString="0000026812">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In the rocky intertidal zone, which organism resides at the highest elevation?</QuestionText>
-      <AnswerW>Periwinkle</AnswerW>
-      <AnswerX>Kelp</AnswerX>
-      <AnswerY>Barnacle</AnswerY>
-      <AnswerZ>Blue mussel</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27184" QuestionIDString="0000027184">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In 2008, the United Nations General Assembly designated which date (month and numerical day) as World Oceans Day?</QuestionText>
-      <CorrectAnswer>June 8</CorrectAnswer>
-    </Question>
-    <Question QuestionID="20352" QuestionIDString="0000020352">
-      <QuestionPair>7</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>To find the significant wave height of 1,200 sucessive waves, you need to know the average height of how many of the highest waves?</QuestionText>
-      <AnswerW>200</AnswerW>
-      <AnswerX>400</AnswerX>
-      <AnswerY>600</AnswerY>
-      <AnswerZ>1,200</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13775" QuestionIDString="0000013775">
-      <QuestionPair>7</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Name an oceanic fracture zone that extends from the California coast thousands of kilometers westward into the Pacific.</QuestionText>
-      <CorrectAnswer>Mendocino fracture zone</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26763" QuestionIDString="0000026763">
-      <QuestionPair>8</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is crepuscular changeover?</QuestionText>
-      <AnswerW>A transition between diurnal and nocturnal fishes at twilight</AnswerW>
-      <AnswerX>A transition from coral to encrusting algae</AnswerX>
-      <AnswerY>A transition from a healthy community to a degraded community</AnswerY>
-      <AnswerZ>A transition of dominant seagrass species</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="20885" QuestionIDString="0000020885">
+    <Question QuestionID="26179" QuestionIDString="0000026179">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the theory that assumes the Earth has two equal tidal bulges and that the ocean covers the Earth at a uniform depth?</QuestionText>
-      <CorrectAnswer>Equilibrium tide theory</CorrectAnswer>
-    </Question>
-    <Question QuestionID="20759" QuestionIDString="0000020759">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Wind blown sediment mixed with pelagic mud cored from the deep-sea floor of the North Atlantic Ocean most likely originated where?</QuestionText>
-      <AnswerW>North Africa</AnswerW>
-      <AnswerX>South America</AnswerX>
-      <AnswerY>Asia</AnswerY>
-      <AnswerZ>North America</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27305" QuestionIDString="0000027305">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Gradients in what two ocean parameters are harnessed to generate electricity?</QuestionText>
-      <CorrectAnswer>Salinity AND Temperature</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26493" QuestionIDString="0000026493">
-      <QuestionPair>10</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Megaptera (meg-op-ter-a) is a genus name for which marine animal?</QuestionText>
-      <AnswerW>Manatee</AnswerW>
-      <AnswerX>Anemone</AnswerX>
-      <AnswerY>Dolphin</AnswerY>
-      <AnswerZ>Whale</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="21058" QuestionIDString="0000021058">
-      <QuestionPair>10</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>With a wind to the east in the Northern Hemisphere what is the direction of the average wind driven surface current?</QuestionText>
-      <CorrectAnswer>South</CorrectAnswer>
+      <QuestionText>What is the name of Darwin's theory which describes the origin of coral atolls?</QuestionText>
+      <CorrectAnswer>Subsidence</CorrectAnswer>
     </Question>
-    <Question QuestionID="26759" QuestionIDString="0000026759">
-      <QuestionPair>11</QuestionPair>
+    <Question QuestionID="27443" QuestionIDString="0000027443">
+      <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>How much of the carbon dioxide emitted by humans has the ocean absorbed since the industrial revolution?</QuestionText>
-      <AnswerW>One half</AnswerW>
-      <AnswerX>One third</AnswerX>
-      <AnswerY>One quarter</AnswerY>
-      <AnswerZ>One tenth</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
+      <QuestionText>What was the name of the ship that disappeared in 1872 with everyone aboard, and was later found abandoned in the eastern Atlantic?</QuestionText>
+      <AnswerW>Kon-tiki</AnswerW>
+      <AnswerX>Flying Cloud</AnswerX>
+      <AnswerY>Cleopatra's Barge</AnswerY>
+      <AnswerZ>Mary Celeste</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="27088" QuestionIDString="0000027088">
+    <Question QuestionID="13642" QuestionIDString="0000013642">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Beach slope and sediment particle size are linked and both related to what factor acting on the shoreline?</QuestionText>
+      <CorrectAnswer>Wave energy</CorrectAnswer>
+    </Question>
+    <Question QuestionID="21696" QuestionIDString="0000021696">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In which body of water is inverse thermal stratification most likely to occur?</QuestionText>
+      <AnswerW>Gulf of Mexico</AnswerW>
+      <AnswerX>Delaware Bay</AnswerX>
+      <AnswerY>San Francisco Bay</AnswerY>
+      <AnswerZ>Lake Erie</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26778" QuestionIDString="0000026778">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In Australia, what marine mammals were observed using sponges as tools?</QuestionText>
+      <CorrectAnswer>Bottlenose dolphins (ACCEPT: Dolphins)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12347" QuestionIDString="0000012347">
       <QuestionPair>11</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>To what class do ratfish belong?</QuestionText>
-      <CorrectAnswer>Chondrichthyes</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27094" QuestionIDString="0000027094">
-      <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What are the wavelengths of maximum chlorophyll-a in the visible light spectrum in nanometers?</QuestionText>
-      <AnswerW>400 and 620</AnswerW>
-      <AnswerX>430 and 660</AnswerX>
-      <AnswerY>450 and 700</AnswerY>
-      <AnswerZ>400 and 600</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26578" QuestionIDString="0000026578">
-      <QuestionPair>12</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What does it mean if a fish species is semelparous (seh-mel-pah-res)?</QuestionText>
-      <CorrectAnswer>It reproduces or breeds only once in its lifetime</CorrectAnswer>
-    </Question>
-    <Question QuestionID="11813" QuestionIDString="0000011813">
-      <QuestionPair>13</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Where is the main control station for the Global Positioning System?</QuestionText>
-      <AnswerW>Kwajalein (kwah-jah-lin) Island</AnswerW>
-      <AnswerX>Hawaii</AnswerX>
-      <AnswerY>Colorado Springs</AnswerY>
-      <AnswerZ>Alice Springs, Australia</AnswerZ>
+      <QuestionText>Which of the following is NOT a characteristic of Earth's magnetic pole?</QuestionText>
+      <AnswerW>It is not in the same location as the geographic North Pole</AnswerW>
+      <AnswerX>It has reversed its polarity several times in the last 10 million years</AnswerX>
+      <AnswerY>It is caused by a large pocket of magnetite in the mantle which distorts compass readings</AnswerY>
+      <AnswerZ>Its inclination at the north pole is nearly 90 degrees to the earth's surface</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="20823" QuestionIDString="0000020823">
-      <QuestionPair>13</QuestionPair>
+    <Question QuestionID="20990" QuestionIDString="0000020990">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the seaward flowing current associated with the decrease in the height of a tide?</QuestionText>
+      <CorrectAnswer>Ebb</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26720" QuestionIDString="0000026720">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What percentage of the world’s oxygen is produced by phytoplankton?</QuestionText>
+      <AnswerW>10</AnswerW>
+      <AnswerX>30</AnswerX>
+      <AnswerY>90</AnswerY>
+      <AnswerZ>50</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12319" QuestionIDString="0000012319">
+      <QuestionPair>12</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What are two economically important metals found in manganese nodules?</QuestionText>
-      <CorrectAnswer>Any 2 of the following: Nickel, cobalt, copper</CorrectAnswer>
+      <QuestionText>What is the name of the supercontinent that formed at the end of the Paleozoic era and what was the name of the ocean that surrounded it?</QuestionText>
+      <CorrectAnswer>Pangaea and Panthalassa</CorrectAnswer>
     </Question>
-    <Question QuestionID="20769" QuestionIDString="0000020769">
-      <QuestionPair>14</QuestionPair>
+    <Question QuestionID="21747" QuestionIDString="0000021747">
+      <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the range of ocean surface water temperature of in degrees Celsius?</QuestionText>
-      <AnswerW>Negative 5 to 30</AnswerW>
-      <AnswerX>0 to 30</AnswerX>
-      <AnswerY>Negative 5 to 50</AnswerY>
-      <AnswerZ>0 to 50</AnswerZ>
+      <QuestionText>Which of the following statements accurately describes constructive interference?</QuestionText>
+      <AnswerW>When waves are in phase, amplitude is increased</AnswerW>
+      <AnswerX>When waves are out of phase, amplitude is increased</AnswerX>
+      <AnswerY>When waves are in phase, amplitude is decreased</AnswerY>
+      <AnswerZ>When a wave’s frequency is increased, amplitude is increased.</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="21733" QuestionIDString="0000021733">
-      <QuestionPair>14</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The residence time of an element in the ocean is calculated by dividing the total amount of element present in the ocean by what?</QuestionText>
-      <CorrectAnswer>The element's total rate of addition or removal</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26542" QuestionIDString="0000026542">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the dominant intertidal ecosystem of tropical waters, occupying approximately 170,000 km between 25 degrees North and 25 degrees South?</QuestionText>
-      <AnswerW>Coral reefs</AnswerW>
-      <AnswerX>Rocky shores</AnswerX>
-      <AnswerY>Mangrove forests</AnswerY>
-      <AnswerZ>Peat bogs</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="21281" QuestionIDString="0000021281">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In what direction do warm-core eddies rotate in the Northern Hemisphere?</QuestionText>
-      <CorrectAnswer>Clockwise</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27107" QuestionIDString="0000027107">
-      <QuestionPair>16</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following enzymes is responsible for bioluminescence?</QuestionText>
-      <AnswerW>Topoisomerase (toe-poh-ice-soh-mer-ace)</AnswerW>
-      <AnswerX>Luciferase (lew-sif-er-ace)</AnswerX>
-      <AnswerY>Peroxidase</AnswerY>
-      <AnswerZ>Hydrogenase</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26576" QuestionIDString="0000026576">
-      <QuestionPair>16</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What name is given to the pigment sac used by cephalopods in communication and camouflage?</QuestionText>
-      <CorrectAnswer>Chromatophore</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26252" QuestionIDString="0000026252">
-      <QuestionPair>17</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The recent increase of catch limits for the Atlantic sea scallop fishery was accompanied by amendments to protect which bottom-dwelling bycatch?</QuestionText>
-      <AnswerW>Yellowtail flounder</AnswerW>
-      <AnswerX>Dover sole</AnswerX>
-      <AnswerY>Atlantic hagfish</AnswerY>
-      <AnswerZ>Common sculpin</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="21795" QuestionIDString="0000021795">
-      <QuestionPair>17</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the region where the Northeast Trade Winds meet the Southeast Trade Winds?</QuestionText>
-      <CorrectAnswer>Intertropical Convergence Zone</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26014" QuestionIDString="0000026014">
-      <QuestionPair>18</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Cafeteria roenbergensis is a giant sized virus which infects which of the following organisms?</QuestionText>
-      <AnswerW>Phytoplankton</AnswerW>
-      <AnswerX>Giant kelp</AnswerX>
-      <AnswerY>Tuna</AnswerY>
-      <AnswerZ>Sea turtles</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="13772" QuestionIDString="0000013772">
-      <QuestionPair>18</QuestionPair>
+    <Question QuestionID="13800" QuestionIDString="0000013800">
+      <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The Tongue of the Ocean is located near which island group?</QuestionText>
-      <CorrectAnswer>Bahamas</CorrectAnswer>
+      <QuestionText>Name the largest submarine canyon off West Africa.</QuestionText>
+      <CorrectAnswer>Congo River Canyon (ACCEPT: Congo River)</CorrectAnswer>
     </Question>
-    <Question QuestionID="27400" QuestionIDString="0000027400">
+    <Question QuestionID="12541" QuestionIDString="0000012541">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What process produced linear depressions or gouges in sediments on the Antarctic seafloor?</QuestionText>
+      <AnswerW>Feeding activities of benthic-feeding whales</AnswerW>
+      <AnswerX>Erosion by turbidity currents</AnswerX>
+      <AnswerY>Fault scarps from seismic activity</AnswerY>
+      <AnswerZ>Collapse of lava tubes in contact with the cold water</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26667" QuestionIDString="0000026667">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Name the structure found in some fishes that recirculates blood through a special capillary bed and keeps their internal temperature warmer than surrounding water.</QuestionText>
+      <CorrectAnswer>Rete mirabile [REE-tee mee-RAH-bee-leh] (ACCEPT: Rete mirabilis [REE-tee mee-RAH-bee-iss])</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26414" QuestionIDString="0000026414">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Long-chain hydrocarbons called alkenones [al-kuh-nowns] are found in sediments.  Paleo-oceanographers use them to reconstruct sea surface temperatures.  What group of organisms produces these compounds?</QuestionText>
+      <AnswerW>Diatoms</AnswerW>
+      <AnswerX>Radiolarians [RAY-dee-o-LAIR-ee-ahns]</AnswerX>
+      <AnswerY>Coccolithophores [COCK-oh-LITH-oh-fors]</AnswerY>
+      <AnswerZ>Dinoflagellates [DYE-no-FLA-gel-ates]</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13877" QuestionIDString="0000013877">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Boats fishing south of 60 degrees latitude in the Southern Ocean are obliged to use techniques to reduce accidental catch of what animal by 90 percent?</QuestionText>
+      <CorrectAnswer>Albatross (ACCEPT: Mollymawk, Gooney bird)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26644" QuestionIDString="0000026644">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>On a global scale, which group of marine shellfish represents the highest commercial capture by weight?</QuestionText>
+      <AnswerW>Marine molluscs</AnswerW>
+      <AnswerX>Finfish</AnswerX>
+      <AnswerY>Marine crustaceans</AnswerY>
+      <AnswerZ>Echinoderms</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12611" QuestionIDString="0000012611">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which group of microfossils have left-handed and right-handed coiling patterns that reveal clues about past climate patterns?</QuestionText>
+      <CorrectAnswer>Foraminifera (ACCEPT: Forams)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26016" QuestionIDString="0000026016">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which term describes a sample of genetic material, containing the genomes of all the organisms in the environment?</QuestionText>
+      <AnswerW>Megagenome</AnswerW>
+      <AnswerX>Phylogenome</AnswerX>
+      <AnswerY>Metagenome</AnswerY>
+      <AnswerZ>Progenome</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27407" QuestionIDString="0000027407">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Lord Tennyson wrote a poem about a sea monster whose name is taken from a Norwegian word.  What is the creature called?</QuestionText>
+      <CorrectAnswer>The Kraken</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27461" QuestionIDString="0000027461">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Acoustic Doppler Current Profilers use lower frequencies to achieve which of the following?</QuestionText>
+      <AnswerW>Higher vertical resolution</AnswerW>
+      <AnswerX>Reduced power requirements</AnswerX>
+      <AnswerY>Better directional accuracy</AnswerY>
+      <AnswerZ>Longer vertical profiling range</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26774" QuestionIDString="0000026774">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What kind of bacteria are found in the gills of mussels living around hydrothermal vents?</QuestionText>
+      <CorrectAnswer>Chemosynthetic bacteria (ACCEPT: Symbiotic sulfur bacteria, chemosymbiotic bacteria, sulfide-oxidizing bacteria)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27518" QuestionIDString="0000027518">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following cities has one of the two 50-Foot shipping channels on the East Coast?</QuestionText>
-      <AnswerW>Portsmouth</AnswerW>
-      <AnswerX>Baltimore</AnswerX>
-      <AnswerY>Philadelphia</AnswerY>
-      <AnswerZ>Savannah</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
+      <QuestionText>Scientists can determine the paleolatitude of continents and ocean basins millions of years ago by studying which of the following?</QuestionText>
+      <AnswerW>Abundance of microscopic species</AnswerW>
+      <AnswerX>Oxygen and carbon isotope ratios</AnswerX>
+      <AnswerY>Magnetic anomaly patterns and inclination of paleomagnetic minerals</AnswerY>
+      <AnswerZ>Composition of continents</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="14062" QuestionIDString="0000014062">
+    <Question QuestionID="26523" QuestionIDString="0000026523">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the synapomorphy (syn-AP-o-mor-phy) that allows sea cucumbers to change from flexible and mobile to rigid and brittle?</QuestionText>
-      <CorrectAnswer>Mutable connective tissue</CorrectAnswer>
+      <QuestionText>In 2007, a shark was born to a captive mother who had not been in contact with a male shark for over three years. What reproductive strategy explains this virgin birth?</QuestionText>
+      <CorrectAnswer>Parthenogenesis [PAR-thuh-noh-JEN-uh-sis]</CorrectAnswer>
     </Question>
-    <Question QuestionID="26282" QuestionIDString="0000026282">
+    <Question QuestionID="26323" QuestionIDString="0000026323">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Rayleigh waves are best characterized as what type of wave?</QuestionText>
-      <AnswerW>Internal</AnswerW>
-      <AnswerX>Surface</AnswerX>
-      <AnswerY>Tidal</AnswerY>
-      <AnswerZ>Radio</AnswerZ>
+      <QuestionText>Which type of marine sediment accumulates at a rate of one to six centimeters every millennium?</QuestionText>
+      <AnswerW>Turbidite</AnswerW>
+      <AnswerX>Ooze</AnswerX>
+      <AnswerY>Evaporite</AnswerY>
+      <AnswerZ>Tektite</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="26036" QuestionIDString="0000026036">
+    <Question QuestionID="26037" QuestionIDString="0000026037">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the otolith most often used for age analysis of fish?</QuestionText>
-      <CorrectAnswer>Sagittae (Also accept: sagitta (sah-gih-tah) the singular form)</CorrectAnswer>
+      <QuestionText>The 18 species of seabirds that are contained within the order Sphenisciformes [sfeen-ISK-i-FORM-eez] are commonly known by what name?</QuestionText>
+      <CorrectAnswer>Penguins</CorrectAnswer>
     </Question>
   </Questions>
 </Round>
