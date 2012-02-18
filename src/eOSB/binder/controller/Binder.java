@@ -8,6 +8,7 @@ import java.awt.Font;
 import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.Insets;
+import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.font.TextAttribute;
@@ -122,6 +123,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private int teamBScore = 0;
 	private boolean hasSeenTcqReminder = false;
 	private boolean shouldEnableTcqs = false;
+	
+	private Dimension frameSize;
+	private Point framePosition;
 
 	/**
 	 * @param handler
@@ -175,8 +179,23 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 */
 	private void displayFrame() {
 		this.frame.pack();
-		this.frame.setLocationRelativeTo(null);
 		this.frame.setMinimumSize(this.frame.getPreferredSize());
+		
+		// remember the old frameSize, or set to maximized for first run
+		if (this.frameSize != null) {
+			this.frame.setSize(this.frameSize);
+		}
+		else {
+			this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
+		}
+		
+		// remember the previous location, or set to centered for first run
+		if (this.framePosition != null) {
+			this.frame.setLocation(this.framePosition);
+		}
+		else {
+			this.frame.setLocationRelativeTo(null);
+		}
 		this.frame.setVisible(true);
 	}
 
@@ -336,9 +355,16 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 *          the name of the new round
 	 */
 	public void setBinderToNewRound(String roundName) {
+		// save the frame's size and location
+		if (!(roundName.equals("Round 1"))) {
+			this.frameSize = this.frame.getSize();
+			this.framePosition = this.frame.getLocationOnScreen();
+		}
+		
 		this.initFrame();
 		this.initComponents();
 		
+		// disable TCQs on the Tiebreaker round
 		if (roundName.contains("Tie")) {
 			this.shouldEnableTcqs = false;
 		}
