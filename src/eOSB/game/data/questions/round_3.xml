@@ -164,7 +164,7 @@
     <Question QuestionID="26278" QuestionIDString="0000026278">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology - Ecology</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Coral reefs are threatened by coastal nutrient pollution because corals prefer which of the following conditions?</QuestionText>
       <AnswerW>Oligotrophic</AnswerW>
