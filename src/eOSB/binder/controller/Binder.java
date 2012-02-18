@@ -120,7 +120,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private String teamBName = "Team B";
 	private int teamAScore = 0;
 	private int teamBScore = 0;
-	private boolean hasSeenTcqReminder;
+	private boolean hasSeenTcqReminder = false;
+	private boolean shouldEnableTcqs = false;
 
 	/**
 	 * @param handler
@@ -206,6 +207,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T,
 				ActionEvent.CTRL_MASK));
 		menuItem.setMnemonic(KeyEvent.VK_T);
+		menuItem.setEnabled(this.shouldEnableTcqs);
 
 		menu.add(menuItem);
 		menu.addSeparator();
@@ -336,6 +338,14 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	public void setBinderToNewRound(String roundName) {
 		this.initFrame();
 		this.initComponents();
+		
+		if (roundName.contains("Tie")) {
+			this.shouldEnableTcqs = false;
+		}
+		else {
+			this.shouldEnableTcqs = true;
+		}
+		this.frame.setJMenuBar(this.createMenuBar());
 
 		this.frame.setTitle(roundName
 				+ " -- electronic Ocean Sciences Bowl");
