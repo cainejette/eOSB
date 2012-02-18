@@ -97,7 +97,7 @@
     <Question QuestionID="26352" QuestionIDString="0000026352">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology - Fishing gear and vessels</Category>
+      <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What type of trawl gets its name from the solid metal object that holds the mouth of the net open?</QuestionText>
       <CorrectAnswer>Beam</CorrectAnswer>
