@@ -4,7 +4,7 @@
     <Question QuestionID="27476" QuestionIDString="0000027476">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Air-sea Interface</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is an indicator of the net water balance for a region of the surface ocean?</QuestionText>
       <AnswerW>The abundance of sea ice</AnswerW>
@@ -16,15 +16,15 @@
     <Question QuestionID="27389" QuestionIDString="0000027389">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
+      <Category>Geography - Place Names</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The Russian port of Murmansk [mur-MEN-sk], the largest city north of the Arctic Circle, lies on what sea?</QuestionText>
-      <CorrectAnswer>Barents [BARE-ents] Sea</CorrectAnswer>
+      <QuestionText>The Russian port of Murmansk [mur-men-sk], the largest city north of the Arctic Circle, lies on what sea?</QuestionText>
+      <CorrectAnswer>Barents [bear-ents] Sea</CorrectAnswer>
     </Question>
     <Question QuestionID="26642" QuestionIDString="0000026642">
       <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following animals maintains a body temperature that is warmer than the ambient environment?</QuestionText>
       <AnswerW>Marine iguana</AnswerW>
@@ -38,8 +38,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The C-C-A-M-L-R [CAM-el-ar] treaty was passed in 1982 and is a landmark piece of international legislation which protects what marine resource?</QuestionText>
-      <CorrectAnswer>Antarctic marine life (ACCEPT: Antarctic living resources or similar, DO NOT ACCEPT: 'Polar')</CorrectAnswer>
+      <QuestionText>The C-C-A-M-L-R [camel-ar] treaty was passed in 1982 and is a landmark piece of international legislation which protects what marine resource?</QuestionText>
+      <CorrectAnswer>Antarctic marine life (ACCEPT: Antarctic living resources, or similar. DO NOT ACCEPT: Polar)</CorrectAnswer>
     </Question>
     <Question QuestionID="27530" QuestionIDString="0000027530">
       <QuestionPair>3</QuestionPair>
@@ -64,7 +64,7 @@
     <Question QuestionID="26287" QuestionIDString="0000026287">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Electromagnetic Spectrum</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Photosynthetically available radiation, or PAR, is the name commonly given to light waves of which wavelength, in nanometers?</QuestionText>
       <AnswerW>850-1250</AnswerW>
@@ -84,12 +84,12 @@
     <Question QuestionID="27250" QuestionIDString="0000027250">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The characteristic olive-brown color of brown algae is primarily due to the presence of what compound?</QuestionText>
       <AnswerW>Phycocolloids [FY-koh-KAHL-oyds]</AnswerW>
       <AnswerX>Chlorophyll A</AnswerX>
-      <AnswerY>Fucoxanthin [FYOO-co-ZAN-thin]</AnswerY>
+      <AnswerY>Fucoxanthin [FU-co-ZAN-thin]</AnswerY>
       <AnswerZ>Phycoerythrin [FY-koh-e-RITH-rin]</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
@@ -104,7 +104,7 @@
     <Question QuestionID="26604" QuestionIDString="0000026604">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Geologic Time Scale</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The greatest mass extinction of marine taxa occurred at the end of which geologic period?</QuestionText>
       <AnswerW>Devonian</AnswerW>
@@ -127,7 +127,7 @@
       <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>As sea level rises, areas that were inhabited by freshwater plant species will become more saline and be inhabited by which type of plant?</QuestionText>
-      <AnswerW>Halophytes [HAL-uh-fights]</AnswerW>
+      <AnswerW>Halophytes [HAIL-uh-fahyts]</AnswerW>
       <AnswerX>Lithophytes</AnswerX>
       <AnswerY>Hydrophytes</AnswerY>
       <AnswerZ>Salinophytes</AnswerZ>
@@ -139,7 +139,7 @@
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What was the full name of the explorer and sailor after whom North America was named?</QuestionText>
-      <CorrectAnswer>Amerigo Vespucci (NOTE: Must be full name)</CorrectAnswer>
+      <CorrectAnswer>Amerigo Vespucci (DO NOT ACCEPT: Vespucci)</CorrectAnswer>
     </Question>
     <Question QuestionID="27470" QuestionIDString="0000027470">
       <QuestionPair>8</QuestionPair>
@@ -156,7 +156,7 @@
     <Question QuestionID="26234" QuestionIDString="0000026234">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Fisheries Management</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The Magnuson-Stevens Act was reauthorized in 2006 with obligations to address what three specific types of fishing?</QuestionText>
       <CorrectAnswer>Illegal, Unreported and Unregulated (ACCEPT: IUU)</CorrectAnswer>
@@ -176,15 +176,15 @@
     <Question QuestionID="26917" QuestionIDString="0000026917">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Rocks and Minerals</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the most typical sedimentary rock found in an ophiolite [OH-fee-oh-lite]?</QuestionText>
+      <QuestionText>What is the most typical sedimentary rock found in Mesozoic ophiolites [OH-fee-oh-lites]?</QuestionText>
       <CorrectAnswer>Chert (ACCEPT: Shale, fine-grained siliceous sediment)</CorrectAnswer>
     </Question>
     <Question QuestionID="27221" QuestionIDString="0000027221">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which aquatic invasive species jumps out of the water in response to motor vibrations?</QuestionText>
       <AnswerW>Black carp</AnswerW>
@@ -196,9 +196,9 @@
     <Question QuestionID="26321" QuestionIDString="0000026321">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Reactions in Seawater</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What term refers to the depth in the ocean when the rates of calcium carbonate supply to the sediments and dissolution are equal?</QuestionText>
+      <QuestionText>What term refers to the depth in the ocean where the rates of calcium carbonate supply to the sediments and dissolution are equal?</QuestionText>
       <CorrectAnswer>Calcium carbonate compensation depth (ACCEPT: CCD)</CorrectAnswer>
     </Question>
     <Question QuestionID="27114" QuestionIDString="0000027114">
@@ -216,7 +216,7 @@
     <Question QuestionID="27339" QuestionIDString="0000027339">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The American lobster is a member of what Crustacean taxonomic order?</QuestionText>
       <CorrectAnswer>Decapoda (ACCEPT: Decapods)</CorrectAnswer>
@@ -224,7 +224,7 @@
     <Question QuestionID="26359" QuestionIDString="0000026359">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which country benefited from its proximity to the trade winds to become a mighty maritime nation?</QuestionText>
       <AnswerW>Greece</AnswerW>
@@ -239,12 +239,12 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What process is primarily responsible for the formation of manganese nodules found on the seafloor?</QuestionText>
-      <CorrectAnswer>Chemical precipitation of a mineral out of its dissolved state in sea water and/or sediments (ACCEPT: Precipitation)</CorrectAnswer>
+      <CorrectAnswer>Chemical precipitation of a mineral out of its dissolved state in sea water and/or fluids in the underlying sediments (ACCEPT: Precipitation)</CorrectAnswer>
     </Question>
     <Question QuestionID="26620" QuestionIDString="0000026620">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sea Floor Features</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Where do turbidity currents most commonly occur?</QuestionText>
       <AnswerW>Abyssal plains</AnswerW>
@@ -256,7 +256,7 @@
     <Question QuestionID="26454" QuestionIDString="0000026454">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Marine Protected Areas</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the largest marine protected area in the Pacific Ocean?</QuestionText>
       <CorrectAnswer>Phoenix Islands</CorrectAnswer>
@@ -264,7 +264,7 @@
     <Question QuestionID="26719" QuestionIDString="0000026719">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is NOT a morphological adaptation that allows tuna to swim long distances and at high speeds?</QuestionText>
       <AnswerW>Torpedo shaped body</AnswerW>
@@ -276,7 +276,7 @@
     <Question QuestionID="26827" QuestionIDString="0000026827">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Coastal Law</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>NOAA established two Seasonal Management Areas in the Gulf of Maine in an effort to specifically protect what mammal species?</QuestionText>
       <CorrectAnswer>Northern right whale</CorrectAnswer>
@@ -304,7 +304,7 @@
     <Question QuestionID="27205" QuestionIDString="0000027205">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sea Floor Features</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What is the slowest-spreading ridge in the Indian Ocean?</QuestionText>
       <AnswerW>Mid-Indian Ridge</AnswerW>
@@ -336,7 +336,7 @@
     <Question QuestionID="26963" QuestionIDString="0000026963">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What network of fluid filled canals is unique to Echinoderms?</QuestionText>
       <CorrectAnswer>Water vascular system</CorrectAnswer>
@@ -344,12 +344,12 @@
     <Question QuestionID="26675" QuestionIDString="0000026675">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sediments</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What term applies to terrigenous sediments once deposited on the continental shelf, but by processes no longer active in that area?</QuestionText>
       <AnswerW>Authigenic [AW-thi-JEN-ik]</AnswerW>
       <AnswerX>Abyssal clays</AnswerX>
-      <AnswerY>Biogenous [bi-AH-jeh-ness] oozes</AnswerY>
+      <AnswerY>Biogenous [bi-AW-jeh-ness] oozes</AnswerY>
       <AnswerZ>Relict</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
@@ -384,19 +384,19 @@
     <Question QuestionID="26480" QuestionIDString="0000026480">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The upside-down jellyfish harbors zooxanthellae [ZO-zan-THEL-ee] in its tissues. To which genus does it belong?</QuestionText>
-      <AnswerW>Cassiopea [CASS-ee-oh-PAY-ah]</AnswerW>
+      <AnswerW>Cassiopea [CASS-ee-oh-PEE-ah]</AnswerW>
       <AnswerX>Chironex [KYE-rawh-necks]</AnswerX>
       <AnswerY>Chrysaora [chris-SAWR-uh]</AnswerY>
-      <AnswerZ>Aurelia [or-EEL-i-yah]</AnswerZ>
+      <AnswerZ>Aurelia [or-EEL-yah]</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
     <Question QuestionID="26919" QuestionIDString="0000026919">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Geologic Processes</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is an ophiolite?</QuestionText>
       <CorrectAnswer>A section of the Earth's oceanic crust and the underlying upper mantle that has been uplifted and exposed above sea level</CorrectAnswer>

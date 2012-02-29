@@ -4,7 +4,7 @@
     <Question QuestionID="20229" QuestionIDString="0000020229">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The formation of sea caves, sea arches, rocky projections and other uneven erosion along a headland can be explained by all of the following EXCEPT:</QuestionText>
       <AnswerW>Uneven wave distribution due to variations in sea floor topography</AnswerW>
@@ -16,7 +16,7 @@
     <Question QuestionID="13254" QuestionIDString="0000013254">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What structure, completed in 1965, reduced the flow of the Nile River by 90 percent?</QuestionText>
       <CorrectAnswer>Aswan High dam (ACCEPT: Aswan dam)</CorrectAnswer>
@@ -39,26 +39,26 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The chlorinity of seawater is defined as the sum of the concentrations of what three anions?</QuestionText>
-      <CorrectAnswer>Cl-, Br-, I- (chloride, bromide, and iodide ions)</CorrectAnswer>
+      <CorrectAnswer>Cl-, Br-, I- (ACCEPT: Chloride, bromide, and iodide ions)</CorrectAnswer>
     </Question>
     <Question QuestionID="26557" QuestionIDString="0000026557">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is NOT a type of phytoplankon pigment?</QuestionText>
-      <AnswerW>Phycocyanin [FIE-kuh-SIGH-ah-nin]</AnswerW>
+      <AnswerW>Phycocyanin [fie-kuh-SIGH-ah-nin]</AnswerW>
       <AnswerX>Peridinin</AnswerX>
-      <AnswerY>Alloxanthin [AL-oh-ZAN-thin]</AnswerY>
-      <AnswerZ>Caroxanthin [CARE-oh-ZAN-thin]</AnswerZ>
+      <AnswerY>Alloxanthin [al-oh-ZAN-thin]</AnswerY>
+      <AnswerZ>Caroxanthin [care-oh-ZAN-thin]</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="18466" QuestionIDString="0000018466">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In 2008, Australian scientists named two new underwater volcanoes they discovered after popular marine organisms. What is the name of ONE of the volcanoes?</QuestionText>
+      <QuestionText>In 2008, Australian scientists named two new underwater volcanoes they discovered after popular marine organisms. what is the name of ONE of the volcanoes?</QuestionText>
       <CorrectAnswer>Lobster (ACCEPT: Dugong)</CorrectAnswer>
     </Question>
     <Question QuestionID="9394" QuestionIDString="0000009394">
@@ -69,22 +69,22 @@
       <QuestionText>Which of the following is NOT a mode of organic matter oxidation?</QuestionText>
       <AnswerW>Aerobic respiration</AnswerW>
       <AnswerX>Anaerobic digestion</AnswerX>
-      <AnswerY>Methane fermentation</AnswerY>
+      <AnswerY>Denitrification</AnswerY>
       <AnswerZ>Sulfate reduction</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="20708" QuestionIDString="0000020708">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>When there is a balance between the horizontal pressure gradient and the Coriolis effect, what type of current results?</QuestionText>
+      <QuestionText>When there is a balance between the horizontal pressure gradient and the Coriolis Effect, what type of current results?</QuestionText>
       <CorrectAnswer>Geostrophic current (ACCEPT: Geostrophic flow)</CorrectAnswer>
     </Question>
     <Question QuestionID="26594" QuestionIDString="0000026594">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>On what island was Captain James Cook, the famed British explorer who charted the Pacific Ocean, killed by the native people?</QuestionText>
       <AnswerW>Fiji</AnswerW>
@@ -116,7 +116,7 @@
     <Question QuestionID="27391" QuestionIDString="0000027391">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>All members of what phylum possess a mantle?</QuestionText>
       <CorrectAnswer>Mollusca</CorrectAnswer>
@@ -124,7 +124,7 @@
     <Question QuestionID="26733" QuestionIDString="0000026733">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Approximately how many species of fish exist on Earth?</QuestionText>
       <AnswerW>3 million</AnswerW>
@@ -136,7 +136,7 @@
     <Question QuestionID="20797" QuestionIDString="0000020797">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the restoring force for capillary waves?</QuestionText>
       <CorrectAnswer>Surface tension</CorrectAnswer>
@@ -144,7 +144,7 @@
     <Question QuestionID="26752" QuestionIDString="0000026752">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Evolution</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Jaws in fish are believed to have first evolved from what structures?</QuestionText>
       <AnswerW>Gill arches</AnswerW>
@@ -164,7 +164,7 @@
     <Question QuestionID="26744" QuestionIDString="0000026744">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Fishing gear and vessels</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following are used to reduce by-catch?</QuestionText>
       <AnswerW>Gill nets</AnswerW>
@@ -196,15 +196,15 @@
     <Question QuestionID="27080" QuestionIDString="0000027080">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is an osmoconformer?</QuestionText>
-      <CorrectAnswer>It is an organism that has no mechanism to control the salt content of its body fluids (ACCEPT: An organism that has a salinity that is equal to the surrounding water's salinity</CorrectAnswer>
+      <CorrectAnswer>It is an organism that has no mechanism to control the salt content of its body fluids (ACCEPT: An organism that has a salinity that is equal to the surrounding water's salinity)</CorrectAnswer>
     </Question>
     <Question QuestionID="26513" QuestionIDString="0000026513">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Reactions in Seawater</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What is the name of the chemical process by which organic nutrients are broken down into their inorganic components and released back into the water column?</QuestionText>
       <AnswerW>Extraction</AnswerW>
@@ -216,7 +216,7 @@
     <Question QuestionID="20350" QuestionIDString="0000020350">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What term describes the process of faster, longer waves moving through and ahead of shorter, slower waves?</QuestionText>
       <CorrectAnswer>Dispersion</CorrectAnswer>
@@ -224,7 +224,7 @@
     <Question QuestionID="26696" QuestionIDString="0000026696">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The Deepwater Horizon oil spill released approximately how many barrels of oil into the Gulf of Mexico?</QuestionText>
       <AnswerW>50 thousand</AnswerW>
@@ -256,15 +256,15 @@
     <Question QuestionID="20348" QuestionIDString="0000020348">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In the wave equation C = L / T, what are C, L, and T?</QuestionText>
-      <CorrectAnswer>C is wave speed, L is wavelength, AND T is the wave period</CorrectAnswer>
+      <QuestionText>In the wave equation C equals L over T, what are C, L, and T?</QuestionText>
+      <CorrectAnswer>C is wave speed (ACCEPT: Celerity, phase speed), L is wavelength, and T is the wave period</CorrectAnswer>
     </Question>
     <Question QuestionID="26541" QuestionIDString="0000026541">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The world's major upwelling areas produce enormous quantities of which fish family?</QuestionText>
       <AnswerW>Salmonidae [sal-mon-ih-die]</AnswerW>
@@ -278,7 +278,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Which current flows out of the Bering Sea through the Bering Strait along the Siberian coast?</QuestionText>
+      <QuestionText>Which current flows out of the Bering Strait, and flows southwards along the Siberian coast?</QuestionText>
       <CorrectAnswer>Oyashio Current</CorrectAnswer>
     </Question>
     <Question QuestionID="26810" QuestionIDString="0000026810">
@@ -296,15 +296,15 @@
     <Question QuestionID="27224" QuestionIDString="0000027224">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The American eel has a complex, 6-stage life cycle. Name 2 of the 6 specific stages.</QuestionText>
-      <CorrectAnswer>Any TWO of: Egg, leptocephalus, glass eel, elver, yellow eel, silver eel. (DO NOT ACCEPT: Larva, adult)</CorrectAnswer>
+      <CorrectAnswer>Any TWO of: Egg, leptocephalus, glass eel, elver, yellow eel, silver eel (DO NOT ACCEPT: larva, adult)</CorrectAnswer>
     </Question>
     <Question QuestionID="20584" QuestionIDString="0000020584">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Thermodynamics</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What percentage of solar radiation is absorbed by the top 1 meter of ocean surface water?</QuestionText>
       <AnswerW>50</AnswerW>
@@ -324,9 +324,9 @@
     <Question QuestionID="26570" QuestionIDString="0000026570">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following adaptations does NOT pertain to organisms in the class Chondrichthyes [kon-DRIK-thee-ees]?</QuestionText>
+      <QuestionText>Which of the following adaptations does NOT pertain to organisms in the class Chondrichthyes (kon-drik-thee-ees)?</QuestionText>
       <AnswerW>They lack a swim bladder</AnswerW>
       <AnswerX>They have ampullae of Lorenzini</AnswerX>
       <AnswerY>They possess cycloid scales</AnswerY>
@@ -356,7 +356,7 @@
     <Question QuestionID="27264" QuestionIDString="0000027264">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Sea squirts belong to which phylum?</QuestionText>
       <CorrectAnswer>Chordata</CorrectAnswer>
@@ -376,7 +376,7 @@
     <Question QuestionID="20456" QuestionIDString="0000020456">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Air-sea Interface</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What causes upwelling near the Intertropical Convergence Zone?</QuestionText>
       <CorrectAnswer>Divergence of water (ACCEPT: Ekman transport)</CorrectAnswer>
@@ -384,7 +384,7 @@
     <Question QuestionID="26290" QuestionIDString="0000026290">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Marine Protected Areas</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>In terms of biomass, which of the following has been reported as the world's most robust marine reserve?</QuestionText>
       <AnswerW>Cabo Pulmo [pahl-mo] National Park</AnswerW>
@@ -396,11 +396,11 @@
     <Question QuestionID="26293" QuestionIDString="0000026293">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
+      <Category>Geography - Place Names</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>In what Indo-Pacific archipelago is the landlocked saltwater Jellyfish Lake located?
 </QuestionText>
-      <CorrectAnswer>Palau [puh-LAO]</CorrectAnswer>
+      <CorrectAnswer>Palau [puh-LAU]</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

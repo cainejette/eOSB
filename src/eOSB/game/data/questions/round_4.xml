@@ -4,7 +4,7 @@
     <Question QuestionID="26528" QuestionIDString="0000026528">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which fish was the target of the California-based commercial fishery that collapsed in the 1950's due in part to unsustainable fishing practices?</QuestionText>
       <AnswerW>Anchovy</AnswerW>
@@ -16,7 +16,7 @@
     <Question QuestionID="20295" QuestionIDString="0000020295">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Air-sea Interface</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the role of density in the vertical overturning of ocean water?</QuestionText>
       <CorrectAnswer>Denser surface water sinks and less dense water at depth rises upwards to replace it</CorrectAnswer>
@@ -39,12 +39,12 @@
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The Great Barrier Reef is found along which shore of Australia?</QuestionText>
-      <CorrectAnswer>Northeast</CorrectAnswer>
+      <CorrectAnswer>Queensland (ACCEPT: Northeast)</CorrectAnswer>
     </Question>
     <Question QuestionID="21499" QuestionIDString="0000021499">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Chemical Cycles</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following are not impacted by ocean acidification?</QuestionText>
       <AnswerW>Coral reef growth rates</AnswerW>
@@ -56,15 +56,15 @@
     <Question QuestionID="20232" QuestionIDString="0000020232">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Tides</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Why is the moon's tide generation force stronger than that of the Sun's?</QuestionText>
+      <QuestionText>Why is the moon's tide generation force stronger than that of the sun's?</QuestionText>
       <CorrectAnswer>The Moon is much closer to the Earth than the Sun</CorrectAnswer>
     </Question>
     <Question QuestionID="26381" QuestionIDString="0000026381">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following marine mammals is the deepest diver?</QuestionText>
       <AnswerW>Elephant seal</AnswerW>
@@ -78,7 +78,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Once submerged, a submarine can obtain what type of buoyancy?</QuestionText>
+      <QuestionText>Once submerged, the weight of a submarine equals the amount of water it displaces. What type of buoyancy means the submarine will neither rise nor sink?</QuestionText>
       <CorrectAnswer>Neutral</CorrectAnswer>
     </Question>
     <Question QuestionID="26862" QuestionIDString="0000026862">
@@ -96,7 +96,7 @@
     <Question QuestionID="27304" QuestionIDString="0000027304">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>In June 2011, the nonprofit group Fishing for Energy achieved a huge milestone by collecting a million pounds of what material?</QuestionText>
       <CorrectAnswer>Derelict fishing gear (ACCEPT: Marine debris)</CorrectAnswer>
@@ -104,7 +104,7 @@
     <Question QuestionID="21331" QuestionIDString="0000021331">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Salinity</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Together, sodium and chloride alone comprise approximately what percent of the total salts in the ocean?</QuestionText>
       <AnswerW>50</AnswerW>
@@ -119,12 +119,12 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Petromyzon marinus is the scientific name for which Great Lakes invasive species?</QuestionText>
-      <CorrectAnswer>Sea lamprey</CorrectAnswer>
+      <CorrectAnswer>Sea Lamprey</CorrectAnswer>
     </Question>
     <Question QuestionID="26629" QuestionIDString="0000026629">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which current runs North along the West coast of Africa and is associated with coastal upwelling?</QuestionText>
       <AnswerW>Agulhas [ah-GULL-us]</AnswerW>
@@ -136,10 +136,10 @@
     <Question QuestionID="20230" QuestionIDString="0000020230">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sediments</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Most  sand on tropical islands is composed of what material?</QuestionText>
-      <CorrectAnswer>Calcium carbonate shell fragments (ACCEPT: Shell fragments)</CorrectAnswer>
+      <CorrectAnswer>Calcium carbonate</CorrectAnswer>
     </Question>
     <Question QuestionID="27078" QuestionIDString="0000027078">
       <QuestionPair>8</QuestionPair>
@@ -164,7 +164,7 @@
     <Question QuestionID="26901" QuestionIDString="0000026901">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Ecosystem based resource management</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Marine biodiversity data from deep sea ecosystems were collected for which of the following fisheries management purposes?</QuestionText>
       <AnswerW>Determining the site for an artificial reef</AnswerW>
@@ -176,7 +176,7 @@
     <Question QuestionID="26717" QuestionIDString="0000026717">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name the sensory system that runs down both sides of fishes and senses subsonic pressure waves transmitted through the water.</QuestionText>
       <CorrectAnswer>Lateral line system (ACCEPT: Acoustico lateralis)</CorrectAnswer>
@@ -196,7 +196,7 @@
     <Question QuestionID="26265" QuestionIDString="0000026265">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The greek letter lambda is frequently used to represent what property of a wave?</QuestionText>
       <CorrectAnswer>Wavelength</CorrectAnswer>
@@ -204,7 +204,7 @@
     <Question QuestionID="21481" QuestionIDString="0000021481">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Chemistry of Water</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is a characteristic of an estuarine turbidity maximum?</QuestionText>
       <AnswerW>Increased flocculation</AnswerW>
@@ -216,7 +216,7 @@
     <Question QuestionID="27108" QuestionIDString="0000027108">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Marine Protected Areas</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What are TWO activities that are regulated or prohibited in marine protected areas?</QuestionText>
       <CorrectAnswer>Any TWO of: Anchoring, fishing, dumping, mining, harvesting, development</CorrectAnswer>
@@ -236,10 +236,10 @@
     <Question QuestionID="20233" QuestionIDString="0000020233">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Why is a beach more coarse grained in winter than in summer?</QuestionText>
-      <CorrectAnswer>During the winter, the fine sands are washed away by winter storms, leaving coarser grained material behind. During the summer's calmer conditions allow the fine-grained materials to remain.</CorrectAnswer>
+      <CorrectAnswer>During the winter, the fine sands are washed away by winter storms, leaving coarser grained material behind.  During the summer, calmer conditions allow the fine-grained materials to remain.</CorrectAnswer>
     </Question>
     <Question QuestionID="26478" QuestionIDString="0000026478">
       <QuestionPair>13</QuestionPair>
@@ -256,10 +256,10 @@
     <Question QuestionID="23080" QuestionIDString="0000023080">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Geologic Processes</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The San Andreas fault is an example of what type of fault?</QuestionText>
-      <CorrectAnswer>Strike slip</CorrectAnswer>
+      <CorrectAnswer>Strike-slip (ACCEPT: Transform, conservative; NOTE: Allow the modifiers right-lateral, dextral)</CorrectAnswer>
     </Question>
     <Question QuestionID="27207" QuestionIDString="0000027207">
       <QuestionPair>14</QuestionPair>
@@ -279,7 +279,7 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What term applies to a large, unpredictable wave that forms in the open ocean?</QuestionText>
-      <CorrectAnswer>Rogue wave (ACCEPT: Freak, monster, killer, extreme, abnormal)</CorrectAnswer>
+      <CorrectAnswer>Rogue (wave) (ACCEPT: Freak, monster, killer, extreme, abnormal)</CorrectAnswer>
     </Question>
     <Question QuestionID="26117" QuestionIDString="0000026117">
       <QuestionPair>15</QuestionPair>
@@ -289,14 +289,14 @@
       <QuestionText>Amnesic shellfish poisoning is caused by which of the following neurotoxins?</QuestionText>
       <AnswerW>Saxitoxin [sak-si-TOK-sin]</AnswerW>
       <AnswerX>Tetrodotoxin [teh-tro-duh-TOK-sin]</AnswerX>
-      <AnswerY>Ciguatera [see-gwa-tare-uh] toxin</AnswerY>
-      <AnswerZ>Domoic [duh-mow-ick] acid</AnswerZ>
+      <AnswerY>Ciguatera [see-gwa-TARE-uh] toxin</AnswerY>
+      <AnswerZ>Domoic [duh-MOW-ick] acid</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="22185" QuestionIDString="0000022185">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Reactions in Seawater</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What chemical is the principle source of energy at many of Earth's hydrothermal vent systems?</QuestionText>
       <CorrectAnswer>Hydrogen sulfide</CorrectAnswer>
@@ -316,7 +316,7 @@
     <Question QuestionID="22012" QuestionIDString="0000022012">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What terms describe the highest and lowest elevations of a wave?</QuestionText>
       <CorrectAnswer>Crests and troughs</CorrectAnswer>
@@ -326,7 +326,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The chemical luciferin [lew-sif-er-in] is involved in which of the following processes?</QuestionText>
+      <QuestionText>The chemical luciferin [lew-SIF-er-in] is involved in which of the following processes?</QuestionText>
       <AnswerW>Chemosynthesis</AnswerW>
       <AnswerX>Bioluminescence</AnswerX>
       <AnswerY>Denitrification</AnswerY>
@@ -344,22 +344,22 @@
     <Question QuestionID="26146" QuestionIDString="0000026146">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What diving response in marine mammals that allow them to decrease their heart rate?</QuestionText>
+      <QuestionText>What diving response in marine mammals allows them to decrease their heart rate?</QuestionText>
       <AnswerW>Bradycardia [BRAY-dee-CARD-ee-uh]</AnswerW>
       <AnswerX>Tachycardia [TACK-ee-CARD-ee-uh]</AnswerX>
-      <AnswerY>Arrhythmia [uhh-RITH-mee-uh]</AnswerY>
-      <AnswerZ>Pneumatocardia [new-mat-oh-CARD-ee-uh]</AnswerZ>
+      <AnswerY>Arrhythmia</AnswerY>
+      <AnswerZ>Pneumatocardia [new-MAT-oh-CARD-ee-uh]</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
     <Question QuestionID="26239" QuestionIDString="0000026239">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Diving</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>When diving in seawater, if your pressure increases by eight atmospheres, how many meters has your depth increased?</QuestionText>
-      <CorrectAnswer>70</CorrectAnswer>
+      <CorrectAnswer>80</CorrectAnswer>
     </Question>
     <Question QuestionID="26160" QuestionIDString="0000026160">
       <QuestionPair>19</QuestionPair>
@@ -376,7 +376,7 @@
     <Question QuestionID="26348" QuestionIDString="0000026348">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Earth Structure</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Of continental crust and oceanic crust, which is denser?</QuestionText>
       <CorrectAnswer>Oceanic</CorrectAnswer>
@@ -384,7 +384,7 @@
     <Question QuestionID="26174" QuestionIDString="0000026174">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Research Vessels</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What is the primary role of the research vessel JOIDES [joyh-deez] Resolution?</QuestionText>
       <AnswerW>Drilling cores of deep sea sediments</AnswerW>
@@ -396,10 +396,10 @@
     <Question QuestionID="26679" QuestionIDString="0000026679">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What name describes a current in which pressure gradient forces are balanced by the Coriolis force?</QuestionText>
-      <CorrectAnswer>Geostrophic current (ACCEPT: Geostrophic flow)</CorrectAnswer>
+      <QuestionText>Atmospheric systems often follow circular patterns due to what inertial force?</QuestionText>
+      <CorrectAnswer>Coriolis</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

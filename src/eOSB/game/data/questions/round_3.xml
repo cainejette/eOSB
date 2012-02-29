@@ -4,7 +4,7 @@
     <Question QuestionID="26176" QuestionIDString="0000026176">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following would NOT be an adaptation for deep diving marine mammals?</QuestionText>
       <AnswerW>Increased levels of myoglobin</AnswerW>
@@ -16,7 +16,7 @@
     <Question QuestionID="19799" QuestionIDString="0000019799">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Engineering</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the process of desalination by forcing seawater through a semi-permeable membrane called?</QuestionText>
       <CorrectAnswer>Reverse osmosis</CorrectAnswer>
@@ -44,7 +44,7 @@
     <Question QuestionID="26621" QuestionIDString="0000026621">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following reptile groups does NOT have representatives that spend most of their lives by salt water?</QuestionText>
       <AnswerW>Iguanas</AnswerW>
@@ -59,7 +59,7 @@
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the transition between the continental shelf and continental slope called?</QuestionText>
-      <CorrectAnswer>Shelf break</CorrectAnswer>
+      <CorrectAnswer>Shelf break (ACCEPT: Shelf-slope break)</CorrectAnswer>
     </Question>
     <Question QuestionID="7813" QuestionIDString="0000007813">
       <QuestionPair>4</QuestionPair>
@@ -76,7 +76,7 @@
     <Question QuestionID="26940" QuestionIDString="0000026940">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>To what Cnidarian class do fire corals and siphonophores [sigh-fah-nuh-fores] belong?</QuestionText>
       <CorrectAnswer>Hydrozoa</CorrectAnswer>
@@ -84,7 +84,7 @@
     <Question QuestionID="26872" QuestionIDString="0000026872">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is an example of point source pollution?</QuestionText>
       <AnswerW>Groundwater runoff</AnswerW>
@@ -96,7 +96,7 @@
     <Question QuestionID="27266" QuestionIDString="0000027266">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Seals, sea lions and walruses belong to which taxonomic suborder?</QuestionText>
       <CorrectAnswer>Pinnipedia</CorrectAnswer>
@@ -116,7 +116,7 @@
     <Question QuestionID="26655" QuestionIDString="0000026655">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Instrumentation</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What instruments do physical oceanographers deploy to profile water velocity?</QuestionText>
       <CorrectAnswer>Acoustic Doppler Current Profilers (ACCEPT: ADCPs, Profiling Acoustic Doppler Velocimeters, ADVs, current meters of any type)</CorrectAnswer>
@@ -138,7 +138,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How is the length of a lunar day different from the length of a solar day?</QuestionText>
+      <QuestionText>How is the length of a lunar day, time for the moon to appear at the same point in the sky, different from the length of a solar day, time for the sun to appear at the same point in the sky?</QuestionText>
       <CorrectAnswer>A solar day (24 hrs) is shorter than a lunar day (24 hrs and 50 mins).</CorrectAnswer>
     </Question>
     <Question QuestionID="11036" QuestionIDString="0000011036">
@@ -159,12 +159,12 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Chalk beds are often made out of the tests of what organisms?</QuestionText>
-      <CorrectAnswer>Coccolithophores (ACCEPT: Coccolithophorids)</CorrectAnswer>
+      <CorrectAnswer>Coccolithophores OR coccolithophorids</CorrectAnswer>
     </Question>
     <Question QuestionID="26278" QuestionIDString="0000026278">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Coral reefs are threatened by coastal nutrient pollution because corals prefer which of the following conditions?</QuestionText>
       <AnswerW>Oligotrophic</AnswerW>
@@ -179,7 +179,7 @@
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the world's largest sea?</QuestionText>
-      <CorrectAnswer>Mediterranean Sea</CorrectAnswer>
+      <CorrectAnswer>Philippine Sea</CorrectAnswer>
     </Question>
     <Question QuestionID="26511" QuestionIDString="0000026511">
       <QuestionPair>10</QuestionPair>
@@ -224,7 +224,7 @@
     <Question QuestionID="26705" QuestionIDString="0000026705">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Salt marsh zonation results from varying vegetation tolerances to which of the following?</QuestionText>
       <AnswerW>Soil type</AnswerW>
@@ -244,7 +244,7 @@
     <Question QuestionID="26652" QuestionIDString="0000026652">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Sampling Techniques</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>An Ekman grab is used to sample which of the following?</QuestionText>
       <AnswerW>Fish larvae</AnswerW>
@@ -256,7 +256,7 @@
     <Question QuestionID="26969" QuestionIDString="0000026969">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What term defines the depth at which the rate of photosynthesis balances the rate of respiration?</QuestionText>
       <CorrectAnswer>Compensation depth</CorrectAnswer>
@@ -264,7 +264,7 @@
     <Question QuestionID="26736" QuestionIDString="0000026736">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Fisheries Management</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following laws do NOT assign NOAA with responsibilities in by-catch monitoring and reduction?</QuestionText>
       <AnswerW>Magnuson-Stevens Act</AnswerW>
@@ -296,7 +296,7 @@
     <Question QuestionID="26040" QuestionIDString="0000026040">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Electromagnetic Spectrum</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What part of the visible spectrum is the first to be absorbed by seawater?</QuestionText>
       <CorrectAnswer>Red</CorrectAnswer>
@@ -306,7 +306,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which country was the first to build a tidal power station?</QuestionText>
+      <QuestionText>Which country was the first to build a large-scale tidal power station?</QuestionText>
       <AnswerW>United States</AnswerW>
       <AnswerX>Japan</AnswerX>
       <AnswerY>France</AnswerY>
@@ -316,7 +316,7 @@
     <Question QuestionID="27013" QuestionIDString="0000027013">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>If orca whales reduced the number of sea otters, what might happen to the density of the kelp bed?</QuestionText>
       <CorrectAnswer>The kelp density would be reduced</CorrectAnswer>
@@ -338,7 +338,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In the Northern hemisphere, which way do low pressure systems rotate?</QuestionText>
+      <QuestionText>In the Northern Hemisphere, which way do low pressure systems rotate?</QuestionText>
       <CorrectAnswer>Counterclockwise (ACCEPT: Cyclonic)</CorrectAnswer>
     </Question>
     <Question QuestionID="26411" QuestionIDString="0000026411">
@@ -356,9 +356,9 @@
     <Question QuestionID="26229" QuestionIDString="0000026229">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
+      <Category>Geography - Place Names</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Which TWO South American countries border Lake Titicaca [tit-tee-kaka]?</QuestionText>
+      <QuestionText>Which TWO South American countries border Lake Titicaca (tit-tee-kaka)?</QuestionText>
       <CorrectAnswer>Peru and Bolivia</CorrectAnswer>
     </Question>
     <Question QuestionID="26125" QuestionIDString="0000026125">
@@ -376,7 +376,7 @@
     <Question QuestionID="26277" QuestionIDString="0000026277">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Diatoms require silica for growth at approximately a 1:1 ratio to what other macronutrient?</QuestionText>
       <CorrectAnswer>Nitrogen</CorrectAnswer>
@@ -388,7 +388,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following organisms has been coined the keystone species of rocky intertidal zones of the north Pacific coast of the U.S.?</QuestionText>
       <AnswerW>Limpet</AnswerW>
-      <AnswerX>Predatory whelk</AnswerX>
+      <AnswerX>Large Sea Urchin</AnswerX>
       <AnswerY>Pisaster seastar</AnswerY>
       <AnswerZ>Blue mussel</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
@@ -396,7 +396,7 @@
     <Question QuestionID="26285" QuestionIDString="0000026285">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The largest oil release in world history took place in what country?</QuestionText>
       <CorrectAnswer>Kuwait</CorrectAnswer>

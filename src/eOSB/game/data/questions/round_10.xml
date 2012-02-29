@@ -18,8 +18,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Rank these four categories of plankton from largest size to smallest size: ultraplankton, mesoplankton, nannoplankton, picoplankton.</QuestionText>
-      <CorrectAnswer>Mesoplankton, nanoplankton, ultraplankton, picoplankton</CorrectAnswer>
+      <QuestionText>Rank these four categories of plankton from largest size to smallest size  Ultraplankton, mesoplankton, nannoplankton, picoplankton</QuestionText>
+      <CorrectAnswer>Mesoplankton (largest), nanoplankon, ultraplankton, picoplankton </CorrectAnswer>
     </Question>
     <Question QuestionID="12626" QuestionIDString="0000012626">
       <QuestionPair>2</QuestionPair>
@@ -27,8 +27,8 @@
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which type of deep sea ooze is mainly accumulated in the cold, near-pole regions at depths between 1000 and 6000 meters?</QuestionText>
-      <AnswerW>Diatomaceous [DYE-uh-tow-MAY-sish]</AnswerW>
-      <AnswerX>Foraminiferous [FOR-uh-min-NIF-er-ous]</AnswerX>
+      <AnswerW>Diatomaceous [DIE-ah-tow-MAY-sish]</AnswerW>
+      <AnswerX>Foraminiferous [for-am-in-NIF-er-ous]</AnswerX>
       <AnswerY>Radiolarian </AnswerY>
       <AnswerZ>Red clays</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
@@ -44,7 +44,7 @@
     <Question QuestionID="26953" QuestionIDString="0000026953">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Minke whales got their specific name, acutorostrata [uh-KYOOT-uh-ROS-trah-tuh], from which morphological feature?</QuestionText>
       <AnswerW>Sharp snout</AnswerW>
@@ -59,7 +59,7 @@
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>If you wanted to explore all the oceans of the world using one boat, how many times would you have to move the boat over land?</QuestionText>
-      <CorrectAnswer>None (ACCEPT: Zero)</CorrectAnswer>
+      <CorrectAnswer>Zero (ACCEPT: None)</CorrectAnswer>
     </Question>
     <Question QuestionID="26194" QuestionIDString="0000026194">
       <QuestionPair>4</QuestionPair>
@@ -99,7 +99,8 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Gastropods and bivalves are prominent members of which phylum?</QuestionText>
-      <CorrectAnswer>Mollusca (ACCEPT: Mollusc, Molluscs)</CorrectAnswer>
+      <CorrectAnswer>Mollusca
+Mollusc or Molluscs would also be acceptable</CorrectAnswer>
     </Question>
     <Question QuestionID="27503" QuestionIDString="0000027503">
       <QuestionPair>6</QuestionPair>
@@ -116,7 +117,7 @@
     <Question QuestionID="22831" QuestionIDString="0000022831">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sea Floor Features</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What type of island forms along the outer edges of passive continental margins?</QuestionText>
       <CorrectAnswer>Barrier island</CorrectAnswer>
@@ -126,7 +127,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The extremely invasive algae Caulerpa taxifolia [kuh-lair-pah TAX-ih-FOL-ee-ah] is believed to have escaped from aquaria in which of the following two countries?</QuestionText>
+      <QuestionText>The extremely invasive algae Caulerpa taxifolia [kuh-lair-pah tax-ih-fol-ee-ah] is believed to have escaped from aquaria in which of the following two countries?</QuestionText>
       <AnswerW>Spain and Portugal</AnswerW>
       <AnswerX>United States and Mexico</AnswerX>
       <AnswerY>France and Monaco</AnswerY>
@@ -136,7 +137,7 @@
     <Question QuestionID="13305" QuestionIDString="0000013305">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Map and Chart Reading</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is a line of constant longitude called?</QuestionText>
       <CorrectAnswer>A meridian</CorrectAnswer>
@@ -144,9 +145,9 @@
     <Question QuestionID="27363" QuestionIDString="0000027363">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - International laws and treaties</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In 2010, which convention established an international agreement to protect the following seven shark species: Great White, Basking, Whale, Porbeagle, Spiny Dogfish, Shortfin and Longfin Makos?</QuestionText>
+      <QuestionText>In 2010, a Memorandum of Understanding to which convention established an international agreement to protect the following seven shark species: Great White, Basking, Whale, Porbeagle, Spiny Dogfish, Shortfin and Longfin Makos?</QuestionText>
       <AnswerW>Convention for the International Trade in Endangered Species</AnswerW>
       <AnswerX>Convention on the Conservation of Migratory Species of Wild Animals</AnswerX>
       <AnswerY>International Commission for the Conservation of Atlantic Tunas</AnswerY>
@@ -158,8 +159,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Each ice age is made up of several periods related to the amount of sunlight reaching the Earth. What are the two names for these periods?</QuestionText>
-      <CorrectAnswer>Glacials and interglacials</CorrectAnswer>
+      <QuestionText>What are the names for the two glacial periods in an ice age?</QuestionText>
+      <CorrectAnswer>Stadials [STEY-dee-uhls] and Interstadials</CorrectAnswer>
     </Question>
     <Question QuestionID="27459" QuestionIDString="0000027459">
       <QuestionPair>9</QuestionPair>
@@ -176,7 +177,7 @@
     <Question QuestionID="27041" QuestionIDString="0000027041">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the primary function of the radula?</QuestionText>
       <CorrectAnswer>Eating (ACCEPT: Scraping, obtaining food)</CorrectAnswer>
@@ -204,12 +205,12 @@
     <Question QuestionID="27040" QuestionIDString="0000027040">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following fish does NOT have a bioluminescent organ?</QuestionText>
       <AnswerW>Viper fish</AnswerW>
       <AnswerX>Dragon fish</AnswerX>
-      <AnswerY>Tubular-eyed fish</AnswerY>
+      <AnswerY>Squirrel fish</AnswerY>
       <AnswerZ>Angler fish</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
@@ -224,7 +225,7 @@
     <Question QuestionID="26286" QuestionIDString="0000026286">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which term describes a fluid in which the isopycnals and isobars are parallel?</QuestionText>
       <AnswerW>Baroclinic</AnswerW>
@@ -238,13 +239,13 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Marine carbon dioxide seeps have been found in hydrothermal vent areas and near volcanoes. What are they commonly called?</QuestionText>
+      <QuestionText>Marine carbon dioxide seeps have been found in hydrothermal vent areas near a submarine volcano. What have these seeps been named?</QuestionText>
       <CorrectAnswer>Champagne vents</CorrectAnswer>
     </Question>
     <Question QuestionID="27115" QuestionIDString="0000027115">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following groups contains the smallest marine fish?</QuestionText>
       <AnswerW>Angel fish</AnswerW>
@@ -256,7 +257,7 @@
     <Question QuestionID="13259" QuestionIDString="0000013259">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>In 1902, why did European scientists organize a meeting forum called the International Council for the Exploration of the Sea (ICES) [EYE-sees]?</QuestionText>
       <CorrectAnswer>To discuss and/or improve international fisheries (ACCEPT: North Atlantic fisheries)</CorrectAnswer>
@@ -278,7 +279,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Why is the seabird Stercorarius parasiticus [STAIR-core-AIR-ee-oos para-sit-i-cus], the Arctic Skua, commonly known as the Parasitic Jaeger [YAY-ger]?</QuestionText>
+      <QuestionText>Why is the seabird Stercorarius parasiticus [stair-core-are-ioos para-sit-i-cus], the Arctic Skua, commonly known as the Parasitic Jaeger [Yay-ger]?</QuestionText>
       <CorrectAnswer>Because it robs other seabirds of their catches</CorrectAnswer>
     </Question>
     <Question QuestionID="14032" QuestionIDString="0000014032">
@@ -324,10 +325,10 @@
     <Question QuestionID="26715" QuestionIDString="0000026715">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Chemical species</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following substances behaves conservatively in seawater?</QuestionText>
-      <AnswerW>Bicarbonate</AnswerW>
+      <AnswerW>Phosphate</AnswerW>
       <AnswerX>Helium</AnswerX>
       <AnswerY>Ammonia</AnswerY>
       <AnswerZ>Nitrate</AnswerZ>
@@ -358,7 +359,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What act was adopted to set standards for the behavior of United States citizens in Antarctica by regulating the discharge of pollutants and the take of native mammals or birds?</QuestionText>
+      <QuestionText>What Act was adopted to set standards for the behavior of United States citizens in Antarctica by regulating the discharge of pollutants and the take of native mammals or birds?</QuestionText>
       <CorrectAnswer>The Antarctic Conservation Act of 1978 (ACCEPT: Antarctic Conservation Act)</CorrectAnswer>
     </Question>
     <Question QuestionID="27395" QuestionIDString="0000027395">
@@ -376,10 +377,10 @@
     <Question QuestionID="26403" QuestionIDString="0000026403">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>To what phylum do foraminifera belong?</QuestionText>
-      <CorrectAnswer>Protozoa</CorrectAnswer>
+      <QuestionText>To what Subphylum do foraminifera belong?</QuestionText>
+      <CorrectAnswer>Sarcodina</CorrectAnswer>
     </Question>
     <Question QuestionID="26138" QuestionIDString="0000026138">
       <QuestionPair>20</QuestionPair>

@@ -4,13 +4,13 @@
     <Question QuestionID="26247" QuestionIDString="0000026247">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which term describes a taxonomic group that does not include the common ancestor of the members of the group and whose members have two or more separate origins?</QuestionText>
-      <AnswerW>Holophyletic [ho-loh-fie-let-ick]</AnswerW>
-      <AnswerX>Paraphyletic [para-fie-let-ick]</AnswerX>
-      <AnswerY>Monophyletic [mono-fie-let-ick]</AnswerY>
-      <AnswerZ>Polyphyletic [poly-fie-let-ick]</AnswerZ>
+      <QuestionText>Which term describes a taxonomic group whose members have two or more separate evolutionary origins and which does not include a common ancestor for all members of the group?</QuestionText>
+      <AnswerW>Holophyletic [HO-loh-fie-LET-ick]</AnswerW>
+      <AnswerX>Paraphyletic [PARE-uh-fie-LET-ick]</AnswerX>
+      <AnswerY>Monophyletic [MON-oh-fie-LET-ick]</AnswerY>
+      <AnswerZ>Polyphyletic [PAUL-ee-fie-LET-ick]</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="12318" QuestionIDString="0000012318">
@@ -24,7 +24,7 @@
     <Question QuestionID="12385" QuestionIDString="0000012385">
       <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Notable Scientists</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Who presented the first known heliocentric model of the solar system, placing the Sun, not the Earth, at the center of the known universe?</QuestionText>
       <AnswerW>Christopher Columbus</AnswerW>
@@ -96,7 +96,7 @@
     <Question QuestionID="26259" QuestionIDString="0000026259">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>In what year was the Census of Marine Life completed?</QuestionText>
       <CorrectAnswer>2010</CorrectAnswer>
@@ -107,16 +107,16 @@
       <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Although the exact threshold varies from system to system, a water body is generally considered to be hypoxic [high-POX-ick] if oxygen concentrations drop below what level, in units of milligrams per liter?</QuestionText>
-      <AnswerW>3</AnswerW>
-      <AnswerX>5</AnswerX>
+      <AnswerW>1</AnswerW>
+      <AnswerX>3</AnswerX>
       <AnswerY>10</AnswerY>
       <AnswerZ>20</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="26317" QuestionIDString="0000026317">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name for the larval form of crabs and other decapod crustaceans, characterized by one or more spines on the carapace and rudimentary limbs on the abdomen and thorax?</QuestionText>
       <CorrectAnswer>Zoea [zoh-ee-uh]</CorrectAnswer>
@@ -136,10 +136,10 @@
     <Question QuestionID="25760" QuestionIDString="0000025760">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Tides</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Why do a few places on Earth, such as Tahiti, have virtually no tidal fluctuation?</QuestionText>
-      <CorrectAnswer>Places like Tahiti lie on a tidal node, a stationary point where the standing wave of the tide oscillates.</CorrectAnswer>
+      <CorrectAnswer>Places like Tahiti lie on a tidal node (amphidromic point), a stationary point where the standing wave of the tide oscillates.</CorrectAnswer>
     </Question>
     <Question QuestionID="25383" QuestionIDString="0000025383">
       <QuestionPair>8</QuestionPair>
@@ -164,7 +164,7 @@
     <Question QuestionID="13054" QuestionIDString="0000013054">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Notable Scientists</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Who was accredited with turning the steamboat into a commercial success after making history with a 150-mile trip from New York City to Albany on August 7, 1807?</QuestionText>
       <AnswerW>Robert Fulton</AnswerW>
@@ -176,16 +176,16 @@
     <Question QuestionID="26931" QuestionIDString="0000026931">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Water Properties</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the definition of neutral buoyancy?</QuestionText>
       <CorrectAnswer>The density of an object is equal to the density of the liquid in which it is suspended
-(ACCEPT: Weight (or mass) of fluid displaced equals the weight (or mass) of the object)</CorrectAnswer>
+Also accept: weight (or mass) of fluid displaced equals the weight (or mass) of the object</CorrectAnswer>
     </Question>
     <Question QuestionID="26623" QuestionIDString="0000026623">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What is the function of the ampullae [am-pew-lay] of Lorenzini, a group of sensory organs of cartilaginous fishes?</QuestionText>
       <AnswerW>Electro-receptors that translate electric pulses from the heart to the spine</AnswerW>
@@ -217,15 +217,15 @@
     <Question QuestionID="16755" QuestionIDString="0000016755">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Chemistry of Water</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the angle between the two hydrogen atoms in water that leads to the polarity of the molecule?</QuestionText>
-      <CorrectAnswer>105 degrees</CorrectAnswer>
+      <CorrectAnswer>104.5 degrees (ACCEPT: 105 degrees)</CorrectAnswer>
     </Question>
     <Question QuestionID="26327" QuestionIDString="0000026327">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Earth Structure</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which scientist discovered the Earth's inner core?</QuestionText>
       <AnswerW>Inge Lehmann</AnswerW>
@@ -245,9 +245,9 @@
     <Question QuestionID="26355" QuestionIDString="0000026355">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Terrestrial runoff is a cause of frequent population booms of which of the following echinoderms [ee-KINE-oh-derms]?</QuestionText>
+      <QuestionText>Terrestrial runoff is a cause of frequent population booms of which of the following echinoderms (e-kine-oh-derms)?</QuestionText>
       <AnswerW>Pencil urchin</AnswerW>
       <AnswerX>Crown-of-thorns sea star</AnswerX>
       <AnswerY>California sea cucumber</AnswerY>
@@ -257,15 +257,15 @@
     <Question QuestionID="26350" QuestionIDString="0000026350">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The USS Albatross has the distinction of being the first U.S. ship built for what purpose?</QuestionText>
-      <CorrectAnswer>Oceanographic research (ACCEPT: Other similar answers, e.g. marine science)</CorrectAnswer>
+      <CorrectAnswer>Oceanographic research (ACCEPT: Similar answers, like marine science)</CorrectAnswer>
     </Question>
     <Question QuestionID="26181" QuestionIDString="0000026181">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following adaptations would NOT typically be found in a mesopelagic fish?</QuestionText>
       <AnswerW>Slow growth rates</AnswerW>
@@ -277,7 +277,7 @@
     <Question QuestionID="26466" QuestionIDString="0000026466">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the speed of a deep water wave with a wavelength of 150 meters and a period of 10 seconds?</QuestionText>
       <CorrectAnswer>15 meters per second</CorrectAnswer>
@@ -289,23 +289,23 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Microtektites are an example of which type of marine sediment?</QuestionText>
       <AnswerW>Hydrogenous [hy-DRAW-gen-us]</AnswerW>
-      <AnswerX>Cosmogenous [KOS-maw-gen-us]</AnswerX>
-      <AnswerY>Biogenous [by-AH-gen-us]</AnswerY>
+      <AnswerX>Cosmogenous [koz-MAW-gen-us]</AnswerX>
+      <AnswerY>Biogenous [by-AW-gen-us]</AnswerY>
       <AnswerZ>Terrigenous [ter-IH-gen-us]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="26471" QuestionIDString="0000026471">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Evolution</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the largest living reptile species in the world?</QuestionText>
-      <CorrectAnswer>Saltwater crocodile (ACCEPT: Estuarine crocodile, Indo-Pacific crocodile.) NOTE: "Crocodile" is not sufficient)</CorrectAnswer>
+      <CorrectAnswer>Saltwater crocodile (ACCEPT: Estuarine crocodile, Indo-Pacific crocodile. NOTE: "Crocodile" is not sufficient)</CorrectAnswer>
     </Question>
     <Question QuestionID="26363" QuestionIDString="0000026363">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Instrumentation</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>You send out a SONAR signal and it hits a large whale. The signal comes back to the submersible four seconds later.  Approximately how far away is that whale, in meters?</QuestionText>
       <AnswerW>1,500</AnswerW>
@@ -317,7 +317,7 @@
     <Question QuestionID="27242" QuestionIDString="0000027242">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Notable Scientists</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What German meteorologist first published his ideas on the theory of Continental Drift?</QuestionText>
       <CorrectAnswer>Alfred Wegener</CorrectAnswer>
@@ -325,9 +325,9 @@
     <Question QuestionID="26185" QuestionIDString="0000026185">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following possesses a pneumatophore [new-MAT-oh-fore]?</QuestionText>
+      <QuestionText>Which of the following possesses a pneumatophore (new-mat-oh-fore)?</QuestionText>
       <AnswerW>Hermatypic coral</AnswerW>
       <AnswerX>Cuttlefish</AnswerX>
       <AnswerY>Mangrove</AnswerY>
@@ -337,7 +337,7 @@
     <Question QuestionID="26661" QuestionIDString="0000026661">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sediments</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>How are summer sand berms formed?</QuestionText>
       <CorrectAnswer>Sand is transported from offshore to the beach by small waves</CorrectAnswer>
@@ -357,7 +357,7 @@
     <Question QuestionID="26668" QuestionIDString="0000026668">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Male squids transfer their gametes to the females in packets of sperm called what?</QuestionText>
       <CorrectAnswer>Spermatophores</CorrectAnswer>
@@ -365,9 +365,9 @@
     <Question QuestionID="26430" QuestionIDString="0000026430">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Fisheries Management</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Approximately 60 percent of the fish landed in the United States comes from which region?</QuestionText>
+      <QuestionText>Approximately 50 percent of the fish landed in the United States comes from which region?</QuestionText>
       <AnswerW>Gulf of Maine</AnswerW>
       <AnswerX>Gulf of Mexico</AnswerX>
       <AnswerY>Bering Sea</AnswerY>
@@ -385,22 +385,22 @@
     <Question QuestionID="27288" QuestionIDString="0000027288">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is NOT a key determinant of the level of primary production of a water column?</QuestionText>
       <AnswerW>Abundance of phytoplankton</AnswerW>
       <AnswerX>Vertical distribution of phytoplankton</AnswerX>
-      <AnswerY>Thermal stratification or water column</AnswerY>
+      <AnswerY>Thermal stratification of water column</AnswerY>
       <AnswerZ>Availability of manganese from river runoff</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="26526" QuestionIDString="0000026526">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - International laws and treaties</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What international agreement ensures that international trade in specimens of wild animals and plants does not threaten their survival?</QuestionText>
-      <CorrectAnswer>Convention on International Trade in Endangered Species (of Wild Fauna and Flora) (ACCEPT: CITES [sight-eez])</CorrectAnswer>
+      <CorrectAnswer>Convention on International Trade in Endangered Species (of Wild Fauna and Flora) (ACCEPT: CITES [sight-ees])</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

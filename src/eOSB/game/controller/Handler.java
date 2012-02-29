@@ -22,7 +22,7 @@ import eOSB.binder.ui.ShowBuzzerQuestionsEvent;
 import eOSB.binder.ui.actions.RoundSelectedEvent;
 import eOSB.game.data.RoundFactory;
 import eOSB.game.data.TcqFactory;
-import eOSB.game.data.XmlParser;
+import eOSB.game.data.QuestionXMLParser;
 import eOSB.game.ui.PackageSelectionListEvent;
 import eOSB.game.ui.PackagesSelectedEvent;
 import eOSB.game.ui.RoundSelectionListEvent;
@@ -42,7 +42,7 @@ import eOSB.time.controller.Timekeeper;
 public class Handler implements EventSubscriber<EventServiceEvent> {
 	
   /** the object used to read questions from files */
-  private XmlParser questionReader;
+  private QuestionXMLParser questionReader;
 
   /** the gui for the binder */
   private Binder binder;
@@ -117,8 +117,8 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 //    tcqSolutions.add(new Tcq("Practice A Solutions", TcqFactory.TCQ_1_A_SOLUTIONS));
 //    tcqSolutions.add(new Tcq("Practice B Solutions", TcqFactory.TCQ_1_B_SOLUTIONS));
 //    
-//    
-//    this.availableRounds.add(new Round("Practice Round", RoundFactory.PRACTICE, tcqs, tcqSolutions));
+    
+    this.availableRounds.add(new Round("Six-question warm up", RoundFactory.PRACTICE, tcqs, tcqSolutions));
     
     tcqs.add(new Tcq("Round 1 A", TcqFactory.TCQ_1_A, "Biology", "3:00"));
     tcqs.add(new Tcq("Round 1 B", TcqFactory.TCQ_1_B, "Social Sciences", "3:00"));
@@ -129,7 +129,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
     
     tcqs = new ArrayList<Tcq>();
     tcqs.add(new Tcq("Round 2 A", TcqFactory.TCQ_2_A, "Geology", "2:00"));
-    tcqs.add(new Tcq("Round 2 B", TcqFactory.TCQ_2_B, "Technology", "4:00"));
+    tcqs.add(new Tcq("Round 2 B", TcqFactory.TCQ_2_B, "Geography", "4:00"));
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 2 A Solutions", TcqFactory.TCQ_2_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 2 B Solutions", TcqFactory.TCQ_2_B_SOLUTIONS));
@@ -245,26 +245,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
     tcqSolutions.add(new Tcq("Tiebreaker B Solutions", TcqFactory.TCQ_13_B_SOLUTIONS));
 
     this.availableRounds.add(new Round("Tiebreaker Round", RoundFactory.TIEBREAKER , tcqs, tcqSolutions));
-//    
-//    tcqs = new ArrayList<Tcq>();
-//    tcqs.add(new Tcq("DE Round 9 A", TcqFactory.TCQ_14_A));
-//    tcqs.add(new Tcq("DE Round 9 B", TcqFactory.TCQ_14_B));
-//
-//    tcqSolutions = new ArrayList<Tcq>();
-//    tcqSolutions.add(new Tcq("DE Round 9 A Solutions", TcqFactory.TCQ_14_A_SOLUTIONS));
-//    tcqSolutions.add(new Tcq("DE Round 9 B Solutions", TcqFactory.TCQ_14_B_SOLUTIONS));
-//
-//    this.availableRounds.add(new Round("DE Round 9", RoundFactory.ROUND_14, tcqs, tcqSolutions));
-//    
-//    tcqs = new ArrayList<Tcq>();
-//    tcqs.add(new Tcq("DE Round 10 A", TcqFactory.TCQ_15_A));
-//    tcqs.add(new Tcq("DE Round 10 B", TcqFactory.TCQ_15_B));
-//
-//    tcqSolutions = new ArrayList<Tcq>();
-//    tcqSolutions.add(new Tcq("DE Round 10 A Solutions", TcqFactory.TCQ_15_A_SOLUTIONS));
-//    tcqSolutions.add(new Tcq("DE Round 10 B Solutions", TcqFactory.TCQ_15_B_SOLUTIONS));
-//
-//    this.availableRounds.add(new Round("DE Round 10", RoundFactory.ROUND_15, tcqs, tcqSolutions));
   }
 
   /**
@@ -289,7 +269,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 
 		this.currentRound = round;
 
-		this.questionReader = new XmlParser(this.currentRound);
+		this.questionReader = new QuestionXMLParser(this.currentRound);
 		this.processNewRound();
   }
 

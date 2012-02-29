@@ -2,14 +2,14 @@ package eOSB.game.controller;
 
 import org.bushe.swing.event.EventServiceEvent;
 
-import eOSB.game.data.XmlParser;
+import eOSB.game.data.QuestionXMLParser;
 
 public class RoundLoadedEvent implements EventServiceEvent {
 
 	private Object source;
-	private XmlParser parser;
+	private QuestionXMLParser parser;
 	
-	public RoundLoadedEvent(Object source, XmlParser parser) {
+	public RoundLoadedEvent(Object source, QuestionXMLParser parser) {
 		this.source = source;
 		this.parser = parser;
 	}
@@ -18,7 +18,7 @@ public class RoundLoadedEvent implements EventServiceEvent {
 		return this.source;
 	}
 	
-	public XmlParser getParser() {
+	public QuestionXMLParser getParser() {
 		return this.parser;
 	}
 }

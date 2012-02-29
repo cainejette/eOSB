@@ -853,7 +853,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			if (text.contains("[") && text.contains("]")) {
 				int pronunciationStart = text.indexOf("[");
 				int pronunciationEnd = text.indexOf("]");
-
+				
 				document.insertString(document.getLength(),
 						text.substring(0, pronunciationStart), document.getStyle(REGULAR_STYLE));
 				document.insertString(document.getLength(),

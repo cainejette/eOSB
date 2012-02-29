@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="402" BowlYear="2012" RoundName="Practice Round" CompetitionName="Regional Competition 3">
+  <Questions>
+    <Question QuestionID="26013" QuestionIDString="0000026013">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Currents</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The apparent deflection of an object moving over the surface of the Earth, rightward in the northern hemisphere and leftward in the southern hemisphere, is know as which of the following? </QuestionText>
+      <AnswerW>Fick's Law</AnswerW>
+      <AnswerX>Ekman Spiral</AnswerX>
+      <AnswerY>The Bohr Effect</AnswerY>
+      <AnswerZ>The Coriolis Effect</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23490" QuestionIDString="0000023490">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology - Research Vessels</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>An AUV is a robot that swims through the water untethered. What does the acronym A-U-V stand for?</QuestionText>
+      <CorrectAnswer>Autonomous Underwater Vehicle</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26149" QuestionIDString="0000026149">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical - Chemistry of Water</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the most abundant element dissolved in seawater?</QuestionText>
+      <AnswerW>Sodium</AnswerW>
+      <AnswerX>Calcium</AnswerX>
+      <AnswerY>Oxygen</AnswerY>
+      <AnswerZ>Nitrogen</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="22794" QuestionIDString="0000022794">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Anatomy and Physiology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the layer of fat used by most marine mammals to keep warm?</QuestionText>
+      <CorrectAnswer>Blubber</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26253" QuestionIDString="0000026253">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology - Fishing gear and vessels</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Bluefin tuna are particularly vulnerable as bycatch during which method of commercial fishing?</QuestionText>
+      <AnswerW>Angling</AnswerW>
+      <AnswerX>Purse seining</AnswerX>
+      <AnswerY>Harpooning</AnswerY>
+      <AnswerZ>Longlining</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23712" QuestionIDString="0000023712">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology - Sediments</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Are the slopes of granular beaches steeper or shallower than those of sandy beaches?</QuestionText>
+      <CorrectAnswer>Steeper</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26379" QuestionIDString="0000026379">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Theme - A Sea of Change: Development &amp; Evolution</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the greatest contributing factor to biodiversity loss in the global ocean?</QuestionText>
+      <AnswerW>Human population growth</AnswerW>
+      <AnswerX>The greenhouse effect</AnswerX>
+      <AnswerY>Extreme weather events</AnswerY>
+      <AnswerZ>Sea-level rise</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25004" QuestionIDString="0000025004">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Towards what direction does an easterly current flow?</QuestionText>
+      <CorrectAnswer>Eastward (ACCEPT: East)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26325" QuestionIDString="0000026325">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology - Sediments</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>On the Wentworth Scale, which of the following sediments ranges in size from two to four millimeters?</QuestionText>
+      <AnswerW>Silt</AnswerW>
+      <AnswerX>Clay</AnswerX>
+      <AnswerY>Gravel</AnswerY>
+      <AnswerZ>Cobble</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23325" QuestionIDString="0000023325">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology - Engineering</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The Pacific Warning System based in Hawaii sends out warnings about what phenomenon?</QuestionText>
+      <CorrectAnswer>Tsunami (DO NOT ACCEPT: Tidal wave)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26104" QuestionIDString="0000026104">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Theme - A Sea of Change: Development &amp; Evolution</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Understanding the ocean's influence on humans, and humans' influence on the ocean, is part of improving which of the following concepts?</QuestionText>
+      <AnswerW>Ocean literacy</AnswerW>
+      <AnswerX>Environmental protection</AnswerX>
+      <AnswerY>Ocean opportunity</AnswerY>
+      <AnswerZ>Restoration policy</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="20553" QuestionIDString="0000020553">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Behavior/Adaptations</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the structure that mussels use to attach themselves to rocks or other substrates?</QuestionText>
+      <CorrectAnswer>Byssal [bih-sull] threads</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

@@ -24,12 +24,12 @@
     <Question QuestionID="26636" QuestionIDString="0000026636">
       <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following ocean currents flows predominantly in a South to North direction?</QuestionText>
       <AnswerW>Humboldt</AnswerW>
       <AnswerX>California</AnswerX>
-      <AnswerY>Agulhas [uh-GUHL-uhs]</AnswerY>
+      <AnswerY>Agulhas [uh-GULL-uhs]</AnswerY>
       <AnswerZ>Canary</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
@@ -38,13 +38,13 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Explain the solubility of silica in the ocean in terms of depth and temperature.</QuestionText>
-      <CorrectAnswer>Silica solubility increases with decreasing pressure and increasing temperature</CorrectAnswer>
+      <QuestionText>Explain the solubility of silica in the ocean in terms of pressure and temperature.</QuestionText>
+      <CorrectAnswer>Silica solubility increases with decreasing pressure and increasing temperature (ACCEPT: Silica solubility decreases with increasing pressure and decreasing temperature)</CorrectAnswer>
     </Question>
     <Question QuestionID="18421" QuestionIDString="0000018421">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
+      <Category>Geography - Oceanic Zones</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Where does the Gulf Stream separate from the coast before heading to deeper waters?</QuestionText>
       <AnswerW>Near the tip of Florida</AnswerW>
@@ -56,7 +56,7 @@
     <Question QuestionID="26206" QuestionIDString="0000026206">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Ecosystem based resource management</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the full name of the agency which manages the Red List of Threatened Species?</QuestionText>
       <CorrectAnswer>International Union for Conservation of Nature</CorrectAnswer>
@@ -64,13 +64,13 @@
     <Question QuestionID="26501" QuestionIDString="0000026501">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The electric organ of fish, such as the torpedo ray, is derived primarily from which type of tissue?</QuestionText>
       <AnswerW>Muscle</AnswerW>
       <AnswerX>Connective</AnswerX>
       <AnswerY>Neural</AnswerY>
-      <AnswerZ>Integument [in-teg-yuh-muh]</AnswerZ>
+      <AnswerZ>Integument [in-TEG-yuh-muh]</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
     <Question QuestionID="24227" QuestionIDString="0000024227">
@@ -78,13 +78,13 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Arrange these sediment grain sizes from largest to smallest: Clay, Silt, Cobble, Sand</QuestionText>
+      <QuestionText>Arrange the following sediment grain sizes from largest to smallest: Clay, Silt, Cobble, Sand</QuestionText>
       <CorrectAnswer>Cobble, Sand, Silt, Clay</CorrectAnswer>
     </Question>
     <Question QuestionID="26318" QuestionIDString="0000026318">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Reactions in Seawater</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>At hydrothermal vents, which substance is absorbed and converted into energy by symbiotic bacteria?</QuestionText>
       <AnswerW>Potassium sulfate</AnswerW>
@@ -104,7 +104,7 @@
     <Question QuestionID="26395" QuestionIDString="0000026395">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The Rossby number can be used to determine the significance of which physical forcing on ocean currents?</QuestionText>
       <AnswerW>Gravitational</AnswerW>
@@ -116,10 +116,10 @@
     <Question QuestionID="27222" QuestionIDString="0000027222">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Why were silver carp originally brought to the United States?</QuestionText>
-      <CorrectAnswer>To control plankton in aquaculture ponds (ACCEPT: As a food fish, for control in municipal wastewater treatment facilities)</CorrectAnswer>
+      <CorrectAnswer>To control plankton in aquaculture ponds (ACCEPT: As a food fish,for control in municipal wastewater treatment facilities)</CorrectAnswer>
     </Question>
     <Question QuestionID="27061" QuestionIDString="0000027061">
       <QuestionPair>7</QuestionPair>
@@ -139,17 +139,17 @@
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>LNG is the abbreviation for what energy source?</QuestionText>
-      <CorrectAnswer>Liquefied natural gas</CorrectAnswer>
+      <CorrectAnswer>Liquefied Natural Gas</CorrectAnswer>
     </Question>
     <Question QuestionID="26580" QuestionIDString="0000026580">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What are the stinging cells of cnidarians [nih-DARE-ee-uhnz] called?</QuestionText>
+      <QuestionText>What are the stinging cells of cnidarians [nahy-DARE-ee-uhn] called?</QuestionText>
       <AnswerW>Photophores</AnswerW>
-      <AnswerX>Nematoblast [neh-MAH-tow-blast]</AnswerX>
-      <AnswerY>Pneumatophores [new-MAH-tow-fores]</AnswerY>
+      <AnswerX>Nematoblast [neh-MAT-oh-blast]</AnswerX>
+      <AnswerY>Pneumatophores [new-MAT-oh-fores]</AnswerY>
       <AnswerZ>Cnidocytes [NIGH-doh-sites]</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
@@ -177,7 +177,7 @@
     <Question QuestionID="27015" QuestionIDString="0000027015">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name three of the five subtropical gyres.</QuestionText>
       <CorrectAnswer>Any THREE of: Indian Ocean Gyre, North Atlantic Gyre, North Pacific Gyre, South Atlantic Gyre, South Pacific Gyre</CorrectAnswer>
@@ -205,7 +205,7 @@
     <Question QuestionID="26178" QuestionIDString="0000026178">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following terms describes the adaptations of vascular plants living in high salinity soils, whereby plants maintain high water concentrations in tissues to act as a buffer against water loss by osmosis?</QuestionText>
       <AnswerW>Succulence strategy</AnswerW>
@@ -217,7 +217,7 @@
     <Question QuestionID="23315" QuestionIDString="0000023315">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Navigation</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What man-made structure connects the Atlantic Ocean to the Pacific Ocean?</QuestionText>
       <CorrectAnswer>Panama Canal</CorrectAnswer>
@@ -225,7 +225,7 @@
     <Question QuestionID="27065" QuestionIDString="0000027065">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Geochemistry</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What is contained in the superheated fluid exiting the seafloor at hydrothermal vents?</QuestionText>
       <AnswerW>Hydrocarbons from oil deposits below the surface</AnswerW>
@@ -239,16 +239,16 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The dinoflagellate Gambierdiscus [gam-beer-dis-cuss] toxicus is infamous for causing what disease?</QuestionText>
-      <CorrectAnswer>Ciguatera [SIG-wah-TARE-uh] (DO NOT ACCEPT: Paralytic or amnesic shellfish poisoning)</CorrectAnswer>
+      <QuestionText>The dinoflagellate Gambierdiscus (gam-beer-dis-cuss) toxicus is infamous for causing what disease?</QuestionText>
+      <CorrectAnswer>Ciguatera [SIG-wah-TARE-uh] (DO NOTE ACCEPT: Paralytic, amnesic shellfish poisoning)</CorrectAnswer>
     </Question>
     <Question QuestionID="27161" QuestionIDString="0000027161">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Why is it much less likely that a locally generated tsunami will occur on the U.S. east coast than the U.S. west coast?</QuestionText>
-      <AnswerW>Large earthquakes are less frequent along the east coast</AnswerW>
+      <AnswerW>Large earthquakes are less frequent around the Atlantic Ocean</AnswerW>
       <AnswerX>The continental shelf is much broader along the east coast</AnswerX>
       <AnswerY>The mid-Atlantic ridge protects the east coast from tsunamis</AnswerY>
       <AnswerZ>The Atlantic Ocean is much shallower than the Pacific Ocean</AnswerZ>
@@ -285,7 +285,7 @@
     <Question QuestionID="26602" QuestionIDString="0000026602">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Oil from within the protoplasm of diatoms is hypothesized to have created which of the following?</QuestionText>
       <AnswerW>Methane hydrates</AnswerW>
@@ -305,7 +305,7 @@
     <Question QuestionID="26212" QuestionIDString="0000026212">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Fisheries Management</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Occurring in the 1950's and 1970's, the Cod Wars were a series of confrontations over fishing rights between which two countries?</QuestionText>
       <AnswerW>Russia and Greenland</AnswerW>
@@ -327,7 +327,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following best describes the foraging strategy of the brittlestar Amphiuria filiformis [am-fee-ur-ee-uh fill-ih-fore-miss]?</QuestionText>
+      <QuestionText>Which of the following best describes the foraging strategy of the brittlestar Amphiuria filiformis [AM-fee-YUR-ee-uh fill-ih-fore-miss]?</QuestionText>
       <AnswerW>Ambush predator</AnswerW>
       <AnswerX>Filter feeder</AnswerX>
       <AnswerY>Suspension feeder</AnswerY>
@@ -385,7 +385,7 @@
     <Question QuestionID="26261" QuestionIDString="0000026261">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Fishing gear and vessels</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What is the name of the type of trawl which allows fishermen to target haddock while releasing species like cod, helping to reduce the catch of non-target species by more then 50 percent?</QuestionText>
       <AnswerW>Otter</AnswerW>

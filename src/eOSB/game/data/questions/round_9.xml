@@ -16,7 +16,7 @@
     <Question QuestionID="26703" QuestionIDString="0000026703">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Although species have adapted to changing climates in the past, what is the fear with current climate change as it relates to adaptation?</QuestionText>
       <CorrectAnswer>Climate will change faster than species can adapt</CorrectAnswer>
@@ -36,10 +36,10 @@
     <Question QuestionID="27082" QuestionIDString="0000027082">
       <QuestionPair>2</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What pulmonary adaptation allows whales to dive deeply in the ocean?</QuestionText>
-      <CorrectAnswer>Their lungs are collapsible (ACCEPT: Small lung volume)</CorrectAnswer>
+      <CorrectAnswer>Their lungs are collapsible</CorrectAnswer>
     </Question>
     <Question QuestionID="27466" QuestionIDString="0000027466">
       <QuestionPair>3</QuestionPair>
@@ -76,7 +76,7 @@
     <Question QuestionID="19920" QuestionIDString="0000019920">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Instrumentation</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What are TWO positioning readings that can be taken when operating an ROV?</QuestionText>
       <CorrectAnswer>Any TWO of: Depth, heading, geographic location, latitude, longitude</CorrectAnswer>
@@ -84,7 +84,7 @@
     <Question QuestionID="26773" QuestionIDString="0000026773">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following statements is NOT true of sponges?</QuestionText>
       <AnswerW>They are invertebrate animals</AnswerW>
@@ -96,7 +96,7 @@
     <Question QuestionID="20276" QuestionIDString="0000020276">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Water Properties</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Explain what would happen if you added dye to salt water and slowly added the salt water to a cup of fresh water, and why this reaction occurred.</QuestionText>
       <CorrectAnswer>The dyed salt water would sink to the bottom because the density of salt water is higher than that of fresh water</CorrectAnswer>
@@ -124,9 +124,9 @@
     <Question QuestionID="26583" QuestionIDString="0000026583">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Gas is secreted into and resorbed through the physoclistous [FIE-suh-KLIS-tus] swim bladder of some fish through a network of blood vessels known as which of the following?</QuestionText>
+      <QuestionText>Gas is secreted into and resorbed through the physoclistous [fie-suh-KLIS-tus] swim bladder of some fish through a network of blood vessels known as which of the following?</QuestionText>
       <AnswerW>Pneumatic duct</AnswerW>
       <AnswerX>Carpi dorsale</AnswerX>
       <AnswerY>Rete mirabile [REE-tee mee-RAH-bee-leh]</AnswerY>
@@ -156,7 +156,7 @@
     <Question QuestionID="26179" QuestionIDString="0000026179">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Evolution</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name of Darwin's theory which describes the origin of coral atolls?</QuestionText>
       <CorrectAnswer>Subsidence</CorrectAnswer>
@@ -164,7 +164,7 @@
     <Question QuestionID="27443" QuestionIDString="0000027443">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What was the name of the ship that disappeared in 1872 with everyone aboard, and was later found abandoned in the eastern Atlantic?</QuestionText>
       <AnswerW>Kon-tiki</AnswerW>
@@ -184,7 +184,7 @@
     <Question QuestionID="21696" QuestionIDString="0000021696">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Thermodynamics</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>In which body of water is inverse thermal stratification most likely to occur?</QuestionText>
       <AnswerW>Gulf of Mexico</AnswerW>
@@ -196,7 +196,7 @@
     <Question QuestionID="26778" QuestionIDString="0000026778">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>In Australia, what marine mammals were observed using sponges as tools?</QuestionText>
       <CorrectAnswer>Bottlenose dolphins (ACCEPT: Dolphins)</CorrectAnswer>
@@ -216,7 +216,7 @@
     <Question QuestionID="20990" QuestionIDString="0000020990">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name of the seaward flowing current associated with the decrease in the height of a tide?</QuestionText>
       <CorrectAnswer>Ebb</CorrectAnswer>
@@ -224,7 +224,7 @@
     <Question QuestionID="26720" QuestionIDString="0000026720">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What percentage of the world’s oxygen is produced by phytoplankton?</QuestionText>
       <AnswerW>10</AnswerW>
@@ -244,7 +244,7 @@
     <Question QuestionID="21747" QuestionIDString="0000021747">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following statements accurately describes constructive interference?</QuestionText>
       <AnswerW>When waves are in phase, amplitude is increased</AnswerW>
@@ -256,10 +256,10 @@
     <Question QuestionID="13800" QuestionIDString="0000013800">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
+      <Category>Geography - Place Names</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name the largest submarine canyon off West Africa.</QuestionText>
-      <CorrectAnswer>Congo River Canyon (ACCEPT: Congo River)</CorrectAnswer>
+      <CorrectAnswer>Congo River Canyon (ACCEPT: Congo Canyon)</CorrectAnswer>
     </Question>
     <Question QuestionID="12541" QuestionIDString="0000012541">
       <QuestionPair>14</QuestionPair>
@@ -267,16 +267,16 @@
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What process produced linear depressions or gouges in sediments on the Antarctic seafloor?</QuestionText>
-      <AnswerW>Feeding activities of benthic-feeding whales</AnswerW>
+      <AnswerW>Ice scour</AnswerW>
       <AnswerX>Erosion by turbidity currents</AnswerX>
       <AnswerY>Fault scarps from seismic activity</AnswerY>
       <AnswerZ>Collapse of lava tubes in contact with the cold water</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <CorrectAnswer>W</CorrectAnswer>
     </Question>
     <Question QuestionID="26667" QuestionIDString="0000026667">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name the structure found in some fishes that recirculates blood through a special capillary bed and keeps their internal temperature warmer than surrounding water.</QuestionText>
       <CorrectAnswer>Rete mirabile [REE-tee mee-RAH-bee-leh] (ACCEPT: Rete mirabilis [REE-tee mee-RAH-bee-iss])</CorrectAnswer>
@@ -284,13 +284,13 @@
     <Question QuestionID="26414" QuestionIDString="0000026414">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Geochemistry</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Long-chain hydrocarbons called alkenones [al-kuh-nowns] are found in sediments.  Paleo-oceanographers use them to reconstruct sea surface temperatures.  What group of organisms produces these compounds?</QuestionText>
+      <QuestionText>Long-chain hydrocarbons called alkenones [AL-kuh-nowns] are found in sediments.  Paleo-oceanographers use them to reconstruct sea surface temperatures.  What group of organisms produces these compounds?</QuestionText>
       <AnswerW>Diatoms</AnswerW>
-      <AnswerX>Radiolarians [RAY-dee-o-LAIR-ee-ahns]</AnswerX>
-      <AnswerY>Coccolithophores [COCK-oh-LITH-oh-fors]</AnswerY>
-      <AnswerZ>Dinoflagellates [DYE-no-FLA-gel-ates]</AnswerZ>
+      <AnswerX>Radiolarians [RAY-dee-oh-LAIR-ee-ahns]</AnswerX>
+      <AnswerY>Coccolithophores [KOH-koh-LITH-oh-fors]</AnswerY>
+      <AnswerZ>Dinoflagellates [DIE-no-FLA-gel-ates]</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="13877" QuestionIDString="0000013877">
@@ -299,12 +299,12 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Boats fishing south of 60 degrees latitude in the Southern Ocean are obliged to use techniques to reduce accidental catch of what animal by 90 percent?</QuestionText>
-      <CorrectAnswer>Albatross (ACCEPT: Mollymawk, Gooney bird)</CorrectAnswer>
+      <CorrectAnswer>Albatross (ACCEPT: Mollymawk, gooney bird)</CorrectAnswer>
     </Question>
     <Question QuestionID="26644" QuestionIDString="0000026644">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Fisheries Management</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>On a global scale, which group of marine shellfish represents the highest commercial capture by weight?</QuestionText>
       <AnswerW>Marine molluscs</AnswerW>
@@ -319,12 +319,12 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Which group of microfossils have left-handed and right-handed coiling patterns that reveal clues about past climate patterns?</QuestionText>
-      <CorrectAnswer>Foraminifera (ACCEPT: Forams)</CorrectAnswer>
+      <CorrectAnswer>Foraminifera (ACCEPT:  Forams)</CorrectAnswer>
     </Question>
     <Question QuestionID="26016" QuestionIDString="0000026016">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which term describes a sample of genetic material, containing the genomes of all the organisms in the environment?</QuestionText>
       <AnswerW>Megagenome</AnswerW>
@@ -336,7 +336,7 @@
     <Question QuestionID="27407" QuestionIDString="0000027407">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - The Arts</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Lord Tennyson wrote a poem about a sea monster whose name is taken from a Norwegian word.  What is the creature called?</QuestionText>
       <CorrectAnswer>The Kraken</CorrectAnswer>
@@ -356,7 +356,7 @@
     <Question QuestionID="26774" QuestionIDString="0000026774">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What kind of bacteria are found in the gills of mussels living around hydrothermal vents?</QuestionText>
       <CorrectAnswer>Chemosynthetic bacteria (ACCEPT: Symbiotic sulfur bacteria, chemosymbiotic bacteria, sulfide-oxidizing bacteria)</CorrectAnswer>
@@ -376,15 +376,15 @@
     <Question QuestionID="26523" QuestionIDString="0000026523">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Evolution</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>In 2007, a shark was born to a captive mother who had not been in contact with a male shark for over three years. What reproductive strategy explains this virgin birth?</QuestionText>
-      <CorrectAnswer>Parthenogenesis [PAR-thuh-noh-JEN-uh-sis]</CorrectAnswer>
+      <CorrectAnswer>Parthenogenesis [par-THUH-no-JEN-uh-sis]</CorrectAnswer>
     </Question>
     <Question QuestionID="26323" QuestionIDString="0000026323">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sediments</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which type of marine sediment accumulates at a rate of one to six centimeters every millennium?</QuestionText>
       <AnswerW>Turbidite</AnswerW>
@@ -396,9 +396,9 @@
     <Question QuestionID="26037" QuestionIDString="0000026037">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The 18 species of seabirds that are contained within the order Sphenisciformes [sfeen-ISK-i-FORM-eez] are commonly known by what name?</QuestionText>
+      <QuestionText>The 18 species of seabirds that are contained within the order Sphenisciformes [sfeen-isk-i-form-eez] are commonly known by what name?</QuestionText>
       <CorrectAnswer>Penguins</CorrectAnswer>
     </Question>
   </Questions>

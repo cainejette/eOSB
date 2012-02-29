@@ -4,7 +4,7 @@
     <Question QuestionID="26738" QuestionIDString="0000026738">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - International laws and treaties</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which country has the largest Exclusive Economic Zone?</QuestionText>
       <AnswerW>Canada</AnswerW>
@@ -27,9 +27,9 @@
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following terms best describes the sex changes in the life of an anemonefish?</QuestionText>
-      <AnswerW>Protogyny [pro-tah-gen-ee]</AnswerW>
-      <AnswerX>Protandry [pro-tan-dree]</AnswerX>
-      <AnswerY>Androgyny [ann-drah-gen-ee]</AnswerY>
+      <AnswerW>Protogyny [pro-TAH-gen-EE]</AnswerW>
+      <AnswerX>Protandry [pro-TAN-dree]</AnswerX>
+      <AnswerY>Androgyny [ann-DRAH-gen-ee]</AnswerY>
       <AnswerZ>Genandry [jen-AN-dree]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
@@ -38,8 +38,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What term best describes the strongest gradient in temperature and/or salinity with depth?</QuestionText>
-      <CorrectAnswer>Pycnocline</CorrectAnswer>
+      <QuestionText>What term best describes the strongest gradient in temperature with depth?</QuestionText>
+      <CorrectAnswer>Thermocline</CorrectAnswer>
     </Question>
     <Question QuestionID="27362" QuestionIDString="0000027362">
       <QuestionPair>3</QuestionPair>
@@ -56,15 +56,15 @@
     <Question QuestionID="26241" QuestionIDString="0000026241">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name of the region discovered by Captain Charles Moore in 1997 where, as a result of current patterns, the concentration of plastics is greater than that of zooplankton?</QuestionText>
-      <CorrectAnswer>Great Pacific Garbage Patch (ACCEPT: Pacific Trash Vortex) NOTE: Pacific MUST be in answer)</CorrectAnswer>
+      <CorrectAnswer>Great Pacific Garbage Patch (ACCEPT: Pacific Trash Vortex; NOTE: Answer must include "Pacific")</CorrectAnswer>
     </Question>
     <Question QuestionID="26487" QuestionIDString="0000026487">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Water Masses</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What water mass forms in the Southern Ocean when the seawater is exposed to sea ice, then sinks and flows along the seafloor below a depth of 4 kilometers?</QuestionText>
       <AnswerW>North Atlantic deep water</AnswerW>
@@ -76,10 +76,10 @@
     <Question QuestionID="26682" QuestionIDString="0000026682">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sea Floor Features</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>How old is the oldest oceanic crust on Earth?</QuestionText>
-      <CorrectAnswer>About 200 million years old (ACCEPT: 200 MYA, Jurassic, Jurassic Period)</CorrectAnswer>
+      <CorrectAnswer>About 200 million years old (ACCEPT: 200 MYA, Jurassic Period, Jurassic)</CorrectAnswer>
     </Question>
     <Question QuestionID="13939" QuestionIDString="0000013939">
       <QuestionPair>5</QuestionPair>
@@ -96,7 +96,7 @@
     <Question QuestionID="22810" QuestionIDString="0000022810">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Air-sea Interface</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>As a consequence of sea level rise, coastal cities are expected to flood more frequently due to what storm-related phenomenon?</QuestionText>
       <CorrectAnswer>Storm surge</CorrectAnswer>
@@ -104,13 +104,13 @@
     <Question QuestionID="26590" QuestionIDString="0000026590">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Notable Scientists</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following archipelagos was NOT visited by Charles Darwin on his voyage aboard the H.M.S. Beagle?</QuestionText>
       <AnswerW>Cape Verde Islands</AnswerW>
       <AnswerX>Galápagos Islands</AnswerX>
       <AnswerY>Hawaiian Islands</AnswerY>
-      <AnswerZ>Fuegian [fyoo-ee-jee-uh] Islands</AnswerZ>
+      <AnswerZ>Fuegian [fyoo-EE-jee-un] Islands</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="12415" QuestionIDString="0000012415">
@@ -119,7 +119,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What natural gel made from seaweeds is used in many processed foods?</QuestionText>
-      <CorrectAnswer>Algin (ACCEPT: Carageenan [care-ah-GEE-nan], agar)</CorrectAnswer>
+      <CorrectAnswer>Algin (ACCEPT: Carageenan [care-ah-GEE-nan], agar]</CorrectAnswer>
     </Question>
     <Question QuestionID="8567" QuestionIDString="0000008567">
       <QuestionPair>7</QuestionPair>
@@ -144,7 +144,7 @@
     <Question QuestionID="26144" QuestionIDString="0000026144">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Organisms that obtain energy from bacteria that metabolize inorganic chemicals in the environment are referred to as which of the following?</QuestionText>
       <AnswerW>Chemosynthetic</AnswerW>
@@ -156,7 +156,7 @@
     <Question QuestionID="24072" QuestionIDString="0000024072">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Which major oil spill occurred on March 24, 1989 in Prince William Sound, Alaska?</QuestionText>
       <CorrectAnswer>Exxon Valdez</CorrectAnswer>
@@ -164,7 +164,7 @@
     <Question QuestionID="26491" QuestionIDString="0000026491">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Air-sea Interface</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which climate pattern recurs in 2 to 7 year intervals and is marked by warm ocean temperatures in the eastern tropical Pacific, off of the west coast of South America?</QuestionText>
       <AnswerW>El Niño</AnswerW>
@@ -184,7 +184,7 @@
     <Question QuestionID="26145" QuestionIDString="0000026145">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The production of light by a living organism is known as what?</QuestionText>
       <AnswerW>Fluorescence</AnswerW>
@@ -198,13 +198,13 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What does the term "catch and release" mean?</QuestionText>
+      <QuestionText>What does the term Catch and Release mean?</QuestionText>
       <CorrectAnswer>Catching an organism and releasing it back into the water</CorrectAnswer>
     </Question>
     <Question QuestionID="20321" QuestionIDString="0000020321">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Air-sea Interface</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The ocean loses heat through all of the following processes EXCEPT:</QuestionText>
       <AnswerW>Evaporation</AnswerW>
@@ -216,7 +216,7 @@
     <Question QuestionID="27084" QuestionIDString="0000027084">
       <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the primary chemical compound found in a reef-building coral’s skeleton?</QuestionText>
       <CorrectAnswer>Calcium carbonate (ACCEPT: Aragonite)</CorrectAnswer>
@@ -224,7 +224,7 @@
     <Question QuestionID="26439" QuestionIDString="0000026439">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sediments</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following are NOT hydrogenous sediments?</QuestionText>
       <AnswerW>Carbonates</AnswerW>
@@ -239,18 +239,18 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Please name and spell the process by which ions and other molecules are removed from the ocean by adhering to the surface of other particles.</QuestionText>
-      <CorrectAnswer>Adsorption (ACCEPT: Cation; DO NOT ACCEPT: Absorption)</CorrectAnswer>
+      <CorrectAnswer>Adsorption (DO NOT ACCEPT: Absorption)</CorrectAnswer>
     </Question>
     <Question QuestionID="26500" QuestionIDString="0000026500">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In subtropical latitudes, wind shear and the Coriolis effect cause spinning cells of water in ocean basins.  What are these spinning cells of water called?</QuestionText>
+      <QuestionText>In subtropical latitudes, wind shear and the Coriolis Effect cause spinning cells of water in ocean basins.  What are these spinning cells of water called?</QuestionText>
       <AnswerW>Currents</AnswerW>
       <AnswerX>Gyres</AnswerX>
       <AnswerY>Waves</AnswerY>
-      <AnswerZ>Eddies</AnswerZ>
+      <AnswerZ>Depressions</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="24989" QuestionIDString="0000024989">
@@ -258,7 +258,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In what city is the Prime Meridian presently located?</QuestionText>
+      <QuestionText>The Prime Meridian presently passes through what region, which also provides it with an alternate name?</QuestionText>
       <CorrectAnswer>Greenwich (England)</CorrectAnswer>
     </Question>
     <Question QuestionID="22746" QuestionIDString="0000022746">
@@ -304,7 +304,7 @@
     <Question QuestionID="26947" QuestionIDString="0000026947">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Salinity</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>How many grams of salt would 1 liter of seawater with a 35 part per thousand salinity concentration contain?</QuestionText>
       <AnswerW>350</AnswerW>
@@ -336,7 +336,7 @@
     <Question QuestionID="26869" QuestionIDString="0000026869">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Fisheries Management</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What law mandated that fishery management plans must consider social impacts?</QuestionText>
       <CorrectAnswer>The Magnuson-Stevens Act (ACCEPT: Magnuson-Stevens Fishery Conservation and Management Act)</CorrectAnswer>
@@ -364,7 +364,7 @@
     <Question QuestionID="26183" QuestionIDString="0000026183">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>In advanced invertebrates and vertebrates, which organ is primarily responsible for osmoregulation?</QuestionText>
       <AnswerW>Liver</AnswerW>
@@ -376,7 +376,7 @@
     <Question QuestionID="26569" QuestionIDString="0000026569">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Instrumentation</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name of the sampling device that can be used to gather water at specific, pre-determined depths?</QuestionText>
       <CorrectAnswer>Niskin bottle (ACCEPT: Nansen bottle, VanDorn bottle, GO-FLO bottle, diaphragm pump)</CorrectAnswer>
@@ -384,7 +384,7 @@
     <Question QuestionID="26065" QuestionIDString="0000026065">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following are the three major components of dissolved inorganic nitrogen in the ocean?</QuestionText>
       <AnswerW>Nitrate, nitrite and urea</AnswerW>

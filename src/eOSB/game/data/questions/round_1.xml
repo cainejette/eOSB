@@ -10,7 +10,7 @@
       <AnswerW>Increases albedo</AnswerW>
       <AnswerX>Reduces albedo</AnswerX>
       <AnswerY>Does not affect albedo</AnswerY>
-      <AnswerZ>Creates positive feedback on albedo</AnswerZ>
+      <AnswerZ>Creates neutral feedback on albedo</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="27064" QuestionIDString="0000027064">
@@ -24,7 +24,7 @@
     <Question QuestionID="26657" QuestionIDString="0000026657">
       <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography</Category>
+      <Category>Geography - Place Names</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The closest point to Antarctica is on which of these continents?</QuestionText>
       <AnswerW>Australia</AnswerW>
@@ -65,7 +65,7 @@
     <Question QuestionID="26077" QuestionIDString="0000026077">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Navigation</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which practice involves digging and removing bottom sediments to produce a deeper channel, allowing large ships to pass or dock?</QuestionText>
       <AnswerW>Seining</AnswerW>
@@ -77,7 +77,7 @@
     <Question QuestionID="26168" QuestionIDString="0000026168">
       <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Evolution</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What evolutionary concept refers to the similarity of features due to common ancestry?</QuestionText>
       <CorrectAnswer>Homology</CorrectAnswer>
@@ -87,7 +87,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following creates underwater anthropogenic sounds?</QuestionText>
+      <QuestionText>Which of the following create underwater anthropogenic sounds?</QuestionText>
       <AnswerW>Undersea volcanic eruptions</AnswerW>
       <AnswerX>Cargo ships traveling between ports</AnswerX>
       <AnswerY>Humpback whales vocalizing</AnswerY>
@@ -97,7 +97,7 @@
     <Question QuestionID="26352" QuestionIDString="0000026352">
       <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Fishing gear and vessels</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What type of trawl gets its name from the solid metal object that holds the mouth of the net open?</QuestionText>
       <CorrectAnswer>Beam</CorrectAnswer>
@@ -105,7 +105,7 @@
     <Question QuestionID="26044" QuestionIDString="0000026044">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Filter feeding whales strain seawater and organisms through a series of plates made of which of the following materials?</QuestionText>
       <AnswerW>Keratin</AnswerW>
@@ -120,12 +120,12 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>How much heat is required to raise one gram of water by one degree Celsius?</QuestionText>
-      <CorrectAnswer>1 calorie (ACCEPT: 4.18 - 4.20 joules)</CorrectAnswer>
+      <CorrectAnswer>1 calorie (ACCEPT: 4.18-4.20 joules)</CorrectAnswer>
     </Question>
     <Question QuestionID="26148" QuestionIDString="0000026148">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Chemical - Chemistry of Water</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which term best describes the concentration of dissolved salts in seawater?</QuestionText>
       <AnswerW>Conductivity</AnswerW>
@@ -137,7 +137,7 @@
     <Question QuestionID="26383" QuestionIDString="0000026383">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What does the acronym HAB stand for?</QuestionText>
       <CorrectAnswer>Harmful algal bloom</CorrectAnswer>
@@ -145,7 +145,7 @@
     <Question QuestionID="26171" QuestionIDString="0000026171">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sediments</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following terms describes deep-sea sediments composed of at least 30 percent biogenous material?</QuestionText>
       <AnswerW>Clay</AnswerW>
@@ -165,7 +165,7 @@
     <Question QuestionID="26099" QuestionIDString="0000026099">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Fishing gear and vessels</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which practice, employed by commercial fishermen, deploys miles of baited hooks behind a vessel?</QuestionText>
       <AnswerW>Trawling</AnswerW>
@@ -177,7 +177,7 @@
     <Question QuestionID="26222" QuestionIDString="0000026222">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sea Floor Features</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What name has been given to the deepest spot on Earth, which lies approximately 11 kilometers below the ocean surface in the Mariana Trench?</QuestionText>
       <CorrectAnswer>Challenger Deep</CorrectAnswer>
@@ -185,7 +185,7 @@
     <Question QuestionID="26052" QuestionIDString="0000026052">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The maximum number of individuals of a species that can be supported in the environment is known as which of the following?</QuestionText>
       <AnswerW>Maximum stable population</AnswerW>
@@ -197,7 +197,7 @@
     <Question QuestionID="16508" QuestionIDString="0000016508">
       <QuestionPair>10</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
+      <Category>Geography - Place Names</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the world's largest reef complex?</QuestionText>
       <CorrectAnswer>Great Barrier Reef</CorrectAnswer>
@@ -211,7 +211,7 @@
       <AnswerW>Salt diapir [die-ah-peer]</AnswerW>
       <AnswerX>Dike</AnswerX>
       <AnswerY>Evaporite</AnswerY>
-      <AnswerZ>Salt Bridge</AnswerZ>
+      <AnswerZ>Salt bridge</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
     <Question QuestionID="26151" QuestionIDString="0000026151">
@@ -239,8 +239,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What name is given to a small area of ocean that is partially enclosed by land?</QuestionText>
-      <CorrectAnswer>Sea</CorrectAnswer>
+      <QuestionText>What name is given to a small area of ocean that is partially bordered by land?</QuestionText>
+      <CorrectAnswer>Sea (ACCEPT: Gulf)</CorrectAnswer>
     </Question>
     <Question QuestionID="26191" QuestionIDString="0000026191">
       <QuestionPair>13</QuestionPair>
@@ -257,15 +257,15 @@
     <Question QuestionID="26562" QuestionIDString="0000026562">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name of the western boundary current of the North Pacific gyre?</QuestionText>
-      <CorrectAnswer>Kuroshio [koo-ROH-shee-oh] Current</CorrectAnswer>
+      <CorrectAnswer>Kuroshio Current [koo-ROH-shee-oh] (ACCEPT: Japan Current)</CorrectAnswer>
     </Question>
     <Question QuestionID="26262" QuestionIDString="0000026262">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Roughly 90 percent of the estimated 37 million people employed by the small scale fisheries sector, including fishing and fish farming, are from which geographical region?</QuestionText>
       <AnswerW>Africa</AnswerW>
@@ -285,7 +285,7 @@
     <Question QuestionID="26154" QuestionIDString="0000026154">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Waves</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What term is defined as the number of waves passing through a fixed point in a given amount of time?</QuestionText>
       <AnswerW>Frequency</AnswerW>
@@ -297,7 +297,7 @@
     <Question QuestionID="26633" QuestionIDString="0000026633">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
+      <Category>Geography - Oceanic Zones</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name given to the line of latitude that lies at 23 degrees, 26 minutes, 16 seconds north of the Equator?</QuestionText>
       <CorrectAnswer>Tropic of Cancer</CorrectAnswer>
@@ -305,7 +305,7 @@
     <Question QuestionID="26054" QuestionIDString="0000026054">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Individual differences within a species are known as which of the following?</QuestionText>
       <AnswerW>Competitions</AnswerW>
@@ -319,7 +319,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>If an object sinks in water, the amount of water displaced is equal to what characteristic of the object?</QuestionText>
+      <QuestionText>If an object sinks in water, the volume of water displaced is equal to what characteristic of the object?</QuestionText>
       <CorrectAnswer>The object’s volume</CorrectAnswer>
     </Question>
     <Question QuestionID="7835" QuestionIDString="0000007835">
@@ -340,12 +340,12 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>To what Kingdom do foraminifera belong?</QuestionText>
-      <CorrectAnswer>Protista</CorrectAnswer>
+      <CorrectAnswer>Protista (ACCEPT: Rhizaria)</CorrectAnswer>
     </Question>
     <Question QuestionID="26273" QuestionIDString="0000026273">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Tides</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>How long is the dominant lunar semidiurnal tidal period?</QuestionText>
       <AnswerW>29.53 days</AnswerW>
@@ -357,7 +357,7 @@
     <Question QuestionID="27226" QuestionIDString="0000027226">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences</Category>
+      <Category>Social Sciences - The Arts</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>In “The Rime of the Ancient Mariner,” what was the title character forced to wear around his neck?</QuestionText>
       <CorrectAnswer>An albatross (ACCEPT: Mollymawk, gooney bird)</CorrectAnswer>
@@ -385,7 +385,7 @@
     <Question QuestionID="26076" QuestionIDString="0000026076">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>In general, which of the following has had the most destructive impact on wetlands?</QuestionText>
       <AnswerW>Coastal development</AnswerW>
@@ -397,7 +397,7 @@
     <Question QuestionID="26221" QuestionIDString="0000026221">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sea Floor Features</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the geological term that describes a flat-topped seamount?</QuestionText>
       <CorrectAnswer>Guyot [gee-yo] (ACCEPT: Tablemount)</CorrectAnswer>

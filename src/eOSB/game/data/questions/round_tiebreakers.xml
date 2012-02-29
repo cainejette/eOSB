@@ -76,7 +76,7 @@
     <Question QuestionID="22805" QuestionIDString="0000022805">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Coastal Law</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The 1969 Stratton Commission Report paved the way for which 1972 act that focused on balancing competing land and water issues?</QuestionText>
       <AnswerW>National Flood Insurance Act</AnswerW>
@@ -114,7 +114,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is the largest river that empties into the Sea of Okhotsk (oh-cot-sk)?</QuestionText>
+      <QuestionText>Which of the following is the largest river that empties into the Sea of Okhotsk [oh-cot-sk]?</QuestionText>
       <AnswerW>Tumen</AnswerW>
       <AnswerX>Shilka</AnswerX>
       <AnswerY>Amur</AnswerY>

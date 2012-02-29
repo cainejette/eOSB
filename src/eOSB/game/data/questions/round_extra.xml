@@ -36,7 +36,7 @@
     <Question QuestionID="20338" QuestionIDString="0000020338">
       <QuestionPair>2</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Sediments</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the term for the transformation of loose sediments into rock?</QuestionText>
       <CorrectAnswer>Lithification</CorrectAnswer>
@@ -46,7 +46,8 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>How many national marine monuments are there?</QuestionText>
+      <QuestionText>How many National Marine Monuments are there?
+</QuestionText>
       <AnswerW>0</AnswerW>
       <AnswerX>1</AnswerX>
       <AnswerY>3</AnswerY>
@@ -56,7 +57,7 @@
     <Question QuestionID="22361" QuestionIDString="0000022361">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name for a high-velocity density current that carries suspended matter?</QuestionText>
       <CorrectAnswer>Turbidity current</CorrectAnswer>
@@ -78,7 +79,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In which country does most aquaculture occur in the world?</QuestionText>
+      <QuestionText>In which country does most aquaculture occur?</QuestionText>
       <CorrectAnswer>China</CorrectAnswer>
     </Question>
     <Question QuestionID="8499" QuestionIDString="0000008499">
@@ -106,7 +107,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which water mass flows along the North African coast into the North Atlantic Ocean via the Straits of Gibraltar after its formation?</QuestionText>
+      <QuestionText>After its formation, which water mass flows along the North African coast into the North Atlantic Ocean via the Straits of Gibraltar?</QuestionText>
       <AnswerW>Mediterranean Intermediate Water</AnswerW>
       <AnswerX>North Atlantic Deep Water</AnswerX>
       <AnswerY>Antarctic Bottom Water</AnswerY>
@@ -136,7 +137,7 @@
     <Question QuestionID="26670" QuestionIDString="0000026670">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the term for planktonic organisms that spend only a part of their life cycle in the water column?</QuestionText>
       <CorrectAnswer>Meroplankton</CorrectAnswer>
@@ -160,7 +161,7 @@
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The greatest portion of the fresh water on Earth is found in what form and in what regions?
 </QuestionText>
-      <CorrectAnswer>Ice and snow cover, in the polar regions (ACCEPT: Glaciers and polar regions)</CorrectAnswer>
+      <CorrectAnswer>Ice and snow cover (ACCEPT: Glaciers); In the polar regions (ACCEPT: Polar regions)</CorrectAnswer>
     </Question>
     <Question QuestionID="26865" QuestionIDString="0000026865">
       <QuestionPair>9</QuestionPair>
@@ -177,7 +178,7 @@
     <Question QuestionID="25288" QuestionIDString="0000025288">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Technology</Category>
+      <Category>Technology - Remote Sensing</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What primary advantage do gliders (e.g. Slocum and Spray) have over an ARGO float?</QuestionText>
       <CorrectAnswer>Gliders can move independently of the ocean currents.</CorrectAnswer>
@@ -227,7 +228,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Ocean Day was established at the Earth Summit in 1992. On what date each year do we celebrate Ocean Day?</QuestionText>
+      <QuestionText>World Ocean Day was established at the Earth Summit in 1992. On what date each year do we celebrate World Ocean Day?</QuestionText>
       <AnswerW>June 8</AnswerW>
       <AnswerX>September 14</AnswerX>
       <AnswerY>April 20</AnswerY>
@@ -237,7 +238,7 @@
     <Question QuestionID="13381" QuestionIDString="0000013381">
       <QuestionPair>12</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology</Category>
+      <Category>Geology - Geologic Processes</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Which shoreline region of the U.S. has the greatest loss of area due to erosion and subsidence?</QuestionText>
       <CorrectAnswer>Gulf of Mexico</CorrectAnswer>
@@ -265,7 +266,7 @@
     <Question QuestionID="25805" QuestionIDString="0000025805">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Coastal Law</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which law requires federal agencies to integrate environmental values into their decision making processes by considering the environmental impacts of their proposed actions and reasonable alternatives to those actions?</QuestionText>
       <AnswerW>National Industrial Recovery Act</AnswerW>
@@ -277,7 +278,7 @@
     <Question QuestionID="26532" QuestionIDString="0000026532">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What term or statement describes the process of sequential fishing of high trophic-level species and then lower trophic levels species, such that the average trophic level in the catch declines over time?</QuestionText>
       <CorrectAnswer>Fishing down the food web (ACCEPT: Fishing down the food chain)</CorrectAnswer>
@@ -305,7 +306,7 @@
     <Question QuestionID="27216" QuestionIDString="0000027216">
       <QuestionPair>16</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Marine Policy</Category>
+      <Category>Marine Policy - Fisheries Management</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is NOT true of both fresh water and marine fisheries?</QuestionText>
       <AnswerW>They have been subjected to over-harvesting</AnswerW>
@@ -319,7 +320,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the molar ratio of carbon to nitrogen to phosphorus commonly known as the Redfield Ratio?</QuestionText>
+      <QuestionText>What is the molar ratio of Carbon to Nitrogen to Phosphorus commonly known as the Redfield Ratio?</QuestionText>
       <CorrectAnswer>106C : 16N : 1P (ACCEPT: 106 : 16 : 1)</CorrectAnswer>
     </Question>
     <Question QuestionID="12235" QuestionIDString="0000012235">
@@ -345,7 +346,7 @@
     <Question QuestionID="27380" QuestionIDString="0000027380">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Of the following whales, which one is a rorqual?</QuestionText>
       <AnswerW>Right</AnswerW>
@@ -357,7 +358,7 @@
     <Question QuestionID="23525" QuestionIDString="0000023525">
       <QuestionPair>18</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Water Properties</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What property of water results in less seasonal variability in ocean temperatures compared to land temperatures?</QuestionText>
       <CorrectAnswer>High heat capacity (ACCEPT: Thermal capacity, specific heat capacity)</CorrectAnswer>
@@ -367,12 +368,12 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following cannot be directly measured through satellite-based instrumentation?</QuestionText>
+      <QuestionText>Which of the following CANNOT be directly measured through satellite-based instrumentation?</QuestionText>
       <AnswerW>Surface roughness</AnswerW>
       <AnswerX>Color of the near-surface waters</AnswerX>
-      <AnswerY>Surface temperature</AnswerY>
-      <AnswerZ>Ocean currents</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <AnswerY>Sea surface temperature</AnswerY>
+      <AnswerZ>Air drag at the sea surface</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="13496" QuestionIDString="0000013496">
       <QuestionPair>19</QuestionPair>
@@ -391,7 +392,7 @@
       <AnswerW>Foraminiferans</AnswerW>
       <AnswerX>Pteropods [TARE-oh-pods]</AnswerX>
       <AnswerY>Radiolarians</AnswerY>
-      <AnswerZ>Coccolithophores [COCK-oh-LITH-oh-fors]</AnswerZ>
+      <AnswerZ>Coccolithophores [KOH-koh-LITH-oh-fors]</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="13894" QuestionIDString="0000013894">
@@ -399,7 +400,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In which country is the term maelstrom [MALE-struhm] used to describe a treacherous tidal current?</QuestionText>
+      <QuestionText>In which country is the term maelstrom [MEYL-struhm] used to describe a treacherous tidal current?</QuestionText>
       <CorrectAnswer>Norway</CorrectAnswer>
     </Question>
   </Questions>

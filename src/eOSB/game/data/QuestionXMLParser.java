@@ -19,11 +19,11 @@ import eOSB.game.controller.Round;
 import eOSB.game.controller.Question.Format;
 import eOSB.game.controller.Question.Type;
 
-public class XmlParser {
+public class QuestionXMLParser {
 
 	private Round round;
 	
-	public XmlParser(Round round) {
+	public QuestionXMLParser(Round round) {
 		this.round = round;
 		this.parseRound();
 	}
@@ -57,8 +57,13 @@ public class XmlParser {
 						question.setType(Type.BONUS);
 						question.setNumber(question.getNumber() + "b");
 					}
-					
-					question.setCategory(getTagValue("Category", eElement));
+
+					// strip question subcategories. this was a new and unwanted change in 2012.
+					String category = getTagValue("Category", eElement);
+					if (category.contains("-")) {
+						category = category.substring(0, category.indexOf("-") - 1);
+					}
+					question.setCategory(category);
 					
 					String format = getTagValue("QuestionFormat", eElement);
 					if (format.equals("Multiple Choice")) {
