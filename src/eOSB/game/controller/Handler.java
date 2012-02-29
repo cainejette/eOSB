@@ -78,7 +78,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
   public static final int BINDER_SCOREKEEPER = 2;
   public static final int BINDER_TIMEKEEPER_SCOREKEEPER = 3;
   
-  public static final String QUESTION_CODE = "120217-0229B";
+  public static final String QUESTION_CODE = "120229-0305B";
 
   /**
    * Initializes the game controller object.
