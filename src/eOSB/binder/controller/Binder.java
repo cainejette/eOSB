@@ -125,6 +125,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	
 	private Dimension frameSize;
 	private Point framePosition;
+	private int launchCounter = 0;
 
 	/**
 	 * @param handler
@@ -184,6 +185,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		if (this.frameSize != null) {
 			this.frame.setSize(this.frameSize);
 		}
+		else if (this.launchCounter == 0) {
+			this.frame.setSize(this.frame.getPreferredSize());
+		}
 		else {
 			this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
 		}
@@ -196,6 +200,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			this.frame.setLocationRelativeTo(null);
 		}
 		this.frame.setVisible(true);
+		this.launchCounter++;
 	}
 
 	/**
