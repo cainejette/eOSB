@@ -298,7 +298,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In Moby Dick, Herman Melville described corposants (kor-peh-sants), better known nautically as what phenomenon?</QuestionText>
+      <QuestionText>In Moby Dick, Herman Melville described corposants [kor-peh-sants], better known nautically as what phenomenon?</QuestionText>
       <CorrectAnswer>St. Elmo's Fire</CorrectAnswer>
     </Question>
     <Question QuestionID="27205" QuestionIDString="0000027205">

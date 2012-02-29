@@ -18,7 +18,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Rank these four categories of plankton from largest size to smallest size  Ultraplankton, mesoplankton, nannoplankton, picoplankton</QuestionText>
+      <QuestionText>Rank these four categories of plankton from largest size to smallest size: Ultraplankton, mesoplankton, nannoplankton, picoplankton</QuestionText>
       <CorrectAnswer>Mesoplankton (largest), nanoplankon, ultraplankton, picoplankton </CorrectAnswer>
     </Question>
     <Question QuestionID="12626" QuestionIDString="0000012626">
@@ -99,8 +99,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Gastropods and bivalves are prominent members of which phylum?</QuestionText>
-      <CorrectAnswer>Mollusca
-Mollusc or Molluscs would also be acceptable</CorrectAnswer>
+      <CorrectAnswer>Mollusca (ACCEPT: Mollusc, molluscs)</CorrectAnswer>
     </Question>
     <Question QuestionID="27503" QuestionIDString="0000027503">
       <QuestionPair>6</QuestionPair>

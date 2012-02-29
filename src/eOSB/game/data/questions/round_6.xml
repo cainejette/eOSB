@@ -179,8 +179,7 @@
       <Category>Physical - Water Properties</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the definition of neutral buoyancy?</QuestionText>
-      <CorrectAnswer>The density of an object is equal to the density of the liquid in which it is suspended
-Also accept: weight (or mass) of fluid displaced equals the weight (or mass) of the object</CorrectAnswer>
+      <CorrectAnswer>The density of an object is equal to the density of the liquid in which it is suspended (ACCEPT: Weight (or mass) of fluid displaced equals the weight (or mass) of the object)</CorrectAnswer>
     </Question>
     <Question QuestionID="26623" QuestionIDString="0000026623">
       <QuestionPair>10</QuestionPair>

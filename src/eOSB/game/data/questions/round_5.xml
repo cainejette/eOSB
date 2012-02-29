@@ -240,7 +240,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The dinoflagellate Gambierdiscus (gam-beer-dis-cuss) toxicus is infamous for causing what disease?</QuestionText>
-      <CorrectAnswer>Ciguatera [SIG-wah-TARE-uh] (DO NOTE ACCEPT: Paralytic, amnesic shellfish poisoning)</CorrectAnswer>
+      <CorrectAnswer>Ciguatera [SIG-wah-TARE-uh] (DO NOT ACCEPT: Paralytic, amnesic shellfish poisoning)</CorrectAnswer>
     </Question>
     <Question QuestionID="27161" QuestionIDString="0000027161">
       <QuestionPair>13</QuestionPair>

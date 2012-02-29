@@ -8,7 +8,7 @@ package eOSB.game.data;
 public class RoundFactory {
 	
 	/** practice round */
-	public static final String PRACTICE = "src/eOSB/game/data/questions/practice.txt";
+	public static final String PRACTICE = "eOSB/game/data/questions/round_practice.xml";
 	
 	/** round 1 */
 	public static final String ROUND_1 = "eOSB/game/data/questions/round_1.xml";

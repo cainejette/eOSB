@@ -96,7 +96,6 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private JButton backButton;
 	private JButton submitButton;
 
-
 	private TitledBorder teamABorder = new TitledBorder(this.teamAName);
 	private TitledBorder teamBBorder = new TitledBorder(this.teamBName);
 	private GameState gameState;
@@ -356,7 +355,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 */
 	public void setBinderToNewRound(String roundName) {
 		// save the frame's size and location
-		if (!(roundName.equals("Round 1"))) {
+		if (!(roundName.equals("Round 1")) && !(roundName.equals("Six-question warm up"))) {
 			this.frameSize = this.frame.getSize();
 			this.framePosition = this.frame.getLocationOnScreen();
 		}
@@ -539,8 +538,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		answerTextPane.setBorder(new TitledBorder("Question Answer"));
 
 		this.answerPanelScroller = new JScrollPane();
-		this.answerPanelScroller.setPreferredSize(new Dimension(700, 100));
-		this.answerPanelScroller.setMinimumSize(new Dimension(700, 70));
+		this.answerPanelScroller.setPreferredSize(new Dimension(700, 110));
+		this.answerPanelScroller.setMinimumSize(new Dimension(700, 75));
 		this.answerPanelScroller.getViewport().setView(answerTextPane);
 	}
 
