@@ -119,7 +119,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What natural gel made from seaweeds is used in many processed foods?</QuestionText>
-      <CorrectAnswer>Algin (ACCEPT: Carageenan [care-ah-GEE-nan], agar]</CorrectAnswer>
+      <CorrectAnswer>Algin (ACCEPT: Carageenan [care-ah-GEE-nan], agar)</CorrectAnswer>
     </Question>
     <Question QuestionID="8567" QuestionIDString="0000008567">
       <QuestionPair>7</QuestionPair>

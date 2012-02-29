@@ -299,7 +299,7 @@
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The American eel has a complex, 6-stage life cycle. Name 2 of the 6 specific stages.</QuestionText>
-      <CorrectAnswer>Any TWO of: Egg, leptocephalus, glass eel, elver, yellow eel, silver eel (DO NOT ACCEPT: larva, adult)</CorrectAnswer>
+      <CorrectAnswer>Any TWO of: Egg, leptocephalus, glass eel, elver, yellow eel, silver eel (DO NOT ACCEPT: Larva, adult)</CorrectAnswer>
     </Question>
     <Question QuestionID="20584" QuestionIDString="0000020584">
       <QuestionPair>16</QuestionPair>

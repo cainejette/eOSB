@@ -159,8 +159,7 @@
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Active sonar transmits sound in order to detect objects underwater. What does passive sonar transmit?</QuestionText>
-      <CorrectAnswer>Nothing
-(Explanation: unlike active sonar, passive sonar does not emit its own signal, which is an advantage for military vessels that do not want to be found or for scientific missions that concentrate on quietly listening to the ocean. Rather, it only detects sound waves coming towards it.</CorrectAnswer>
+      <CorrectAnswer>Nothing</CorrectAnswer>
     </Question>
     <Question QuestionID="12544" QuestionIDString="0000012544">
       <QuestionPair>9</QuestionPair>
@@ -239,7 +238,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The dinoflagellate Gambierdiscus (gam-beer-dis-cuss) toxicus is infamous for causing what disease?</QuestionText>
+      <QuestionText>The dinoflagellate Gambierdiscus [gam-beer-dis-cuss] toxicus is infamous for causing what disease?</QuestionText>
       <CorrectAnswer>Ciguatera [SIG-wah-TARE-uh] (DO NOT ACCEPT: Paralytic, amnesic shellfish poisoning)</CorrectAnswer>
     </Question>
     <Question QuestionID="27161" QuestionIDString="0000027161">

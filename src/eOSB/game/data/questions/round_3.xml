@@ -10,7 +10,7 @@
       <AnswerW>Increased levels of myoglobin</AnswerW>
       <AnswerX>Large blood volume</AnswerX>
       <AnswerY>Increased tolerance to aerobic conditions</AnswerY>
-      <AnswerZ>Bradycardia [brad-ee-card-ee-ah]</AnswerZ>
+      <AnswerZ>Bradycardia [BRAY-dee-CARD-ee-ah]</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="19799" QuestionIDString="0000019799">
@@ -358,7 +358,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geography - Place Names</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Which TWO South American countries border Lake Titicaca (tit-tee-kaka)?</QuestionText>
+      <QuestionText>Which TWO South American countries border Lake Titicaca [tit-tee-kaka]?</QuestionText>
       <CorrectAnswer>Peru and Bolivia</CorrectAnswer>
     </Question>
     <Question QuestionID="26125" QuestionIDString="0000026125">
