@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="428" BowlYear="2012" RoundName="Round 12" CompetitionName="Finals">
+  <Questions>
+    <Question QuestionID="21898" QuestionIDString="0000021898">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Tides</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The center of mass of the Earth-Moon system, known as the barycenter, is located, approximately, at which of the following locations?</QuestionText>
+      <AnswerW>1/2 way between Earth and the Moon</AnswerW>
+      <AnswerX>1000 miles above Earth's surface</AnswerX>
+      <AnswerY>1000 miles below Earth's surface</AnswerY>
+      <AnswerZ>Near the center of Earth</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="21594" QuestionIDString="0000021594">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology - Geochemistry</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is believed to have formed the Chicxulub Crater and when? (Provide the geologic period)</QuestionText>
+      <CorrectAnswer>Meteorite (impact) AND end of Cretaceous</CorrectAnswer>
+    </Question>
+    <Question QuestionID="20601" QuestionIDString="0000020601">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology - Geologic Processes</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The deposition rate of red clay on the ocean floor averages one millimeter every how many years?</QuestionText>
+      <AnswerW>1</AnswerW>
+      <AnswerX>10</AnswerX>
+      <AnswerY>100</AnswerY>
+      <AnswerZ>1,000</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7672" QuestionIDString="0000007672">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Into what TWO compounds can bacteria metabolize oil?</QuestionText>
+      <CorrectAnswer>Carbon dioxide and water</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27151" QuestionIDString="0000027151">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What agency manages the development of marine renewable energy on the Outer Continental Shelf?</QuestionText>
+      <AnswerW>Minerals Management Service</AnswerW>
+      <AnswerX>Bureau of Ocean Energy Management</AnswerX>
+      <AnswerY>Department of Marine Renewable Energy</AnswerY>
+      <AnswerZ>Office of Marine Resource Management</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23170" QuestionIDString="0000023170">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography - Place Names</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In what two U.S. locations (city &amp; state) have tsunami warning centers been established?</QuestionText>
+      <CorrectAnswer>Honolulu, Hawaii and Palmer, Alaska</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26556" QuestionIDString="0000026556">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the technique by which suspended particles such as bacteria or phytoplankton flow through sensors one at a time and are counted and characterized by size and color?</QuestionText>
+      <AnswerW>Fluorometry</AnswerW>
+      <AnswerX>Flow cytometry</AnswerX>
+      <AnswerY>Epifluorescence microscopy</AnswerY>
+      <AnswerZ>Spectrophotometry</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27046" QuestionIDString="0000027046">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences - History</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The Cod War was mainly fought between what two countries?</QuestionText>
+      <CorrectAnswer>Great Britain (OR England) AND Iceland</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24145" QuestionIDString="0000024145">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>At which of the following locations would surface salinity be at its greatest?</QuestionText>
+      <AnswerW>Yangtze (Yang-Zee) River</AnswerW>
+      <AnswerX>Caribbean Sea</AnswerX>
+      <AnswerY>Amazon Basin</AnswerY>
+      <AnswerZ>Antarctic Ocean</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27379" QuestionIDString="0000027379">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The U.S. Coast Guard is part of what federal department?</QuestionText>
+      <CorrectAnswer>Department of Homeland Security</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7673" QuestionIDString="0000007673">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What property of oil in water is changed by adding an oil dispersant?</QuestionText>
+      <AnswerW>Purifying the oil</AnswerW>
+      <AnswerX>Increasing surface tension</AnswerX>
+      <AnswerY>Reducing surface tension</AnswerY>
+      <AnswerZ>Thinning the oil</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27541" QuestionIDString="0000027541">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In 2011, film crews in Antarctica recorded video of the creation of what structures, formed beneath sea ice when brine sinks and seawater freezes around it?
+
+
+</QuestionText>
+      <CorrectAnswer>Accept any of the following: brinicle, brine icicle, ice stalactite</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12577" QuestionIDString="0000012577">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The inclination of the moon in relation to the Earth is on a natural cycle that changes every:</QuestionText>
+      <AnswerW>10 years</AnswerW>
+      <AnswerX>19 years</AnswerX>
+      <AnswerY>25 years</AnswerY>
+      <AnswerZ>52 years</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13937" QuestionIDString="0000013937">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the sea in which the Great Barrier Reef is located?</QuestionText>
+      <CorrectAnswer>Coral Sea</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26398" QuestionIDString="0000026398">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology - Earth Structure</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the name of the plunging rift that was formed by the separation of the Cocos and Nazca plates and makes up part of the ocean floor just west of Central and South America?</QuestionText>
+      <AnswerW>Penrose Rift</AnswerW>
+      <AnswerX>Hess Deep</AnswerX>
+      <AnswerY>Cannat Microplate</AnswerY>
+      <AnswerZ>Melville Canyon</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="21894" QuestionIDString="0000021894">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical - Water Properties</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Given that the heights of oceanic internal waves are often greater than those of surface waves, why are internal waves generally less energetic?</QuestionText>
+      <CorrectAnswer>There is much less of a density difference between the two ocean layers than between the ocean and air.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26643" QuestionIDString="0000026643">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy - Fisheries Management</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following global fisheries is the most economically valuable per weight?</QuestionText>
+      <AnswerW>Shellfish</AnswerW>
+      <AnswerX>Finfish</AnswerX>
+      <AnswerY>Kelps and seaweeds</AnswerY>
+      <AnswerZ>Freshwater fisheries</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26387" QuestionIDString="0000026387">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Once thought to have been a fictional construct from "20,000 Leagues Under the Sea", the presence of a "Milky Sea" has been confirmed by satellite in what ocean?</QuestionText>
+      <CorrectAnswer>Indian</CorrectAnswer>
+    </Question>
+    <Question QuestionID="20713" QuestionIDString="0000020713">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>To be classified as an ooze, what percent of biogenic materials must a sediment contain?</QuestionText>
+      <AnswerW>10</AnswerW>
+      <AnswerX>30</AnswerX>
+      <AnswerY>50</AnswerY>
+      <AnswerZ>70</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27393" QuestionIDString="0000027393">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology - Plate Tectonics</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What are TWO present-day tectonic plates that are remnants of the Farallon plate?</QuestionText>
+      <CorrectAnswer>Accept any two of the following: Explorer, Nazca, Cocos, Juan de Fuca, Gorda</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7564" QuestionIDString="0000007564">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>During burial metamorphism, remains of bacteria and phytoplankton are converted into which substance?</QuestionText>
+      <AnswerW>Keratin</AnswerW>
+      <AnswerX>Kerogen</AnswerX>
+      <AnswerY>Ketone</AnswerY>
+      <AnswerZ>Carotin</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27544" QuestionIDString="0000027544">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Scientists conducting deep-sea research in the Galapagos in 2012 described a new species of shark that is approximately a foot long and has a chocolate-brown coloration with pale, irregularly distributed spots on its body. What is the common name of this new shark species?
+</QuestionText>
+      <CorrectAnswer>Galapagos Catshark </CorrectAnswer>
+    </Question>
+    <Question QuestionID="21814" QuestionIDString="0000021814">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Currents</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What are large scale ocean currents balanced by pressure gradients and the Coriolis Effect called?</QuestionText>
+      <AnswerW>Upwelling currents</AnswerW>
+      <AnswerX>Downwelling currents</AnswerX>
+      <AnswerY>Geostrophic currents</AnswerY>
+      <AnswerZ>Dynamic currents</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26626" QuestionIDString="0000026626">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Anatomy and Physiology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The serial arrangement of muscle blocks used by fish for locomotion are known by what name?</QuestionText>
+      <CorrectAnswer>Myomeres (my-oh-meers)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26332" QuestionIDString="0000026332">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology - Geologic Time Scale</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>About 18,000 years ago, during the last ice age, approximately how much lower was the average global sea level, in meters?</QuestionText>
+      <AnswerW>16</AnswerW>
+      <AnswerX>125</AnswerX>
+      <AnswerY>215</AnswerY>
+      <AnswerZ>410</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26436" QuestionIDString="0000026436">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography - Place Names</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the strait between the Pacific Ocean and the Indian Ocean that provides one of the most important shipping channels in the world?</QuestionText>
+      <CorrectAnswer>Straits of Malacca (Accept Malacca)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26063" QuestionIDString="0000026063">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following defines the Brunt-Vaisala (Vy-sah-lah) frequency?</QuestionText>
+      <AnswerW>Frequency of sound which penetrates furthest in water</AnswerW>
+      <AnswerX>Frequency at which a vertically displaced water parcel will oscillate</AnswerX>
+      <AnswerY>Frequency used by whales to echo locate</AnswerY>
+      <AnswerZ>Frequency of a wave with a period of one second</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26060" QuestionIDString="0000026060">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Increased turbulence tends to stimulate the growth of many kinds of phytoplankton. Which major phytoplankton group is usually inhibited by turbulence?</QuestionText>
+      <CorrectAnswer>Dinoflagellates</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12887" QuestionIDString="0000012887">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which whale is called a sea canary for its characteristic whistle?</QuestionText>
+      <AnswerW>Sperm whale</AnswerW>
+      <AnswerX>Killer whale</AnswerX>
+      <AnswerY>Humpback whale</AnswerY>
+      <AnswerZ>Beluga whale</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26272" QuestionIDString="0000026272">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Seagoing oceanographic scientists frequently rely on the chemical scopalamine (sko-pal-ah-meen) for what critical purpose?</QuestionText>
+      <CorrectAnswer>It prevents seasickness (motion sickness)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27548" QuestionIDString="0000027548">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In 2013, Spain's Gamesa Corp, the fourth largest wind turbine manufacturer in the world, will install a massive, 5 megawatt , 479 foot-high prototype wind turbine three miles off the coast of which U.S. state, and in what body of water?</QuestionText>
+      <AnswerW>Virginia's Chesapeake Bay</AnswerW>
+      <AnswerX>New York's Long Island Sound</AnswerX>
+      <AnswerY>Alabama's Mobile Bay</AnswerY>
+      <AnswerZ>Oregon's Gray Harbor</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27007" QuestionIDString="0000027007">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical - Chemistry of Water</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Colligative properties are properties of solutions that depend on the number of dissolved particles in solution, but not on the identities of the solutes.  What are TWO colligative properties of seawater when compared with pure water?</QuestionText>
+      <CorrectAnswer>ACCEPT ANY TWO OF THE FOLLOWING: raised boiling point, decreased freezing point, lower vapor pressure, slowed evaporation, OR ability to create osmotic pressure</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12229" QuestionIDString="0000012229">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical - Chemistry of Water</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the term used to describe higher than normal concentrations of dissolved carbon dioxide?</QuestionText>
+      <AnswerW>Hypercapnic</AnswerW>
+      <AnswerX>Hyperoxic</AnswerX>
+      <AnswerY>Hypoxic</AnswerY>
+      <AnswerZ>Hypocapnic</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27545" QuestionIDString="0000027545">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the world's rarest dolphin found off a small stretch of the west coast of New Zealand’s North Island, and currently facing extinction?
+
+</QuestionText>
+      <CorrectAnswer>Maui's dolphin</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26086" QuestionIDString="0000026086">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following hydrokinetic technologies does NOT capture kinetic wave energy?</QuestionText>
+      <AnswerW>Over topping device</AnswerW>
+      <AnswerX>Oscillating water column</AnswerX>
+      <AnswerY>Point absorber</AnswerY>
+      <AnswerZ>Axial flow turbine</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12870" QuestionIDString="0000012870">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The current world record for female breath-holding was set by Natalia Molchanova in August 2009. Approximately how many minutes was she able to hold her breath?</QuestionText>
+      <CorrectAnswer>8 minutes (Note: actual time was 8 minutes, 23 seconds)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26017" QuestionIDString="0000026017">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Ecology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Emiliania huxleyi periodically forms huge blooms in both the Northern and Southern Hemispheres. Which of the following is largely responsible for terminating these blooms?</QuestionText>
+      <AnswerW>Dispersion by ocean currents</AnswerW>
+      <AnswerX>Predation</AnswerX>
+      <AnswerY>UV light exposure</AnswerY>
+      <AnswerZ>Viral infection</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13828" QuestionIDString="0000013828">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical - Air-sea Interface</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the minimum wind speed of Category 5 hurricane according to the Saffir-Simpson hurricane scale?</QuestionText>
+      <CorrectAnswer>ACCEPT ANY OF THE FOLLOWING: 157 miles per hour, 137 knots OR 252 kilometers per hour</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26162" QuestionIDString="0000026162">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Water Properties</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>As ocean acidification progresses, low-frequency sound could be transmitted through ocean waters for greater distances primarily due to a decrease in which chemical species?</QuestionText>
+      <AnswerW>Carbonate</AnswerW>
+      <AnswerX>Nitrate</AnswerX>
+      <AnswerY>Borate</AnswerY>
+      <AnswerZ>Sulfate</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12710" QuestionIDString="0000012710">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Place the following potential electron acceptors in order from highest to lowest energy yield:  Nitrate, Ferric Iron, Oxygen, Sulfate</QuestionText>
+      <CorrectAnswer>Oxygen, Nitrate, Ferric Iron, Sulfate</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

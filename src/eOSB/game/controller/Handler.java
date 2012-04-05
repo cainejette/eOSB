@@ -78,7 +78,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
   public static final int BINDER_SCOREKEEPER = 2;
   public static final int BINDER_TIMEKEEPER_SCOREKEEPER = 3;
   
-  public static final String QUESTION_CODE = "120229-0305B";
+  public static final String QUESTION_CODE = "120405-0413N";
 
   /**
    * Initializes the game controller object.
@@ -120,131 +120,162 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
     
     this.availableRounds.add(new Round("Six-question warm up", RoundFactory.PRACTICE, tcqs, tcqSolutions));
     
-    tcqs.add(new Tcq("Round 1 A", TcqFactory.TCQ_1_A, "Biology", "3:00"));
-    tcqs.add(new Tcq("Round 1 B", TcqFactory.TCQ_1_B, "Chemistry", "5:00"));
+    tcqs.add(new Tcq("Round 1 A", TcqFactory.TCQ_1_A, "Biology", "4:00"));
+    tcqs.add(new Tcq("Round 1 B", TcqFactory.TCQ_1_B, "Social Science", "4:00"));
     tcqSolutions.add(new Tcq("Round 1 A Solutions", TcqFactory.TCQ_1_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 1 B Solutions", TcqFactory.TCQ_1_B_SOLUTIONS));
     
-    this.availableRounds.add(new Round("Round 1", RoundFactory.ROUND_1, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Round Robin / Round 1", RoundFactory.ROUND_1, tcqs, tcqSolutions));
     
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 2 A", TcqFactory.TCQ_2_A, "Physical", "3:00"));
-    tcqs.add(new Tcq("Round 2 B", TcqFactory.TCQ_2_B, "Geology", "3:00"));
+    tcqs.add(new Tcq("Round 2 A", TcqFactory.TCQ_2_A, "Technology", "3:00"));
+    tcqs.add(new Tcq("Round 2 B", TcqFactory.TCQ_2_B, "Geology", "5:00"));
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 2 A Solutions", TcqFactory.TCQ_2_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 2 B Solutions", TcqFactory.TCQ_2_B_SOLUTIONS));
     
-    this.availableRounds.add(new Round("Round 2", RoundFactory.ROUND_2, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Round Robin / Round 2", RoundFactory.ROUND_2, tcqs, tcqSolutions));
     
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 3 A", TcqFactory.TCQ_3_A, "Physical", "4:00"));
-    tcqs.add(new Tcq("Round 3 B", TcqFactory.TCQ_3_B, "Chemical", "3:00"));
+    tcqs.add(new Tcq("Round 3 A", TcqFactory.TCQ_3_A, "Biology", "2:00"));
+    tcqs.add(new Tcq("Round 3 B", TcqFactory.TCQ_3_B, "Geography", "3:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 3 A Solutions", TcqFactory.TCQ_3_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 3 B Solutions", TcqFactory.TCQ_3_B_SOLUTIONS));
     
-    this.availableRounds.add(new Round("Round 3", RoundFactory.ROUND_3, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Round Robin / Round 3", RoundFactory.ROUND_3, tcqs, tcqSolutions));
     
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 4 A", TcqFactory.TCQ_4_A, "Geology", "3:00"));
-    tcqs.add(new Tcq("Round 4 B", TcqFactory.TCQ_4_B, "Marine Policy", "3:00"));
+    tcqs.add(new Tcq("Round 4 A", TcqFactory.TCQ_4_A, "Geology", "4:00"));
+    tcqs.add(new Tcq("Round 4 B", TcqFactory.TCQ_4_B, "Technology", "3:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 4 A Solutions", TcqFactory.TCQ_4_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 4 B Solutions", TcqFactory.TCQ_4_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Round 4", RoundFactory.ROUND_4, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Round Robin / Round 4", RoundFactory.ROUND_4, tcqs, tcqSolutions));
 
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 5 A", TcqFactory.TCQ_5_A, "Biology", "5:00"));
-    tcqs.add(new Tcq("Round 5 B", TcqFactory.TCQ_5_B, "Physical", "5:00"));
+    tcqs.add(new Tcq("Round 5 A", TcqFactory.TCQ_5_A, "Physical", "3:00"));
+    tcqs.add(new Tcq("Round 5 B", TcqFactory.TCQ_5_B, "Biology", "3:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 5 A Solutions", TcqFactory.TCQ_5_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 5 B Solutions", TcqFactory.TCQ_5_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Round 5", RoundFactory.ROUND_5, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Round Robin / Round 5", RoundFactory.ROUND_5, tcqs, tcqSolutions));
 
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 6 A", TcqFactory.TCQ_6_A, "Chemistry", "3:00"));
-    tcqs.add(new Tcq("Round 6 B", TcqFactory.TCQ_6_B, "Marine Policy", "4:00"));
+    tcqs.add(new Tcq("Round 6 A", TcqFactory.TCQ_6_A, "Marine Policy", "3:00"));
+    tcqs.add(new Tcq("Round 6 B", TcqFactory.TCQ_6_B, "Chemistry", "5:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 6 A Solutions", TcqFactory.TCQ_6_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 6 B Solutions", TcqFactory.TCQ_6_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Round 6", RoundFactory.ROUND_6, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Double Elimination / Round 1", RoundFactory.ROUND_6, tcqs, tcqSolutions));
 
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 7 A", TcqFactory.TCQ_7_A, "Biology", "4:00"));
-    tcqs.add(new Tcq("Round 7 B", TcqFactory.TCQ_7_B, "Technology", "4:00"));
+    tcqs.add(new Tcq("Round 7 A", TcqFactory.TCQ_7_A, "Social Science", "3:00"));
+    tcqs.add(new Tcq("Round 7 B", TcqFactory.TCQ_7_B, "Geology", "5:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 7 A Solutions", TcqFactory.TCQ_7_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 7 B Solutions", TcqFactory.TCQ_7_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Round 7", RoundFactory.ROUND_7, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Double Elimination / Round 2", RoundFactory.ROUND_7, tcqs, tcqSolutions));
 
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 8 A", TcqFactory.TCQ_8_A, "Geology", "4:00"));
-    tcqs.add(new Tcq("Round 8 B", TcqFactory.TCQ_8_B, "Biology", "4:00"));
+    tcqs.add(new Tcq("Round 8 A", TcqFactory.TCQ_8_A, "Geology", "3:00"));
+    tcqs.add(new Tcq("Round 8 B", TcqFactory.TCQ_8_B, "Chemistry", "3:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 8 A Solutions", TcqFactory.TCQ_8_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 8 B Solutions", TcqFactory.TCQ_8_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Round 8", RoundFactory.ROUND_8, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Double Elimination / Round 3", RoundFactory.ROUND_8, tcqs, tcqSolutions));
 
     tcqs = new ArrayList<Tcq>();
     tcqs.add(new Tcq("Round 9 A", TcqFactory.TCQ_9_A, "Geology", "4:00"));
-    tcqs.add(new Tcq("Round 9 B", TcqFactory.TCQ_9_B, "Social Science", "4:00"));
+    tcqs.add(new Tcq("Round 9 B", TcqFactory.TCQ_9_B, "Marine Policy", "3:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 9 A Solutions", TcqFactory.TCQ_9_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 9 B Solutions", TcqFactory.TCQ_9_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Round 9", RoundFactory.ROUND_9, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Double Elimination / Round 4", RoundFactory.ROUND_9, tcqs, tcqSolutions));
 
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 10 A", TcqFactory.TCQ_10_A, "Geology", "4:00"));
-    tcqs.add(new Tcq("Round 10 B", TcqFactory.TCQ_10_B, "Social Science", "4:00"));
+    tcqs.add(new Tcq("Round 10 A", TcqFactory.TCQ_10_A, "Biology", "4:00"));
+    tcqs.add(new Tcq("Round 10 B", TcqFactory.TCQ_10_B, "Chemistry", "5:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 10 A Solutions", TcqFactory.TCQ_10_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 10 B Solutions", TcqFactory.TCQ_10_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Round 10", RoundFactory.ROUND_10, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Double Elimination / Round 5", RoundFactory.ROUND_10, tcqs, tcqSolutions));
 
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 11 A", TcqFactory.TCQ_11_A, "Biology", "4:00"));
-    tcqs.add(new Tcq("Round 11 B", TcqFactory.TCQ_11_B, "Social Science", "3:00"));
+    tcqs.add(new Tcq("Round 11 A", TcqFactory.TCQ_11_A, "Physical", "5:00"));
+    tcqs.add(new Tcq("Round 11 B", TcqFactory.TCQ_11_B, "Biology", "5:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
     tcqSolutions.add(new Tcq("Round 11 A Solutions", TcqFactory.TCQ_11_A_SOLUTIONS));
     tcqSolutions.add(new Tcq("Round 11 B Solutions", TcqFactory.TCQ_11_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Round 11", RoundFactory.ROUND_11, tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Double Elimination / Round 6", RoundFactory.ROUND_11, tcqs, tcqSolutions));
     
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Extra Round A", TcqFactory.TCQ_12_A, "Social Science", "3:00"));
-    tcqs.add(new Tcq("Extra Round B", TcqFactory.TCQ_12_B, "Biology", "4:00"));
+    tcqs.add(new Tcq("Round 12 A", TcqFactory.TCQ_12_A, "Physical", "5:00"));
+    tcqs.add(new Tcq("Round 12 B", TcqFactory.TCQ_12_B, "Technology", "5:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Extra Round A Solutions", TcqFactory.TCQ_12_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Extra Round B Solutions", TcqFactory.TCQ_12_B_SOLUTIONS));
+    tcqSolutions.add(new Tcq("Round A Solutions", TcqFactory.TCQ_12_A_SOLUTIONS));
+    tcqSolutions.add(new Tcq("Round B Solutions", TcqFactory.TCQ_12_B_SOLUTIONS));
+
+    this.availableRounds.add(new Round("Double Elimination / Round 7", RoundFactory.ROUND_12, tcqs, tcqSolutions));
+
+    tcqs = new ArrayList<Tcq>();
+    tcqs.add(new Tcq("Round 13 A", TcqFactory.TCQ_13_A, "Biology", "4:00"));
+    tcqs.add(new Tcq("Round 13 B", TcqFactory.TCQ_13_B, "Geography", "5:00"));
+
+    tcqSolutions = new ArrayList<Tcq>();
+    tcqSolutions.add(new Tcq("Round 13 A Solutions", TcqFactory.TCQ_13_A_SOLUTIONS));
+    tcqSolutions.add(new Tcq("Round 13 B Solutions", TcqFactory.TCQ_13_B_SOLUTIONS));
+
+    this.availableRounds.add(new Round("Double Elimination / Round 8", RoundFactory.ROUND_13, tcqs, tcqSolutions));
+
+    tcqs = new ArrayList<Tcq>();
+    tcqs.add(new Tcq("Round 14 A", TcqFactory.TCQ_14_A, "Social Science", "4:00"));
+    tcqs.add(new Tcq("Round 14 B", TcqFactory.TCQ_14_B, "Chemistry", "4:00"));
+
+    tcqSolutions = new ArrayList<Tcq>();
+    tcqSolutions.add(new Tcq("Round 14 A Solutions", TcqFactory.TCQ_14_A_SOLUTIONS));
+    tcqSolutions.add(new Tcq("Round 14 B Solutions", TcqFactory.TCQ_14_B_SOLUTIONS));
+
+    this.availableRounds.add(new Round("Double Elimination / Round 9", RoundFactory.ROUND_14, tcqs, tcqSolutions));
+
+    tcqs = new ArrayList<Tcq>();
+    tcqs.add(new Tcq("Extra Round A", TcqFactory.TCQ_15_A, "Marine Policy", "3:00"));
+    tcqs.add(new Tcq("Extra Round B", TcqFactory.TCQ_15_B, "Physical", "4:00"));
+
+    tcqSolutions = new ArrayList<Tcq>();
+    tcqSolutions.add(new Tcq("Extra Round A Solutions", TcqFactory.TCQ_15_A_SOLUTIONS));
+    tcqSolutions.add(new Tcq("Extra B Solutions", TcqFactory.TCQ_15_B_SOLUTIONS));
 
     this.availableRounds.add(new Round("Extra Round", RoundFactory.EXTRA, tcqs, tcqSolutions));
     
     tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Tiebreaker Round A", TcqFactory.TCQ_13_A));
-    tcqs.add(new Tcq("Tiebreaker Round B", TcqFactory.TCQ_13_B));
+    tcqs.add(new Tcq("Tiebreaker Round A", TcqFactory.TCQ_15_A, "Marine Policy", "3:00"));
+    tcqs.add(new Tcq("Tiebreaker Round B", TcqFactory.TCQ_15_B, "Physical", "4:00"));
 
     tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Tiebreaker Round A Solutions", TcqFactory.TCQ_13_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Tiebreaker B Solutions", TcqFactory.TCQ_13_B_SOLUTIONS));
+    tcqSolutions.add(new Tcq("Tiebreaker Round A Solutions", TcqFactory.TCQ_15_A_SOLUTIONS));
+    tcqSolutions.add(new Tcq("Tiebreaker B Solutions", TcqFactory.TCQ_15_B_SOLUTIONS));
 
-    this.availableRounds.add(new Round("Tiebreaker Round", RoundFactory.TIEBREAKER , tcqs, tcqSolutions));
+    this.availableRounds.add(new Round("Tiebreaker Round", RoundFactory.TIEBREAKER, tcqs, tcqSolutions));
+
   }
 
   /**

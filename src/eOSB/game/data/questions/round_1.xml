@@ -1,406 +1,405 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Round RoundID="403" BowlYear="2012" RoundName="Round 01" CompetitionName="Regional Competition 2">
+<Round RoundID="404" BowlYear="2012" RoundName="Round 01" CompetitionName="Finals">
   <Questions>
-    <Question QuestionID="26124" QuestionIDString="0000026124">
+    <Question QuestionID="27478" QuestionIDString="0000027478">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
+      <Category>Physical - Thermodynamics</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What effect does the reduction in Arctic sea ice have on the Earth's albedo?</QuestionText>
-      <AnswerW>Increases albedo</AnswerW>
-      <AnswerX>Reduces albedo</AnswerX>
-      <AnswerY>Does not affect albedo</AnswerY>
-      <AnswerZ>Creates neutral feedback on albedo</AnswerZ>
+      <QuestionText>Which of the following patterns has the least effect on the transport of heat in the surface ocean?</QuestionText>
+      <AnswerW>Sea surface temperature</AnswerW>
+      <AnswerX>Sea surface salinity</AnswerX>
+      <AnswerY>Surface currents</AnswerY>
+      <AnswerZ>Upwelling</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="27064" QuestionIDString="0000027064">
+    <Question QuestionID="26458" QuestionIDString="0000026458">
       <QuestionPair>1</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the process through which salt water is turned into fresh water?</QuestionText>
-      <CorrectAnswer>Desalination (ACCEPT: Desalinization)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26657" QuestionIDString="0000026657">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geography - Place Names</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The closest point to Antarctica is on which of these continents?</QuestionText>
-      <AnswerW>Australia</AnswerW>
-      <AnswerX>Africa</AnswerX>
-      <AnswerY>South America</AnswerY>
-      <AnswerZ>Asia</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="21840" QuestionIDString="0000021840">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name for a zone where temperature rapidly changes with depth?</QuestionText>
-      <CorrectAnswer>Thermocline</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26112" QuestionIDString="0000026112">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which ocean basin contains the oldest oceanic crust?</QuestionText>
-      <AnswerW>Indian</AnswerW>
-      <AnswerX>Atlantic</AnswerX>
-      <AnswerY>Pacific</AnswerY>
-      <AnswerZ>Southern</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26336" QuestionIDString="0000026336">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What type of reproduction is most common among dinoflagellates?
-</QuestionText>
-      <CorrectAnswer>Binary fission (ACCEPT: Asexual reproduction, cell division)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26077" QuestionIDString="0000026077">
-      <QuestionPair>4</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology - Navigation</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which practice involves digging and removing bottom sediments to produce a deeper channel, allowing large ships to pass or dock?</QuestionText>
-      <AnswerW>Seining</AnswerW>
-      <AnswerX>Panning</AnswerX>
-      <AnswerY>Surging</AnswerY>
-      <AnswerZ>Dredging</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26168" QuestionIDString="0000026168">
-      <QuestionPair>4</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Biology - Evolution</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What evolutionary concept refers to the similarity of features due to common ancestry?</QuestionText>
-      <CorrectAnswer>Homology</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27143" QuestionIDString="0000027143">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following create underwater anthropogenic sounds?</QuestionText>
-      <AnswerW>Undersea volcanic eruptions</AnswerW>
-      <AnswerX>Cargo ships traveling between ports</AnswerX>
-      <AnswerY>Humpback whales vocalizing</AnswerY>
-      <AnswerZ>Sea otters cracking mussel shells with rocks</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26352" QuestionIDString="0000026352">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Technology - Fishing gear and vessels</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What type of trawl gets its name from the solid metal object that holds the mouth of the net open?</QuestionText>
-      <CorrectAnswer>Beam</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26044" QuestionIDString="0000026044">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology - Anatomy and Physiology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Filter feeding whales strain seawater and organisms through a series of plates made of which of the following materials?</QuestionText>
-      <AnswerW>Keratin</AnswerW>
-      <AnswerX>Chiton [Kye-ton]</AnswerX>
-      <AnswerY>Enamel</AnswerY>
-      <AnswerZ>Cartilage</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26370" QuestionIDString="0000026370">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How much heat is required to raise one gram of water by one degree Celsius?</QuestionText>
-      <CorrectAnswer>1 calorie (ACCEPT: 4.18-4.20 joules)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26148" QuestionIDString="0000026148">
-      <QuestionPair>7</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical - Chemistry of Water</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which term best describes the concentration of dissolved salts in seawater?</QuestionText>
-      <AnswerW>Conductivity</AnswerW>
-      <AnswerX>Salinity</AnswerX>
-      <AnswerY>Solubility</AnswerY>
-      <AnswerZ>Ductility</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26383" QuestionIDString="0000026383">
-      <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What does the acronym HAB stand for?</QuestionText>
-      <CorrectAnswer>Harmful algal bloom</CorrectAnswer>
+      <QuestionText>Excessive amounts of nutrients from agricultural fertilizers can enter the ocean via rivers and streams. What term is used to describe this human-caused problem?</QuestionText>
+      <CorrectAnswer>Eutrophication OR cultural eutrophication</CorrectAnswer>
     </Question>
-    <Question QuestionID="26171" QuestionIDString="0000026171">
-      <QuestionPair>8</QuestionPair>
+    <Question QuestionID="26152" QuestionIDString="0000026152">
+      <QuestionPair>2</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology - Sediments</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following terms describes deep-sea sediments composed of at least 30 percent biogenous material?</QuestionText>
-      <AnswerW>Clay</AnswerW>
-      <AnswerX>Marine snow</AnswerX>
-      <AnswerY>Ooze</AnswerY>
-      <AnswerZ>Detritus</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27177" QuestionIDString="0000027177">
-      <QuestionPair>8</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What name was given to the vagrant Emperor Penguin that turned up in New Zealand in June 2011?</QuestionText>
-      <CorrectAnswer>Happy Feet</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26099" QuestionIDString="0000026099">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology - Fishing gear and vessels</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which practice, employed by commercial fishermen, deploys miles of baited hooks behind a vessel?</QuestionText>
-      <AnswerW>Trawling</AnswerW>
-      <AnswerX>Longlining</AnswerX>
-      <AnswerY>Seining</AnswerY>
-      <AnswerZ>Netting</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26222" QuestionIDString="0000026222">
-      <QuestionPair>9</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geology - Sea Floor Features</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What name has been given to the deepest spot on Earth, which lies approximately 11 kilometers below the ocean surface in the Mariana Trench?</QuestionText>
-      <CorrectAnswer>Challenger Deep</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26052" QuestionIDString="0000026052">
-      <QuestionPair>10</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology - Ecology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The maximum number of individuals of a species that can be supported in the environment is known as which of the following?</QuestionText>
-      <AnswerW>Maximum stable population</AnswerW>
-      <AnswerX>Population capacity</AnswerX>
-      <AnswerY>Carrying capacity</AnswerY>
-      <AnswerZ>Reproductive stability rate</AnswerZ>
+      <QuestionText>Which hurricane was the most costly recorded natural disaster in the U.S.?</QuestionText>
+      <AnswerW>Francis</AnswerW>
+      <AnswerX>Andrew</AnswerX>
+      <AnswerY>Katrina</AnswerY>
+      <AnswerZ>Wilma</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="16508" QuestionIDString="0000016508">
-      <QuestionPair>10</QuestionPair>
+    <Question QuestionID="26479" QuestionIDString="0000026479">
+      <QuestionPair>2</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography - Place Names</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the world's largest reef complex?</QuestionText>
-      <CorrectAnswer>Great Barrier Reef</CorrectAnswer>
+      <QuestionText>What type of symmetry is present in a sea anemone?</QuestionText>
+      <CorrectAnswer>Radial</CorrectAnswer>
     </Question>
-    <Question QuestionID="26298" QuestionIDString="0000026298">
-      <QuestionPair>11</QuestionPair>
+    <Question QuestionID="26219" QuestionIDString="0000026219">
+      <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the structure formed by salt intrusion into overlying layers of rock called?</QuestionText>
-      <AnswerW>Salt diapir [die-ah-peer]</AnswerW>
-      <AnswerX>Dike</AnswerX>
-      <AnswerY>Evaporite</AnswerY>
-      <AnswerZ>Salt bridge</AnswerZ>
+      <QuestionText>Which of the following terms is synonymous with periods of rising sea-level?</QuestionText>
+      <AnswerW>Transgressions</AnswerW>
+      <AnswerX>Regressions</AnswerX>
+      <AnswerY>Ebbs</AnswerY>
+      <AnswerZ>Flows</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="26151" QuestionIDString="0000026151">
-      <QuestionPair>11</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Physical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What term is used to describe the long term weather patterns of a particular region?</QuestionText>
-      <CorrectAnswer>Climate</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26223" QuestionIDString="0000026223">
-      <QuestionPair>12</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Net primary production is equal to the gross primary production MINUS which of the following biological processes?</QuestionText>
-      <AnswerW>Accretion</AnswerW>
-      <AnswerX>Decomposition</AnswerX>
-      <AnswerY>Photosynthesis</AnswerY>
-      <AnswerZ>Respiration</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="24917" QuestionIDString="0000024917">
-      <QuestionPair>12</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What name is given to a small area of ocean that is partially bordered by land?</QuestionText>
-      <CorrectAnswer>Sea (ACCEPT: Gulf)</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26191" QuestionIDString="0000026191">
-      <QuestionPair>13</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Geology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The majority of ocean crust is composed of which of the following type of rocks?</QuestionText>
-      <AnswerW>Granite</AnswerW>
-      <AnswerX>Andesite</AnswerX>
-      <AnswerY>Basalt</AnswerY>
-      <AnswerZ>Limestone</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26562" QuestionIDString="0000026562">
-      <QuestionPair>13</QuestionPair>
+    <Question QuestionID="26780" QuestionIDString="0000026780">
+      <QuestionPair>3</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of the western boundary current of the North Pacific gyre?</QuestionText>
-      <CorrectAnswer>Kuroshio Current [koo-ROH-shee-oh] (ACCEPT: Japan Current)</CorrectAnswer>
+      <QuestionText>What are the FOUR defining characteristics of Western Boundary Currents in terms of temperature, speed, depth, and width in relation to Eastern Boundary Currents?</QuestionText>
+      <CorrectAnswer>Warmer, faster, deeper AND narrower</CorrectAnswer>
     </Question>
-    <Question QuestionID="26262" QuestionIDString="0000026262">
-      <QuestionPair>14</QuestionPair>
+    <Question QuestionID="25305" QuestionIDString="0000025305">
+      <QuestionPair>4</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Social Sciences - Human Impacts</Category>
+      <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Roughly 90 percent of the estimated 37 million people employed by the small scale fisheries sector, including fishing and fish farming, are from which geographical region?</QuestionText>
-      <AnswerW>Africa</AnswerW>
-      <AnswerX>Asia</AnswerX>
-      <AnswerY>North America</AnswerY>
-      <AnswerZ>South America</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="27327" QuestionIDString="0000027327">
-      <QuestionPair>14</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Chemical</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the chemical compound responsible for the rotten-egg smell of anoxic water masses?</QuestionText>
-      <CorrectAnswer>Hydrogen sulfide</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26154" QuestionIDString="0000026154">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Physical - Waves</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What term is defined as the number of waves passing through a fixed point in a given amount of time?</QuestionText>
-      <AnswerW>Frequency</AnswerW>
-      <AnswerX>Wavelength</AnswerX>
-      <AnswerY>Period</AnswerY>
-      <AnswerZ>Intensity</AnswerZ>
+      <QuestionText>The delta from which of the following North American rivers has the greatest surface area?</QuestionText>
+      <AnswerW>Mississippi</AnswerW>
+      <AnswerX>Klamath</AnswerX>
+      <AnswerY>Hudson</AnswerY>
+      <AnswerZ>Columbia</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="26633" QuestionIDString="0000026633">
-      <QuestionPair>15</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Geography - Oceanic Zones</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name given to the line of latitude that lies at 23 degrees, 26 minutes, 16 seconds north of the Equator?</QuestionText>
-      <CorrectAnswer>Tropic of Cancer</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26054" QuestionIDString="0000026054">
-      <QuestionPair>16</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology - Behavior/Adaptations</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Individual differences within a species are known as which of the following?</QuestionText>
-      <AnswerW>Competitions</AnswerW>
-      <AnswerX>Differentiations</AnswerX>
-      <AnswerY>Variations</AnswerY>
-      <AnswerZ>Modifications</AnswerZ>
-      <CorrectAnswer>Y</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26716" QuestionIDString="0000026716">
-      <QuestionPair>16</QuestionPair>
+    <Question QuestionID="8368" QuestionIDString="0000008368">
+      <QuestionPair>4</QuestionPair>
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>If an object sinks in water, the volume of water displaced is equal to what characteristic of the object?</QuestionText>
-      <CorrectAnswer>The object’s volume</CorrectAnswer>
+      <QuestionText>What term is defined as the distance along open water which the wind blows?</QuestionText>
+      <CorrectAnswer>Fetch</CorrectAnswer>
     </Question>
-    <Question QuestionID="7835" QuestionIDString="0000007835">
-      <QuestionPair>17</QuestionPair>
+    <Question QuestionID="26055" QuestionIDString="0000026055">
+      <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Chemical</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Compared to the seawater it is derived from, sea ice has less of which of the following substances?</QuestionText>
-      <AnswerW>Sediment</AnswerW>
-      <AnswerX>Salt</AnswerX>
-      <AnswerY>Algae</AnswerY>
-      <AnswerZ>Nitrogen</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
+      <QuestionText>A species that is introduced, or is not native to a particular region, is classified as which of the following?</QuestionText>
+      <AnswerW>Indigenous</AnswerW>
+      <AnswerX>Excluded</AnswerX>
+      <AnswerY>Intrusive</AnswerY>
+      <AnswerZ>Invasive</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="27515" QuestionIDString="0000027515">
-      <QuestionPair>17</QuestionPair>
+    <Question QuestionID="26150" QuestionIDString="0000026150">
+      <QuestionPair>5</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Biology</Category>
+      <Category>Chemical - Chemical species</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>To what Kingdom do foraminifera belong?</QuestionText>
-      <CorrectAnswer>Protista (ACCEPT: Rhizaria)</CorrectAnswer>
+      <QuestionText>What scale is used to measure the concentration of hydronium ions in a solution?</QuestionText>
+      <CorrectAnswer>pH</CorrectAnswer>
     </Question>
-    <Question QuestionID="26273" QuestionIDString="0000026273">
-      <QuestionPair>18</QuestionPair>
+    <Question QuestionID="12702" QuestionIDString="0000012702">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which zone is the shallowest part of the continental shelf that is exposed to air at low tides?</QuestionText>
+      <AnswerW>Epipelagic</AnswerW>
+      <AnswerX>Bathypelagic</AnswerX>
+      <AnswerY>Neritic</AnswerY>
+      <AnswerZ>Intertidal</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26605" QuestionIDString="0000026605">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>When a coral bleaches, it will die within a matter of weeks unless what can be replaced?</QuestionText>
+      <CorrectAnswer>Zooxanthellae</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12222" QuestionIDString="0000012222">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Of the instruments listed, which would be the best choice to measure the speed and direction ocean water is flowing?</QuestionText>
+      <AnswerW>Acoustic Doppler Current Profiler</AnswerW>
+      <AnswerX>Spectrophotometer</AnswerX>
+      <AnswerY>Refractometer</AnswerY>
+      <AnswerZ>pH meter</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26288" QuestionIDString="0000026288">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term describes a narrow bar or spit of land that, when formed, connects an island to the mainland?</QuestionText>
+      <CorrectAnswer>Tombolo</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26062" QuestionIDString="0000026062">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Behavior/Adaptations</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following species is NOT a filter feeder?</QuestionText>
+      <AnswerW>Basking Shark</AnswerW>
+      <AnswerX>Humpback Whale</AnswerX>
+      <AnswerY>Halibut</AnswerY>
+      <AnswerZ>Atlantic Menhaden</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27282" QuestionIDString="0000027282">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences - History</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What oceanographic expedition is generally recognized as the first major expedition?</QuestionText>
+      <CorrectAnswer>HMS Challenger Expedition</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26410" QuestionIDString="0000026410">
+      <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical - Tides</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>How long is the dominant lunar semidiurnal tidal period?</QuestionText>
-      <AnswerW>29.53 days</AnswerW>
-      <AnswerX>12.42 hours</AnswerX>
-      <AnswerY>6.21 hours</AnswerY>
-      <AnswerZ>365.25 days</AnswerZ>
+      <QuestionText>A tide that occurs approximately every two weeks and has a tidal range that is less than usual is known as which kind of tide?</QuestionText>
+      <AnswerW>Neap</AnswerW>
+      <AnswerX>Spring</AnswerX>
+      <AnswerY>Lunar</AnswerY>
+      <AnswerZ>Diurnal</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26552" QuestionIDString="0000026552">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Normally, productivity in tropical oceans is low. What type of region would an exception to this statement?</QuestionText>
+      <CorrectAnswer>Accept any of the following: Equatorial upwelling, coastal upwelling, upwelling OR coral reefs</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26072" QuestionIDString="0000026072">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following terms is used to describe how much light can pass through a medium?</QuestionText>
+      <AnswerW>Lucidity</AnswerW>
+      <AnswerX>Turbidity</AnswerX>
+      <AnswerY>Reflectivity</AnswerY>
+      <AnswerZ>Transmissivity</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26961" QuestionIDString="0000026961">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which major ion has the longest residence time in the ocean?</QuestionText>
+      <CorrectAnswer>Sodium</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26591" QuestionIDString="0000026591">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences - Notable Scientists</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Who was the captain of the H.M.S. Beagle, while Charles Darwin was aboard?</QuestionText>
+      <AnswerW>James Jones</AnswerW>
+      <AnswerX>Robert Fitz Roy</AnswerX>
+      <AnswerY>James Cook</AnswerY>
+      <AnswerZ>Robert F. Scott</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="27226" QuestionIDString="0000027226">
-      <QuestionPair>18</QuestionPair>
+    <Question QuestionID="26572" QuestionIDString="0000026572">
+      <QuestionPair>11</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Social Sciences - The Arts</Category>
+      <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In “The Rime of the Ancient Mariner,” what was the title character forced to wear around his neck?</QuestionText>
-      <CorrectAnswer>An albatross (ACCEPT: Mollymawk, gooney bird)</CorrectAnswer>
+      <QuestionText>What marine macrophyte (MAK-ruh-fahyt) serves as a foundation species offshore of central California?</QuestionText>
+      <CorrectAnswer>Kelp</CorrectAnswer>
     </Question>
-    <Question QuestionID="26296" QuestionIDString="0000026296">
-      <QuestionPair>19</QuestionPair>
+    <Question QuestionID="26462" QuestionIDString="0000026462">
+      <QuestionPair>12</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Chemical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What metal is a limiting nutrient in some regions of the Southern Ocean where concentrations of nitrate and phosphate are high?</QuestionText>
-      <AnswerW>Silica</AnswerW>
-      <AnswerX>Molybdenum [muh-LIB-duh-nuhm]</AnswerX>
-      <AnswerY>Tungsten</AnswerY>
-      <AnswerZ>Iron</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>By which number do you multiply chlorinity to determine salinity?</QuestionText>
+      <AnswerW>0.5</AnswerW>
+      <AnswerX>1.2</AnswerX>
+      <AnswerY>1.8</AnswerY>
+      <AnswerZ>35</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="12657" QuestionIDString="0000012657">
-      <QuestionPair>19</QuestionPair>
+    <Question QuestionID="26452" QuestionIDString="0000026452">
+      <QuestionPair>12</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geography</Category>
+      <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What country has the longest coastline of any country in the world?</QuestionText>
-      <CorrectAnswer>Canada</CorrectAnswer>
+      <QuestionText>During what season, in temperate seas, is the maximum phytoplankton biomass peak?</QuestionText>
+      <CorrectAnswer>Spring</CorrectAnswer>
     </Question>
-    <Question QuestionID="26076" QuestionIDString="0000026076">
-      <QuestionPair>20</QuestionPair>
+    <Question QuestionID="26302" QuestionIDString="0000026302">
+      <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology - Human defined/caused problems </Category>
+      <Category>Physical - Water Masses</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In general, which of the following has had the most destructive impact on wetlands?</QuestionText>
-      <AnswerW>Coastal development</AnswerW>
-      <AnswerX>Erosion</AnswerX>
-      <AnswerY>Invasive species</AnswerY>
-      <AnswerZ>Hurricanes</AnswerZ>
+      <QuestionText>Which of the following is the name of the water mass formed primarily in the Weddell Sea in winter?</QuestionText>
+      <AnswerW>North Atlantic Deep Water</AnswerW>
+      <AnswerX>Antarctic Bottom Water</AnswerX>
+      <AnswerY>Pacific Deep Water</AnswerY>
+      <AnswerZ>Antarctic Intermediate Water</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26371" QuestionIDString="0000026371">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the SI unit for pressure?</QuestionText>
+      <CorrectAnswer>Pascal</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27146" QuestionIDString="0000027146">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The Discovery Channel's hit show Deadliest Catch is set in which northern sea?</QuestionText>
+      <AnswerW>Bering Sea</AnswerW>
+      <AnswerX>Chuckchi (chook-chee) Sea</AnswerX>
+      <AnswerY>Beaufort (bow-fort) Sea</AnswerY>
+      <AnswerZ>North Sea</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="26221" QuestionIDString="0000026221">
+    <Question QuestionID="26459" QuestionIDString="0000026459">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the definition of commercial extinction?</QuestionText>
+      <CorrectAnswer>Depletion (OR reduction) of a resource species to a point where it is no longer profitable to harvest (OR not cost effective)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26475" QuestionIDString="0000026475">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical - Reactions in Seawater</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the approximate residence time, in years, of chloride in seawater?</QuestionText>
+      <AnswerW>200</AnswerW>
+      <AnswerX>100 thousand</AnswerX>
+      <AnswerY>1 million</AnswerY>
+      <AnswerZ>100 million</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="13210" QuestionIDString="0000013210">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What marine mammal is thought to be the inspiration for mermaids?</QuestionText>
+      <CorrectAnswer>Dugongs (DOO-gongs)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27547" QuestionIDString="0000027547">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Assembly bill Number 376, passed into California law in 2011, makes it unlawful for any person to possess, sell, offer for sale, trade or distribute which of the following items?</QuestionText>
+      <AnswerW>Shark fins</AnswerW>
+      <AnswerX>Sea-turtle eggs</AnswerX>
+      <AnswerY>Dried brittlestars</AnswerY>
+      <AnswerZ>Skate egg cases</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26956" QuestionIDString="0000026956">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical - Salinity</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Based upon the average salinity of the ocean, how much salt would be in 1 kilogram of seawater?</QuestionText>
+      <CorrectAnswer>35 grams</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27159" QuestionIDString="0000027159">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Behavior/Adaptations</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following factors is NOT a reason fish form schools?</QuestionText>
+      <AnswerW>Increased individual protection from predators</AnswerW>
+      <AnswerX>Decreased predator detection</AnswerX>
+      <AnswerY>enhanced hydrodynamic efficiency</AnswerY>
+      <AnswerZ>Increased spawning success</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26798" QuestionIDString="0000026798">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What TWO factors are first-order influences on the speed of sound in the water column above 500 meters of depth?</QuestionText>
+      <CorrectAnswer>Temperature AND salinity</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26428" QuestionIDString="0000026428">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology - Sea Floor Features</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>White smokers and black smokers are types of which of the following features?</QuestionText>
+      <AnswerW>Hydrothermal vents</AnswerW>
+      <AnswerX>Trenches</AnswerX>
+      <AnswerY>Archipelagos</AnswerY>
+      <AnswerZ>Atolls</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27444" QuestionIDString="0000027444">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name for the ornamental, painted wooden carvings positioned on the bow of a ship?</QuestionText>
+      <CorrectAnswer>Figureheads</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26092" QuestionIDString="0000026092">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In a typical sequence of coral reef evolution, which of the following is the earliest stage?</QuestionText>
+      <AnswerW>Atoll</AnswerW>
+      <AnswerX>Barrier reef</AnswerX>
+      <AnswerY>Fringing reef</AnswerY>
+      <AnswerZ>Ribbon reef</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26118" QuestionIDString="0000026118">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Saxitoxin (sak-si-TOK-sin) is responsible for what type of shellfish poisoning?</QuestionText>
+      <CorrectAnswer>Paralytic</CorrectAnswer>
+    </Question>
+    <Question QuestionID="20022" QuestionIDString="0000020022">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Anatomy and Physiology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following terms describes a mouth type in fishes that opens upward?</QuestionText>
+      <AnswerW>Subterminal</AnswerW>
+      <AnswerX>Inferior</AnswerX>
+      <AnswerY>Terminal</AnswerY>
+      <AnswerZ>Superior</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26781" QuestionIDString="0000026781">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Geology - Sea Floor Features</Category>
+      <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the geological term that describes a flat-topped seamount?</QuestionText>
-      <CorrectAnswer>Guyot [gee-yo] (ACCEPT: Tablemount)</CorrectAnswer>
+      <QuestionText>What is the photic zone?</QuestionText>
+      <CorrectAnswer>The surface layer of the water in a lake or ocean that is exposed to sufficient sunlight for photosynthesis to occur</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

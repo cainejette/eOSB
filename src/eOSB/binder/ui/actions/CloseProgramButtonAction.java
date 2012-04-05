@@ -23,7 +23,7 @@ public class CloseProgramButtonAction extends AbstractAction {
 	 * @param handler the {@link Handler}
 	 */
 	public CloseProgramButtonAction( StandardDialog dialog, Handler handler ) {
-		super( "Yes, Close" );
+		super( "Yes, really exit" );
 		this.dialog = dialog;
 		this.handler = handler;
 	}

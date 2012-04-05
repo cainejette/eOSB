@@ -46,7 +46,7 @@ public class ConfirmExitDialog extends StandardDialog {
   /** {@inheritDoc} */
   @Override
   public JComponent createBannerPanel() {
-    final JLabel message = new JLabel("Are you sure you'd like to close eOSB?");
+    final JLabel message = new JLabel("Are you sure you'd like to exit eOSB?");
 
     final JPanel panel = new JPanel();
     panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));

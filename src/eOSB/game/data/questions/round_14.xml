@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="430" BowlYear="2012" RoundName="Round 14" CompetitionName="Finals">
+  <Questions>
+    <Question QuestionID="7513" QuestionIDString="0000007513">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Refraction causes waves passing over a submerged ridge stretching out from a headland to do what?</QuestionText>
+      <AnswerW>Diverge from the headland</AnswerW>
+      <AnswerX>Converge on the headland</AnswerX>
+      <AnswerY>Break offshore</AnswerY>
+      <AnswerZ>Be slowed down</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27405" QuestionIDString="0000027405">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the correct collective name for a group of jellyfish?</QuestionText>
+      <CorrectAnswer>Smack</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26097" QuestionIDString="0000026097">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following organisms was the first marine invertebrate to have its genome sequenced?</QuestionText>
+      <AnswerW>Green urchin</AnswerW>
+      <AnswerX>Red urchin</AnswerX>
+      <AnswerY>Purple urchin</AnswerY>
+      <AnswerZ>Mediterranean urchin</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24653" QuestionIDString="0000024653">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the only sea in the world ocean that has no coast?</QuestionText>
+      <CorrectAnswer>Sargasso Sea</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24177" QuestionIDString="0000024177">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the longest American river?</QuestionText>
+      <AnswerW>Arkansas</AnswerW>
+      <AnswerX>Hudson</AnswerX>
+      <AnswerY>Columbia</AnswerY>
+      <AnswerZ>Missouri</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26754" QuestionIDString="0000026754">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Classification</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is a newly hatched salmon called?</QuestionText>
+      <CorrectAnswer>Alevin (AL-uh-vuhn)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="7656" QuestionIDString="0000007656">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the typical salinity structure of an estuary with weak tidal forcing and large freshwater input?</QuestionText>
+      <AnswerW>Weak stratification</AnswerW>
+      <AnswerX>Independence from density</AnswerX>
+      <AnswerY>Vertical homogeneity</AnswerY>
+      <AnswerZ>A salt wedge</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12632" QuestionIDString="0000012632">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the full name and title of the first person to note the apparent coastline fit of South America and Africa?</QuestionText>
+      <CorrectAnswer>Sir Francis Bacon</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8497" QuestionIDString="0000008497">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>With respect to the concentration of oxygen in seawater, which of the following is NOT true?</QuestionText>
+      <AnswerW>Supersaturated water can form by bubble injection at the ocean surface by waves</AnswerW>
+      <AnswerX>Oxygen is removed from the deep oceans by respiration</AnswerX>
+      <AnswerY>The oxygen minimum zone occurs at a constant depth in all oceans</AnswerY>
+      <AnswerZ>Oxygen can increase with depth as a result of the input of younger water from other regions</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24768" QuestionIDString="0000024768">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What current carries cold Arctic waters to the Labrador Sea via the Davis Strait?</QuestionText>
+      <CorrectAnswer>Baffin Current</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8194" QuestionIDString="0000008194">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What law states that the ocean loses heat through radiation in the amount proportional to the fourth power of the absolute temperature?</QuestionText>
+      <AnswerW>Gay Lussac's Law</AnswerW>
+      <AnswerX>Boyle’s Law</AnswerX>
+      <AnswerY>Stefan-Boltzmann Law</AnswerY>
+      <AnswerZ>First Law of Thermodynamics</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26169" QuestionIDString="0000026169">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Anatomy and Physiology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In diving marine mammals, the arteries leading to skeletal muscles and organs constrict, forcing most of the circulating blood to a few vital organs, primarily the heart and brain. What is this name for this physiological response?</QuestionText>
+      <CorrectAnswer>Peripheral vasoconstriction (MUST say peripheral)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27465" QuestionIDString="0000027465">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences - Human Impacts</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Waste water from which of the following appliances is the key source of microplastics, including acrylic and polyethylene, in the ocean?</QuestionText>
+      <AnswerW>Dishwashers</AnswerW>
+      <AnswerX>Power washers</AnswerX>
+      <AnswerY>Washing machines</AnswerY>
+      <AnswerZ>Sump pumps</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27452" QuestionIDString="0000027452">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In the offshore oil industry, to what does the acronym FPSO refer?</QuestionText>
+      <CorrectAnswer>Floating Production, Storage and Offloading vessel</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26184" QuestionIDString="0000026184">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Behavior/Adaptations</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following morphological adaptations would NOT be found among plants living in a salt marsh?</QuestionText>
+      <AnswerW>Aerenchyma (air-ENK-ah-ma) tissues</AnswerW>
+      <AnswerX>Salt glands</AnswerX>
+      <AnswerY>Abundant stomata (stoh-mah-tah)</AnswerY>
+      <AnswerZ>Low lignin content</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27283" QuestionIDString="0000027283">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What are TWO metals found in nitrogenase?</QuestionText>
+      <CorrectAnswer>Iron AND molybdenum</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12352" QuestionIDString="0000012352">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What mineral would crystallize first in a cooling ultra-mafic magma?</QuestionText>
+      <AnswerW>Orthoclase</AnswerW>
+      <AnswerX>Olivine</AnswerX>
+      <AnswerY>Amphibole</AnswerY>
+      <AnswerZ>Biotite</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23798" QuestionIDString="0000023798">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Classification</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What term describes organisms that can only withstand very small temperature changes?</QuestionText>
+      <CorrectAnswer>Stenotherms</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25281" QuestionIDString="0000025281">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The Bowen ratio describes how heat energy received at Earth's surface is divided between sensible heating and latent heating. What is the approximate Bowen ratio over oceans?</QuestionText>
+      <AnswerW>0.1</AnswerW>
+      <AnswerX>1.0</AnswerX>
+      <AnswerY>3.14</AnswerY>
+      <AnswerZ>5.0</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26469" QuestionIDString="0000026469">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Marine Policy</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In what year was the U.S. Marine Protection Research and Sanctuaries Act passed?</QuestionText>
+      <CorrectAnswer>1972</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26832" QuestionIDString="0000026832">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Ecology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Recent sediment cores from briny water 3,250 meters deep in the Mediterranean Sea revealed a group of multicellular animals that live entirely without oxygen. Which of the following organisms occurred in completely anoxic sediments, but were absent from oxygenated waters?</QuestionText>
+      <AnswerW>Polyplacophoran (polly-plak-oh-FORE-an)</AnswerW>
+      <AnswerX>Foraminiferan (fore-am-in-IF-er-an)</AnswerX>
+      <AnswerY>Agnathan (ag-NATH-an)</AnswerY>
+      <AnswerZ>Loriciferan (lorry-CIF-er-an)</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8370" QuestionIDString="0000008370">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>If sixteen successive wave troughs pass a fixed point during a time interval of one minute and four seconds, what is the frequency of the waves?</QuestionText>
+      <CorrectAnswer>0.25Hz</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12366" QuestionIDString="0000012366">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Excluding ophiolites, where would the oldest oceanic rocks be found?</QuestionText>
+      <AnswerW>Continental shelves off Africa and South America</AnswerW>
+      <AnswerX>Rift valleys of the mid-ocean ridge</AnswerX>
+      <AnswerY>Trenches around the Pacific Basin</AnswerY>
+      <AnswerZ>Volcanic peaks in the Andes Mountains</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26372" QuestionIDString="0000026372">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Why is the Ice-Albedo feedback loop a positive feedback?</QuestionText>
+      <CorrectAnswer>More ice equals more albedo. More albedo equals cooler temperatures. Cooler temperatures equals more ice.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26186" QuestionIDString="0000026186">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Water Masses</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In the process of caballing, mixing of water masses with what physical parameter in common results in the formation of a new water mass in which that parameter has increased?</QuestionText>
+      <AnswerW>Density</AnswerW>
+      <AnswerX>Temperature</AnswerX>
+      <AnswerY>pH</AnswerY>
+      <AnswerZ>Salinity</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12645" QuestionIDString="0000012645">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Minerals in cores collected by the Glomar Challenger in the early 1970's support the theory that isolation of the Mediterranean from the Atlantic nearly dried out that basin, leaving only deserts, salt marshes, and salty lakes. Approximately when was did this occur?</QuestionText>
+      <CorrectAnswer>5 to 6 million years ago</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26676" QuestionIDString="0000026676">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Behavior/Adaptations</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Scientists and resource managers have a seen a shift in the timing of life cycle events of some species. The study of this shift is known as which of the following?</QuestionText>
+      <AnswerW>Climatology</AnswerW>
+      <AnswerX>Phenology</AnswerX>
+      <AnswerY>Tempozoology</AnswerY>
+      <AnswerZ>Chronology</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="17335" QuestionIDString="0000017335">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences - History</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What was the name of the leading mutineer on board the Bounty?</QuestionText>
+      <CorrectAnswer>Mate Fletcher Christian</CorrectAnswer>
+    </Question>
+    <Question QuestionID="16502" QuestionIDString="0000016502">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography - Oceanic Zones</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Exclusive Economic Zones cover what percent of the seafloor?</QuestionText>
+      <AnswerW>16</AnswerW>
+      <AnswerX>52</AnswerX>
+      <AnswerY>36</AnswerY>
+      <AnswerZ>24</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="23610" QuestionIDString="0000023610">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Anatomy and Physiology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The current record holder for deepest diving bird in existence, which has been recorded by researchers to reach depths up to 1772 feet, belongs to which bird?</QuestionText>
+      <CorrectAnswer>The Emperor Penguin</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26119" QuestionIDString="0000026119">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>A regional node of the Ocean Observatories Initiative cabled observatory will extend from the Oregon coast offshore to which of the following locations?</QuestionText>
+      <AnswerW>Axial Volcano</AnswerW>
+      <AnswerX>Mariana Trench</AnswerX>
+      <AnswerY>Island of Hawaii</AnswerY>
+      <AnswerZ>Bowie sea mount</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24216" QuestionIDString="0000024216">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which extinction event was responsible for the loss of over 95% of marine life on earth?</QuestionText>
+      <CorrectAnswer>Permian extinction
+
+Also acceptable: Permo-triassic</CorrectAnswer>
+    </Question>
+    <Question QuestionID="16576" QuestionIDString="0000016576">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences - History</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The historic village of Woods Hole, MA is home to a number of ocean research organizations.  The first facility, established by an act of congress in 1869, was the:</QuestionText>
+      <AnswerW>US Geological Survey Laboratory</AnswerW>
+      <AnswerX>Marine Biological Laboratory</AnswerX>
+      <AnswerY>Woods Hole Oceanographic Institution</AnswerY>
+      <AnswerZ>Fisheries Laboratory</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27410" QuestionIDString="0000027410">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Denser breeding colonies of Common Guillemot fend off nest predators better than sparser colonies, and thus fledge more young. What is the term for such a positive correlation between fecundity (fi-KUHN-di-tee) and population density?</QuestionText>
+      <CorrectAnswer>The Allee Effect (ALSO ACCEPTABLE: inverse density dependence)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25935" QuestionIDString="0000025935">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>When did the oceanic gateway between Antarctica and South America open?</QuestionText>
+      <AnswerW>3 million years ago</AnswerW>
+      <AnswerX>15 million years ago</AnswerX>
+      <AnswerY>35 million years ago</AnswerY>
+      <AnswerZ>150 million years ago</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26714" QuestionIDString="0000026714">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How many National Marine Sanctuaries are in the United States, including the United States Territories such as American Somoa?</QuestionText>
+      <CorrectAnswer>13 (also acceptable: 14, although one in Hawaii is technically Marine National Monument)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25376" QuestionIDString="0000025376">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is NOT an anoxic basin?</QuestionText>
+      <AnswerW>Santa Barbara Basin</AnswerW>
+      <AnswerX>Black Sea</AnswerX>
+      <AnswerY>Cariaco Basin</AnswerY>
+      <AnswerZ>Red Sea</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="24234" QuestionIDString="0000024234">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In what general direction do surface currents in the southern Indian Ocean flow?</QuestionText>
+      <CorrectAnswer>Counterclockwise</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25643" QuestionIDString="0000025643">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences - Human Impacts</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Ice floating on the Arctic Ocean melted unusually quickly in 2010, resulting in the third smallest summer Arctic ice minimum in the satellite era.  In what year was the smallest Arctic ice minimum achieved?</QuestionText>
+      <AnswerW>2000</AnswerW>
+      <AnswerX>1985</AnswerX>
+      <AnswerY>2007</AnswerY>
+      <AnswerZ>2009</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="16506" QuestionIDString="0000016506">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology - Navigation</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Suppose a clock set for Greenwich Mean Time is moved to an area where noon, according to the sun, is at 8:00 a.m. on the clock.  What is the longitude of the clock?</QuestionText>
+      <CorrectAnswer>60 degrees East</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

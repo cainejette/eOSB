@@ -126,6 +126,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private Dimension frameSize;
 	private Point framePosition;
 	private int launchCounter = 0;
+	private String roundName;
 
 	/**
 	 * @param handler
@@ -181,15 +182,16 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.frame.pack();
 		this.frame.setMinimumSize(this.frame.getPreferredSize());
 		
+		System.out.println("Launch counter: " + this.launchCounter);
 		// remember the old frameSize, or set to maximized for first run
-		if (this.frameSize != null) {
-			this.frame.setSize(this.frameSize);
-		}
-		else if (this.launchCounter == 0) {
-			this.frame.setSize(this.frame.getPreferredSize());
-		}
-		else {
+//		if (this.frameSize != null) {
+//			this.frame.setSize(this.frameSize);
+//		}
+		if (this.launchCounter == 1) {
 			this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
+		}
+		else if (this.frameSize != null) {
+			this.frame.setSize(this.frameSize);
 		}
 		
 		// remember the previous location, or set to centered for first run
@@ -359,8 +361,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 *          the name of the new round
 	 */
 	public void setBinderToNewRound(String roundName) {
+		this.roundName = roundName;
 		// save the frame's size and location
-		if (!(roundName.equals("Round 1")) && !(roundName.equals("Six-question warm up"))) {
+		if (!(roundName.equals("Round Robin / Round 1")) && !(roundName.equals("Six-question warm up"))) {
 			this.frameSize = this.frame.getSize();
 			this.framePosition = this.frame.getLocationOnScreen();
 		}
@@ -369,7 +372,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.initComponents();
 		
 		// disable TCQs on the Tiebreaker round
-		if (roundName.contains("Tie")) {
+		if (roundName.contains("Tie") || roundName.contains("warm")) {
 			this.shouldEnableTcqs = false;
 		}
 		else {
@@ -682,7 +685,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			
 			this.currentQuestion = question;
 			
-			if (question.getNumber().equals("11") && !this.hasSeenTcqReminder) {
+			if (question.getNumber().equals("11") && !this.hasSeenTcqReminder && !this.roundName.contains("Tie")) {
 				this.hideQuestions();
 
 				RemindTcqEvent event = new RemindTcqEvent(this);
