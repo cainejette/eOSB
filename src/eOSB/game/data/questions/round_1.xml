@@ -19,7 +19,7 @@
       <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Excessive amounts of nutrients from agricultural fertilizers can enter the ocean via rivers and streams. What term is used to describe this human-caused problem?</QuestionText>
-      <CorrectAnswer>Eutrophication OR cultural eutrophication</CorrectAnswer>
+      <CorrectAnswer>Cultural eutrophication (ACCEPT: Eutrophication)</CorrectAnswer>
     </Question>
     <Question QuestionID="26152" QuestionIDString="0000026152">
       <QuestionPair>2</QuestionPair>
@@ -59,7 +59,7 @@
       <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What are the FOUR defining characteristics of Western Boundary Currents in terms of temperature, speed, depth, and width in relation to Eastern Boundary Currents?</QuestionText>
-      <CorrectAnswer>Warmer, faster, deeper AND narrower</CorrectAnswer>
+      <CorrectAnswer>Warmer, faster, deeper and narrower</CorrectAnswer>
     </Question>
     <Question QuestionID="25305" QuestionIDString="0000025305">
       <QuestionPair>4</QuestionPair>
@@ -90,7 +90,7 @@
       <AnswerW>Indigenous</AnswerW>
       <AnswerX>Excluded</AnswerX>
       <AnswerY>Intrusive</AnswerY>
-      <AnswerZ>Invasive</AnswerZ>
+      <AnswerZ>Exotic</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="26150" QuestionIDString="0000026150">
@@ -158,7 +158,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences - History</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What oceanographic expedition is generally recognized as the first major expedition?</QuestionText>
+      <QuestionText>What oceanographic expedition is generally recognized as the first specifically scientific expedition?</QuestionText>
       <CorrectAnswer>HMS Challenger Expedition</CorrectAnswer>
     </Question>
     <Question QuestionID="26410" QuestionIDString="0000026410">
@@ -179,7 +179,7 @@
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Normally, productivity in tropical oceans is low. What type of region would an exception to this statement?</QuestionText>
-      <CorrectAnswer>Accept any of the following: Equatorial upwelling, coastal upwelling, upwelling OR coral reefs</CorrectAnswer>
+      <CorrectAnswer>Equatorial upwelling (ACCEPT: Coastal upwelling, upwelling, or coral reefs)</CorrectAnswer>
     </Question>
     <Question QuestionID="26072" QuestionIDString="0000026072">
       <QuestionPair>10</QuestionPair>
@@ -218,8 +218,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What marine macrophyte (MAK-ruh-fahyt) serves as a foundation species offshore of central California?</QuestionText>
-      <CorrectAnswer>Kelp</CorrectAnswer>
+      <QuestionText>What marine macrophyte [MAK-ruh-fahyt] serves as a foundation species offshore of central California?</QuestionText>
+      <CorrectAnswer>Kelp (ACCEPT: Giant kelp, Macrocystis, or Macrocystis pyrifera)</CorrectAnswer>
     </Question>
     <Question QuestionID="26462" QuestionIDString="0000026462">
       <QuestionPair>12</QuestionPair>
@@ -268,8 +268,8 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The Discovery Channel's hit show Deadliest Catch is set in which northern sea?</QuestionText>
       <AnswerW>Bering Sea</AnswerW>
-      <AnswerX>Chuckchi (chook-chee) Sea</AnswerX>
-      <AnswerY>Beaufort (bow-fort) Sea</AnswerY>
+      <AnswerX>Chuckchi [chook-chee] Sea</AnswerX>
+      <AnswerY>Beaufort [bow-fort] Sea</AnswerY>
       <AnswerZ>North Sea</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
@@ -279,7 +279,7 @@
       <Category>Marine Policy</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the definition of commercial extinction?</QuestionText>
-      <CorrectAnswer>Depletion (OR reduction) of a resource species to a point where it is no longer profitable to harvest (OR not cost effective)</CorrectAnswer>
+      <CorrectAnswer>Depletion / reduction of a resource species to a point where it is no longer profitable/cost effective to harvest</CorrectAnswer>
     </Question>
     <Question QuestionID="26475" QuestionIDString="0000026475">
       <QuestionPair>15</QuestionPair>
@@ -329,7 +329,7 @@
       <QuestionText>Which of the following factors is NOT a reason fish form schools?</QuestionText>
       <AnswerW>Increased individual protection from predators</AnswerW>
       <AnswerX>Decreased predator detection</AnswerX>
-      <AnswerY>enhanced hydrodynamic efficiency</AnswerY>
+      <AnswerY>Enhanced hydrodynamic efficiency</AnswerY>
       <AnswerZ>Increased spawning success</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
@@ -339,7 +339,7 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What TWO factors are first-order influences on the speed of sound in the water column above 500 meters of depth?</QuestionText>
-      <CorrectAnswer>Temperature AND salinity</CorrectAnswer>
+      <CorrectAnswer>Temperature and salinity</CorrectAnswer>
     </Question>
     <Question QuestionID="26428" QuestionIDString="0000026428">
       <QuestionPair>18</QuestionPair>
@@ -378,7 +378,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Saxitoxin (sak-si-TOK-sin) is responsible for what type of shellfish poisoning?</QuestionText>
+      <QuestionText>Saxitoxin [sak-si-TOK-sin] is responsible for what type of shellfish poisoning?</QuestionText>
       <CorrectAnswer>Paralytic</CorrectAnswer>
     </Question>
     <Question QuestionID="20022" QuestionIDString="0000020022">

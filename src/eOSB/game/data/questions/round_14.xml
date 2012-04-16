@@ -46,7 +46,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is the longest American river?</QuestionText>
+      <QuestionText>Which of the following is the longest North American river?</QuestionText>
       <AnswerW>Arkansas</AnswerW>
       <AnswerX>Hudson</AnswerX>
       <AnswerY>Columbia</AnswerY>
@@ -59,7 +59,7 @@
       <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is a newly hatched salmon called?</QuestionText>
-      <CorrectAnswer>Alevin (AL-uh-vuhn)</CorrectAnswer>
+      <CorrectAnswer>Alevin [AL-uh-vuhn]</CorrectAnswer>
     </Question>
     <Question QuestionID="7656" QuestionIDString="0000007656">
       <QuestionPair>4</QuestionPair>
@@ -78,8 +78,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the full name and title of the first person to note the apparent coastline fit of South America and Africa?</QuestionText>
-      <CorrectAnswer>Sir Francis Bacon</CorrectAnswer>
+      <QuestionText>Who was the first person to note the apparent coastline fit of South America and Africa?</QuestionText>
+      <CorrectAnswer>Sir Francis Bacon (ACCEPT: Francis Bacon)</CorrectAnswer>
     </Question>
     <Question QuestionID="8497" QuestionIDString="0000008497">
       <QuestionPair>5</QuestionPair>
@@ -118,7 +118,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In diving marine mammals, the arteries leading to skeletal muscles and organs constrict, forcing most of the circulating blood to a few vital organs, primarily the heart and brain. What is this name for this physiological response?</QuestionText>
+      <QuestionText>In diving marine mammals, the arteries leading to skeletal muscles and organs constrict, forcing most of the circulating blood to a few vital organs, primarily the heart and brain. What is the name for this physiological response?</QuestionText>
       <CorrectAnswer>Peripheral vasoconstriction (MUST say peripheral)</CorrectAnswer>
     </Question>
     <Question QuestionID="27465" QuestionIDString="0000027465">
@@ -147,9 +147,9 @@
       <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following morphological adaptations would NOT be found among plants living in a salt marsh?</QuestionText>
-      <AnswerW>Aerenchyma (air-ENK-ah-ma) tissues</AnswerW>
+      <AnswerW>Aerenchyma [air-ENK-ah-ma] tissues</AnswerW>
       <AnswerX>Salt glands</AnswerX>
-      <AnswerY>Abundant stomata (stoh-mah-tah)</AnswerY>
+      <AnswerY>Abundant stomata [stoh-mah-tah]</AnswerY>
       <AnswerZ>Low lignin content</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
@@ -159,7 +159,7 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What are TWO metals found in nitrogenase?</QuestionText>
-      <CorrectAnswer>Iron AND molybdenum</CorrectAnswer>
+      <CorrectAnswer>Iron and molybdenum</CorrectAnswer>
     </Question>
     <Question QuestionID="12352" QuestionIDString="0000012352">
       <QuestionPair>9</QuestionPair>
@@ -207,10 +207,10 @@
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Recent sediment cores from briny water 3,250 meters deep in the Mediterranean Sea revealed a group of multicellular animals that live entirely without oxygen. Which of the following organisms occurred in completely anoxic sediments, but were absent from oxygenated waters?</QuestionText>
-      <AnswerW>Polyplacophoran (polly-plak-oh-FORE-an)</AnswerW>
-      <AnswerX>Foraminiferan (fore-am-in-IF-er-an)</AnswerX>
-      <AnswerY>Agnathan (ag-NATH-an)</AnswerY>
-      <AnswerZ>Loriciferan (lorry-CIF-er-an)</AnswerZ>
+      <AnswerW>Polyplacophoran [polly-plak-oh-FORE-an]</AnswerW>
+      <AnswerX>Foraminiferan [fore-am-in-IF-er-an]</AnswerX>
+      <AnswerY>Agnathan [ag-NATH-an]</AnswerY>
+      <AnswerZ>Loriciferan [lorry-CIF-er-an]</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="8370" QuestionIDString="0000008370">
@@ -218,7 +218,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>If sixteen successive wave troughs pass a fixed point during a time interval of one minute and four seconds, what is the frequency of the waves?</QuestionText>
+      <QuestionText>If sixteen successive wave troughs pass a fixed point during a time interval of one minute and four seconds, what is the frequency of the waves? Your answer must contain correct units.</QuestionText>
       <CorrectAnswer>0.25Hz</CorrectAnswer>
     </Question>
     <Question QuestionID="12366" QuestionIDString="0000012366">
@@ -229,7 +229,7 @@
       <QuestionText>Excluding ophiolites, where would the oldest oceanic rocks be found?</QuestionText>
       <AnswerW>Continental shelves off Africa and South America</AnswerW>
       <AnswerX>Rift valleys of the mid-ocean ridge</AnswerX>
-      <AnswerY>Trenches around the Pacific Basin</AnswerY>
+      <AnswerY>Western trenches of the Pacific Basin</AnswerY>
       <AnswerZ>Volcanic peaks in the Andes Mountains</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
@@ -239,7 +239,7 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Why is the Ice-Albedo feedback loop a positive feedback?</QuestionText>
-      <CorrectAnswer>More ice equals more albedo. More albedo equals cooler temperatures. Cooler temperatures equals more ice.</CorrectAnswer>
+      <CorrectAnswer>More ice equals higher albedo. Higher albedo means less radiation is absorbed. Less absorbed radiation means cooler temperatures. Cooler temperatures mean more ice. </CorrectAnswer>
     </Question>
     <Question QuestionID="26186" QuestionIDString="0000026186">
       <QuestionPair>13</QuestionPair>
@@ -259,14 +259,14 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Minerals in cores collected by the Glomar Challenger in the early 1970's support the theory that isolation of the Mediterranean from the Atlantic nearly dried out that basin, leaving only deserts, salt marshes, and salty lakes. Approximately when was did this occur?</QuestionText>
-      <CorrectAnswer>5 to 6 million years ago</CorrectAnswer>
+      <CorrectAnswer>Accept a range of 5 to 7 million years ago or the late Miocene</CorrectAnswer>
     </Question>
     <Question QuestionID="26676" QuestionIDString="0000026676">
       <QuestionPair>14</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Scientists and resource managers have a seen a shift in the timing of life cycle events of some species. The study of this shift is known as which of the following?</QuestionText>
+      <QuestionText>Scientists and resource managers have observed shifts in the timing of life cycle events of some species. The study of this phenomenon is known as which of the following?</QuestionText>
       <AnswerW>Climatology</AnswerW>
       <AnswerX>Phenology</AnswerX>
       <AnswerY>Tempozoology</AnswerY>
@@ -306,12 +306,12 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>A regional node of the Ocean Observatories Initiative cabled observatory will extend from the Oregon coast offshore to which of the following locations?</QuestionText>
-      <AnswerW>Axial Volcano</AnswerW>
-      <AnswerX>Mariana Trench</AnswerX>
-      <AnswerY>Island of Hawaii</AnswerY>
-      <AnswerZ>Bowie sea mount</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <QuestionText>The Pioneer Array of the Ocean Observatories Initiative will initially be deployed at which of the following locations?</QuestionText>
+      <AnswerW>The Gulf of Mexico</AnswerW>
+      <AnswerX>The Mid-Atlantic Bight</AnswerX>
+      <AnswerY>The South Atlantic Bight</AnswerY>
+      <AnswerZ>California coastal waters</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="24216" QuestionIDString="0000024216">
       <QuestionPair>16</QuestionPair>
@@ -319,17 +319,15 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Which extinction event was responsible for the loss of over 95% of marine life on earth?</QuestionText>
-      <CorrectAnswer>Permian extinction
-
-Also acceptable: Permo-triassic</CorrectAnswer>
+      <CorrectAnswer>Permian extinction (ACCEPT: Permo-triassic)</CorrectAnswer>
     </Question>
     <Question QuestionID="16576" QuestionIDString="0000016576">
       <QuestionPair>17</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences - History</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The historic village of Woods Hole, MA is home to a number of ocean research organizations.  The first facility, established by an act of congress in 1869, was the:</QuestionText>
-      <AnswerW>US Geological Survey Laboratory</AnswerW>
+      <QuestionText>The historic village of Woods Hole, Massachusetts is home to a number of ocean research organizations.  Which of the following was the first facility, established by an act of congress in 1871?</QuestionText>
+      <AnswerW>U.S. Geological Survey Laboratory</AnswerW>
       <AnswerX>Marine Biological Laboratory</AnswerX>
       <AnswerY>Woods Hole Oceanographic Institution</AnswerY>
       <AnswerZ>Fisheries Laboratory</AnswerZ>
@@ -340,8 +338,8 @@ Also acceptable: Permo-triassic</CorrectAnswer>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Denser breeding colonies of Common Guillemot fend off nest predators better than sparser colonies, and thus fledge more young. What is the term for such a positive correlation between fecundity (fi-KUHN-di-tee) and population density?</QuestionText>
-      <CorrectAnswer>The Allee Effect (ALSO ACCEPTABLE: inverse density dependence)</CorrectAnswer>
+      <QuestionText>Denser breeding colonies of Common Guillemot fend off nest predators better than sparser colonies, and thus fledge more young. What is the term for such a positive correlation between fecundity [fi-KUHN-di-tee] and population density?</QuestionText>
+      <CorrectAnswer>The Allee Effect (ACCEPT: Inverse density dependence)</CorrectAnswer>
     </Question>
     <Question QuestionID="25935" QuestionIDString="0000025935">
       <QuestionPair>18</QuestionPair>
@@ -360,8 +358,8 @@ Also acceptable: Permo-triassic</CorrectAnswer>
       <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How many National Marine Sanctuaries are in the United States, including the United States Territories such as American Somoa?</QuestionText>
-      <CorrectAnswer>13 (also acceptable: 14, although one in Hawaii is technically Marine National Monument)</CorrectAnswer>
+      <QuestionText>How many National Marine Sanctuaries are in the United States, including the United States Territories such as American Samoa?</QuestionText>
+      <CorrectAnswer>15 (ACCEPT: 16, although one in Hawaii is technically a Marine National Monument)</CorrectAnswer>
     </Question>
     <Question QuestionID="25376" QuestionIDString="0000025376">
       <QuestionPair>19</QuestionPair>

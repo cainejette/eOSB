@@ -79,7 +79,7 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Towards what direction does an easterly current flow?</QuestionText>
-      <CorrectAnswer>Eastward (ACCEPT: East)</CorrectAnswer>
+      <CorrectAnswer>Eastward OR east</CorrectAnswer>
     </Question>
     <Question QuestionID="26325" QuestionIDString="0000026325">
       <QuestionPair>5</QuestionPair>
@@ -99,7 +99,7 @@
       <Category>Technology - Engineering</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The Pacific Warning System based in Hawaii sends out warnings about what phenomenon?</QuestionText>
-      <CorrectAnswer>Tsunami (DO NOT ACCEPT: Tidal wave)</CorrectAnswer>
+      <CorrectAnswer>Tsunami (tidal wave is not acceptable)</CorrectAnswer>
     </Question>
     <Question QuestionID="26104" QuestionIDString="0000026104">
       <QuestionPair>6</QuestionPair>
@@ -119,7 +119,7 @@
       <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name of the structure that mussels use to attach themselves to rocks or other substrates?</QuestionText>
-      <CorrectAnswer>Byssal [bih-sull] threads</CorrectAnswer>
+      <CorrectAnswer>Byssal (BIS-ayl) threads OR byssus (BIS-uhs)</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

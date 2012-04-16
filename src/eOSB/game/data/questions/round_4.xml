@@ -99,7 +99,7 @@
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is ONE of the two primary orbit types that satellites use to observe the ocean?</QuestionText>
-      <CorrectAnswer>Geostationary OR polar orbiting</CorrectAnswer>
+      <CorrectAnswer>Geostationary (ACCEPT: Polar orbiting)</CorrectAnswer>
     </Question>
     <Question QuestionID="24948" QuestionIDString="0000024948">
       <QuestionPair>6</QuestionPair>
@@ -118,7 +118,15 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical - Waves</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>List the following waves in order of their typical periods, from shortest to longest: chop, swell, tsunami, and capillary waves.</QuestionText>
+      <QuestionText>List the following waves in order of their typical periods, from shortest to longest: 
+      
+		Chop, 
+      
+		swell, 
+      
+		tsunami, 
+
+		capillary waves.</QuestionText>
       <CorrectAnswer>Capillary, chop, swell, tsunami</CorrectAnswer>
     </Question>
     <Question QuestionID="26928" QuestionIDString="0000026928">
@@ -148,7 +156,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>How does the body of a fish maintain an osmotic balance with the salinity of surrounding seawater?</QuestionText>
       <AnswerW>Water diffuses into the fish</AnswerW>
-      <AnswerX>The fish doesn't excrete water</AnswerX>
+      <AnswerX>The fish excretes large volumes of urine</AnswerX>
       <AnswerY>Salts diffuse out of the fish</AnswerY>
       <AnswerZ>The fish excretes the salt</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
@@ -159,7 +167,7 @@
       <Category>Geography - Oceanic Zones</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the area located at approximately 50 to 60 degrees south latitude, where cold, nutrient rich water sinks beneath relatively warmer water?</QuestionText>
-      <CorrectAnswer>Antarctic Convergence OR Antarctic Convergence Zone</CorrectAnswer>
+      <CorrectAnswer>Antarctic Convergence Zone (ACCEPT: Antarctic Convergence)</CorrectAnswer>
     </Question>
     <Question QuestionID="25492" QuestionIDString="0000025492">
       <QuestionPair>9</QuestionPair>
@@ -186,7 +194,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Members of the class Holothuroidea (Ho-lo-thur-oy-day-ah) that eviscerate their internal organs when threatened are commonly known as which of the following?</QuestionText>
+      <QuestionText>Members of the class Holothuroidea [Ho-lo-thur-oy-day-ah] that eviscerate their internal organs when threatened are commonly known as which of the following?</QuestionText>
       <AnswerW>Sea stars</AnswerW>
       <AnswerX>Sea cucumbers</AnswerX>
       <AnswerY>Sea urchins</AnswerY>
@@ -239,7 +247,7 @@
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the collective name used to describe energy sources such as coal, natural gas, and petroleum?</QuestionText>
-      <CorrectAnswer>Fossil fuels OR hydrocarbons</CorrectAnswer>
+      <CorrectAnswer>Fossil fuels (ACCEPT: Hydrocarbons or non-renewables)</CorrectAnswer>
     </Question>
     <Question QuestionID="27270" QuestionIDString="0000027270">
       <QuestionPair>13</QuestionPair>
@@ -279,7 +287,7 @@
       <Category>Geology - Plate Tectonics</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Where do divergent plate boundaries primarily occur?</QuestionText>
-      <CorrectAnswer>On the ocean floor OR at oceanic ridges</CorrectAnswer>
+      <CorrectAnswer>On the ocean floor (ACCEPT: At oceanic ridges)</CorrectAnswer>
     </Question>
     <Question QuestionID="26846" QuestionIDString="0000026846">
       <QuestionPair>15</QuestionPair>
@@ -288,8 +296,8 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which process causes coastal upwelling?</QuestionText>
       <AnswerW>Langmuir circulation</AnswerW>
-      <AnswerX>Lagrangian (La-grah-geeh-an) mechanics</AnswerX>
-      <AnswerY>Sverdrup (suh-ver-druhp) movement</AnswerY>
+      <AnswerX>Lagrangian [La-grah-geeh-an] mechanics</AnswerX>
+      <AnswerY>Sverdrup [suh-ver-druhp] movement</AnswerY>
       <AnswerZ>Ekman transport</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
@@ -359,9 +367,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The scientific order Cetacea includes all whales. What two groups of living whales are included in this order?</QuestionText>
-      <CorrectAnswer>Toothed whales and baleen whales 
-OR Odontoceti   oh-dont-oh-see-tee
-   and Mysticeti  mist-ti-see-tee</CorrectAnswer>
+      <CorrectAnswer>Toothed whales (ACCEPT: Odontoceti [oh-dont-oh-see-tee]) and baleen whales (ACCEPT: Mysticeti [mist-ti-see-tee])</CorrectAnswer>
     </Question>
     <Question QuestionID="26129" QuestionIDString="0000026129">
       <QuestionPair>19</QuestionPair>
@@ -389,7 +395,7 @@ OR Odontoceti   oh-dont-oh-see-tee
       <Category>Physical - Water Masses</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The waters of the Eastern Mediterranean are sourced from which nearby body of water?</QuestionText>
-      <AnswerW>Aegean (ih-JEE-uhn) Sea</AnswerW>
+      <AnswerW>Aegean [ih-JEE-uhn] Sea</AnswerW>
       <AnswerX>Black Sea</AnswerX>
       <AnswerY>Red Sea</AnswerY>
       <AnswerZ>Western Mediterranean Sea</AnswerZ>

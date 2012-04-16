@@ -6,11 +6,11 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the limit on the number of walruses an Inuit family is allowed to harvest each year?</QuestionText>
-      <AnswerW>1</AnswerW>
-      <AnswerX>2</AnswerX>
-      <AnswerY>3</AnswerY>
-      <AnswerZ>4</AnswerZ>
+      <QuestionText>According to the Fish and Wildlife Service, what is the limit on the number of walruses an Inuit family is allowed to harvest each year?</QuestionText>
+      <AnswerW>None</AnswerW>
+      <AnswerX>Unlimited</AnswerX>
+      <AnswerY>Unlimited, but not wasteful</AnswerY>
+      <AnswerZ>Limited, but with individual exceptions</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="26297" QuestionIDString="0000026297">
@@ -19,10 +19,10 @@
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following groups largely comprise the phytoplankton found in the Southern Ocean?</QuestionText>
-      <AnswerW>Diatoms and silicoflagellates (sill-ick-oh-FLA-gel-ates)</AnswerW>
-      <AnswerX>Diatoms and phaeocystis (fay-oh-SIS-tus)</AnswerX>
-      <AnswerY>Phaeocystis (fay-oh-SIS-tus) and dinoflagellates (die-no-FLA-gel-ates)</AnswerY>
-      <AnswerZ>Silicoflagellates (sill-ick-oh-FLA-gel-ates) and dinoflagellates (die-no-FLA-gel-ates)</AnswerZ>
+      <AnswerW>Diatoms and silicoflagellates [sill-ick-oh-FLA-gel-ates]</AnswerW>
+      <AnswerX>Diatoms and phaeocystis []fay-oh-SIS-tus]</AnswerX>
+      <AnswerY>Phaeocystis [fay-oh-SIS-tus] and dinoflagellates [die-no-FLA-gel-ates]</AnswerY>
+      <AnswerZ>Silicoflagellates [sill-ick-oh-FLA-gel-ates] and dinoflagellates [die-no-FLA-gel-ates]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="25685" QuestionIDString="0000025685">
@@ -66,7 +66,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The 2009 FOARAM (FORE-am) Act calls for coordinated monitoring of what emergent environmental threat?</QuestionText>
+      <QuestionText>The 2009 FOARAM [FORE-am] Act calls for coordinated monitoring of what emergent environmental threat?</QuestionText>
       <AnswerW>Acid Rain</AnswerW>
       <AnswerX>Ocean Acidification</AnswerX>
       <AnswerY>Sea Level Rise</AnswerY>
@@ -184,7 +184,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of these scientists is said to be the Father of Geochemistry because he was the first to determine the composition of Earth's crust?</QuestionText>
       <AnswerW>Frank Clarke</AnswerW>
-      <AnswerX>Victor Goldschmidt</AnswerX>
+      <AnswerX>Vladimir Vernadsky</AnswerX>
       <AnswerY>Sir Charles Lyell</AnswerY>
       <AnswerZ>Alfred Wegener</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
@@ -219,18 +219,18 @@
       <Category>Marine Policy - Fisheries Management</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>How large are NOAA's estimates of global economic losses due to Illegal, Unreported and Unregulated fishing for tuna, swordfish, sharks and other highly migratory species?</QuestionText>
-      <AnswerW>15 billion dollars</AnswerW>
-      <AnswerX>42 billion dollars</AnswerX>
-      <AnswerY>38 billion dollars</AnswerY>
-      <AnswerZ>23 billion dollars</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <AnswerW>1 to 10 billion dollars</AnswerW>
+      <AnswerX>10 to 20 billion dollars</AnswerX>
+      <AnswerY>20 - 30 billion dollars</AnswerY>
+      <AnswerZ>30 - 40 billion dollars</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="27337" QuestionIDString="0000027337">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Evolution</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following is the oldest known cetacean (set-AY-shen) family?</QuestionText>
+      <QuestionText>Which of the following is the oldest known cetacean [set-AY-shen] family?</QuestionText>
       <AnswerW>Ambulocetidae</AnswerW>
       <AnswerX>Physeteridae</AnswerX>
       <AnswerY>Pakicetidae</AnswerY>

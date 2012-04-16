@@ -781,16 +781,16 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		String textToAdd = "";
 		if (question.getFormat() == Question.Format.MULTIPLE_CHOICE) {
 			String answerLetter = question.getCorrectAnswers().get(0).trim();
-			if (answerLetter.equals("W")) {
+			if (answerLetter.equalsIgnoreCase("W")) {
 				textToAdd = "W) " + question.getAnswerOptions().get(0);
 			}
-			else if (answerLetter.equals("X")) {
+			else if (answerLetter.equalsIgnoreCase("X")) {
 				textToAdd = "X) " + question.getAnswerOptions().get(1);
 			}
-			else if (answerLetter.equals("Y")) {
+			else if (answerLetter.equalsIgnoreCase("Y")) {
 				textToAdd = "Y) " + question.getAnswerOptions().get(2);
 			}
-			else if (answerLetter.equals("Z")) {
+			else if (answerLetter.equalsIgnoreCase("Z")) {
 				textToAdd = "Z) " + question.getAnswerOptions().get(3);
 			}
 		}

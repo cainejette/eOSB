@@ -19,7 +19,7 @@
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Not all corals die when bleached. What is one factor that may allow them to survive?</QuestionText>
-      <CorrectAnswer>ACCEPT EITHER: They continue to feed on plankton OR they are still able to uptake zooxanthellae</CorrectAnswer>
+      <CorrectAnswer>They continue to feed on plankton (ACCEPT: They are still able to uptake zooxanthellae)</CorrectAnswer>
     </Question>
     <Question QuestionID="9383" QuestionIDString="0000009383">
       <QuestionPair>2</QuestionPair>
@@ -39,7 +39,7 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the slowest spreading mid-ocean ridge on Earth?</QuestionText>
-      <CorrectAnswer>Gakkel Ridge (ALSO ACCEPT: Nansen Ridge OR Arctic Mid-Ocean Ridge)</CorrectAnswer>
+      <CorrectAnswer>Gakkel Ridge (ACCEPT: Nansen Ridge or Arctic Mid-Ocean Ridge)</CorrectAnswer>
     </Question>
     <Question QuestionID="8193" QuestionIDString="0000008193">
       <QuestionPair>3</QuestionPair>
@@ -66,7 +66,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Evolution</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Research on fossils, highlighted in an August 2011 issue of the journal Science, provided new evidence that plesiosaurs (PLEE'-see-uh-sawrs) did which of the following?</QuestionText>
+      <QuestionText>Research on fossils, highlighted in an August 2011 issue of the journal Science, provided new evidence that plesiosaurs [PLEE'-see-uh-sawrs] did which of the following?</QuestionText>
       <AnswerW>Laid eggs on land</AnswerW>
       <AnswerX>Ate only plant material</AnswerX>
       <AnswerY>Gave birth to live young</AnswerY>
@@ -128,7 +128,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The daily rate at which short-wave solar energy enters the sea depends on a number of factors. Which of following is NOT a factor?</QuestionText>
       <AnswerW>Length of the day</AnswerW>
-      <AnswerX>Absorption of the atmosphere</AnswerX>
+      <AnswerX>Attenuation within the atmosphere</AnswerX>
       <AnswerY>Salinity of the water</AnswerY>
       <AnswerZ>Elevation of the sun</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
@@ -138,7 +138,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In the 1980's the ctenophore (TEE-nuh-fawr) Mnemiopsis (nee-me-op-sis) was introduced from the Americas to what body of water, causing drastic declines in zooplankton populations?</QuestionText>
+      <QuestionText>In the 1980's the ctenophore [TEE-nuh-fawr] Mnemiopsis [nee-me-op-sis] was introduced from the Americas to what body of water, causing drastic declines in zooplankton populations?</QuestionText>
       <CorrectAnswer>Black Sea</CorrectAnswer>
     </Question>
     <Question QuestionID="27210" QuestionIDString="0000027210">
@@ -169,7 +169,7 @@
       <QuestionText>Fisheries biologist Michael Sinclair is best known for proposing which of the following?</QuestionText>
       <AnswerW>ROV Atlantis which descended the Marianas Trench</AnswerW>
       <AnswerX>Member-Vagrant Hypothesis regarding fish population dynamics</AnswerX>
-      <AnswerY>Discovery of multiple distinct naupliar stages of the copepod Acartia (ah-CAR-shah) tonsa</AnswerY>
+      <AnswerY>Discovery of multiple distinct naupliar stages of the copepod Acartia [ah-CAR-shah] tonsa</AnswerY>
       <AnswerZ>Creation of the Keeling Curve</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
@@ -199,7 +199,7 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The alternation of atmospheric mass between the North Atlantic regions of high surface pressure and the subpolar regions of low surface pressure is known as what?</QuestionText>
-      <CorrectAnswer>North Atlantic Oscillation OR NAO</CorrectAnswer>
+      <CorrectAnswer>North Atlantic Oscillation (NAO)</CorrectAnswer>
     </Question>
     <Question QuestionID="27251" QuestionIDString="0000027251">
       <QuestionPair>11</QuestionPair>
@@ -239,7 +239,7 @@
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name ONE of the three largest Siberian rivers that empty into the Arctic Ocean.</QuestionText>
-      <CorrectAnswer>ACCEPT ANY OF THE FOLLOWING: Ob, Yenisei, OR Lena</CorrectAnswer>
+      <CorrectAnswer>Ob (ACCEPT: Yenisei or Lena)</CorrectAnswer>
     </Question>
     <Question QuestionID="26205" QuestionIDString="0000026205">
       <QuestionPair>13</QuestionPair>
@@ -248,9 +248,9 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The Burgess Shale formation contains a famous fossil specimen which has been classified as a chordate and yet is a marine invertebrate. Which of the following is the name of this famous fossil?</QuestionText>
       <AnswerW>Pikaia</AnswerW>
-      <AnswerX>Basilosaurus (bass-ih-low-saur-us)</AnswerX>
+      <AnswerX>Basilosaurus [bass-ih-low-saur-us]</AnswerX>
       <AnswerY>Marrella</AnswerY>
-      <AnswerZ>Megalodon (mega-lah-don)</AnswerZ>
+      <AnswerZ>Megalodon [mega-lah-don]</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
     <Question QuestionID="19157" QuestionIDString="0000019157">
@@ -259,7 +259,7 @@
       <Category>Marine Policy - Ecosystem based resource management</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>In the 1990s, the National Energy Laboratory of Hawaii produced 100 kilowatts of power per day using temperature differences between ocean surface water and deeper water.  What is this process called?</QuestionText>
-      <CorrectAnswer>OTEC (ocean thermal energy conversion)</CorrectAnswer>
+      <CorrectAnswer>Ocean thermal energy conversation (OTEC)</CorrectAnswer>
     </Question>
     <Question QuestionID="8197" QuestionIDString="0000008197">
       <QuestionPair>14</QuestionPair>
@@ -318,8 +318,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Evolution</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Four of the five agents of evolutionary change are mutations, genetic drift, gene flow and non-random mating. Identify the fifth agent of evolutionary change.</QuestionText>
-      <CorrectAnswer>natural selection</CorrectAnswer>
+      <QuestionText>Four of the five agents of evolutionary change are mutations, genetic drift, gene flow and non-random mating. What is the fifth agent of evolutionary change?</QuestionText>
+      <CorrectAnswer>Natural selection</CorrectAnswer>
     </Question>
     <Question QuestionID="14304" QuestionIDString="0000014304">
       <QuestionPair>17</QuestionPair>
@@ -347,9 +347,9 @@
       <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following modes of locomotion utilizes propulsion from undulating a portion of the body and caudal fin?</QuestionText>
-      <AnswerW>Gymnotiform (gym-knot-ee-form)</AnswerW>
-      <AnswerX>Carcharhiniform (cark-ah-rhine-ee-form)</AnswerX>
-      <AnswerY>Rajiform (rajh-ee-form)</AnswerY>
+      <AnswerW>Gymnotiform [gym-knot-ee-form]</AnswerW>
+      <AnswerX>Carcharhiniform [cark-ah-rhine-ee-form]</AnswerX>
+      <AnswerY>Rajiform [rajh-ee-form]</AnswerY>
       <AnswerZ>Labriform</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
@@ -378,7 +378,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Chemical - Chemical Cycles</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Recently, a bacterial metabolic process dubbed annamox (anna-mocks) has been discovered which adds another level of complexity to the marine nitrogen cycle.  What does annamox  stand for?</QuestionText>
+      <QuestionText>Recently, a bacterial metabolic process dubbed annamox [anna-mocks] has been discovered which adds another level of complexity to the marine nitrogen cycle.  What does annamox  stand for?</QuestionText>
       <CorrectAnswer>Anaerobic Ammonium Oxidation</CorrectAnswer>
     </Question>
     <Question QuestionID="27345" QuestionIDString="0000027345">

@@ -18,8 +18,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geology - Plate Tectonics</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The breakup of the super continent Pangea (pan-gee-ah) occurred during what geologic period?</QuestionText>
-      <CorrectAnswer>Triassic OR Jurassic</CorrectAnswer>
+      <QuestionText>The breakup of the super continent Pangea [pan-gee-ah] occurred during what geologic period?</QuestionText>
+      <CorrectAnswer>Triassic (ACCEPT: Jurassic</CorrectAnswer>
     </Question>
     <Question QuestionID="24878" QuestionIDString="0000024878">
       <QuestionPair>2</QuestionPair>
@@ -38,7 +38,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geology - Sediments</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What sediment size fraction would you most likely find in an area with low energy water currents?</QuestionText>
+      <QuestionText>What sediment size category would you most likely find in an area with low energy water currents?</QuestionText>
       <CorrectAnswer>Mud</CorrectAnswer>
     </Question>
     <Question QuestionID="27272" QuestionIDString="0000027272">
@@ -138,7 +138,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Members of what Phylum have 5-point radial symmetry as adults and flexible appendages.</QuestionText>
+      <QuestionText>Members of what phylum have 5-point radial symmetry as adults and flexible appendages.</QuestionText>
       <CorrectAnswer>Echinodermata</CorrectAnswer>
     </Question>
     <Question QuestionID="26319" QuestionIDString="0000026319">
@@ -210,7 +210,7 @@
       <AnswerW>Polyester</AnswerW>
       <AnswerX>Polyvinyl chloride</AnswerX>
       <AnswerY>Polyphasic foam</AnswerY>
-      <AnswerZ>Polystyrene (pol-ee-STAHY-reen)</AnswerZ>
+      <AnswerZ>Polystyrene [pol-ee-STAHY-reen]</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="24815" QuestionIDString="0000024815">
@@ -219,7 +219,7 @@
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Approximately what percentage of freshwater on Earth is stored in ice caps and glaciers?</QuestionText>
-      <CorrectAnswer>68.7 (accept 65-70)</CorrectAnswer>
+      <CorrectAnswer>68.7 (ACCEPT: 65 - 70)</CorrectAnswer>
     </Question>
     <Question QuestionID="26704" QuestionIDString="0000026704">
       <QuestionPair>12</QuestionPair>
@@ -326,7 +326,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Animals that possess a dorsal epithelium that forms a mantle and eventually secretes a shell belong to which Phylum?</QuestionText>
+      <QuestionText>Animals that possess a dorsal epithelium that forms a mantle and eventually secretes a shell belong to which phylum?</QuestionText>
       <AnswerW>Arthropoda</AnswerW>
       <AnswerX>Echinodermata</AnswerX>
       <AnswerY>Annelida</AnswerY>
@@ -339,7 +339,7 @@
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What does the acronym PAR stand for?</QuestionText>
-      <CorrectAnswer>Photosynthetically Available Radiation OR Photosynthetically Active Radiation</CorrectAnswer>
+      <CorrectAnswer>Photosynthetically Available Radiation (ACCEPT: Photosynthetically Active Radiation)</CorrectAnswer>
     </Question>
     <Question QuestionID="27358" QuestionIDString="0000027358">
       <QuestionPair>18</QuestionPair>
@@ -359,18 +359,18 @@
       <Category>Marine Policy</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>According to the Gulf of Mexico Fishery Management Council, what event caused a large scale fishery closure and limited the ability of red snapper recreational fishers to harvest their annual 2010 quota?</QuestionText>
-      <CorrectAnswer>Deepwater Horizon (or BP) oil spill (OR Macondo)</CorrectAnswer>
+      <CorrectAnswer>Deepwater Horizon oil spill (ACCEPT: BP oil spill or Macondo)</CorrectAnswer>
     </Question>
-    <Question QuestionID="13537" QuestionIDString="0000013537">
+    <Question QuestionID="27423" QuestionIDString="0000027423">
       <QuestionPair>19</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Technology</Category>
+      <Category>Marine Policy</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following are dropped from Hurricane Hunter planes to learn about storms?</QuestionText>
-      <AnswerW>Buoys</AnswerW>
-      <AnswerX>Drop sondes</AnswerX>
-      <AnswerY>Satellites</AnswerY>
-      <AnswerZ>Mylar balloons</AnswerZ>
+      <QuestionText>In which year was the National Aquaculture Act passed?</QuestionText>
+      <AnswerW>1972</AnswerW>
+      <AnswerX>1980</AnswerX>
+      <AnswerY>1996</AnswerY>
+      <AnswerZ>2010</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="26289" QuestionIDString="0000026289">
@@ -381,17 +381,17 @@
       <QuestionText>Which of Jupiter's moons hosts an ocean that may be similar to the deepest areas of the Earth's oceans?</QuestionText>
       <CorrectAnswer>Europa</CorrectAnswer>
     </Question>
-    <Question QuestionID="26108" QuestionIDString="0000026108">
+    <Question QuestionID="13537" QuestionIDString="0000013537">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Biology</Category>
+      <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Carbon export to the aphotic zone is highest in which of the following regions?</QuestionText>
-      <AnswerW>North Pacific</AnswerW>
-      <AnswerX>Sub-equatorial Pacific</AnswerX>
-      <AnswerY>Mid Atlantic</AnswerY>
-      <AnswerZ>High Arctic</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>Which of the following are dropped from Hurricane Hunter planes to learn about storms?</QuestionText>
+      <AnswerW>Buoys</AnswerW>
+      <AnswerX>Dropsondes</AnswerX>
+      <AnswerY>Satellites</AnswerY>
+      <AnswerZ>Mylar balloons</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="26416" QuestionIDString="0000026416">
       <QuestionPair>20</QuestionPair>
@@ -399,7 +399,7 @@
       <Category>Geography - Oceanic Zones</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Which ocean zone receives enough light for vision, but NOT enough to support photosynthesis?</QuestionText>
-      <CorrectAnswer>Disphotic zone (also accept mesophotic zone)</CorrectAnswer>
+      <CorrectAnswer>Disphotic zone (ACCEPT: Mesophotic zone)</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

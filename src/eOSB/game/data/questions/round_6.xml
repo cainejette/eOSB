@@ -19,7 +19,7 @@
       <Category>Physical - Thermodynamics</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>A rise in water temperature due to the effect of compression with increasing depth is called what type of heating?</QuestionText>
-      <CorrectAnswer>Adiabatic (aa-dee-uh-BAT-ick) heating</CorrectAnswer>
+      <CorrectAnswer>Adiabatic [aa-dee-uh-BAT-ick] heating</CorrectAnswer>
     </Question>
     <Question QuestionID="12658" QuestionIDString="0000012658">
       <QuestionPair>2</QuestionPair>
@@ -38,15 +38,15 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Dimedone is a chemical compound found in sea anemones. It has been patented for what use?</QuestionText>
-      <CorrectAnswer>as a sunscreen</CorrectAnswer>
+      <QuestionText>Dimedone [di-MIH-done], a chemical compound found in sea anemones, has been patented for what use?</QuestionText>
+      <CorrectAnswer>As a sunscreen</CorrectAnswer>
     </Question>
     <Question QuestionID="26173" QuestionIDString="0000026173">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geography - Place Names</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Chicxulub (SCHICK-sue-lube) crater sits off the coast of which peninsula?</QuestionText>
+      <QuestionText>Chicxulub [SCHICK-sue-lube] crater sits off the coast of which peninsula?</QuestionText>
       <AnswerW>Yucatan</AnswerW>
       <AnswerX>Point Loma</AnswerX>
       <AnswerY>Boothia</AnswerY>
@@ -78,7 +78,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the relationship between a cnidocyte (nigh-DOH-site) and a nematocyst?</QuestionText>
+      <QuestionText>What is the relationship between a cnidocyte [nigh-DOH-site and a nematocyst?</QuestionText>
       <CorrectAnswer>The cnidocyte is the entire specialized cell containing the nematocyst</CorrectAnswer>
     </Question>
     <Question QuestionID="26105" QuestionIDString="0000026105">
@@ -106,7 +106,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Marine Policy</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Artisanal (AHR-tuh-zuhn-ul) cuttlefish fisheries utilize a great variety of highly selective gear, such as spears, pots and traps, often combined with the use which of the following?</QuestionText>
+      <QuestionText>Artisanal [AHR-tuh-zuhn-ul] cuttlefish fisheries utilize a great variety of highly selective gear, such as spears, pots and traps, often combined with the use which of the following?</QuestionText>
       <AnswerW>Heat</AnswerW>
       <AnswerX>Fish blood</AnswerX>
       <AnswerY>Chum</AnswerY>
@@ -139,7 +139,7 @@
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is one environmental factor that limits phytoplankton growth in estuaries?</QuestionText>
-      <CorrectAnswer>Any ONE of the following: light availability, flushing, salinity tolerance, nutrients, OR grazing</CorrectAnswer>
+      <CorrectAnswer>Light availability (ACCEPT: Flushing, salinity tolerance, nutrients, or grazing)</CorrectAnswer>
     </Question>
     <Question QuestionID="27312" QuestionIDString="0000027312">
       <QuestionPair>8</QuestionPair>
@@ -168,7 +168,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Expansion of oxygen minimum zones allows for which type of organism to dominate the planktonic community?</QuestionText>
       <AnswerW>Nitrogen fixers</AnswerW>
-      <AnswerX>Siderotrophs (sid-er-oh-trophs)</AnswerX>
+      <AnswerX>Siderotrophs [sid-er-oh-trophs]</AnswerX>
       <AnswerY>Oxidizers</AnswerY>
       <AnswerZ>Oxygen fixers</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
@@ -246,7 +246,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology - Remote Sensing</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What ocean parameter did SeaWiFS (sea-whiffs) measure?</QuestionText>
+      <QuestionText>What ocean parameter did SeaWiFS [sea-whiffs] measure?</QuestionText>
       <AnswerW>Salinity</AnswerW>
       <AnswerX>Temperature</AnswerX>
       <AnswerY>Dissolved oxygen</AnswerY>
@@ -299,7 +299,7 @@
       <Category>Technology - Research Vessels</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The Sentry, operated by Woods Hole, is categorized as what type of research vehicle?</QuestionText>
-      <CorrectAnswer>Autonomous Underwater Vehicle OR AUV</CorrectAnswer>
+      <CorrectAnswer>Autonomous Underwater Vehicle (ACCEPT: AUV)</CorrectAnswer>
     </Question>
     <Question QuestionID="27481" QuestionIDString="0000027481">
       <QuestionPair>16</QuestionPair>
@@ -367,10 +367,10 @@
       <Category>Biology - Evolution</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>For which of the following taxonomic groups do all living species within that group live exclusively in aquatic environments?</QuestionText>
-      <AnswerW>Pinnipedia (pin-ih-ped-ee-ah)</AnswerW>
-      <AnswerX>Cnidaria (ny-dare-ee-ah)</AnswerX>
-      <AnswerY>Crustacea (crust-ay-cee-ah)</AnswerY>
-      <AnswerZ>Mollusca (moll-us-ka)</AnswerZ>
+      <AnswerW>Pinnipedia [pin-ih-ped-ee-ah]</AnswerW>
+      <AnswerX>Cnidaria [ny-dare-ee-ah]</AnswerX>
+      <AnswerY>Crustacea [crust-ay-cee-ah]</AnswerY>
+      <AnswerZ>Mollusca [moll-us-ka]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="17632" QuestionIDString="0000017632">

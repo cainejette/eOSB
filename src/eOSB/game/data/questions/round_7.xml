@@ -8,8 +8,8 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Yeti crabs found near deep sea vents in Antarctica appear to cultivate mats of what organisms on their hairy chests, providing the crabs with sustenance?</QuestionText>
       <AnswerW>Sea Stars</AnswerW>
-      <AnswerX>Copepods (KOH-puh-pods)</AnswerX>
-      <AnswerY>Anemones (uh-NEM-uh-nees)</AnswerY>
+      <AnswerX>Copepods [KOH-puh-pods]</AnswerX>
+      <AnswerY>Anemones [uh-NEM-uh-nees]</AnswerY>
       <AnswerZ>Bacteria</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
@@ -39,7 +39,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>From what do most reef-building corals get their vibrant color?</QuestionText>
-      <CorrectAnswer>Zooxanthellae</CorrectAnswer>
+      <CorrectAnswer>From animal pigments</CorrectAnswer>
     </Question>
     <Question QuestionID="7816" QuestionIDString="0000007816">
       <QuestionPair>3</QuestionPair>
@@ -99,7 +99,7 @@
       <Category>Geology - Sediments</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What two types of currents deposit sediment on the continental rise?</QuestionText>
-      <CorrectAnswer>Turbidity currents (flowing down the continental slope) AND contour currents (flowing along the continental slope)</CorrectAnswer>
+      <CorrectAnswer>Turbidity currents (flowing down the continental slope) and contour currents (flowing along the continental slope)</CorrectAnswer>
     </Question>
     <Question QuestionID="26681" QuestionIDString="0000026681">
       <QuestionPair>6</QuestionPair>
@@ -188,7 +188,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The Arctic Ocean was once an ancient sea with which of the following names?</QuestionText>
       <AnswerW>Sinus oceanus</AnswerW>
-      <AnswerX>Sinus borealis (bawr-ee-al-is)</AnswerX>
+      <AnswerX>Sinus borealis [bawr-ee-al-is]</AnswerX>
       <AnswerY>Sinus aquatus</AnswerY>
       <AnswerZ>Sinus barentus</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
@@ -246,7 +246,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Evolution</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Tiktaalik roseae, better known as the "fishapod," is a 375 million year old fossil fish which was discovered in the Canadian Arctic in 2004. Its discovery shed light on which pivotal point in the history of life on Earth?</QuestionText>
+      <QuestionText>Tiktaalik roseae [tik-tah-lik row-zay], better known as the "fishapod," is a 375 million year old fossil fish which was discovered in the Canadian Arctic in 2004. Its discovery shed light on which pivotal point in the history of life on Earth?</QuestionText>
       <AnswerW>Gills first formed in fish</AnswerW>
       <AnswerX>Major extinctions began</AnswerX>
       <AnswerY>Global cooling began</AnswerY>
@@ -319,7 +319,7 @@
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What chemical is released by a fish as it is attacked by a predator and is used to warn nearby fishes of the presence of the predator?</QuestionText>
-      <CorrectAnswer>Schreckstoff (SHREK-stuff)</CorrectAnswer>
+      <CorrectAnswer>Schreckstoff [SHREK-stuff]</CorrectAnswer>
     </Question>
     <Question QuestionID="26663" QuestionIDString="0000026663">
       <QuestionPair>17</QuestionPair>
@@ -338,8 +338,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Demand for the gills of what marine species has risen dramatically in the past 10 years due to its use in traditional Chinese medicine even though they were never historically used for medicinal purposes?</QuestionText>
-      <CorrectAnswer>Manta rays OR Mobula rays</CorrectAnswer>
+      <QuestionText>Demand for the gills of what marine species has risen dramatically in the past 10 years due to its use in Chinese medicine even though they were never historically used for medicinal purposes?</QuestionText>
+      <CorrectAnswer>Manta rays (ACCEPT: Mobula rays)</CorrectAnswer>
     </Question>
     <Question QuestionID="27233" QuestionIDString="0000027233">
       <QuestionPair>18</QuestionPair>
@@ -359,7 +359,7 @@
       <Category>Geology - Earth Structure</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the cumulative frequency chart representing a statistical distribution of the solid surface of the Earth at elevations above and below sea level?</QuestionText>
-      <CorrectAnswer>hypsographic curve</CorrectAnswer>
+      <CorrectAnswer>Hypsographic curve</CorrectAnswer>
     </Question>
     <Question QuestionID="13471" QuestionIDString="0000013471">
       <QuestionPair>19</QuestionPair>
@@ -379,14 +379,14 @@
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What phrase is used to describe a fish that must actively swim to oxygenate its blood?</QuestionText>
-      <CorrectAnswer>Ram ventilator OR ram jet ventilator</CorrectAnswer>
+      <CorrectAnswer>Ram jet ventilator (ACCEPT: Ram ventilator)</CorrectAnswer>
     </Question>
     <Question QuestionID="26516" QuestionIDString="0000026516">
       <QuestionPair>20</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following fish can NOT be considered gnathostomes (NATH-uh-stomz)?</QuestionText>
+      <QuestionText>Which of the following fish can NOT be considered gnathostomes [NATH-uh-stomz]?</QuestionText>
       <AnswerW>White Sturgeon</AnswerW>
       <AnswerX>Lamprey</AnswerX>
       <AnswerY>Conger Eel</AnswerY>

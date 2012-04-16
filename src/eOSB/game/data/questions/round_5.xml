@@ -26,7 +26,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical - Currents</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The Sverdrup (suh-vhere-druhp) is the unit used by physical oceanographers to express volume transport in ocean currents. One Sverdrup is equivalent to how many cubic meters per second?</QuestionText>
+      <QuestionText>The Sverdrup [suh-vhere-druhp] is the unit used by physical oceanographers to express volume transport in ocean currents. One Sverdrup is equivalent to how many cubic meters per second?</QuestionText>
       <AnswerW>One hundred</AnswerW>
       <AnswerX>One thousand</AnswerX>
       <AnswerY>One million</AnswerY>
@@ -46,7 +46,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology - Engineering</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Open-cycle OTEC (oh-tek) systems create what particularly desirable by-product when operating on off-shore islands?</QuestionText>
+      <QuestionText>Open-cycle OTEC [oh-tek] systems create what particularly desirable by-product when operating on off-shore islands?</QuestionText>
       <AnswerW>Fresh water</AnswerW>
       <AnswerX>Heat</AnswerX>
       <AnswerY>Phosphorus</AnswerY>
@@ -66,11 +66,11 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following phytoplankton groups do NOT have motility organelles?</QuestionText>
-      <AnswerW>Dinoflagellates</AnswerW>
+      <QuestionText>Which of the following phytoplankton groups does NOT have motility organelles?</QuestionText>
+      <AnswerW>Dinoflagellates [din-uh-FLAJ-uh-leyts]</AnswerW>
       <AnswerX>Diatoms</AnswerX>
-      <AnswerY>Euglenoids</AnswerY>
-      <AnswerZ>Silicoflagellates</AnswerZ>
+      <AnswerY>Euglenoids (yoo-GLEE-noids)</AnswerY>
+      <AnswerZ>Silicoflagellates [sill-ick-oh-FLAJ-uh-leyts]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="9345" QuestionIDString="0000009345">
@@ -79,7 +79,7 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What term is used to define the depth at which the increasing dissolution rate of calcium carbonate matches the deposition rate from above?</QuestionText>
-      <CorrectAnswer>Calcite Compensation Depth OR CCD</CorrectAnswer>
+      <CorrectAnswer>Calcite Compensation Depth (ACCEPT: CCD)</CorrectAnswer>
     </Question>
     <Question QuestionID="26268" QuestionIDString="0000026268">
       <QuestionPair>5</QuestionPair>
@@ -99,14 +99,14 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The flow of heat through the mantle causing significant motion of plastic rock within the mantle, is referred to as what term?</QuestionText>
-      <CorrectAnswer>Convection (convective heat, convection current, convection cells)</CorrectAnswer>
+      <CorrectAnswer>Convection (ACCEPT: Convective heat, convection current, or convection cells)</CorrectAnswer>
     </Question>
     <Question QuestionID="26577" QuestionIDString="0000026577">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following fish species is catadromous (kuh-TAD-ruh-muhs)?</QuestionText>
+      <QuestionText>Which of the following fish species is catadromous [kuh-TAD-ruh-muhs]?</QuestionText>
       <AnswerW>Chinook Salmon</AnswerW>
       <AnswerX>American Eel</AnswerX>
       <AnswerY>Bluegill Sunfish</AnswerY>
@@ -118,7 +118,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Why is it possible to use Carbon-14 for radio-isotope dating?</QuestionText>
+      <QuestionText>Give TWO reasons why is it possible to use Carbon-14 for radio-isotope dating.</QuestionText>
       <CorrectAnswer>Both the constant decay of Carbon-14 and the original amount of Carbon-14 are known</CorrectAnswer>
     </Question>
     <Question QuestionID="27200" QuestionIDString="0000027200">
@@ -146,7 +146,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Chemical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What range of salinity can a stenohaline (steh-no-hay-line) organism tolerate?</QuestionText>
+      <QuestionText>What range of salinity can a stenohaline [steh-no-hay-line] organism tolerate?</QuestionText>
       <AnswerW>No range</AnswerW>
       <AnswerX>Only freshwater</AnswerX>
       <AnswerY>A wide range</AnswerY>
@@ -207,10 +207,10 @@
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>What is the name of the spherical calcareous structure used to detect orientation in cnidarians?</QuestionText>
-      <AnswerW>Strobila (stroh-BAHY-luh)</AnswerW>
-      <AnswerX>Statocyst (STAT-uh-sist)</AnswerX>
-      <AnswerY>Chromatophore (kroh-MAT-uh-fawr)</AnswerY>
-      <AnswerZ>Ocelli (oh-SEL-uhs)</AnswerZ>
+      <AnswerW>Strobila [stroh-BAHY-luh]</AnswerW>
+      <AnswerX>Statocyst [STAT-uh-sist]</AnswerX>
+      <AnswerY>Chromatophore [kroh-MAT-uh-fawr]</AnswerY>
+      <AnswerZ>Ocelli [oh-SEL-uhs]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="27307" QuestionIDString="0000027307">
@@ -239,14 +239,14 @@
       <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is a common name for one example of a jawless fish?</QuestionText>
-      <CorrectAnswer>Lamprey OR Hagfish (ALSO ACCEPTABLE: agnatha)</CorrectAnswer>
+      <CorrectAnswer>Lamprey (ACCEPT: Hagfish or agnatha)</CorrectAnswer>
     </Question>
     <Question QuestionID="26264" QuestionIDString="0000026264">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Technology - Sampling Techniques</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In which year did Pietro Angelo Secchi (seck-ee) invent the secchi disk?</QuestionText>
+      <QuestionText>In which year did Pietro Angelo Secchi [seck-ee] invent the secchi disk?</QuestionText>
       <AnswerW>1723</AnswerW>
       <AnswerX>1865</AnswerX>
       <AnswerY>1648</AnswerY>
@@ -258,8 +258,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is the name of a seamount chain that extends from the Hawaiian Islands toward the Kamchatka (kham-chot-ka) Peninsula?</QuestionText>
-      <CorrectAnswer>Emperor Seamounts OR Emperor Seamount chain</CorrectAnswer>
+      <QuestionText>What is the name of a seamount chain that extends from the Hawaiian Islands toward the Kamchatka [kham-chot-ka] Peninsula?</QuestionText>
+      <CorrectAnswer>Emperor Seamount Chain (ACCEPT: Emperor Seamounts)</CorrectAnswer>
     </Question>
     <Question QuestionID="26603" QuestionIDString="0000026603">
       <QuestionPair>14</QuestionPair>
@@ -299,7 +299,7 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What are two processes that act as removal mechanisms for trace elements in the ocean?</QuestionText>
-      <CorrectAnswer>ACCEPT ANY TWO OF THE FOLLOWING:inorganic precipitation (chemical precipitation), hydrothermal venting, passive scavenging by particles, active uptake by organisms</CorrectAnswer>
+      <CorrectAnswer>ANY TWO AMONG: Inorganic (ACCEPT: Chemical precipitation, hydrothermal venting, passive scavenging by particles, active uptake by organisms</CorrectAnswer>
     </Question>
     <Question QuestionID="27531" QuestionIDString="0000027531">
       <QuestionPair>16</QuestionPair>
@@ -319,7 +319,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What type of embryonic development is displayed in Hammerhead sharks?</QuestionText>
-      <CorrectAnswer>Ovoviviparity (NOT viviparity NOR live birth)</CorrectAnswer>
+      <CorrectAnswer>Ovoviviparity (DO NOT ACCEPT: Viviparity or live birth)</CorrectAnswer>
     </Question>
     <Question QuestionID="27489" QuestionIDString="0000027489">
       <QuestionPair>17</QuestionPair>
@@ -339,7 +339,7 @@
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What are TWO tools a scientist can use to determine the optical diffuse attenuation coefficient in seawater?</QuestionText>
-      <CorrectAnswer>Secchi disk AND submarine photometer</CorrectAnswer>
+      <CorrectAnswer>Secchi disk and submarine photometer</CorrectAnswer>
     </Question>
     <Question QuestionID="14060" QuestionIDString="0000014060">
       <QuestionPair>18</QuestionPair>
@@ -359,7 +359,7 @@
       <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>To help prevent the spread of aquatic invasive species, many oceangoing ships release the lower salinity water they brought aboard in their last port and replace it with higher salinity open ocean water. What is this process called?</QuestionText>
-      <CorrectAnswer>ballast water exchange</CorrectAnswer>
+      <CorrectAnswer>Ballast water exchange</CorrectAnswer>
     </Question>
     <Question QuestionID="26084" QuestionIDString="0000026084">
       <QuestionPair>19</QuestionPair>
@@ -378,8 +378,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What float-like organ do colonial cnidarians like Velella (vuh-LEL-uh) and Physalia (fi-say-lee-uh) fill with gas to obtain positive buoyancy?</QuestionText>
-      <CorrectAnswer>Pneumatophore (new-MAT-uh-fore)</CorrectAnswer>
+      <QuestionText>What float-like polyp type do colonial cnidarians like Velella [uh-LEL-uh] and Physalia [fi-say-lee-uh] fill with gas to obtain positive buoyancy?</QuestionText>
+      <CorrectAnswer>Pneumatophore [new-MAT-uh-fore]</CorrectAnswer>
     </Question>
     <Question QuestionID="26210" QuestionIDString="0000026210">
       <QuestionPair>20</QuestionPair>

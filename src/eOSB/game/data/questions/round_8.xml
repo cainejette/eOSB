@@ -8,7 +8,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Along coastal zones, high levels of nutrients are NOT supplied by which of the following processes?</QuestionText>
       <AnswerW>River discharge</AnswerW>
-      <AnswerX>Tidal range</AnswerX>
+      <AnswerX>Longshore drift</AnswerX>
       <AnswerY>Coastal upwelling</AnswerY>
       <AnswerZ>Turbulent mixing</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
@@ -39,18 +39,18 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What Family of fishes are the fastest swimmers?</QuestionText>
-      <CorrectAnswer>Istiophoridae (is-tee oh-FOR-i-day)</CorrectAnswer>
+      <CorrectAnswer>Istiophoridae [is-tee oh-FOR-i-day]</CorrectAnswer>
     </Question>
     <Question QuestionID="13805" QuestionIDString="0000013805">
       <QuestionPair>3</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following rivers is the most turbid?</QuestionText>
-      <AnswerW>Nile River</AnswerW>
-      <AnswerX>Niger River</AnswerX>
-      <AnswerY>Mississippi River</AnswerY>
-      <AnswerZ>Yellow River</AnswerZ>
+      <QuestionText>What makes the Yellow River yellow?</QuestionText>
+      <AnswerW>Phytoplankton</AnswerW>
+      <AnswerX>Dissolved Organic Matter</AnswerX>
+      <AnswerY>Local industrial runoff</AnswerY>
+      <AnswerZ>Suspended sediment</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="26804" QuestionIDString="0000026804">
@@ -67,10 +67,10 @@
       <Category>Biology - Evolution</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is the term for an evolutionary trait that links a group of organisms to one another through shared or derived characteristics?</QuestionText>
-      <AnswerW>Apomorphy (AP-oh-morph-ee)</AnswerW>
-      <AnswerX>Plesiomorphy (PLEES-io-morph-ee)</AnswerX>
-      <AnswerY>Synapomorphy (sih-NAP-oh-morph-ee)</AnswerY>
-      <AnswerZ>Symplesiomorphy (sim-PLEES-ee-oh-morph-ee)</AnswerZ>
+      <AnswerW>Apomorphy [AP-oh-morph-ee]</AnswerW>
+      <AnswerX>Plesiomorphy [PLEES-io-morph-ee]</AnswerX>
+      <AnswerY>Synapomorphy [sih-NAP-oh-morph-ee]</AnswerY>
+      <AnswerZ>Symplesiomorphy [sim-PLEES-ee-oh-morph-ee]</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="16580" QuestionIDString="0000016580">
@@ -95,7 +95,7 @@
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Aerial roots,  like those of the mangrove, are known by what term?</QuestionText>
-      <CorrectAnswer>Pneumatophores (new-MAT-oh-fores)</CorrectAnswer>
+      <CorrectAnswer>Pneumatophores [new-MAT-oh-fores]</CorrectAnswer>
     </Question>
     <Question QuestionID="8486" QuestionIDString="0000008486">
       <QuestionPair>6</QuestionPair>
@@ -106,7 +106,7 @@
       <AnswerW>High surface tension</AnswerW>
       <AnswerX>Very high heat capacity relative to other natural substances</AnswerX>
       <AnswerY>A salinity of zero parts per thousand</AnswerY>
-      <AnswerZ>Freezes at 4 degrees Celsius</AnswerZ>
+      <AnswerZ>A maximum density at 4 degrees Celsius</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="12521" QuestionIDString="0000012521">
@@ -235,14 +235,14 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name the TWO major types of Kelvin waves.</QuestionText>
-      <CorrectAnswer>Coastal AND equatorial</CorrectAnswer>
+      <CorrectAnswer>Coastal and equatorial</CorrectAnswer>
     </Question>
     <Question QuestionID="26990" QuestionIDString="0000026990">
       <QuestionPair>13</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Of the following terms, which one can NOT be applied to any organisms in the group Archaea (ar-KEE-uh)?</QuestionText>
+      <QuestionText>Of the following terms, which one can NOT be applied to any organisms in the group Archaea [ar-KEE-uh]?</QuestionText>
       <AnswerW>Thermophiles</AnswerW>
       <AnswerX>Halophiles</AnswerX>
       <AnswerY>Atmophiles</AnswerY>
@@ -279,7 +279,7 @@
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What compound do squid use to maintain buoyancy?</QuestionText>
-      <CorrectAnswer>Ammonium (ALSO ACCEPT: Ammonia)</CorrectAnswer>
+      <CorrectAnswer>Ammonium (ACCEPT: Ammonia)</CorrectAnswer>
     </Question>
     <Question QuestionID="27037" QuestionIDString="0000027037">
       <QuestionPair>15</QuestionPair>
@@ -367,9 +367,9 @@
       <Category>Geology - Sediments</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following terms is used to describe small, rounded, accretionary bodies of aragonite that result from inorganic precipitation?</QuestionText>
-      <AnswerW>Coccoliths (cock-oh-liths)</AnswerW>
-      <AnswerX>Ooliths (oh-oh-liths)</AnswerX>
-      <AnswerY>Otoliths (oh-toe-liths)</AnswerY>
+      <AnswerW>Coccoliths [cock-oh-liths]</AnswerW>
+      <AnswerX>Ooliths [oh-oh-liths]</AnswerX>
+      <AnswerY>Otoliths [oh-toe-liths]</AnswerY>
       <AnswerZ>Oozes</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
@@ -399,7 +399,7 @@
       <Category>Geology - Plate Tectonics</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name for the single ocean that covered most of the globe approximately 225 million years ago?</QuestionText>
-      <CorrectAnswer>Panthalassa (pan-thuh-lass-uh)</CorrectAnswer>
+      <CorrectAnswer>Panthalassa [pan-thuh-lass-uh]</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

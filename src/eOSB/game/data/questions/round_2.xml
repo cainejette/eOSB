@@ -39,7 +39,7 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the term for sedimentary deposits found at the base of many submarine canyons?</QuestionText>
-      <CorrectAnswer>Turbidites (TUR-bi-dahyts) (DO NOT ACCEPT Abyssal fans - they are landforms, NOT deposits)</CorrectAnswer>
+      <CorrectAnswer>Turbidites [TUR-bi-dahyts] (DO NOT ACCEPT: Abyssal fans, as they are landforms, not deposits)</CorrectAnswer>
     </Question>
     <Question QuestionID="22611" QuestionIDString="0000022611">
       <QuestionPair>3</QuestionPair>
@@ -58,7 +58,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>The skeletons of marine animals in what Phylum are used in human bone grafts?</QuestionText>
+      <QuestionText>The skeletons of marine animals in what phylum are used in human bone grafts?</QuestionText>
       <CorrectAnswer>Cnidaria</CorrectAnswer>
     </Question>
     <Question QuestionID="26448" QuestionIDString="0000026448">
@@ -79,7 +79,7 @@
       <Category>Physical - Water Properties</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>At what temperature, in degrees Celsius, does freshwater freeze, AND at what temperature does normal, ocean saltwater freeze?</QuestionText>
-      <CorrectAnswer>0 degrees Celsius AND -2 (negative 2) degrees Celsius</CorrectAnswer>
+      <CorrectAnswer>0 (zero) degrees Celsius and -2 (negative 2) degrees Celsius</CorrectAnswer>
     </Question>
     <Question QuestionID="26147" QuestionIDString="0000026147">
       <QuestionPair>5</QuestionPair>
@@ -107,11 +107,11 @@
       <Category>Social Sciences - Human Impacts</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following is not a working waterfront?</QuestionText>
-      <AnswerW>marina</AnswerW>
-      <AnswerX>boat yard</AnswerX>
-      <AnswerY>boat ramp</AnswerY>
-      <AnswerZ>marine preserve</AnswerZ>
-      <CorrectAnswer>z</CorrectAnswer>
+      <AnswerW>Marina</AnswerW>
+      <AnswerX>Boat yard</AnswerX>
+      <AnswerY>Boat ramp</AnswerY>
+      <AnswerZ>Marine preserve</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="24856" QuestionIDString="0000024856">
       <QuestionPair>6</QuestionPair>
@@ -179,7 +179,7 @@
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What country has large areas of livable land located below sea level?</QuestionText>
-      <CorrectAnswer>Netherlands</CorrectAnswer>
+      <CorrectAnswer>Netherlands (ACCEPT: Holland)</CorrectAnswer>
     </Question>
     <Question QuestionID="26867" QuestionIDString="0000026867">
       <QuestionPair>10</QuestionPair>
@@ -206,7 +206,7 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geography - Place Names</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In June 2010, Papahanamokuakea (Papa-hana-mo-ku-ah-kee-ah) was established as what type of location on behalf of the United National Educational, Scientific and Cultural Organization?</QuestionText>
+      <QuestionText>In June 2010, Papahanamokuakea [Papa-hana-mo-ku-ah-kee-ah] was established as what type of location on behalf of the United National Educational, Scientific and Cultural Organization?</QuestionText>
       <AnswerW>Marine National Monument</AnswerW>
       <AnswerX>National Wildlife Refuge</AnswerX>
       <AnswerY>National Wonder</AnswerY>
@@ -219,7 +219,7 @@
       <Category>Biology - Classification</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the largest member of the dolphin family?</QuestionText>
-      <CorrectAnswer>Killer whale (ALSO ACCEPT: orca, orca whale OR Orcinus orca)</CorrectAnswer>
+      <CorrectAnswer>Killer whale (ACCEPT: Orca, orca whale, or Orcinus orca)</CorrectAnswer>
     </Question>
     <Question QuestionID="26948" QuestionIDString="0000026948">
       <QuestionPair>12</QuestionPair>
@@ -279,7 +279,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the common term for harmful algal blooms?</QuestionText>
-      <CorrectAnswer>Red tide(s) OR brown tide(s)</CorrectAnswer>
+      <CorrectAnswer>Red tide (ACCEPT: Brown tides)</CorrectAnswer>
     </Question>
     <Question QuestionID="26200" QuestionIDString="0000026200">
       <QuestionPair>15</QuestionPair>
@@ -299,7 +299,7 @@
       <Category>Social Sciences</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the common name for shell material used in jewelry and wood inlay AND what organism is commercially harvested for this purpose?</QuestionText>
-      <CorrectAnswer>Nacre OR Mother-of-pearl AND Oyster OR Abalone</CorrectAnswer>
+      <CorrectAnswer>Nacre (ACCEPT: Mother-of-pearl) and oyster (ACCEPT: Abalone)</CorrectAnswer>
     </Question>
     <Question QuestionID="26687" QuestionIDString="0000026687">
       <QuestionPair>16</QuestionPair>
@@ -319,7 +319,7 @@
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What term is used to describe marine organisms which have evolved to maintain relatively stable population sizes at or near the carrying capacity of their environment?</QuestionText>
-      <CorrectAnswer>K-selected species OR K-strategist</CorrectAnswer>
+      <CorrectAnswer>K-selected species (ACCEPT: K-strategist)</CorrectAnswer>
     </Question>
     <Question QuestionID="26821" QuestionIDString="0000026821">
       <QuestionPair>17</QuestionPair>
@@ -339,7 +339,7 @@
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What does LIDAR use to determine the distance to the seafloor or to an object in the ocean?</QuestionText>
-      <CorrectAnswer>Lasers (Also accept: light OR electromagnetic radiation)</CorrectAnswer>
+      <CorrectAnswer>Lasers (ACCEPT: Light or electromagnetic radiation)</CorrectAnswer>
     </Question>
     <Question QuestionID="26217" QuestionIDString="0000026217">
       <QuestionPair>18</QuestionPair>
@@ -359,7 +359,7 @@
       <Category>Chemical - Chemical species</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What are TWO sources of molecular oxygen to the surface of the ocean?</QuestionText>
-      <CorrectAnswer>The atmosphere AND photosynthesis</CorrectAnswer>
+      <CorrectAnswer>The atmosphere and photosynthesis</CorrectAnswer>
     </Question>
     <Question QuestionID="20061" QuestionIDString="0000020061">
       <QuestionPair>19</QuestionPair>
@@ -379,7 +379,7 @@
       <Category>Biology - Behavior/Adaptations</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Although it is highly desired in the aquarium trade, what marine organism is considered an invasive species in the Atlantic Ocean because it has venomous needle-like dorsal fins, preys on native species, and has no known predators?</QuestionText>
-      <CorrectAnswer>Lionfish OR red lionfish OR Pterois volitans</CorrectAnswer>
+      <CorrectAnswer>Lionfish ACCEPT: Red lionfish or Pterois volitans)</CorrectAnswer>
     </Question>
     <Question QuestionID="26053" QuestionIDString="0000026053">
       <QuestionPair>20</QuestionPair>
@@ -399,7 +399,7 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What small bodies of water contain plants and animals that are trapped when a tide recedes and are replenished with sea water at high tide called?</QuestionText>
-      <CorrectAnswer>Tidepools</CorrectAnswer>
+      <CorrectAnswer>Tidepools (ACCEPT: Salt ponds)</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

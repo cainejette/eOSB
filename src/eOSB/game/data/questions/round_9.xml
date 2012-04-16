@@ -39,7 +39,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the term for marine commensals that live inside other animals but are not parasites?</QuestionText>
-      <CorrectAnswer>endozooites, endobionts, endosymbionts</CorrectAnswer>
+      <CorrectAnswer>Endozooites (ACCEPT: Endobionts or endosymbionts)</CorrectAnswer>
     </Question>
     <Question QuestionID="27462" QuestionIDString="0000027462">
       <QuestionPair>3</QuestionPair>
@@ -99,7 +99,7 @@
       <Category>Technology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>To estimate overall phytoplankton biomass, scientists frequently measure chlorophyll concentration using what instrument or method?</QuestionText>
-      <CorrectAnswer>Fluorometer</CorrectAnswer>
+      <CorrectAnswer>Fluorometer (ACCEPT: Absorption meter, chlorophyll fluorescence, or fluorometry)</CorrectAnswer>
     </Question>
     <Question QuestionID="20357" QuestionIDString="0000020357">
       <QuestionPair>6</QuestionPair>
@@ -138,8 +138,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical - Currents</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What is a name of a current that is an extension of the Gulf Stream that flows toward Europe?</QuestionText>
-      <CorrectAnswer>North Atlantic Current</CorrectAnswer>
+      <QuestionText>What is the name of a current that is an extension of the Gulf Stream that flows toward Europe?</QuestionText>
+      <CorrectAnswer>North Atlantic Current (ACCEPT: North Atlantic Drift)</CorrectAnswer>
     </Question>
     <Question QuestionID="26811" QuestionIDString="0000026811">
       <QuestionPair>8</QuestionPair>
@@ -187,10 +187,10 @@
       <Category>Technology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Within the context of in situ ocean sampling, what is a messenger used for?</QuestionText>
-      <AnswerW>selecting the quantity to be measured</AnswerW>
-      <AnswerX>closing Niskin bottles at depth</AnswerX>
-      <AnswerY>receiving satellite data</AnswerY>
-      <AnswerZ>communicating with research divers</AnswerZ>
+      <AnswerW>Selecting the quantity to be measured</AnswerW>
+      <AnswerX>Closing Niskin bottles at depth</AnswerX>
+      <AnswerY>Receiving satellite data</AnswerY>
+      <AnswerZ>Communicating with research divers</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="8491" QuestionIDString="0000008491">
@@ -238,7 +238,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical - Tides</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Perihelion (per-uh-HEE-lee-uhn), the Earth's closest approach to the Sun, occurs during what month?</QuestionText>
+      <QuestionText>Perihelion [per-uh-HEE-lee-uhn], the Earth's closest approach to the Sun, occurs during what month?</QuestionText>
       <CorrectAnswer>January</CorrectAnswer>
     </Question>
     <Question QuestionID="27409" QuestionIDString="0000027409">
@@ -258,7 +258,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical - Water Masses</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What phenomena occurs between Hadley and Ferrel circulation cells?</QuestionText>
+      <QuestionText>What is the term for the ocean between the Hadley and Ferrel circulation cells characterized by low surface wind speeds?</QuestionText>
       <CorrectAnswer>Horse latitudes</CorrectAnswer>
     </Question>
     <Question QuestionID="26109" QuestionIDString="0000026109">
@@ -267,9 +267,9 @@
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following groups of organisms produce bromophenol compounds to deter their conspecifics from settling next to them?</QuestionText>
-      <AnswerW>Polycheate worms</AnswerW>
+      <AnswerW>Polychaete worms</AnswerW>
       <AnswerX>Byrozoans</AnswerX>
-      <AnswerY>Lug worms</AnswerY>
+      <AnswerY>Nematode worms</AnswerY>
       <AnswerZ>Ascidians</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
@@ -299,7 +299,7 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name two of the major cations of seawater?</QuestionText>
-      <CorrectAnswer>Acceptable answers: Sodium, Magnesium, Calcium, Potassium, Silicon, Strontium</CorrectAnswer>
+      <CorrectAnswer>Any TWO among: Sodium, Magnesium, Calcium, Potassium, Silicon, or Strontium</CorrectAnswer>
     </Question>
     <Question QuestionID="12810" QuestionIDString="0000012810">
       <QuestionPair>16</QuestionPair>
@@ -307,7 +307,7 @@
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following bivalve molluscs has the longest siphon?</QuestionText>
-      <AnswerW>Geoduck (Goo-ee-duk)clam</AnswerW>
+      <AnswerW>Geoduck [Goo-ee-duk] clam</AnswerW>
       <AnswerX>Razor clam</AnswerX>
       <AnswerY>Pismo clam</AnswerY>
       <AnswerZ>Heart Cockle</AnswerZ>
@@ -318,8 +318,8 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Which TWO seas are connected by the La Perouse (pey-ROOZ) Strait?</QuestionText>
-      <CorrectAnswer>Japan Sea and Okhotsk (oh-KOTSK) Sea</CorrectAnswer>
+      <QuestionText>Which TWO seas are connected by the La Perouse [pey-ROOZ] Strait?</QuestionText>
+      <CorrectAnswer>Japan Sea and Okhotsk [oh-KOTSK] Sea</CorrectAnswer>
     </Question>
     <Question QuestionID="22232" QuestionIDString="0000022232">
       <QuestionPair>17</QuestionPair>
@@ -348,9 +348,9 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following currents is located in the southern Pacific Ocean?</QuestionText>
       <AnswerW>Humboldt</AnswerW>
-      <AnswerX>Benguela (ben-gway-luh)</AnswerX>
-      <AnswerY>Agulhas (ah-gool-us)</AnswerY>
-      <AnswerZ>Oyashio (oh-yah-she-oh)</AnswerZ>
+      <AnswerX>Benguela [ben-gway-luh]</AnswerX>
+      <AnswerY>Agulhas [ah-gool-us]</AnswerY>
+      <AnswerZ>Oyashio [oh-yah-she-oh]</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
     <Question QuestionID="11625" QuestionIDString="0000011625">
@@ -367,10 +367,10 @@
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following animal phyla have ONLY marine representatives?</QuestionText>
-      <AnswerW>Cnidaria (nahy-DAIR-ee-uh)</AnswerW>
-      <AnswerX>Priapula</AnswerX>
+      <AnswerW>Cnidaria [nahy-DAIR-ee-uh]</AnswerW>
+      <AnswerX>Priapula [pri-APE-u-la]</AnswerX>
       <AnswerY>Arthropoda</AnswerY>
-      <AnswerZ>Annelida (ah-NEL-ee-duh</AnswerZ>
+      <AnswerZ>Annelida [ah-NEL-ee-duh]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="12808" QuestionIDString="0000012808">
@@ -399,7 +399,7 @@
       <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What enzyme catalyzes light-producing reactions in bioluminescent jellyfishes?</QuestionText>
-      <CorrectAnswer>Luciferase (lew-sif-er-ace) OR Luciferin (lew-sif-er-in)</CorrectAnswer>
+      <CorrectAnswer>Luciferase [lew-sif-er-ace] (DO NOT ACCEPT: Luciferin [lew-sif-er-in])</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

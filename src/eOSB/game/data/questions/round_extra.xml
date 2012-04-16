@@ -6,8 +6,8 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What does ICES stands for?</QuestionText>
-      <AnswerW>International Committee for the Exploration of the Seas</AnswerW>
+      <QuestionText>What does ICES [eye-seez] stands for?</QuestionText>
+      <AnswerW>International Council for the Exploration of the Seas</AnswerW>
       <AnswerX>Iceland Center for Ecological Sciences</AnswerX>
       <AnswerY>Integrated Coastal Eutrophication Sensor</AnswerY>
       <AnswerZ>Isolated Central Emissions Spectrum</AnswerZ>
@@ -19,8 +19,7 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Which nutrient can limit primary productivity in most estuarine systems?</QuestionText>
-      <CorrectAnswer>nitrogen
-phosphorous also acceptable</CorrectAnswer>
+      <CorrectAnswer>Nitrogen (ACCEPT: Phosphorous)</CorrectAnswer>
     </Question>
     <Question QuestionID="12215" QuestionIDString="0000012215">
       <QuestionPair>2</QuestionPair>
@@ -107,11 +106,11 @@ phosphorous also acceptable</CorrectAnswer>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which of the following marine animals exhibit behaviors such as skyhopping and lobtailing?</QuestionText>
-      <AnswerW>arthropods</AnswerW>
-      <AnswerX>dugongs</AnswerX>
-      <AnswerY>penguins</AnswerY>
-      <AnswerZ>whales</AnswerZ>
+      <QuestionText>Which of the following marine animals exhibit behaviors such as spyhopping and lobtailing?</QuestionText>
+      <AnswerW>Arthropods</AnswerW>
+      <AnswerX>Dugongs</AnswerX>
+      <AnswerY>Penguins</AnswerY>
+      <AnswerZ>Whales</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="13927" QuestionIDString="0000013927">
@@ -139,7 +138,7 @@ phosphorous also acceptable</CorrectAnswer>
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>In what taxonomic group are organisms more closely related, Order or Family?</QuestionText>
+      <QuestionText>In what taxonomic group are organisms more closely related, order or family?</QuestionText>
       <CorrectAnswer>Family</CorrectAnswer>
     </Question>
     <Question QuestionID="12302" QuestionIDString="0000012302">
@@ -148,7 +147,7 @@ phosphorous also acceptable</CorrectAnswer>
       <Category>Geography</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which river transports the greatest volume of water into the ocean?</QuestionText>
-      <AnswerW>Yangtze (Yang-Zee)</AnswerW>
+      <AnswerW>Yangtze [Yang-Zee]</AnswerW>
       <AnswerX>Mississippi</AnswerX>
       <AnswerY>Niger</AnswerY>
       <AnswerZ>Amazon</AnswerZ>
@@ -160,7 +159,7 @@ phosphorous also acceptable</CorrectAnswer>
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name one form of nitrogen that can be utilized by marine organisms.</QuestionText>
-      <CorrectAnswer>Acceptable answers: Nitrate, Nitrite and ammonium</CorrectAnswer>
+      <CorrectAnswer>Nitrate (ACCEPT: Nitrite or ammonium)</CorrectAnswer>
     </Question>
     <Question QuestionID="12439" QuestionIDString="0000012439">
       <QuestionPair>9</QuestionPair>
@@ -172,7 +171,7 @@ phosphorous also acceptable</CorrectAnswer>
       <AnswerX>Sanctuary Ecosystem Assessment</AnswerX>
       <AnswerY>System-Wide Monitoring Program</AnswerY>
       <AnswerZ>Sanctuary Integrated Monitoring Network</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="12421" QuestionIDString="0000012421">
       <QuestionPair>9</QuestionPair>
@@ -187,11 +186,11 @@ phosphorous also acceptable</CorrectAnswer>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The following are characteristics of all members of the Chondrichthyans (kon-DRIC-thee-yans) except:</QuestionText>
-      <AnswerW>bony fin ray supports</AnswerW>
-      <AnswerX>paired fins</AnswerX>
-      <AnswerY>internal fertilization</AnswerY>
-      <AnswerZ>well developed lower jaw</AnswerZ>
+      <QuestionText>The following are characteristics of all members of the Chondrichthyans [kon-DRIC-thee-yans] except:</QuestionText>
+      <AnswerW>Bony fin ray supports</AnswerW>
+      <AnswerX>Paired fins</AnswerX>
+      <AnswerY>Internal fertilization</AnswerY>
+      <AnswerZ>Well developed lower jaw</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
     <Question QuestionID="12529" QuestionIDString="0000012529">
@@ -220,7 +219,7 @@ phosphorous also acceptable</CorrectAnswer>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name two major anthropogenic effects on coral reefs.</QuestionText>
-      <CorrectAnswer>Eutrophication, sedimentation, oil pollution, coral mining, destructive fishing, global warming (increased temperature, acidification)</CorrectAnswer>
+      <CorrectAnswer>Any TWO among: Eutrophication, sedimentation, oil pollution, coral mining, destructive fishing, and global warming (increased temperature, acidification)</CorrectAnswer>
     </Question>
     <Question QuestionID="13101" QuestionIDString="0000013101">
       <QuestionPair>12</QuestionPair>
@@ -240,7 +239,7 @@ phosphorous also acceptable</CorrectAnswer>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Name two biological factors that shape zonation patterns in the intertidal zone?</QuestionText>
-      <CorrectAnswer>competition, predation, grazing, recruitment, reproduction, settlement</CorrectAnswer>
+      <CorrectAnswer>Any TWO among: Competition, predation, grazing, recruitment, reproduction, and settlement</CorrectAnswer>
     </Question>
     <Question QuestionID="12999" QuestionIDString="0000012999">
       <QuestionPair>13</QuestionPair>
@@ -280,7 +279,14 @@ phosphorous also acceptable</CorrectAnswer>
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Arrange these environments from shallowest to deepest:
-Mesopelagic, Epipelagic, Bathypelagic, Abyssopelagic</QuestionText>
+	
+	Mesopelagic, 
+
+	Epipelagic, 
+	
+	Bathypelagic, 
+	
+	Abyssopelagic</QuestionText>
       <CorrectAnswer>Epipelagic, Mesopelagic, Bathypelagic, Abyssopelagic</CorrectAnswer>
     </Question>
     <Question QuestionID="12219" QuestionIDString="0000012219">
@@ -308,7 +314,7 @@ Mesopelagic, Epipelagic, Bathypelagic, Abyssopelagic</QuestionText>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Social Sciences</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Juan Sebastian Elcano successfully completed his voyage under the leadership of which early explorer?</QuestionText>
+      <QuestionText>Juan Sebastian Elcano successfully completed his voyage begun under the leadership of which early explorer?</QuestionText>
       <AnswerW>Amerigo Vespucci</AnswerW>
       <AnswerX>Ferdinand Magellan</AnswerX>
       <AnswerY>Giovanni Caboto</AnswerY>
@@ -321,8 +327,7 @@ Mesopelagic, Epipelagic, Bathypelagic, Abyssopelagic</QuestionText>
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>At approximately what annual rate is global atmospheric C02 concentration increasing?</QuestionText>
-      <CorrectAnswer>approximately 1% per year
-also acceptable: any answer between 3 and 4 ppm/y (or 30-40 ppb)</CorrectAnswer>
+      <CorrectAnswer>Approximately 1% per year (ACCEPT: Any answer between 3 and 4 ppm/y or 30-40 ppb)</CorrectAnswer>
     </Question>
     <Question QuestionID="13128" QuestionIDString="0000013128">
       <QuestionPair>17</QuestionPair>
@@ -342,7 +347,7 @@ also acceptable: any answer between 3 and 4 ppm/y (or 30-40 ppb)</CorrectAnswer>
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the fastest spreading mid-ocean ridge on Earth?</QuestionText>
-      <CorrectAnswer>East Pacific Rise.</CorrectAnswer>
+      <CorrectAnswer>East Pacific Rise</CorrectAnswer>
     </Question>
     <Question QuestionID="13277" QuestionIDString="0000013277">
       <QuestionPair>18</QuestionPair>
@@ -350,10 +355,10 @@ also acceptable: any answer between 3 and 4 ppm/y (or 30-40 ppb)</CorrectAnswer>
       <Category>Chemical - Reactions in Seawater</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Minerals that crystallize directly from ocean water are examples of what type of sediment?</QuestionText>
-      <AnswerW>terrigenous sediment</AnswerW>
-      <AnswerX>biogenous sediment</AnswerX>
-      <AnswerY>hydrogenous sediment</AnswerY>
-      <AnswerZ>volcanic sediment</AnswerZ>
+      <AnswerW>Terrigenous sediment</AnswerW>
+      <AnswerX>Biogenous sediment</AnswerX>
+      <AnswerY>Hydrogenous sediment</AnswerY>
+      <AnswerZ>Volcanic sediment</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="13691" QuestionIDString="0000013691">

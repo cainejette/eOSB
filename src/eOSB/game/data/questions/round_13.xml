@@ -8,7 +8,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>In the ocean, warm-body animals other than marine mammals and birds include which of the following?</QuestionText>
       <AnswerW>Marine iguanas</AnswerW>
-      <AnswerX>Anguilliformes (an-guil-ih-form-eez)</AnswerX>
+      <AnswerX>Anguilliformes [an-guil-ih-form-eez]</AnswerX>
       <AnswerY>Lamnids</AnswerY>
       <AnswerZ>Salt-water crocodiles</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
@@ -129,9 +129,9 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>While the first European to reach North America in 1002 is often believed to be Leif Eriksson, another theory proposes that this other man was the first to sight current-day Newfoundland.</QuestionText>
       <AnswerW>Eric the Red</AnswerW>
-      <AnswerX>Bjarni Herjolfsson (bur-jar-nee Heir-jolf-sun)</AnswerX>
+      <AnswerX>Bjarni Herjolfsson [bur-jar-nee Heir-jolf-sun]</AnswerX>
       <AnswerY>Thor Heyerdahl</AnswerY>
-      <AnswerZ>Ingolfur Arnarson (en-gulf-uhr arn-ar-sun)</AnswerZ>
+      <AnswerZ>Ingolfur Arnarson [en-gulf-uhr arn-ar-sun]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="27546" QuestionIDString="0000027546">
@@ -139,17 +139,15 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What extinct primitive marine vertebrate had the sharpest dental structures ever known, with tips just one-twentieth of the width of a human hair, but able to apply pressures that could compete easily with those from human jaws?
-
-</QuestionText>
-      <CorrectAnswer>Conodont (KOH-nuh-dahnt)</CorrectAnswer>
+      <QuestionText>What extinct primitive marine vertebrate had the sharpest dental structures ever known, with tips just one-twentieth of the width of a human hair, but able to apply pressures that could compete easily with those from human jaws?</QuestionText>
+      <CorrectAnswer>Conodont [KOH-nuh-dahnt]</CorrectAnswer>
     </Question>
     <Question QuestionID="26345" QuestionIDString="0000026345">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geology - Geologic Time Scale</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>In 2006, a team at Woods Hole Oceanographic Institution revealed information from studying ice cores that suggests the land bridge connecting Asia to North America flooded approximately how many years ago?</QuestionText>
+      <QuestionText>In 2006, a team at Woods Hole Oceanographic Institution revealed information from studying sediment cores that suggests the land bridge connecting Asia to North America flooded approximately how many years ago?</QuestionText>
       <AnswerW>5000</AnswerW>
       <AnswerX>8000</AnswerX>
       <AnswerY>12,000</AnswerY>
@@ -170,10 +168,10 @@
       <Category>Biology - Biochemistry</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Beluga whales in the St. Lawrence River estuary accumulate all of the following synthetic organic chemicals though biomagnification EXCEPT which of the following?</QuestionText>
-      <AnswerW>Toxaphene (TOK-suh-feen)</AnswerW>
-      <AnswerX>Dichlorodiphenyltrichloroethane (dahy-klawr-oh-dahy-fen-l-trahy-klawr-oh-ETH-eyn)</AnswerX>
-      <AnswerY>Trichloroethylene (trahy-klawr-oh-ETH-uh-leen)</AnswerY>
-      <AnswerZ>Polychlorinated biphenyl (bahy-FEN-l)</AnswerZ>
+      <AnswerW>Toxaphene [TOK-suh-feen]</AnswerW>
+      <AnswerX>Dichlorodiphenyltrichloroethane [dahy-klawr-oh-dahy-fen-l-trahy-klawr-oh-ETH-eyn]</AnswerX>
+      <AnswerY>Trichloroethylene [trahy-klawr-oh-ETH-uh-leen]</AnswerY>
+      <AnswerZ>Polychlorinated biphenyl [bahy-FEN-l]</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="27542" QuestionIDString="0000027542">
@@ -183,7 +181,7 @@
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Researchers recently linked what phenomena to both accelerated glacial melting in Iceland and increased nutrient contribution to the North Atlantic ocean?
 </QuestionText>
-      <CorrectAnswer>Dust OR dust storms</CorrectAnswer>
+      <CorrectAnswer>Dust storms (ACCEPT: Dust)</CorrectAnswer>
     </Question>
     <Question QuestionID="26564" QuestionIDString="0000026564">
       <QuestionPair>10</QuestionPair>
@@ -211,10 +209,10 @@
       <Category>Geology - Plate Tectonics</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Also the name for the fictional home of Conan the Barbarian, what is the name of the micro-continent which now forms the countries of Iran and Turkey, subducted beneath Laurasia to form the Tethyan trench?</QuestionText>
-      <AnswerW>Pannotia (pan-oh-shuh)</AnswerW>
-      <AnswerX>Mu (Moo)</AnswerX>
-      <AnswerY>Lemuria (lee-mer-ee-uh)</AnswerY>
-      <AnswerZ>Cimmeria (sim-air-ee-uh)</AnswerZ>
+      <AnswerW>Pannotia [pan-oh-shuh]</AnswerW>
+      <AnswerX>Mu [Moo]</AnswerX>
+      <AnswerY>Lemuria [lee-mer-ee-uh]</AnswerY>
+      <AnswerZ>Cimmeria [sim-air-ee-uh]</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="26079" QuestionIDString="0000026079">
@@ -231,10 +229,10 @@
       <Category>Biology</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following phytoplankton species does NOT cause harmful algal bloom?</QuestionText>
-      <AnswerW>Karenia (kah-ren-ee-ah) brevis</AnswerW>
-      <AnswerX>Coscinodiscus (kos-sihn-oh-DIHSK-uhs) costatum (kos-TAY-tum)</AnswerX>
-      <AnswerY>Pseudonitzschia (sue-doh-nich-ee-ah) multiseries</AnswerY>
-      <AnswerZ>Alexandrium catanella</AnswerZ>
+      <AnswerW>Karenia [kah-ren-ee-ah] brevis</AnswerW>
+      <AnswerX>Coscinodiscus [kos-sihn-oh-DIHSK-uhs] costatum [kos-TAY-tum]</AnswerX>
+      <AnswerY>Pseudonitzschia [sue-doh-nich-ee-ah] multiseries</AnswerY>
+      <AnswerZ>Alexandrium catenella</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="12633" QuestionIDString="0000012633">
@@ -243,7 +241,7 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Henry Hess is responsible for naming which sea floor features that he first observed using sonar during his World War II military service in the Pacific?</QuestionText>
-      <CorrectAnswer>Guyots (gee-yos)</CorrectAnswer>
+      <CorrectAnswer>Guyots [gee-yos]</CorrectAnswer>
     </Question>
     <Question QuestionID="26248" QuestionIDString="0000026248">
       <QuestionPair>13</QuestionPair>
@@ -251,11 +249,11 @@
       <Category>Physical - Phase Change</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Over the last three decades, what has been the average percent of Arctic sea ice loss per year?</QuestionText>
-      <AnswerW>2.1</AnswerW>
-      <AnswerX>3.7</AnswerX>
-      <AnswerY>5.3</AnswerY>
-      <AnswerZ>6.8</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <AnswerW>0.01</AnswerW>
+      <AnswerX>0.1</AnswerX>
+      <AnswerY>1</AnswerY>
+      <AnswerZ>10</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="26389" QuestionIDString="0000026389">
       <QuestionPair>13</QuestionPair>
@@ -270,11 +268,11 @@
       <QuestionType>Toss-Up</QuestionType>
       <Category>Chemical - Laboratory Analysis</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Thorium 230 is used to measure:</QuestionText>
-      <AnswerW>shelf sedimentation rates</AnswerW>
-      <AnswerX>coral growth rates</AnswerX>
-      <AnswerY>deep sea sedimentation rates</AnswerY>
-      <AnswerZ>ridge spreading rates</AnswerZ>
+      <QuestionText>Thorium 230 is used to measure which of the following?</QuestionText>
+      <AnswerW>Shelf sedimentation rates</AnswerW>
+      <AnswerX>Coral growth rates</AnswerX>
+      <AnswerY>Deep sea sedimentation rates</AnswerY>
+      <AnswerZ>Ridge spreading rates</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="12644" QuestionIDString="0000012644">
@@ -283,18 +281,18 @@
       <Category>Geography</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The Mediterranean Sea was formed from what ancient body of water?</QuestionText>
-      <CorrectAnswer>Tethys (te-thees)</CorrectAnswer>
+      <CorrectAnswer>Tethys [te-thees]</CorrectAnswer>
     </Question>
     <Question QuestionID="19316" QuestionIDString="0000019316">
       <QuestionPair>15</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Biology - Classification</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What Family do cod belong to?</QuestionText>
-      <AnswerW>Carangidae</AnswerW>
-      <AnswerX>Haemulidae</AnswerX>
-      <AnswerY>Clupeidae</AnswerY>
-      <AnswerZ>Gadidae</AnswerZ>
+      <QuestionText>To what Family do cod belong?</QuestionText>
+      <AnswerW>Carangidae [kuh-RAN-gee-die]</AnswerW>
+      <AnswerX>Haemulidae [he-MUYL-ee-die]</AnswerX>
+      <AnswerY>Clupeidae [klu-PEE-ih-die]</AnswerY>
+      <AnswerZ>Gadidae [GAD-ih-die]</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
     <Question QuestionID="12642" QuestionIDString="0000012642">
@@ -303,7 +301,7 @@
       <Category>Physical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>Although the El Nino-La Nina (ENSO) patterns are the most familiar examples of air-sea climate interactions, at least three other quasi-regular oscillations have been identified. Name two of these.</QuestionText>
-      <CorrectAnswer>North Atlantic Oscillation (NAO), Pacific Decadal Oscillation (PDO), Arctic Oscillation (AO)</CorrectAnswer>
+      <CorrectAnswer>Any TWO among: North Atlantic Oscillation (NAO), Pacific Decadal Oscillation (PDO), and Arctic Oscillation (AO)</CorrectAnswer>
     </Question>
     <Question QuestionID="18821" QuestionIDString="0000018821">
       <QuestionPair>16</QuestionPair>
@@ -343,7 +341,7 @@
       <Category>Biology - Ecology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the name of the multi year climate pattern largely thought to be responsible for oscillation between Sardine and Anchovy dominated fisheries off the coast of California?</QuestionText>
-      <CorrectAnswer>Pacific Decadal Oscillation OR PDO</CorrectAnswer>
+      <CorrectAnswer>Pacific Decadal Oscillation (PDO)</CorrectAnswer>
     </Question>
     <Question QuestionID="26364" QuestionIDString="0000026364">
       <QuestionPair>18</QuestionPair>
@@ -371,9 +369,9 @@
       <Category>Biology - Evolution</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which marine bird has the largest wing spread of all birds at 3.5 meters?</QuestionText>
-      <AnswerW>brown pelican</AnswerW>
-      <AnswerX>wandering albatross</AnswerX>
-      <AnswerY>kittiwake</AnswerY>
+      <AnswerW>Brown pelican</AnswerW>
+      <AnswerX>Wandering albatross</AnswerX>
+      <AnswerY>Kittiwake</AnswerY>
       <AnswerZ>Arctic tern</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
@@ -383,7 +381,7 @@
       <Category>Geology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What is the provenance of diamonds in the beaches of South Africa?</QuestionText>
-      <CorrectAnswer>Kimberlites (Kimberlite Pipes)</CorrectAnswer>
+      <CorrectAnswer>Kimberlite Pipes (ACCEPT: Kimberlites)</CorrectAnswer>
     </Question>
     <Question QuestionID="18691" QuestionIDString="0000018691">
       <QuestionPair>20</QuestionPair>
