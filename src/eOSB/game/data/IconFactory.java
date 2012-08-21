@@ -19,6 +19,8 @@ public class IconFactory {
 	/** the location of the Next button icon */
 	public static final String NEXT = "eOSB/game/data/images/nextArrow2.png";
 	
+	public static final String DOUBLE_NEXT = "eOSB/game/data/images/doubleNextArrow.png";
+	
 	/** the location of the Back button icon */
 	public static final String BACK = "eOSB/game/data/images/backArrow2.png";
 	

@@ -20,7 +20,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>Which of the following groups largely comprise the phytoplankton found in the Southern Ocean?</QuestionText>
       <AnswerW>Diatoms and silicoflagellates [sill-ick-oh-FLA-gel-ates]</AnswerW>
-      <AnswerX>Diatoms and phaeocystis []fay-oh-SIS-tus]</AnswerX>
+      <AnswerX>Diatoms and phaeocystis [fay-oh-SIS-tus]</AnswerX>
       <AnswerY>Phaeocystis [fay-oh-SIS-tus] and dinoflagellates [die-no-FLA-gel-ates]</AnswerY>
       <AnswerZ>Silicoflagellates [sill-ick-oh-FLA-gel-ates] and dinoflagellates [die-no-FLA-gel-ates]</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
@@ -125,9 +125,13 @@
       <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Geography</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What island is often referred to as The Graveyard of the North Atlantic as it sits astride the Great Circle Route between the Eastern Seaboard of North America and Europe?</QuestionText>
-      <CorrectAnswer>Sable Island (off Canada's East Coast)</CorrectAnswer>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which island is often referred to as The Graveyard of the North Atlantic as it sits astride the Great Circle Route between the Eastern Seaboard of North America and Europe?</QuestionText>
+      <AnswerW>Prince Edward Island</AnswerW>
+      <AnswerX>St. Pierre Island</AnswerX>
+      <AnswerY>Sable Island </AnswerY>
+      <AnswerZ>Cape Breton Island</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
     </Question>
     <Question QuestionID="9523" QuestionIDString="0000009523">
       <QuestionPair>12</QuestionPair>

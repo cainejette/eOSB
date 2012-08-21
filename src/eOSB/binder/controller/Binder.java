@@ -34,8 +34,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextPane;
 import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
-import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Style;
@@ -94,7 +92,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private ButtonState teamB;
 
 	private JButton backButton;
-	private JButton submitButton;
+	private JButton nextQuestionButton;
+	private JButton nextTossupButton;
 
 	private TitledBorder teamABorder = new TitledBorder(this.teamAName);
 	private TitledBorder teamBBorder = new TitledBorder(this.teamBName);
@@ -397,9 +396,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			panel.add(this.createSubmissionPanel(), "growx, sizegroup group1");
 		} 
 		else {
-			JSplitPane splitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT,
+			JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
 					this.questionPanelScroller, this.answerPanelScroller);
-			splitPane.setResizeWeight(1);
+			splitPane.setResizeWeight(0.8);
 			panel.setLayout(new MigLayout("wrap 1, fill, insets 0"));
 			panel.add(splitPane, "grow, push, span");
 			panel.add(this.createSubmissionPanel(), "growx, sizegroupx group1");
@@ -461,39 +460,52 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 *         buttons
 	 */
 	private JPanel createSubmissionPanel() {
-		final JPanel teamAPanel = new JPanel();
-//		teamAPanel.setBorder(this.teamABorder);
-		teamAPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
-		this.teamA_interrupt.setMinimumSize(new Dimension(35, 35));
-
-		this.updateBorders();
 		
-		teamAPanel.add(this.teamALabel, "span, wrap, align left, gaptop 5, gapleft 15");
-		teamAPanel.add(this.teamA_interrupt, "span, growx");
-		teamAPanel.add(this.teamA_correct, "sizegroupy group1y, sizegroupx group1x, growx");
-		teamAPanel.add(this.teamA_incorrect, "sizegroupy group1y, sizegroupx group1x, growx");
-
-		final JPanel teamBPanel = new JPanel();
-		teamBPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
-		this.teamB_interrupt.setMinimumSize(new Dimension(35, 35));
-		
-		teamBPanel.add(this.teamBLabel, "span, wrap, align left, gaptop 5, gapleft 15");
-		teamBPanel.add(this.teamB_interrupt, "span, growx");
-		teamBPanel.add(this.teamB_correct, "sizegroupy group2y, sizegroupx group2x, growx");
-		teamBPanel.add(this.teamB_incorrect, "sizegroupy group2y, sizegroupx group2x, growx");
-
-		final JPanel submitBackPanel = new JPanel();
+		JPanel submitBackPanel = new JPanel();
 		submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
-		submitBackPanel.add(this.backButton, "sizegroup group3, growx");
-		submitBackPanel.add(this.submitButton, "sizegroup group3, growx");
+		submitBackPanel.add(this.backButton, "sizegroupx group3, growx, gapafter 20");
+		submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, growx, gapafter 20");
+		submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, growx");
 
 		JPanel answerPanel = new JPanel();
 		answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
-		answerPanel.add(teamAPanel, "growx");
-		answerPanel.add(teamBPanel, "growx");
 		answerPanel.add(submitBackPanel, "growx, span");
 
 		return answerPanel;
+
+//		final JPanel teamAPanel = new JPanel();
+////		teamAPanel.setBorder(this.teamABorder);
+//		teamAPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+//		this.teamA_interrupt.setMinimumSize(new Dimension(35, 35));
+//
+//		this.updateBorders();
+//		
+//		teamAPanel.add(this.teamALabel, "span, wrap, align left, gaptop 5, gapleft 15");
+//		teamAPanel.add(this.teamA_interrupt, "span, growx");
+//		teamAPanel.add(this.teamA_correct, "sizegroupy group1y, sizegroupx group1x, growx");
+//		teamAPanel.add(this.teamA_incorrect, "sizegroupy group1y, sizegroupx group1x, growx");
+//
+//		final JPanel teamBPanel = new JPanel();
+//		teamBPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+//		this.teamB_interrupt.setMinimumSize(new Dimension(35, 35));
+//		
+//		teamBPanel.add(this.teamBLabel, "span, wrap, align left, gaptop 5, gapleft 15");
+//		teamBPanel.add(this.teamB_interrupt, "span, growx");
+//		teamBPanel.add(this.teamB_correct, "sizegroupy group2y, sizegroupx group2x, growx");
+//		teamBPanel.add(this.teamB_incorrect, "sizegroupy group2y, sizegroupx group2x, growx");
+//
+//		final JPanel submitBackPanel = new JPanel();
+//		submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
+//		submitBackPanel.add(this.backButton, "sizegroup group3, growx");
+//		submitBackPanel.add(this.submitButton, "sizegroup group3, growx");
+//
+//		JPanel answerPanel = new JPanel();
+//		answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+//		answerPanel.add(teamAPanel, "growx");
+//		answerPanel.add(teamBPanel, "growx");
+//		answerPanel.add(submitBackPanel, "growx, span");
+//
+//		return answerPanel;
 	}
 
 	/**
@@ -517,8 +529,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.teamB = new ButtonState(this.teamB_correct, this.teamB_incorrect,
 				this.teamB_interrupt);
 
-		this.submitButton = this.createNavigationButton();
 		this.backButton = this.createNavigationButton();
+		this.nextQuestionButton= this.createNavigationButton();
+		this.nextTossupButton = this.createNavigationButton();
 
 		this.configureButtons();
 		this.hasSeenTcqReminder = false;
@@ -600,19 +613,24 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.teamB_interrupt.setText("Interrupt");
 		this.teamB_interrupt.setFocusable(false);
 
-		this.submitButton.setAction(submitAction);
-		this.submitButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
-				IconFactory.NEXT)));
-		this.submitButton.setText("Submit");
-		this.submitButton.setHorizontalTextPosition(SwingConstants.LEFT);
-		this.submitButton.setFocusable(false);
+		this.nextQuestionButton.setAction(new NextQuestionAction(this.handler));
+		this.nextQuestionButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
+				.getResource(IconFactory.NEXT)));
+		this.nextQuestionButton.setMinimumSize(new Dimension(100, 100));
+		this.nextQuestionButton.setToolTipText("Next question (tossup or bonus)");
+		
+		this.nextTossupButton.setAction(submitAction);
+		this.nextTossupButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
+				.getResource(IconFactory.DOUBLE_NEXT)));
+		this.nextTossupButton.setMinimumSize(new Dimension(100, 100));
+		this.nextTossupButton.setToolTipText("Next tossup");
 
 		this.backButton.setAction(new BackButtonAction(this.handler));
-		this.backButton.setText("Back");
-		this.backButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
-				IconFactory.BACK)));
-		this.backButton.setHorizontalTextPosition(SwingConstants.RIGHT);
-		this.backButton.setFocusable(false);
+		this.backButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
+				.getResource(IconFactory.BACK)));
+		this.backButton.setMinimumSize(new Dimension(100, 100));
+		this.backButton.setToolTipText("Previous tossup or bonus");
+
 	}
 
 	/**
@@ -773,8 +791,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private void createAnswerPanel(Question question) {
 		this.answerPanelScroller.getViewport().remove(0);
 		
-		JTextPane textPane = this.createJTextPane(this.getQuestionBackground(question));
-//		textPane.setBorder(new TitledBorder("Correct Answer"));
+		JTextPane textPane = this.createJTextPane(Color.LIGHT_GRAY);
 		
 		StyledDocument document = this.configureStyledDocument(textPane);
 		
@@ -818,7 +835,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		// disable back button if viewing the very first question
 		this.backButton.setEnabled(!question.getNumber().equals("1"));
 
-		this.submitButton.setEnabled(true);
+		this.nextQuestionButton.setEnabled(true);
 
 		// ensure both teams enabled if tossup
 		if (question.getType() == Question.Type.TOSSUP) {
@@ -994,7 +1011,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 
 		this.toggleTeamButtons(false, true);
 		this.toggleTeamButtons(false, false);
-		this.submitButton.setEnabled(false);
+		this.nextQuestionButton.setEnabled(false);
 	}
 
 
@@ -1127,7 +1144,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.teamB_interrupt.setEnabled(false);
 
 		this.backButton.setSelected(false);
-		this.submitButton.setSelected(false);
+		this.nextQuestionButton.setSelected(false);
 	}
 
 	private void updateBorders() {
@@ -1159,7 +1176,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.teamB_interrupt.setEnabled(this.gameState.isTeamBInterruptEnabled());
 
 		this.backButton.setEnabled(this.gameState.isBackEnabled());
-		this.submitButton.setEnabled(this.gameState.isSubmitEnabled());
+		this.nextQuestionButton.setEnabled(this.gameState.isSubmitEnabled());
 
 		this.hidingQuestions = false;
 		this.frame.setState(Frame.NORMAL);
@@ -1174,13 +1191,13 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 					this.teamA_incorrect.isEnabled(), this.teamA_interrupt.isEnabled(),
 					this.teamB_correct.isEnabled(), this.teamB_incorrect.isEnabled(),
 					this.teamB_interrupt.isEnabled(), this.backButton.isEnabled(),
-					this.submitButton.isEnabled());
+					this.nextQuestionButton.isEnabled());
 	
 			this.disableTeamA();
 			this.disableTeamB();
 	
 			this.disableBackButton();
-			this.submitButton.setEnabled(false);
+			this.nextQuestionButton.setEnabled(false);
 		}
 	}
 }

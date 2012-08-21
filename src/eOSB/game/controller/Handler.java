@@ -20,9 +20,9 @@ import eOSB.binder.controller.UpdateQuestionEvent;
 import eOSB.binder.ui.HideBuzzerQuestionsEvent;
 import eOSB.binder.ui.ShowBuzzerQuestionsEvent;
 import eOSB.binder.ui.actions.RoundSelectedEvent;
+import eOSB.game.data.QuestionXMLParser;
 import eOSB.game.data.RoundFactory;
 import eOSB.game.data.TcqFactory;
-import eOSB.game.data.QuestionXMLParser;
 import eOSB.game.ui.PackageSelectionListEvent;
 import eOSB.game.ui.PackagesSelectedEvent;
 import eOSB.game.ui.RoundSelectionListEvent;
@@ -69,7 +69,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
   
   private boolean hasReadTerms = false;
   
-  
   private String mostRecentRoundSelection = "Round 1";
   private int mostRecentPackageSelection = BINDER;
   
@@ -78,7 +77,10 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
   public static final int BINDER_SCOREKEEPER = 2;
   public static final int BINDER_TIMEKEEPER_SCOREKEEPER = 3;
   
-  public static final String QUESTION_CODE = "120416-0423N";
+  public static final String QUESTION_CODE = "120419-0423N";
+
+  // flag to indicate MOP or actual competition version
+  public static final boolean IS_ORIENTATION_VERSION = false;
 
   /**
    * Initializes the game controller object.
@@ -146,136 +148,137 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
     
     this.availableRounds.add(new Round("Round Robin / Round 3", RoundFactory.ROUND_3, tcqs, tcqSolutions));
     
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 4 A", TcqFactory.TCQ_4_A, "Geology", "4:00"));
-    tcqs.add(new Tcq("Round 4 B", TcqFactory.TCQ_4_B, "Technology", "3:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Round 4 A Solutions", TcqFactory.TCQ_4_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Round 4 B Solutions", TcqFactory.TCQ_4_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Round Robin / Round 4", RoundFactory.ROUND_4, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Round 5 A", TcqFactory.TCQ_5_A, "Physical", "3:00"));
-    tcqs.add(new Tcq("Round 5 B", TcqFactory.TCQ_5_B, "Biology", "3:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Round 5 A Solutions", TcqFactory.TCQ_5_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Round 5 B Solutions", TcqFactory.TCQ_5_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Round Robin / Round 5", RoundFactory.ROUND_5, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 1 A", TcqFactory.TCQ_6_A, "Marine Policy", "3:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 1 B", TcqFactory.TCQ_6_B, "Chemistry", "5:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 1 A Solutions", TcqFactory.TCQ_6_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 1 B Solutions", TcqFactory.TCQ_6_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 1", RoundFactory.ROUND_6, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 2 A", TcqFactory.TCQ_7_A, "Social Science", "3:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 2 B", TcqFactory.TCQ_7_B, "Geology", "5:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 2 A Solutions", TcqFactory.TCQ_7_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 2 B Solutions", TcqFactory.TCQ_7_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 2", RoundFactory.ROUND_7, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 3 A", TcqFactory.TCQ_8_A, "Geology", "3:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 3 B", TcqFactory.TCQ_8_B, "Chemistry", "3:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 3 A Solutions", TcqFactory.TCQ_8_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 3 B Solutions", TcqFactory.TCQ_8_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 3", RoundFactory.ROUND_8, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 4 A", TcqFactory.TCQ_9_A, "Geology", "4:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 4 B", TcqFactory.TCQ_9_B, "Marine Policy", "3:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 4 A Solutions", TcqFactory.TCQ_9_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 4 B Solutions", TcqFactory.TCQ_9_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 4", RoundFactory.ROUND_9, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 5 A", TcqFactory.TCQ_10_A, "Biology", "4:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 5 B", TcqFactory.TCQ_10_B, "Chemistry", "5:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 5 A Solutions", TcqFactory.TCQ_10_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 5 B Solutions", TcqFactory.TCQ_10_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 5", RoundFactory.ROUND_10, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 6 A", TcqFactory.TCQ_11_A, "Physical", "5:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 6 B", TcqFactory.TCQ_11_B, "Biology", "5:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 6 A Solutions", TcqFactory.TCQ_11_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 6 B Solutions", TcqFactory.TCQ_11_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 6", RoundFactory.ROUND_11, tcqs, tcqSolutions));
-    
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 7 A", TcqFactory.TCQ_12_A, "Physical", "5:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 7 B", TcqFactory.TCQ_12_B, "Technology", "5:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 7 A Solutions", TcqFactory.TCQ_12_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 7 B Solutions", TcqFactory.TCQ_12_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 7", RoundFactory.ROUND_12, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 8 A", TcqFactory.TCQ_13_A, "Biology", "4:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 8 B", TcqFactory.TCQ_13_B, "Geography", "5:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 8 A Solutions", TcqFactory.TCQ_13_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 8 B Solutions", TcqFactory.TCQ_13_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 8", RoundFactory.ROUND_13, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Double Elimination / Round 9 A", TcqFactory.TCQ_14_A, "Social Science", "4:00"));
-    tcqs.add(new Tcq("Double Elimination / Round 9 B", TcqFactory.TCQ_14_B, "Chemistry", "4:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Double Elimination / Round 9 A Solutions", TcqFactory.TCQ_14_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Double Elimination / Round 9 B Solutions", TcqFactory.TCQ_14_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Double Elimination / Round 9", RoundFactory.ROUND_14, tcqs, tcqSolutions));
-
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Extra Round A", TcqFactory.TCQ_15_A, "Marine Policy", "3:00"));
-    tcqs.add(new Tcq("Extra Round B", TcqFactory.TCQ_15_B, "Physical", "4:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Extra Round A Solutions", TcqFactory.TCQ_15_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Extra Round B Solutions", TcqFactory.TCQ_15_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Extra Round", RoundFactory.EXTRA, tcqs, tcqSolutions));
-    
-    tcqs = new ArrayList<Tcq>();
-    tcqs.add(new Tcq("Tiebreaker Round A", TcqFactory.TCQ_15_A, "Marine Policy", "3:00"));
-    tcqs.add(new Tcq("Tiebreaker Round B", TcqFactory.TCQ_15_B, "Physical", "4:00"));
-
-    tcqSolutions = new ArrayList<Tcq>();
-    tcqSolutions.add(new Tcq("Tiebreaker Round A Solutions", TcqFactory.TCQ_15_A_SOLUTIONS));
-    tcqSolutions.add(new Tcq("Tiebreaker Round B Solutions", TcqFactory.TCQ_15_B_SOLUTIONS));
-
-    this.availableRounds.add(new Round("Tiebreaker Round", RoundFactory.TIEBREAKER, tcqs, tcqSolutions));
-
+    if (!Handler.IS_ORIENTATION_VERSION) {
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Round 4 A", TcqFactory.TCQ_4_A, "Geology", "4:00"));
+	    tcqs.add(new Tcq("Round 4 B", TcqFactory.TCQ_4_B, "Technology", "3:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Round 4 A Solutions", TcqFactory.TCQ_4_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Round 4 B Solutions", TcqFactory.TCQ_4_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Round Robin / Round 4", RoundFactory.ROUND_4, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Round 5 A", TcqFactory.TCQ_5_A, "Physical", "3:00"));
+	    tcqs.add(new Tcq("Round 5 B", TcqFactory.TCQ_5_B, "Biology", "3:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Round 5 A Solutions", TcqFactory.TCQ_5_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Round 5 B Solutions", TcqFactory.TCQ_5_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Round Robin / Round 5", RoundFactory.ROUND_5, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 1 A", TcqFactory.TCQ_6_A, "Marine Policy", "3:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 1 B", TcqFactory.TCQ_6_B, "Chemistry", "5:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 1 A Solutions", TcqFactory.TCQ_6_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 1 B Solutions", TcqFactory.TCQ_6_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 1", RoundFactory.ROUND_6, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 2 A", TcqFactory.TCQ_7_A, "Social Science", "3:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 2 B", TcqFactory.TCQ_7_B, "Geology", "5:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 2 A Solutions", TcqFactory.TCQ_7_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 2 B Solutions", TcqFactory.TCQ_7_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 2", RoundFactory.ROUND_7, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 3 A", TcqFactory.TCQ_8_A, "Geology", "3:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 3 B", TcqFactory.TCQ_8_B, "Chemistry", "3:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 3 A Solutions", TcqFactory.TCQ_8_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 3 B Solutions", TcqFactory.TCQ_8_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 3", RoundFactory.ROUND_8, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 4 A", TcqFactory.TCQ_9_A, "Geology", "4:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 4 B", TcqFactory.TCQ_9_B, "Marine Policy", "3:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 4 A Solutions", TcqFactory.TCQ_9_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 4 B Solutions", TcqFactory.TCQ_9_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 4", RoundFactory.ROUND_9, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 5 A", TcqFactory.TCQ_10_A, "Biology", "4:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 5 B", TcqFactory.TCQ_10_B, "Chemistry", "5:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 5 A Solutions", TcqFactory.TCQ_10_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 5 B Solutions", TcqFactory.TCQ_10_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 5", RoundFactory.ROUND_10, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 6 A", TcqFactory.TCQ_11_A, "Physical", "5:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 6 B", TcqFactory.TCQ_11_B, "Biology", "5:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 6 A Solutions", TcqFactory.TCQ_11_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 6 B Solutions", TcqFactory.TCQ_11_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 6", RoundFactory.ROUND_11, tcqs, tcqSolutions));
+	    
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 7 A", TcqFactory.TCQ_12_A, "Physical", "5:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 7 B", TcqFactory.TCQ_12_B, "Technology", "5:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 7 A Solutions", TcqFactory.TCQ_12_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 7 B Solutions", TcqFactory.TCQ_12_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 7", RoundFactory.ROUND_12, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 8 A", TcqFactory.TCQ_13_A, "Biology", "4:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 8 B", TcqFactory.TCQ_13_B, "Geography", "5:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 8 A Solutions", TcqFactory.TCQ_13_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 8 B Solutions", TcqFactory.TCQ_13_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 8", RoundFactory.ROUND_13, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Double Elimination / Round 9 A", TcqFactory.TCQ_14_A, "Social Science", "4:00"));
+	    tcqs.add(new Tcq("Double Elimination / Round 9 B", TcqFactory.TCQ_14_B, "Chemistry", "4:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 9 A Solutions", TcqFactory.TCQ_14_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Double Elimination / Round 9 B Solutions", TcqFactory.TCQ_14_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Double Elimination / Round 9", RoundFactory.ROUND_14, tcqs, tcqSolutions));
+	
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Extra Round A", TcqFactory.TCQ_15_A, "Marine Policy", "3:00"));
+	    tcqs.add(new Tcq("Extra Round B", TcqFactory.TCQ_15_B, "Physical", "4:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Extra Round A Solutions", TcqFactory.TCQ_15_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Extra Round B Solutions", TcqFactory.TCQ_15_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Extra Round", RoundFactory.EXTRA, tcqs, tcqSolutions));
+	    
+	    tcqs = new ArrayList<Tcq>();
+	    tcqs.add(new Tcq("Tiebreaker Round A", TcqFactory.TCQ_15_A, "Marine Policy", "3:00"));
+	    tcqs.add(new Tcq("Tiebreaker Round B", TcqFactory.TCQ_15_B, "Physical", "4:00"));
+	
+	    tcqSolutions = new ArrayList<Tcq>();
+	    tcqSolutions.add(new Tcq("Tiebreaker Round A Solutions", TcqFactory.TCQ_15_A_SOLUTIONS));
+	    tcqSolutions.add(new Tcq("Tiebreaker Round B Solutions", TcqFactory.TCQ_15_B_SOLUTIONS));
+	
+	    this.availableRounds.add(new Round("Tiebreaker Round", RoundFactory.TIEBREAKER, tcqs, tcqSolutions));
+    }
   }
 
   /**
@@ -361,7 +364,9 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
    * to next tossup.)
    */
   public void nextQuestion(boolean enableTeamA, boolean enableTeamB, Turn turn) {
-    this.scorekeeper.addTurn(turn);
+  	if (turn != null) {
+  		this.scorekeeper.addTurn(turn);
+  	}
     
     EventBus.publish(new UpdateQuestionEvent(this, this.currentRound.getNextQuestion(),
         enableTeamA, enableTeamB));
@@ -371,23 +376,28 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
    * Withdraws the most recent question.
    */
   public void previousQuestion() {
-//    System.out.println("PREVIOUS");
-    Turn turn = this.scorekeeper.removeTurn();
-
-    if (turn != null) {
-      boolean enableTeamA = false;
-      if (turn.getTeamAScore().getWorth() > 0) {
-        enableTeamA = true;
-      }
-
-      boolean enableTeamB = false;
-      if (turn.getTeamBScore().getWorth() > 0) {
-        enableTeamB = true;
-      }
-
-      EventBus.publish(new UpdateQuestionEvent(this, this.currentRound.getPreviousQuestion(),
-          enableTeamA, enableTeamB));
-    }
+  	if (this.isUsingScoreboard()) {
+  		Turn turn = this.scorekeeper.removeTurn();
+  		
+  		if (turn != null) {
+  			boolean enableTeamA = false;
+  			if (turn.getTeamAScore().getWorth() > 0) {
+  				enableTeamA = true;
+  			}
+  			
+  			boolean enableTeamB = false;
+  			if (turn.getTeamBScore().getWorth() > 0) {
+  				enableTeamB = true;
+  			}
+  			
+  			EventBus.publish(new UpdateQuestionEvent(this, this.currentRound.getPreviousQuestion(), 
+  					enableTeamA, enableTeamB));
+  		}
+  	}
+  	else {
+  		EventBus.publish(new UpdateQuestionEvent(this, this.currentRound.getPreviousQuestion(), 
+					true, true));
+  	}
   }
 
   /**

@@ -8,7 +8,7 @@
       <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>The French American Mid Ocean Undersea Study in 1974 allowed which seafloor features to be photographed and directly sampled?</QuestionText>
       <AnswerW>Ocean thermal vents</AnswerW>
-      <AnswerX>Deep sea coraps</AnswerX>
+      <AnswerX>Deep sea corals</AnswerX>
       <AnswerY>Mid-ocean ridge rocks</AnswerY>
       <AnswerZ>Deep sea trenches</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
@@ -19,7 +19,7 @@
       <Category>Geology - Plate Tectonics</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>The breakup of the super continent Pangea [pan-gee-ah] occurred during what geologic period?</QuestionText>
-      <CorrectAnswer>Triassic (ACCEPT: Jurassic</CorrectAnswer>
+      <CorrectAnswer>Triassic (ACCEPT: Jurassic)</CorrectAnswer>
     </Question>
     <Question QuestionID="24878" QuestionIDString="0000024878">
       <QuestionPair>2</QuestionPair>
@@ -119,7 +119,7 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What chemical compound is primarily responsible for the acidification of the oceans?</QuestionText>
-      <CorrectAnswer>Carbon Dioxide</CorrectAnswer>
+      <CorrectAnswer>Carbonic acid OR H2CO3</CorrectAnswer>
     </Question>
     <Question QuestionID="26211" QuestionIDString="0000026211">
       <QuestionPair>7</QuestionPair>

@@ -9,13 +9,11 @@ import eOSB.binder.controller.ButtonState;
 import eOSB.game.controller.Handler;
 
 /**
- * The action associated with clicking "Submit", or either of the team's
- * "Correct" buttons
- * @author Caine Jette
- * 
+ * Action to handle clicking 'Submit'
+ * @author jette
+ *
  */
 public class SubmitAction extends AbstractAction {
-
   private Handler handler;
   private ButtonState teamA;
   private ButtonState teamB;
@@ -26,19 +24,23 @@ public class SubmitAction extends AbstractAction {
     this.teamB = teamB;
   }
 
-  /** {@inheritDoc} */
   public void actionPerformed(ActionEvent ae) {
-
     Object source = ae.getSource();
-    if (source instanceof JButton) {
-      JButton button = (JButton) source;
+    if ((source instanceof JButton)) {
+      JButton button = (JButton)source;
       String actionCommand = button.getActionCommand();
 
-      if (actionCommand.equals("TEAM_A")) {
-        this.teamA.setCorrect(true);
+      if (actionCommand != null) {
+      	if (actionCommand.equals("TEAM_A")) {
+      		this.teamA.setCorrect(true);
+      	}
+      	else if (actionCommand.equals("TEAM_B")) {
+      		this.teamB.setCorrect(true);
+      	}
       }
-      else if (actionCommand.equals("TEAM_B")) {
-        this.teamB.setCorrect(true);
+      else {
+      	this.teamA.setCorrect(false);
+      	this.teamB.setCorrect(false);
       }
     }
     AnswerUtils.processSubmission(this.handler, this.teamA, this.teamB);

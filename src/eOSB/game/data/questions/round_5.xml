@@ -299,7 +299,7 @@
       <Category>Chemical</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
       <QuestionText>What are two processes that act as removal mechanisms for trace elements in the ocean?</QuestionText>
-      <CorrectAnswer>ANY TWO AMONG: Inorganic (ACCEPT: Chemical precipitation, hydrothermal venting, passive scavenging by particles, active uptake by organisms</CorrectAnswer>
+      <CorrectAnswer>Any TWO among: Inorganic precipitation, chemical precipitation, hydrothermal venting, passive scavenging by particles, active uptake by organisms</CorrectAnswer>
     </Question>
     <Question QuestionID="27531" QuestionIDString="0000027531">
       <QuestionPair>16</QuestionPair>
@@ -378,7 +378,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Biology - Anatomy and Physiology</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What float-like polyp type do colonial cnidarians like Velella [uh-LEL-uh] and Physalia [fi-say-lee-uh] fill with gas to obtain positive buoyancy?</QuestionText>
+      <QuestionText>What float-like polyp type do colonial cnidarians like Velella [vuh-LEL-uh] and Physalia [fi-say-lee-uh] fill with gas to obtain positive buoyancy?</QuestionText>
       <CorrectAnswer>Pneumatophore [new-MAT-uh-fore]</CorrectAnswer>
     </Question>
     <Question QuestionID="26210" QuestionIDString="0000026210">

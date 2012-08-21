@@ -85,9 +85,13 @@
       <QuestionPair>5</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
       <Category>Physical - Tides</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
       <QuestionText>In Canada's Bay of Fundy, the period of the main tidal component almost equals the natural period of the basin, resulting in what condition?</QuestionText>
-      <CorrectAnswer>Tidal resonance</CorrectAnswer>
+      <AnswerW>Captured rotation</AnswerW>
+      <AnswerX>Tidal resonance</AnswerX>
+      <AnswerY>Tidal acceleration</AnswerY>
+      <AnswerZ>Bulge dragging</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
     <Question QuestionID="26575" QuestionIDString="0000026575">
       <QuestionPair>5</QuestionPair>
