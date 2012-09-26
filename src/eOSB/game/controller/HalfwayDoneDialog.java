@@ -30,7 +30,8 @@ public class HalfwayDoneDialog extends StandardDialog {
 		this.pack();
 		this.setTitle("TCQ Reminder");
 
-		this.setLocationRelativeTo(this.parent);
+//		this.setLocationRelativeTo(this.parent);
+		this.setLocationRelativeTo(null);
 		this.setResizable(false);
 	}
 

@@ -16,6 +16,7 @@ import javax.swing.JPasswordField;
 import com.jidesoft.dialog.StandardDialog;
 
 import eOSB.game.controller.Handler;
+import eOSB.game.controller.Password;
 
 /**
  * The action that validates a user's password.
@@ -77,12 +78,23 @@ public class ValidatePasswordButtonAction extends AbstractAction {
 			e.printStackTrace();
 		}
 
-		final boolean isCorrect;
-		if (input.length != correctPassword.length()) {
+		boolean isCorrect;
+		String providedPassword = new String(input);
+		try {
+			if (Password.check(providedPassword, correctPassword)) {
+				isCorrect = true;
+			}
+			else {
+				isCorrect = false;
+			}
+		} catch (Exception e) {
 			isCorrect = false;
-		} else {
-			isCorrect = correctPassword.equals(new String(input));
 		}
+//		if (input.length != correctPassword.length()) {
+//			isCorrect = false;
+//		} else {
+//			isCorrect = correctPassword.equals(new String(input));
+//		}
 
 		Date currentDate = new Date();
 

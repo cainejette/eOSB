@@ -29,7 +29,7 @@ public class AboutEOSBDialog extends StandardDialog {
 	private void init() {
 		this.setModal(true);
 		this.pack();
-		this.setTitle("About eNSB");
+		this.setTitle("About eOSB");
 		
 		this.setResizable(false);
 		this.setLocationRelativeTo(this.parent);
@@ -40,7 +40,7 @@ public class AboutEOSBDialog extends StandardDialog {
 	public JComponent createBannerPanel() {
 		JLabel label = new JLabel("eOSB is dedicated towards making NOSB greener and more sustainable.");
 		JLabel label4 = new JLabel("A sister project, eNSB, serves a parallel function for the NSB competition.");
-		JLabel label2 = new JLabel("Both are written by NSB + NOSB alumnus Caine Jette, reachable via jette@alum.mit.edu.");
+		JLabel label2 = new JLabel("Both are maintained by NSB + NOSB alumnus Caine Jette, reachable via jette@alum.mit.edu.");
     label.setFont(new Font(label.getFont().getName(), Font.PLAIN, label.getFont().getSize() + 2));
 
 		

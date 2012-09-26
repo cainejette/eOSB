@@ -40,7 +40,8 @@ public class TcqPreambleDialog extends StandardDialog {
   private void init() {
     this.pack();
     this.setTitle("TCQ Preamble");
-    this.setLocationRelativeTo(this.handler.getFrame());
+//    this.setLocationRelativeTo(this.handler.getFrame());
+    this.setLocationRelativeTo(null);
     this.setPreferredSize(new Dimension(300, 200));
     this.setResizable(true);
 //    this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);

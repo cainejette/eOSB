@@ -1,7 +1,6 @@
 package eOSB.game.ui;
 
 import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
@@ -13,10 +12,9 @@ import com.jidesoft.dialog.StandardDialog;
 import eOSB.binder.ui.actions.CancelButtonAction;
 import eOSB.binder.ui.actions.CloseProgramButtonAction;
 import eOSB.game.controller.Handler;
-import eOSB.game.data.IconFactory;
 
 /**
- * Dialog used to verify the user means to exit out of eOSB.
+ * Dialog used to confirm a user's intention of closing eOSB to prevent data loss.
  * @author cjette
  * 
  */

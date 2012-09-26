@@ -77,10 +77,10 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
   public static final int BINDER_SCOREKEEPER = 2;
   public static final int BINDER_TIMEKEEPER_SCOREKEEPER = 3;
   
-  public static final String QUESTION_CODE = "120419-0423N";
+  public static final String QUESTION_CODE = "120925-MOP";
 
   // flag to indicate MOP or actual competition version
-  public static final boolean IS_ORIENTATION_VERSION = false;
+  public static final boolean IS_ORIENTATION_VERSION = true;
 
   /**
    * Initializes the game controller object.
@@ -349,7 +349,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			DisplayEulaDialog eulaDialog = new DisplayEulaDialog(this);
 			eulaDialog.setVisible(true);
 		} else {
-			SelectPackageDialog dialog = new SelectPackageDialog(this.getFrame(), this.mostRecentPackageSelection);
+			SelectRoundDialog dialog = new SelectRoundDialog(this.getFrame(), this.availableRounds);
 			dialog.setVisible(true);
 		}
 	}
@@ -484,7 +484,10 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
     else if (event instanceof ShowSelectPackagesDialogEvent) {
     	System.out.println("[Handler/onEvent] received ShowSelectPackagesDialogEvent");
     	this.setHasReadEula(true);
-    	this.showSelectPackagesDialog();
+//    	this.showSelectPackagesDialog();
+    	this.shouldUseScoreboard = false;
+    	this.shouldUseTimer = false;
+    	this.showSelectRoundDialog();
     }
     
     else if (event instanceof PackageSelectionListEvent) {
