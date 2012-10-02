@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="404" BowlYear="2012" RoundName="Round 01" CompetitionName="Finals">
+  <Questions>
+    <Question QuestionID="27478" QuestionIDString="0000027478">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Thermodynamics</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The paired appendages on the lower torso of a human are called:</QuestionText>
+      <AnswerW>Arms.</AnswerW>
+      <AnswerX>Legs.</AnswerX>
+      <AnswerY>Eyes.</AnswerY>
+      <AnswerZ>Noses.</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26458" QuestionIDString="0000026458">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology - Human defned/caused problems </Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In what state is the Grand Canyon located?</QuestionText>
+      <CorrectAnswer>Arizona.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26152" QuestionIDString="0000026152">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following would you NOT typically eat for breakfast?</QuestionText>
+      <AnswerW>Cereal</AnswerW>
+      <AnswerX>Lasagna</AnswerX>
+      <AnswerY>Oatmeal</AnswerY>
+      <AnswerZ>Scrambled eggs</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26479" QuestionIDString="0000026479">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Sports</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Put the following sporting events in the order that they occur in a calendar year: Super Bowl, World Series, U.S. Tennis Open, U.S. Golf Open.</QuestionText>
+      <CorrectAnswer>Super Bowl, U.S. Golf Open, U.S. Tennis Open, World Series</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26219" QuestionIDString="0000026219">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the name of the national memorial that is located in Washington, DC and which no building can be taller than?</QuestionText>
+      <AnswerW>Jefferson Memorial</AnswerW>
+      <AnswerX>Lincoln Memorial</AnswerX>
+      <AnswerY>World War II Memorial</AnswerY>
+      <AnswerZ>Washington Memorial</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26780" QuestionIDString="0000026780">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Movies</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What animated movie tells the story of a father clownfish searching for his son who was stolen by a scuba diver and put into a fish tank?</QuestionText>
+      <CorrectAnswer>Finding Nemo</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25305" QuestionIDString="0000025305">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Music</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which technological tool provides the means by which one can listen to music on the go and select personalized play lists from their computer?</QuestionText>
+      <AnswerW>CD player</AnswerW>
+      <AnswerX>Record player</AnswerX>
+      <AnswerY>mp3 player</AnswerY>
+      <AnswerZ>Tape player</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8368" QuestionIDString="0000008368">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the national bird of the United States?</QuestionText>
+      <CorrectAnswer>Bald eagle (Just eagle NOT acceptable)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26055" QuestionIDString="0000026055">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Ecology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In the gym, which piece of equipment can let runners experience the thrill of running indoors while also regulating their pace?</QuestionText>
+      <AnswerW>Stair stepper</AnswerW>
+      <AnswerX>Spinning bike</AnswerX>
+      <AnswerY>Elliptical</AnswerY>
+      <AnswerZ>Treadmill</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26150" QuestionIDString="0000026150">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Spelling - Chemical species</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How do you spell the word oceanography?</QuestionText>
+      <CorrectAnswer>O C E A N O G R A P H Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12702" QuestionIDString="0000012702">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Sports</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the name of the swimmer who won 8 gold medals at the Beijing Olympics, breaking Mark Spitz’s record of 7?</QuestionText>
+      <AnswerW>Ryan Lochte</AnswerW>
+      <AnswerX>Gary Hall, Jr.</AnswerX>
+      <AnswerY>Caine Jette</AnswerY>
+      <AnswerZ>Michael Phelps</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26605" QuestionIDString="0000026605">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the name of the Regional Bowl held in Washington, D.C as part of the National Ocean Sciences Bowl?</QuestionText>
+      <CorrectAnswer>Chesapeake Bay Bowl</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12222" QuestionIDString="0000012222">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which volunteer position keeps track of the official score of the competition and stands so that everyone can see them?</QuestionText>
+      <AnswerW>Score keeper</AnswerW>
+      <AnswerX>Rules judge</AnswerX>
+      <AnswerY>Moderator</AnswerY>
+      <AnswerZ>Science judge</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26288" QuestionIDString="0000026288">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Who was sworn as the President of the United States in January, 2009?</QuestionText>
+      <CorrectAnswer>Barack Obama</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26062" QuestionIDString="0000026062">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Sports - Behavior/Adaptations</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which team suffered the Curse of the Bambino for 86 years?</QuestionText>
+      <AnswerW>Tampa Bay Devil Rays</AnswerW>
+      <AnswerX>Philadelphia Phillies</AnswerX>
+      <AnswerY>New York Yankees</AnswerY>
+      <AnswerZ>Boston Red Sox</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27282" QuestionIDString="0000027282">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What day of the week is Martin Luther King Day always on?</QuestionText>
+      <CorrectAnswer>Monday</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26410" QuestionIDString="0000026410">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Tides</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>On multiple choice questions:</QuestionText>
+      <AnswerW>The first answer given is the only one that counts.</AnswerW>
+      <AnswerX>The answer must include both the letter and the scientific answer.</AnswerX>
+      <AnswerY>The answer must have the same meaning as the correct answer.</AnswerY>
+      <AnswerZ>Only the final answer counts.</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26552" QuestionIDString="0000026552">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>When does the other team NOT get the chance to answer a toss up question that has been incorrectly answered?</QuestionText>
+      <CorrectAnswer>If the question was completely read and time expires before the other team has buzzed in.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26072" QuestionIDString="0000026072">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the maximum amount of time after the moderator has finished reading a toss up question for a player to buzz in?</QuestionText>
+      <AnswerW>3 seconds</AnswerW>
+      <AnswerX>5 seconds</AnswerX>
+      <AnswerY>10 seconds</AnswerY>
+      <AnswerZ>20 seconds</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26961" QuestionIDString="0000026961">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>After a player has buzzed in and been verbally recognized, how long does that player have to begin their answer?</QuestionText>
+      <AnswerW>2 seconds</AnswerW>
+      <AnswerX>3 seconds</AnswerX>
+      <AnswerY>5 seconds</AnswerY>
+      <AnswerZ>10 seconds</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

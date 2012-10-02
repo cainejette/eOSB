@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="404" BowlYear="2012" RoundName="Round 01" CompetitionName="Finals">
+  <Questions>
+    <Question QuestionID="27478" QuestionIDString="0000027478">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Thermodynamics</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>George High School has three teams competing in the Tsunami Bowl this year.  After the first round, one of the members of Team A becomes ill and can no longer participate in the competition.  The coach may:?</QuestionText>
+      <AnswerW>Substitiute someone from Team B on to Team A.</AnswerW>
+      <AnswerX>Continue competing using the alternate member of Team A.</AnswerX>
+      <AnswerY>Continue competing with the alternate of Team C moved to Team A.</AnswerY>
+      <AnswerZ>Continue competing with three players.</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26458" QuestionIDString="0000026458">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Human defined/caused problems </Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How does a student become eligible to compete in the NOSB Finals competition?</QuestionText>
+      <CorrectAnswer>The student must have competed on a team that won a regional NOSB competition that year.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26152" QuestionIDString="0000026152">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>The three types of questions in the NOSB competition are:</QuestionText>
+      <AnswerW>Multiple choice, short answer, and toss up</AnswerW>
+      <AnswerX>Toss up, multiple choice, and team challenge</AnswerX>
+      <AnswerY>Multiple choice, short answer, and bonus</AnswerY>
+      <AnswerZ>Toss up, bonus, and team challenge</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26479" QuestionIDString="0000026479">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Name the six types of officials required for each game.</QuestionText>
+      <CorrectAnswer>Moderator, science judge, rules judge, time keeper, score keeper, and runner.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26219" QuestionIDString="0000026219">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>A school may compete in how many regional competitions each year?</QuestionText>
+      <AnswerW>One</AnswerW>
+      <AnswerX>Two</AnswerX>
+      <AnswerY>One each semester</AnswerY>
+      <AnswerZ>One, unless it wins. Then, two.</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26780" QuestionIDString="0000026780">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What two things must happen for a player to win the right to answer a toss up question?</QuestionText>
+      <CorrectAnswer>The player must be the first to activate the lock-out buzzer system, and be verbally recognized by the moderator.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25305" QuestionIDString="0000025305">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which volunteer position keeps track of the official score of the competition and stands so that everyone can see them?</QuestionText>
+      <AnswerW>Score keeper</AnswerW>
+      <AnswerX>Rules judge</AnswerX>
+      <AnswerY>Moderator</AnswerY>
+      <AnswerZ>Science judge</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8368" QuestionIDString="0000008368">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What happens if a team member buzzes in before the subject of the question has been identified?</QuestionText>
+      <CorrectAnswer>It is treated as a type of "blurt" or non-answer. No indication is given as to whether the answer was right or wrong. No points are deducted. The moderator rereads the entire question for the other team which has the opportunity to answer both it and the bonus question.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26055" QuestionIDString="0000026055">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Ecology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>If a player buzzes in to answer a question before the question has been read entirely and is recognized, what is that called?</QuestionText>
+      <AnswerW>A correct answer</AnswerW>
+      <AnswerX>Interrupt</AnswerX>
+      <AnswerY>Blurt</AnswerY>
+      <AnswerZ>An incorrect answer</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26150" QuestionIDString="0000026150">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Chemical species</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What happens if a toss up question is answered by a player before being verbally recognized by the moderator?</QuestionText>
+      <CorrectAnswer>It is treated as a type of "blurt" or non-answer. The moderator does not say whether the answer was right or wrong, no points are deducted, and the question is offered to the opposing team.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12702" QuestionIDString="0000012702">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>On a short answer question:</QuestionText>
+      <AnswerW>The given answer must be exactly the same as the correct answer.</AnswerW>
+      <AnswerX>The team captain is not required to give the answer.</AnswerX>
+      <AnswerY>The answer must have the same meaning as the correct answer.</AnswerY>
+      <AnswerZ>The rules judge will decide if the given answer is correct.</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26605" QuestionIDString="0000026605">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Ecology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which one of the following statements about keeping score is true?</QuestionText>
+      <AnswerW>A bonus question is worth 6 points</AnswerW>
+      <AnswerX>A toss up question is worth 6 points</AnswerX>
+      <AnswerY>A bonus question is worth 4 points</AnswerY>
+      <AnswerZ>An incorrect bonus is worth minus 6 points</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12222" QuestionIDString="0000012222">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the competition format?</QuestionText>
+      <AnswerW>A 4 minute buzzer round, a break, 2 team challenge questions, and a 4 minute buzzer round.</AnswerW>
+      <AnswerX>Record An 8 minute buzer round, a break, and 2 team challenge questions.</AnswerX>
+      <AnswerY>A 6 minute buzzer round, a break, 2 team challenge questions, and a 6 minute buzzer round.</AnswerY>
+      <AnswerZ>A 6 minute buzzer round, 2 team challenge questions, a break, and a 6 minute buzzer round.</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26288" QuestionIDString="0000026288">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>When can an alternate player substitute into a team?</QuestionText>
+      <CorrectAnswer>At the beginning of a game or after the break in a game.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26062" QuestionIDString="0000026062">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Behavior/Adaptations</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>When is consultation among team members allowed?</QuestionText>
+      <AnswerW>On toss up questions, bonus questions, and team challenge questions</AnswerW>
+      <AnswerX>Only on team challenge questions</AnswerX>
+      <AnswerY>Only on toss up questions</AnswerY>
+      <AnswerZ>On bonus questions and team challenge questions</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27282" QuestionIDString="0000027282">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How is a team challenge question answered?</QuestionText>
+      <CorrectAnswer>The answer is written out on a paper and handed in by the team captain.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26410" QuestionIDString="0000026410">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Tides</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>On multiple choice questions:</QuestionText>
+      <AnswerW>The first answer given is the only one that counts.</AnswerW>
+      <AnswerX>The answer must include both the letter and the scientific answer.</AnswerX>
+      <AnswerY>The answer must have the same meaning as the correct answer.</AnswerY>
+      <AnswerZ>Only the final answer counts.</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26552" QuestionIDString="0000026552">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>When does the other team NOT get the chance to answer a toss up question that has been incorrectly answered?</QuestionText>
+      <CorrectAnswer>If the question was completely read and time expires before the other team has buzzed in.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26072" QuestionIDString="0000026072">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the maximum amount of time after the moderator has finished reading a toss up question for a player to buzz in?</QuestionText>
+      <AnswerW>3 seconds</AnswerW>
+      <AnswerX>5 seconds</AnswerX>
+      <AnswerY>10 seconds</AnswerY>
+      <AnswerZ>20 seconds</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26961" QuestionIDString="0000026961">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>After a player has buzzed in and been verbally recognized, how long does that player have to begin their answer?</QuestionText>
+      <AnswerW>2 seconds</AnswerW>
+      <AnswerX>3 seconds</AnswerX>
+      <AnswerY>5 seconds</AnswerY>
+      <AnswerZ>10 seconds</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

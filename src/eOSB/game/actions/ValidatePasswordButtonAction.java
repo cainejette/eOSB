@@ -4,12 +4,22 @@ import java.awt.event.ActionEvent;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.security.InvalidAlgorithmParameterException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.spec.InvalidKeySpecException;
 import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.PBEKeySpec;
+import javax.crypto.spec.PBEParameterSpec;
 import javax.swing.AbstractAction;
 import javax.swing.JPasswordField;
 
@@ -83,6 +93,8 @@ public class ValidatePasswordButtonAction extends AbstractAction {
 		try {
 			if (Password.check(providedPassword, correctPassword)) {
 				isCorrect = true;
+				String salt = correctPassword.split("\\$")[0];
+				this.handler.setRoundToken(providedPassword + salt);
 			}
 			else {
 				isCorrect = false;
@@ -90,11 +102,6 @@ public class ValidatePasswordButtonAction extends AbstractAction {
 		} catch (Exception e) {
 			isCorrect = false;
 		}
-//		if (input.length != correctPassword.length()) {
-//			isCorrect = false;
-//		} else {
-//			isCorrect = correctPassword.equals(new String(input));
-//		}
 
 		Date currentDate = new Date();
 
@@ -103,7 +110,8 @@ public class ValidatePasswordButtonAction extends AbstractAction {
 
 		if (isCorrect && currentDate.before(this.cutoffDate)) {
 			this.handler.displayEula();
-		} else {
+		} 
+		else {
 			this.handler.failedValidation(correctPassword, new String(input));
 		}
 	}

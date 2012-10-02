@@ -8,16 +8,16 @@ package eOSB.game.data;
 public class RoundFactory {
 	
 	/** practice round */
-	public static final String PRACTICE = "eOSB/game/data/questions/round_practice.xml";
+	public static final String PRACTICE = "eOSB/game/data/questions/round_practice";
 	
 	/** round 1 */
-	public static final String ROUND_1 = "eOSB/game/data/questions/round_1.xml";
+	public static final String ROUND_1 = "eOSB/game/data/questions/round_1";
 	
 	/** round 2 */
-	public static final String ROUND_2 = "eOSB/game/data/questions/round_2.xml";
+	public static final String ROUND_2 = "eOSB/game/data/questions/round_2";
 	
 	/** round 3 */
-	public static final String ROUND_3 = "eOSB/game/data/questions/round_3.xml";
+	public static final String ROUND_3 = "eOSB/game/data/questions/round_3";
 	
 	/** round 4 */
 	public static final String ROUND_4 = "eOSB/game/data/questions/round_4.xml";

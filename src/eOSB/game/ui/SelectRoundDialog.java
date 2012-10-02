@@ -28,64 +28,66 @@ import eOSB.game.controller.Round;
 
 @SuppressWarnings("serial")
 public class SelectRoundDialog extends StandardDialog {
-	
-  private JList list = new JList();
-  private JFrame parent;
-  private List<Round> availableRounds;
-  private OpenRoundAction openRoundAction;
-  private JButton okButton;
 
-  public SelectRoundDialog(JFrame parent, List<Round> availableRounds) {
-	  this.parent = parent;
-	  this.availableRounds = availableRounds;
-	  this.init();
-  }
+	private JList list = new JList();
+	private JFrame parent;
+	private List<Round> availableRounds;
+	private OpenRoundAction openRoundAction;
+	private JButton okButton;
 
-  private void init() {
-	  this.pack();
-	  this.setTitle("Round Selection");
+	public SelectRoundDialog(JFrame parent, List<Round> availableRounds) {
+		this.parent = parent;
+		this.availableRounds = availableRounds;
+		this.init();
+	}
 
-	  this.setLocationRelativeTo(this.parent);
-	  this.setResizable(false);
-	  System.out.println("round dialog size: " + this.getSize());
-  }
+	private void init() {
+		this.pack();
+		this.setTitle("Round Selection");
 
-  public JComponent createBannerPanel() {
-    JLabel message = new JLabel("Select a round:");
-    JLabel note = new JLabel("<HTML>(<i>previously opened</i>, <b>not yet opened</b>)");
-    message.setFont(new Font(message.getFont().getName(), Font.PLAIN, message.getFont().getSize() + 2));
+		this.setLocationRelativeTo(this.parent);
+		this.setResizable(false);
+		System.out.println("round dialog size: " + this.getSize());
+	}
 
-    JPanel panel = new JPanel();
-    panel.setBorder(BorderFactory.createEmptyBorder(6, 15, 6, 6));
-    panel.setLayout(new MigLayout());
-    panel.add(message, "wrap");
-    panel.add(note);
-    return panel;
-  }
+	public JComponent createBannerPanel() {
+		JLabel message = new JLabel("Select a round:");
+		JLabel note = new JLabel(
+				"<HTML>(<i>previously opened</i>, <b>not yet opened</b>)");
+		message.setFont(new Font(message.getFont().getName(), Font.PLAIN,
+				message.getFont().getSize() + 2));
 
-  public ButtonPanel createButtonPanel() {
-    ButtonPanel panel = new ButtonPanel();
-    panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
+		JPanel panel = new JPanel();
+		panel.setBorder(BorderFactory.createEmptyBorder(6, 15, 6, 6));
+		panel.setLayout(new MigLayout());
+		panel.add(message, "wrap");
+		panel.add(note);
+		return panel;
+	}
 
-    this.openRoundAction = new OpenRoundAction(this);
-    this.setDefaultAction(this.openRoundAction);
+	public ButtonPanel createButtonPanel() {
+		ButtonPanel panel = new ButtonPanel();
+		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
 
-    CancelButtonAction cancelAction = new CancelButtonAction(this);
-    this.setDefaultCancelAction(cancelAction);
+		this.openRoundAction = new OpenRoundAction(this);
+		this.setDefaultAction(this.openRoundAction);
 
-    this.okButton = new JButton();
-    this.okButton.setAction(this.openRoundAction);
-    this.okButton.requestFocus();
-    panel.add(this.okButton);
+		CancelButtonAction cancelAction = new CancelButtonAction(this);
+		this.setDefaultCancelAction(cancelAction);
 
-    JButton button = new JButton();
-    button.setAction(cancelAction);
-    panel.add(button);
+		this.okButton = new JButton();
+		this.okButton.setAction(this.openRoundAction);
+		this.okButton.requestFocus();
+		panel.add(this.okButton);
 
-    return panel;
-  }
+		JButton button = new JButton();
+		button.setAction(cancelAction);
+		panel.add(button);
 
-  public JComponent createContentPanel() {
+		return panel;
+	}
+
+	public JComponent createContentPanel() {
 		JPanel panel = new JPanel();
 		panel.setLayout(new MigLayout("fill, insets 0"));
 
@@ -96,7 +98,7 @@ public class SelectRoundDialog extends StandardDialog {
 		}
 
 		this.list = new JList(labels);
-		
+
 		List<String> openedRounds = new ArrayList<String>();
 		int lastOpened = -1;
 		for (int i = 0; i < this.availableRounds.size(); i++) {
@@ -106,31 +108,33 @@ public class SelectRoundDialog extends StandardDialog {
 				lastOpened = i;
 			}
 		}
-		System.out.println("printing opened rounds, of which there are: " + openedRounds.size());
+		System.out.println("printing opened rounds, of which there are: "
+				+ openedRounds.size());
 		for (String string : openedRounds) {
 			System.out.println(string);
 		}
-		
+
 		this.list.setCellRenderer(new RoundSelectionListRenderer(openedRounds));
 		this.list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-		this.list.addListSelectionListener(new RoundSelectionListListener(this, this.okButton, this.list.getSelectedIndex()));
+		this.list.addListSelectionListener(new RoundSelectionListListener(this,
+				this.okButton, this.list.getSelectedIndex()));
 		this.list.addMouseListener(new DoubleClickRoundListListener(this));
 
 		JScrollPane scroller = new JScrollPane(this.list);
-		scroller.setPreferredSize(new Dimension(316, 300));
+		scroller.setPreferredSize(new Dimension(316, 100));
 
 		if (lastOpened + 1 < this.availableRounds.size()) {
 			this.list.setSelectedIndex(lastOpened + 1);
 			this.list.ensureIndexIsVisible(lastOpened + 1);
-			EventBus.publish(new RoundSelectionListEvent(this, this.availableRounds.get(lastOpened + 1).getName()));
-		}
-		else {
+			EventBus.publish(new RoundSelectionListEvent(this,
+					this.availableRounds.get(lastOpened + 1).getName()));
+		} else {
 			this.list.setSelectedIndex(-1);
 			EventBus.publish(new RoundSelectionListEvent(this, null));
 		}
-		
+
 		scroller.getVerticalScrollBar().setUnitIncrement(30);
 		panel.add(scroller, "align center, grow, push, span");
 		return panel;
-  }
+	}
 }

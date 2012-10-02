@@ -1,6 +1,6 @@
 package eOSB.game.data;
 
-import java.io.File;
+import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -15,27 +15,28 @@ import org.w3c.dom.NodeList;
 
 import eOSB.game.controller.Handler;
 import eOSB.game.controller.Question;
-import eOSB.game.controller.Round;
 import eOSB.game.controller.Question.Format;
 import eOSB.game.controller.Question.Type;
+import eOSB.game.controller.Round;
 
 public class QuestionXMLParser {
 
 	private Round round;
+	private String token;
 	
-	public QuestionXMLParser(Round round) {
+	public QuestionXMLParser(Round round, String token) {
 		this.round = round;
-		this.parseRound();
+		this.token = token;
+		
+		this.parseRound(token);
 	}
 	
-	private void parseRound() {
+	private void parseRound(String key) {
 		try {
-//			File file = new File(Handler.getResourceAsStream(this.round.getLocation()));
-//			File fXmlFile = new File(round.getLocation());
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+//			Document doc = dBuilder.parse(Handler.getDecryptedStream(key, new FileInputStream(this.round.getLocation())));
 			Document doc = dBuilder.parse(Handler.getResourceAsStream(this.round.getLocation()));
-//			dBuilder.
 			doc.getDocumentElement().normalize();
 			List<Question> questions = new ArrayList<Question>();
 

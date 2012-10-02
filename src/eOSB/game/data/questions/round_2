@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Round RoundID="404" BowlYear="2012" RoundName="Round 01" CompetitionName="Finals">
+  <Questions>
+    <Question QuestionID="27478" QuestionIDString="0000027478">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Thermodynamics</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>On a bonus question, how long does a team have to begin their answer?</QuestionText>
+      <AnswerW>3 seconds</AnswerW>
+      <AnswerX>5 seconds</AnswerX>
+      <AnswerY>10 seconds</AnswerY>
+      <AnswerZ>20 seconds</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26458" QuestionIDString="0000026458">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Human defined/caused problems </Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What warnings are called out by the timekeeper during the team challenge questions?</QuestionText>
+      <CorrectAnswer>45 seconds, 15 seconds, and TIME.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26152" QuestionIDString="0000026152">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>When does the buzzer portion of the game end?</QuestionText>
+      <AnswerW>After the team challenge questions are turned in</AnswerW>
+      <AnswerX>After either time expires or all of the toss up questions for a half have been read</AnswerX>
+      <AnswerY>After the last toss up question in a half has been read</AnswerY>
+      <AnswerZ>After the time has expired</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26479" QuestionIDString="0000026479">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>When does the timer start the clock to time the game?</QuestionText>
+      <CorrectAnswer>When the moderator starts reading the first toss up question subject area</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26219" QuestionIDString="0000026219">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Before the moderator finishes reading a question, a student blurts out the correct answer without being recognized by the moderator. What should the moderator do?</QuestionText>
+      <AnswerW>Reread the question for the other team</AnswerW>
+      <AnswerX>Let the other team answer the question without rereading the question</AnswerX>
+      <AnswerY>Give the student's team who blurted minus 4 points</AnswerY>
+      <AnswerZ>Give the student's team who blurted plus 4 points</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26780" QuestionIDString="0000026780">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How does the scoring of toss up and bonus questions differ from that of team challenge questions?</QuestionText>
+      <CorrectAnswer>Toss up and bonus questions have a set number of points for a correct answer. Team challenge questions can receive partial credit.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="25305" QuestionIDString="0000025305">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>When does a team lose 4 points?</QuestionText>
+      <AnswerW>If a toss up question is interrupted, the player is recognized, and the answer is incorrect.</AnswerW>
+      <AnswerX>If a player blurts out an answer without being recognized.</AnswerX>
+      <AnswerY>If a toss up question is completely read, the player is recognized, and the answer is incorrect.</AnswerY>
+      <AnswerZ>If team members consult with each other before answering a toss up question.</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="8368" QuestionIDString="0000008368">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What happens if the team captain interrupts the reading of the bonus question and gets the answer wrong?</QuestionText>
+      <CorrectAnswer>No points are awarded or deducted and the moderator goes on to the next toss up question.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26055" QuestionIDString="0000026055">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Ecology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is a blurt?</QuestionText>
+      <AnswerW>When a player buzzes in and is recognized</AnswerW>
+      <AnswerX>When the moderator inadvertantly gives the correct answer</AnswerX>
+      <AnswerY>When a player gives an incorrect answer</AnswerY>
+      <AnswerZ>When a player who has buzzed in answers before being verbally recognized by the moderator</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26150" QuestionIDString="0000026150">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Chemical species</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>How many points are deducted if a toss up question is interrupted and answered before the player is recognized by the moderator?</QuestionText>
+      <CorrectAnswer>None.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12702" QuestionIDString="0000012702">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What happens if a moderator inadvertantly gives the answer to a toss up question, after an incorrect answer or a blurt, before allowing the second team to respond?</QuestionText>
+      <AnswerW>The bonus question is asked to the second team.</AnswerW>
+      <AnswerX>The second team gets 4 points and a chance to answer the bonus question.</AnswerX>
+      <AnswerY>The moderator is replaced by the science judge.</AnswerY>
+      <AnswerZ>The next toss up question is asked to the second team. </AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26605" QuestionIDString="0000026605">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>When is a toss up question re-read?</QuestionText>
+      <CorrectAnswer>If a toss up question has not been read in its entirety and was interrupted, but not answered correctly, the question is re-read in its entirety  to the opposing team.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="12222" QuestionIDString="0000012222">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>When may a team member buzz in to have the opportunity to answer a question?</QuestionText>
+      <AnswerW>After the officials have introduced themselves</AnswerW>
+      <AnswerX>After the question has been completely read.</AnswerX>
+      <AnswerY>After the subject area has been identified.</AnswerY>
+      <AnswerZ>After all of the answers have been read.</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26288" QuestionIDString="0000026288">
+      <QuestionPair>7</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Who must give the answer to a bonus question?</QuestionText>
+      <CorrectAnswer>The team captain.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26062" QuestionIDString="0000026062">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Behavior/Adaptations</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Toss up questions can be in what format?</QuestionText>
+      <AnswerW>Multiple choice or short answer</AnswerW>
+      <AnswerX>Multiple choice or true or false</AnswerX>
+      <AnswerY>Written out with pictures and graphs</AnswerY>
+      <AnswerZ>Short answer or essay </AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="27282" QuestionIDString="0000027282">
+      <QuestionPair>8</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the role of the Rules Judge?</QuestionText>
+      <CorrectAnswer>Maintains the order in the game room, enforces competition rules, and passes out Team Challenge Questions and scrap paper.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26410" QuestionIDString="0000026410">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules - Tides</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>How many total points are awarded for a correct answer to a toss up question followed by a correct answer to a bonus question?</QuestionText>
+      <AnswerW>4 points.</AnswerW>
+      <AnswerX>6 points.</AnswerX>
+      <AnswerY>10 points.</AnswerY>
+      <AnswerZ>20 points.</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26552" QuestionIDString="0000026552">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Is consultation between team members allowed during toss-up questions?</QuestionText>
+      <CorrectAnswer>Consultation among team members is not allowed on toss-up questions.</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26072" QuestionIDString="0000026072">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which is the first correct procedure for breaking a tie?</QuestionText>
+      <AnswerW>Fewest losses of each team during the Round Robin games.</AnswerW>
+      <AnswerX>Head to head won/loss record from the Round Robin games.</AnswerX>
+      <AnswerY>Total number of points scored with the greater point total receiving the higher seed.</AnswerY>
+      <AnswerZ>A coin toss.</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="26961" QuestionIDString="0000026961">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Rules</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What are the two types of acceptable challenges that can be made during a game?</QuestionText>
+      <CorrectAnswer>Challenges to the scientific answer and challenges to the enforcement of the competition rules.</CorrectAnswer>
+    </Question>
+  </Questions>
+</Round>

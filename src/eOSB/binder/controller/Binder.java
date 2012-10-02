@@ -187,6 +187,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		}
 		else if (this.frameSize != null) {
 			this.frame.setSize(this.frameSize);
+			if (this.handler.IS_ORIENTATION_VERSION) {
+				this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
+			}
 		}
 		
 		// remember the previous location, or set to centered for first run
@@ -368,6 +371,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		
 		// disable TCQs on the Tiebreaker round
 		if (roundName.contains("Tie") || roundName.contains("warm")) {
+			this.shouldEnableTcqs = false;
+		}
+		else if (this.handler.IS_ORIENTATION_VERSION) {
 			this.shouldEnableTcqs = false;
 		}
 		else {
