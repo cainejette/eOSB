@@ -27,7 +27,7 @@ public class Tcq {
   	this.name = name;
     this.location = location;
 		this.previouslyOpened = false;
-		this.button = new JRadioButton(this.name + " (" + category + ", " + duration + ")");
+		this.button = new JRadioButton(this.name + " (" + duration + ")");
 		this.button.setActionCommand(this.name);
   }
 

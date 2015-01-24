@@ -3,7 +3,7 @@ package eOSB.game.controller;
 public class TestPassword {
 
 	public static void main (String[] args) {
-		String password = "mop123";
+		String password = "dolphin";
 		
 		try {
 			String encryptPass = Password.getSaltedHash(password);

@@ -1,213 +1,405 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Round RoundID="404" BowlYear="2012" RoundName="Round 01" CompetitionName="Finals">
+<Round RoundID="535" BowlYear="2015" RoundName="Round 01" CompetitionName="Regional Competition 1">
   <Questions>
-    <Question QuestionID="27478" QuestionIDString="0000027478">
+    <Question QuestionID="14133" QuestionIDString="0000014133">
       <QuestionPair>1</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules - Thermodynamics</Category>
+      <Category>Biology - Human defined/caused problems </Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>George High School has three teams competing in the Tsunami Bowl this year.  After the first round, one of the members of Team A becomes ill and can no longer participate in the competition.  The coach may:?</QuestionText>
-      <AnswerW>Substitiute someone from Team B on to Team A.</AnswerW>
-      <AnswerX>Continue competing using the alternate member of Team A.</AnswerX>
-      <AnswerY>Continue competing with the alternate of Team C moved to Team A.</AnswerY>
-      <AnswerZ>Continue competing with three players.</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26458" QuestionIDString="0000026458">
-      <QuestionPair>1</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Rules - Human defined/caused problems </Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How does a student become eligible to compete in the NOSB Finals competition?</QuestionText>
-      <CorrectAnswer>The student must have competed on a team that won a regional NOSB competition that year.</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26152" QuestionIDString="0000026152">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>The three types of questions in the NOSB competition are:</QuestionText>
-      <AnswerW>Multiple choice, short answer, and toss up</AnswerW>
-      <AnswerX>Toss up, multiple choice, and team challenge</AnswerX>
-      <AnswerY>Multiple choice, short answer, and bonus</AnswerY>
-      <AnswerZ>Toss up, bonus, and team challenge</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26479" QuestionIDString="0000026479">
-      <QuestionPair>2</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Rules</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Name the six types of officials required for each game.</QuestionText>
-      <CorrectAnswer>Moderator, science judge, rules judge, time keeper, score keeper, and runner.</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26219" QuestionIDString="0000026219">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>A school may compete in how many regional competitions each year?</QuestionText>
-      <AnswerW>One</AnswerW>
-      <AnswerX>Two</AnswerX>
-      <AnswerY>One each semester</AnswerY>
-      <AnswerZ>One, unless it wins. Then, two.</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26780" QuestionIDString="0000026780">
-      <QuestionPair>3</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Rules</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What two things must happen for a player to win the right to answer a toss up question?</QuestionText>
-      <CorrectAnswer>The player must be the first to activate the lock-out buzzer system, and be verbally recognized by the moderator.</CorrectAnswer>
-    </Question>
-    <Question QuestionID="25305" QuestionIDString="0000025305">
-      <QuestionPair>4</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which volunteer position keeps track of the official score of the competition and stands so that everyone can see them?</QuestionText>
-      <AnswerW>Score keeper</AnswerW>
-      <AnswerX>Rules judge</AnswerX>
-      <AnswerY>Moderator</AnswerY>
-      <AnswerZ>Science judge</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
-    </Question>
-    <Question QuestionID="8368" QuestionIDString="0000008368">
-      <QuestionPair>4</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Rules</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What happens if a team member buzzes in before the subject of the question has been identified?</QuestionText>
-      <CorrectAnswer>It is treated as a type of "blurt" or non-answer. No indication is given as to whether the answer was right or wrong. No points are deducted. The moderator rereads the entire question for the other team which has the opportunity to answer both it and the bonus question.</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26055" QuestionIDString="0000026055">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules - Ecology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>If a player buzzes in to answer a question before the question has been read entirely and is recognized, what is that called?</QuestionText>
-      <AnswerW>A correct answer</AnswerW>
-      <AnswerX>Interrupt</AnswerX>
-      <AnswerY>Blurt</AnswerY>
-      <AnswerZ>An incorrect answer</AnswerZ>
-      <CorrectAnswer>X</CorrectAnswer>
-    </Question>
-    <Question QuestionID="26150" QuestionIDString="0000026150">
-      <QuestionPair>5</QuestionPair>
-      <QuestionType>Bonus</QuestionType>
-      <Category>Rules - Chemical species</Category>
-      <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>What happens if a toss up question is answered by a player before being verbally recognized by the moderator?</QuestionText>
-      <CorrectAnswer>It is treated as a type of "blurt" or non-answer. The moderator does not say whether the answer was right or wrong, no points are deducted, and the question is offered to the opposing team.</CorrectAnswer>
-    </Question>
-    <Question QuestionID="12702" QuestionIDString="0000012702">
-      <QuestionPair>6</QuestionPair>
-      <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>On a short answer question:</QuestionText>
-      <AnswerW>The given answer must be exactly the same as the correct answer.</AnswerW>
-      <AnswerX>The team captain is not required to give the answer.</AnswerX>
-      <AnswerY>The answer must have the same meaning as the correct answer.</AnswerY>
-      <AnswerZ>The rules judge will decide if the given answer is correct.</AnswerZ>
+      <QuestionText>Which of the following kinds of seafood is most likely to have high levels of mercury?</QuestionText>
+      <AnswerW>Flounder</AnswerW>
+      <AnswerX>Anchovies</AnswerX>
+      <AnswerY>Swordfish</AnswerY>
+      <AnswerZ>Mussels</AnswerZ>
       <CorrectAnswer>Y</CorrectAnswer>
     </Question>
-    <Question QuestionID="26605" QuestionIDString="0000026605">
+    <Question QuestionID="14124" QuestionIDString="0000014124">
+      <QuestionPair>1</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical - Currents</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the term for vertical, density-driven circulation that results from changes in temperature and/or salinity?</QuestionText>
+      <CorrectAnswer>Accept any of the following: Thermohaline Circulation; deep ocean circulation OR overturning circulation</CorrectAnswer>
+    </Question>
+    <Question QuestionID="30477" QuestionIDString="0000030477">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is a term commonly used for the nutrient in shortest supply that prevents algal production?</QuestionText>
+      <AnswerW>Essential nutrient</AnswerW>
+      <AnswerX>Limiting nutrient</AnswerX>
+      <AnswerY>Dissolved nutrient</AnswerY>
+      <AnswerZ>Trace nutrient</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14147" QuestionIDString="0000014147">
+      <QuestionPair>2</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geography - Place Names</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What is the southernmost tip of Africa called?</QuestionText>
+      <CorrectAnswer>Cape Agulhas (a-GULL-us)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14127" QuestionIDString="0000014127">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Water Properties</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following does a CTD NOT measure?</QuestionText>
+      <AnswerW>Temperature</AnswerW>
+      <AnswerX>Pressure</AnswerX>
+      <AnswerY>Conductivity</AnswerY>
+      <AnswerZ>Velocity</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14257" QuestionIDString="0000014257">
+      <QuestionPair>3</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Behavior/Adaptations</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Cetaceans can use sound to determine the direction and distance of objects. What is this process called?</QuestionText>
+      <CorrectAnswer>Echolocation (Also Accept: sonar OR echo sounding)</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14141" QuestionIDString="0000014141">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geography - Place Names</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is not a vertex of the Bermuda Triangle?</QuestionText>
+      <AnswerW>Bermuda</AnswerW>
+      <AnswerX>South Florida</AnswerX>
+      <AnswerY>Cuba</AnswerY>
+      <AnswerZ>Puerto Rico</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14263" QuestionIDString="0000014263">
+      <QuestionPair>4</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology - Instrumentation</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Jacques Cousteau and Emile Gagnan [eh-MEAL gan-YAWN] created the SCUBA technology for breathing underwater still used today. For what does SCUBA stand?</QuestionText>
+      <CorrectAnswer>Self Contained Underwater Breathing Apparatus</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14150" QuestionIDString="0000014150">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Marine Policy - Fisheries Management</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Starting in 2008, which Asian nation enacted a total ban on the harvest of or trade in whale sharks?</QuestionText>
+      <AnswerW>Japan</AnswerW>
+      <AnswerX>Taiwan</AnswerX>
+      <AnswerY>South Korea</AnswerY>
+      <AnswerZ>Vietnam</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14189" QuestionIDString="0000014189">
+      <QuestionPair>5</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical - Tides</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>In a very well mixed estuary, how are contours of salinity oriented?</QuestionText>
+      <CorrectAnswer>Vertically</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14149" QuestionIDString="0000014149">
+      <QuestionPair>6</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Ecology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following marine animals is not extinct?</QuestionText>
+      <AnswerW>Labrador duck</AnswerW>
+      <AnswerX>Steller's sea cow</AnswerX>
+      <AnswerY>Hawksbill seaturtle</AnswerY>
+      <AnswerZ>Caribbean monk seal</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="30425" QuestionIDString="0000030425">
       <QuestionPair>6</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Rules - Ecology</Category>
-      <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>Which one of the following statements about keeping score is true?</QuestionText>
-      <AnswerW>A bonus question is worth 6 points</AnswerW>
-      <AnswerX>A toss up question is worth 6 points</AnswerX>
-      <AnswerY>A bonus question is worth 4 points</AnswerY>
-      <AnswerZ>An incorrect bonus is worth minus 6 points</AnswerZ>
-      <CorrectAnswer>W</CorrectAnswer>
+      <Category>Chemical</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Which two ions account for the majority of the salinity in surface seawater?</QuestionText>
+      <CorrectAnswer>Sodium AND chloride (Do NOT accept Chlorine. It is not the ionic form of the element.)</CorrectAnswer>
     </Question>
-    <Question QuestionID="12222" QuestionIDString="0000012222">
+    <Question QuestionID="14152" QuestionIDString="0000014152">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules</Category>
+      <Category>Physical - Currents</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the competition format?</QuestionText>
-      <AnswerW>A 4 minute buzzer round, a break, 2 team challenge questions, and a 4 minute buzzer round.</AnswerW>
-      <AnswerX>Record An 8 minute buzer round, a break, and 2 team challenge questions.</AnswerX>
-      <AnswerY>A 6 minute buzzer round, a break, 2 team challenge questions, and a 6 minute buzzer round.</AnswerY>
-      <AnswerZ>A 6 minute buzzer round, 2 team challenge questions, a break, and a 6 minute buzzer round.</AnswerZ>
-      <CorrectAnswer>Z</CorrectAnswer>
+      <QuestionText>Ocean currents are commonly measured in units called Sverdrups. One Sverdrup is equal to a volume flow rate of:</QuestionText>
+      <AnswerW>100,000 cubic meters per second</AnswerW>
+      <AnswerX>One million cubic meters per second</AnswerX>
+      <AnswerY>10 million cubic meters per second</AnswerY>
+      <AnswerZ>1 billion cubic meters per second</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="26288" QuestionIDString="0000026288">
+    <Question QuestionID="30720" QuestionIDString="0000030720">
       <QuestionPair>7</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Rules</Category>
+      <Category>Geology - Geologic Time Scale</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>When can an alternate player substitute into a team?</QuestionText>
-      <CorrectAnswer>At the beginning of a game or after the break in a game.</CorrectAnswer>
+      <QuestionText>What is the geological age of the Earth?</QuestionText>
+      <CorrectAnswer>Accept anything in the range of 4.5 to 4.7 billion years old</CorrectAnswer>
     </Question>
-    <Question QuestionID="26062" QuestionIDString="0000026062">
+    <Question QuestionID="30486" QuestionIDString="0000030486">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules - Behavior/Adaptations</Category>
+      <Category>Chemical</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>When is consultation among team members allowed?</QuestionText>
-      <AnswerW>On toss up questions, bonus questions, and team challenge questions</AnswerW>
-      <AnswerX>Only on team challenge questions</AnswerX>
-      <AnswerY>Only on toss up questions</AnswerY>
-      <AnswerZ>On bonus questions and team challenge questions</AnswerZ>
+      <QuestionText>Which of the following gases readily reacts with water?</QuestionText>
+      <AnswerW>argon</AnswerW>
+      <AnswerX>dinitrogen gas</AnswerX>
+      <AnswerY>helium</AnswerY>
+      <AnswerZ>carbon dioxide</AnswerZ>
       <CorrectAnswer>Z</CorrectAnswer>
     </Question>
-    <Question QuestionID="27282" QuestionIDString="0000027282">
+    <Question QuestionID="14284" QuestionIDString="0000014284">
       <QuestionPair>8</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Rules</Category>
+      <Category>Geography - Place Names</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>How is a team challenge question answered?</QuestionText>
-      <CorrectAnswer>The answer is written out on a paper and handed in by the team captain.</CorrectAnswer>
+      <QuestionText>The Larsen A and Larsen B ice shelves, large enough to be seen in satellite images, broke away from which continent in 1995 and 2002?</QuestionText>
+      <CorrectAnswer>Antarctica</CorrectAnswer>
     </Question>
-    <Question QuestionID="26410" QuestionIDString="0000026410">
+    <Question QuestionID="14246" QuestionIDString="0000014246">
       <QuestionPair>9</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules - Tides</Category>
+      <Category>Geology - Rocks and Minerals</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>On multiple choice questions:</QuestionText>
-      <AnswerW>The first answer given is the only one that counts.</AnswerW>
-      <AnswerX>The answer must include both the letter and the scientific answer.</AnswerX>
-      <AnswerY>The answer must have the same meaning as the correct answer.</AnswerY>
-      <AnswerZ>Only the final answer counts.</AnswerZ>
+      <QuestionText>The black sands of Hawaii can be characterized as:</QuestionText>
+      <AnswerW>cosmogenous</AnswerW>
+      <AnswerX>lithogenous</AnswerX>
+      <AnswerY>hydrogenous</AnswerY>
+      <AnswerZ>biogenous</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14276" QuestionIDString="0000014276">
+      <QuestionPair>9</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Anatomy and Physiology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>What pinniped is recognized by the two large tusks it uses to break through ice?</QuestionText>
+      <CorrectAnswer>Walrus</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14265" QuestionIDString="0000014265">
+      <QuestionPair>10</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology - Remote Sensing</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Satellites such as MODIS conduct surveys of primary productivity in the deep ocean by measuring ocean color. Which of the following strongly affects the color of surface waters?</QuestionText>
+      <AnswerW>Chlorophyll</AnswerW>
+      <AnswerX>Effluent</AnswerX>
+      <AnswerY>Iron</AnswerY>
+      <AnswerZ>Sand</AnswerZ>
       <CorrectAnswer>W</CorrectAnswer>
     </Question>
-    <Question QuestionID="26552" QuestionIDString="0000026552">
-      <QuestionPair>9</QuestionPair>
+    <Question QuestionID="14366" QuestionIDString="0000014366">
+      <QuestionPair>10</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Rules - Ecology</Category>
+      <Category>Geology - Sea Floor Features</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>When does the other team NOT get the chance to answer a toss up question that has been incorrectly answered?</QuestionText>
-      <CorrectAnswer>If the question was completely read and time expires before the other team has buzzed in.</CorrectAnswer>
+      <QuestionText>What is the longest mountain chain on Earth?</QuestionText>
+      <CorrectAnswer>The Mid-Ocean Ridge (OR Mid-Ocean Ridge System OR Ocean Ridge)</CorrectAnswer>
     </Question>
-    <Question QuestionID="26072" QuestionIDString="0000026072">
-      <QuestionPair>10</QuestionPair>
+    <Question QuestionID="14157" QuestionIDString="0000014157">
+      <QuestionPair>11</QuestionPair>
       <QuestionType>Toss-Up</QuestionType>
-      <Category>Rules</Category>
+      <Category>Social Sciences - History</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>What is the maximum amount of time after the moderator has finished reading a toss up question for a player to buzz in?</QuestionText>
-      <AnswerW>3 seconds</AnswerW>
-      <AnswerX>5 seconds</AnswerX>
-      <AnswerY>10 seconds</AnswerY>
-      <AnswerZ>20 seconds</AnswerZ>
+      <QuestionText>The deadliest hurricane in US history struck in 1900 with a death toll of approximately 6,000 people. The storm struck where?</QuestionText>
+      <AnswerW>Miami, FL</AnswerW>
+      <AnswerX>New Orleans, LA</AnswerX>
+      <AnswerY>Cape Fear, NC</AnswerY>
+      <AnswerZ>Galveston, TX</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14432" QuestionIDString="0000014432">
+      <QuestionPair>11</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Ecology</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Population outbreaks of what predatory seastar can decimate coral populations on tropical reefs?</QuestionText>
+      <CorrectAnswer>Accept any of the follwing: Crown of thorns; Acanthaster; OR Acanthaster planci [EH-can-thass-ter plank-eye]</CorrectAnswer>
+    </Question>
+    <Question QuestionID="30747" QuestionIDString="0000030747">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology - Geologic Processes</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is an example of a type of estuary, classified by its geologic features?</QuestionText>
+      <AnswerW>Bar-built</AnswerW>
+      <AnswerX>Salt wedge</AnswerX>
+      <AnswerY>Stratified</AnswerY>
+      <AnswerZ>Sedimentary</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14254" QuestionIDString="0000014254">
+      <QuestionPair>12</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical - Reactions in Seawater</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The oceans play a major role in climate change because they are large sinks of what major greenhouse gas?</QuestionText>
+      <CorrectAnswer>CO2 OR carbon dioxide</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14222" QuestionIDString="0000014222">
+      <QuestionPair>13</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Ecology</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is another term for the intertidal zone?</QuestionText>
+      <AnswerW>Abyssal zone</AnswerW>
+      <AnswerX>Littoral zone</AnswerX>
+      <AnswerY>Hadal zone</AnswerY>
+      <AnswerZ>Epipelagic zone</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
     </Question>
-    <Question QuestionID="26961" QuestionIDString="0000026961">
-      <QuestionPair>10</QuestionPair>
+    <Question QuestionID="14253" QuestionIDString="0000014253">
+      <QuestionPair>13</QuestionPair>
       <QuestionType>Bonus</QuestionType>
-      <Category>Rules</Category>
+      <Category>Social Sciences - History</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The Atlantic hurricane season is June 1 - November 30. What month did Hurricane Rita strike in 2005?</QuestionText>
+      <CorrectAnswer>September</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14223" QuestionIDString="0000014223">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology - Rocks and Minerals</Category>
       <QuestionFormat>Multiple Choice</QuestionFormat>
-      <QuestionText>After a player has buzzed in and been verbally recognized, how long does that player have to begin their answer?</QuestionText>
-      <AnswerW>2 seconds</AnswerW>
-      <AnswerX>3 seconds</AnswerX>
-      <AnswerY>5 seconds</AnswerY>
-      <AnswerZ>10 seconds</AnswerZ>
+      <QuestionText>Oceanic crust consists mainly of which igneous rock?</QuestionText>
+      <AnswerW>Andesite</AnswerW>
+      <AnswerX>Granite</AnswerX>
+      <AnswerY>Basalt</AnswerY>
+      <AnswerZ>Gabbro</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14195" QuestionIDString="0000014195">
+      <QuestionPair>14</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical - Air-sea Interface</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Name the diurnal cycle where coastal wind direction in caused by the differential heating and cooling of the land and water.</QuestionText>
+      <CorrectAnswer>Sea breeze OR land breeze</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14198" QuestionIDString="0000014198">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Technology - Fishing gear and vessels</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following fishing methods causes the most damage to benthic communities?</QuestionText>
+      <AnswerW>Gill netting</AnswerW>
+      <AnswerX>Dredging</AnswerX>
+      <AnswerY>Purse seining</AnswerY>
+      <AnswerZ>Long-lining</AnswerZ>
       <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="30366" QuestionIDString="0000030366">
+      <QuestionPair>15</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Biology - Behavior/Adaptations</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The practice of selectively fishing male blue crabs in the Chesapeake Bay is intended to give females a chance to reproduce. Why could this potentially lead to a shaky recovery of the species?</QuestionText>
+      <CorrectAnswer>A bay without enough males could reduce the number of offspring females produce OR A bay without enough males could reduce the genetic potential (or diversity) of the population</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14182" QuestionIDString="0000014182">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Waves</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>In deep water, which wind generated waves will travel the fastest?</QuestionText>
+      <AnswerW>waves with long wavelengths</AnswerW>
+      <AnswerX>waves with short wavelengths</AnswerX>
+      <AnswerY>waves with large wave heights</AnswerY>
+      <AnswerZ>waves with small wave heights</AnswerZ>
+      <CorrectAnswer>W</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14225" QuestionIDString="0000014225">
+      <QuestionPair>16</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Geology - Rocks and Minerals</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Where can the youngest oceanic crust be found?</QuestionText>
+      <CorrectAnswer>Accept any of the following: Mid-ocean ridges; rift zones; spreading centers; divergent plate boundaries OR divergent boundaries</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14258" QuestionIDString="0000014258">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Biology - Classification</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which of the following is the largest known animal?</QuestionText>
+      <AnswerW>Right whale</AnswerW>
+      <AnswerX>Whale shark</AnswerX>
+      <AnswerY>Blue whale</AnswerY>
+      <AnswerZ>Sperm whale</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14143" QuestionIDString="0000014143">
+      <QuestionPair>17</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Social Sciences - Notable Scientists</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>After his ship was seized by mutineers in 1789, an English naval captain navigated across 3600 nautical miles in an open boat, reaching the island of East Timor.   What was this captain’s name?</QuestionText>
+      <CorrectAnswer>Captain William Bligh</CorrectAnswer>
+    </Question>
+    <Question QuestionID="30492" QuestionIDString="0000030492">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Chemical</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>What is the freezing point of seawater in degrees Celsius?</QuestionText>
+      <AnswerW>4</AnswerW>
+      <AnswerX>0</AnswerX>
+      <AnswerY>-2</AnswerY>
+      <AnswerZ>-4</AnswerZ>
+      <CorrectAnswer>Y</CorrectAnswer>
+    </Question>
+    <Question QuestionID="15118" QuestionIDString="0000015118">
+      <QuestionPair>18</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Physical - Water Properties</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>The zone of minimum sound velocity is known as what?</QuestionText>
+      <CorrectAnswer>The SOFAR channel</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14190" QuestionIDString="0000014190">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Geology - Sea Floor Features</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which represents the final geological step in the evolution of a volcanic tropical island?</QuestionText>
+      <AnswerW>island with fringing reef</AnswerW>
+      <AnswerX>drumlin</AnswerX>
+      <AnswerY>island with barrier reef</AnswerY>
+      <AnswerZ>atoll</AnswerZ>
+      <CorrectAnswer>Z</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14236" QuestionIDString="0000014236">
+      <QuestionPair>19</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Chemical - Chemical species</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Name the 3 main gases dissolved in seawater.</QuestionText>
+      <CorrectAnswer>Nitrogen, oxygen AND carbon dioxide</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14172" QuestionIDString="0000014172">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Toss-Up</QuestionType>
+      <Category>Physical - Electromagnetic Spectrum</Category>
+      <QuestionFormat>Multiple Choice</QuestionFormat>
+      <QuestionText>Which color of visible light penetrates deepest into the ocean?</QuestionText>
+      <AnswerW>Red</AnswerW>
+      <AnswerX>Blue</AnswerX>
+      <AnswerY>Yellow</AnswerY>
+      <AnswerZ>Orange</AnswerZ>
+      <CorrectAnswer>X</CorrectAnswer>
+    </Question>
+    <Question QuestionID="14134" QuestionIDString="0000014134">
+      <QuestionPair>20</QuestionPair>
+      <QuestionType>Bonus</QuestionType>
+      <Category>Technology - Navigation</Category>
+      <QuestionFormat>Short Answer</QuestionFormat>
+      <QuestionText>Marine navigational regulations state that the starboard side of a ship should have a light of what color?</QuestionText>
+      <CorrectAnswer>Green</CorrectAnswer>
     </Question>
   </Questions>
 </Round>

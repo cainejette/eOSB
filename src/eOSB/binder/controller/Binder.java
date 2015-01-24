@@ -658,12 +658,12 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		try {
 			// formats and inserts the question metadata to precede question content
 			String questionNumber = "Question " + question.getNumber() + " is a ";
-			String questionType = question.getType().toString().toLowerCase() + ", " + question.getFormat();
+			String questionType = question.getType().toString().toLowerCase() + ", " + question.getFormat() + ":";
 			String questionCategoryAndFormat =  question.getCategory().toLowerCase() + ":";
 			document.insertString(document.getLength(), questionNumber, document.getStyle(META_SMALL_STYLE));
 			document.insertString(document.getLength(), questionType, document.getStyle(META_BOLD_STYLE));
-			document.insertString(document.getLength(), " in ", document.getStyle(META_SMALL_STYLE));
-			document.insertString(document.getLength(), questionCategoryAndFormat, document.getStyle(META_BOLD_STYLE));
+//			document.insertString(document.getLength(), " in ", document.getStyle(META_SMALL_STYLE));
+//			document.insertString(document.getLength(), questionCategoryAndFormat, document.getStyle(META_BOLD_STYLE));
 
 			// inserts the question text
 			this.addTextToDocument("\n\n" + HALF_TAB + question.getText(), document);
