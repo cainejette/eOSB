@@ -9,11 +9,14 @@ import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Point;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.font.TextAttribute;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -33,6 +36,7 @@ import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextPane;
+import javax.swing.JViewport;
 import javax.swing.KeyStroke;
 import javax.swing.border.TitledBorder;
 import javax.swing.text.BadLocationException;
@@ -66,7 +70,11 @@ import eOSB.game.controller.Question;
 import eOSB.game.controller.Round;
 import eOSB.game.data.IconFactory;
 import eOSB.game.data.PdfFactory;
+import eOSB.game.controller.Question.Format;
+import eOSB.game.controller.Question.Type;
 import eOSB.score.controller.TeamScoreNumberEvent;
+import eOSB.time.controller.CountDownTimer;
+import eOSB.time.controller.Timekeeper;
 
 /**
  * The eOSB UI, serving as a replacement for the traditional binder. Also
@@ -75,8 +83,8 @@ import eOSB.score.controller.TeamScoreNumberEvent;
  * @author Caine Jette
  * 
  */
-public class Binder implements EventSubscriber<EventServiceEvent> {
-
+public class Binder implements EventSubscriber<EventServiceEvent> 
+{
 	private Handler handler;
 	private JFrame frame = new JFrame();
 	private BufferedImage splash;
@@ -94,6 +102,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private JButton backButton;
 	private JButton nextQuestionButton;
 	private JButton nextTossupButton;
+	private JButton submitButton;
 
 	private TitledBorder teamABorder = new TitledBorder(this.teamAName);
 	private TitledBorder teamBBorder = new TitledBorder(this.teamBName);
@@ -131,7 +140,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 * @param handler
 	 *          the {@link Handler} object
 	 */
-	public Binder(Handler handler) {
+	public Binder(Handler handler) 
+	{
 		this.handler = handler;
 
 		EventBus.subscribe(TeamNameEvent.class, this);
@@ -143,7 +153,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(UpdateAndShowQuestionEvent.class, this);
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 
-		final Font titleFont = new Font("Helvetica", Font.BOLD, 14);
+    Font titleFont = new Font("Helvetica", Font.BOLD, 14);
 		this.teamABorder.setTitleFont(titleFont);
 		this.teamBBorder.setTitleFont(titleFont);
 		this.updateBorders();
@@ -153,8 +163,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.frame.setResizable(false);
 
 		Container contentPane = this.frame.getContentPane();
-		contentPane.setLayout(new BoxLayout(contentPane, BoxLayout.LINE_AXIS));
-		contentPane.add(this.createSplashPanel());
+    contentPane.setLayout(new BoxLayout(contentPane, BoxLayout.LINE_AXIS));
+    contentPane.add(this.createSplashPanel());
 
 		this.displayFrame();
 	}
@@ -162,7 +172,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	/**
 	 * Initializes the frame's characteristics.
 	 */
-	private void initFrame() {
+	private void initFrame() 
+	{
 		this.frame.setVisible(false);
 		this.frame.dispose();
 
@@ -177,28 +188,35 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	/**
 	 * Packs and displays the frame.
 	 */
-	private void displayFrame() {
+	private void displayFrame() 
+	{
 		this.frame.pack();
 		this.frame.setMinimumSize(this.frame.getPreferredSize());
 		
 		System.out.println("Launch counter: " + this.launchCounter);
-		if (this.launchCounter > 0 && this.frameSize == null) {
+		if (this.frameSize == null) 
+		{
 			this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
 		}
-		else if (this.frameSize != null) {
+		else  
+		{
 			this.frame.setSize(this.frameSize);
-			if (this.handler.IS_ORIENTATION_VERSION) {
+			if (this.handler.IS_ORIENTATION_VERSION) 
+			{
 				this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
 			}
 		}
 		
 		// remember the previous location, or set to centered for first run
-		if (this.framePosition != null) {
+		if (this.framePosition != null) 
+		{
 			this.frame.setLocation(this.framePosition);
 		}
-		else {
+		else 
+		{
 			this.frame.setLocationRelativeTo(null);
 		}
+		
 		this.frame.setVisible(true);
 		this.launchCounter++;
 	}
@@ -206,7 +224,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	/**
 	 * @return the menu bar for the {@link Binder}
 	 */
-	private JMenuBar createMenuBar() {
+	private JMenuBar createMenuBar() 
+	{
 		JMenuBar menuBar = new JMenuBar();
 
 		// file menu
@@ -225,7 +244,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 
 		menuItem = new JMenuItem();
 		menuItem.setAction(new FireTcqPreambleEventAction());
-//		menuItem.setAction(new OpenTcqPreambleDialogAction(this.handler));
+
 		menuItem.setText("Open TCQs");
 		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T,
 				ActionEvent.CTRL_MASK));
@@ -358,10 +377,12 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 * @param roundName
 	 *          the name of the new round
 	 */
-	public void setBinderToNewRound(String roundName) {
+	public void setBinderToNewRound(String roundName) 
+	{
 		this.roundName = roundName;
 		// save the frame's size and location
-		if (!(roundName.equals("Round Robin / Round 1")) && !(roundName.equals("Six-question warm up"))) {
+		if (!(roundName.equals("Round 1")) && !(roundName.equals("Six-question warm up"))) 
+		{
 			this.frameSize = this.frame.getSize();
 			this.framePosition = this.frame.getLocationOnScreen();
 		}
@@ -370,31 +391,44 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.initComponents();
 		
 		// disable TCQs on the Tiebreaker round
-		if (roundName.contains("Tie") || roundName.contains("warm")) {
+		if (roundName.contains("Tie") || roundName.contains("warm")) 
+		{
 			this.shouldEnableTcqs = false;
 		}
-		else if (this.handler.IS_ORIENTATION_VERSION) {
+		else if (this.handler.IS_ORIENTATION_VERSION) 
+		{
 			this.shouldEnableTcqs = false;
 		}
-		else {
+		else 
+		{
 			this.shouldEnableTcqs = true;
 		}
 		this.frame.setJMenuBar(this.createMenuBar());
 
-		this.frame.setTitle(roundName);
+		this.frame.setTitle(roundName + "-- electronic Ocean Sciences Bowl");
 		this.frame.setResizable(true);
 		this.frame.addKeyListener(new ButtonKeyListener(this.teamA_correct,
 				this.teamA_incorrect, this.teamA_interrupt, this.teamB_correct,
 				this.teamB_incorrect, this.teamB_interrupt));
 
 		JPanel panel = new JPanel();
-
-		JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
-				this.questionPanelScroller, this.answerPanelScroller);
-		splitPane.setResizeWeight(0.8);
-		panel.setLayout(new MigLayout("wrap 1, fill, insets 0"));
-		panel.add(splitPane, "grow, push, span");
-		panel.add(this.createSubmissionPanel(), "growx, sizegroupx group1");
+    if (this.handler.isUsingTimer())
+    {
+      panel.setLayout(new MigLayout("fill, insets 0"));
+      panel.add(this.questionPanelScroller, "grow, pushy, dock north");
+      panel.add(this.answerPanelScroller, "growx, sizegroup group1, wrap");
+      panel.add(this.createTimePanel(), "dock east");
+      panel.add(this.createSubmissionPanel(), "growx, sizegroup group1");
+    }
+    else
+    {
+    	JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
+    			this.questionPanelScroller, this.answerPanelScroller);
+    	splitPane.setResizeWeight(0.8);
+    	panel.setLayout(new MigLayout("wrap 1, fill, insets 0"));
+    	panel.add(splitPane, "grow, push, span");
+    	panel.add(this.createSubmissionPanel(), "growx, sizegroupx group1");
+    }
 
 		Container contentPane = this.frame.getContentPane();
 		contentPane.setLayout(new MigLayout("fill, insets 0 5 5 5"));
@@ -406,17 +440,23 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	/**
 	 * @return the panel containing the splash image
 	 */
-	private JPanel createSplashPanel() {
-		try {
+	private JPanel createSplashPanel() 
+	{
+		try 
+		{
 			this.splash = ImageIO.read(ClassLoader.getSystemResource(
 					IconFactory.SPLASH));
-		} catch (IOException e) {
+		} 
+		catch (IOException e) 
+		{
 			e.printStackTrace();
 		}
 
-		JPanel panel = new JPanel() {
+		JPanel panel = new JPanel() 
+		{
 			@Override
-			public void paintComponent(Graphics g) {
+			public void paintComponent(Graphics g) 
+			{
 				super.paintComponent(g);
 				g.drawImage(Binder.this.splash, 0, 0, null);
 			}
@@ -424,6 +464,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 
 		panel.setPreferredSize(new Dimension(this.splash.getWidth(), this.splash
 				.getHeight()));
+		
 		return panel;
 	}
 
@@ -452,17 +493,56 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	 *         buttons
 	 */
 	private JPanel createSubmissionPanel() {
-		JPanel submitBackPanel = new JPanel();
-		submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
-		submitBackPanel.add(this.backButton, "sizegroupx group3, grow, gapafter 20");
-		submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, grow, gapafter 20");
-		submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, grow");
-
-		JPanel answerPanel = new JPanel();
-		answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
-		answerPanel.add(submitBackPanel, "growx, span");
-
-		return answerPanel;
+		if (this.handler.isUsingScoreboard())
+		{
+			JPanel teamAPanel = new JPanel();
+	    
+	    teamAPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+	    this.teamA_interrupt.setMinimumSize(new Dimension(35, 35));
+	    
+	    updateBorders();
+	    
+	    teamAPanel.add(this.teamALabel, "span, wrap, align left, gaptop 5, gapleft 15");
+	    teamAPanel.add(this.teamA_interrupt, "span, growx");
+	    teamAPanel.add(this.teamA_correct, "sizegroupy group1y, sizegroupx group1x, growx");
+	    teamAPanel.add(this.teamA_incorrect, "sizegroupy group1y, sizegroupx group1x, growx");
+	    
+	    JPanel teamBPanel = new JPanel();
+	    teamBPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+	    this.teamB_interrupt.setMinimumSize(new Dimension(35, 35));
+	    
+	    teamBPanel.add(this.teamBLabel, "span, wrap, align left, gaptop 5, gapleft 15");
+	    teamBPanel.add(this.teamB_interrupt, "span, growx");
+	    teamBPanel.add(this.teamB_correct, "sizegroupy group2y, sizegroupx group2x, growx");
+	    teamBPanel.add(this.teamB_incorrect, "sizegroupy group2y, sizegroupx group2x, growx");
+	    
+	    JPanel submitBackPanel = new JPanel();
+	    submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
+	    submitBackPanel.add(this.backButton, "sizegroup group3, growx");
+	    submitBackPanel.add(this.submitButton, "sizegroup group3, growx");
+	    
+	    JPanel answerPanel = new JPanel();
+	    answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+	    answerPanel.add(teamAPanel, "growx");
+	    answerPanel.add(teamBPanel, "growx");
+	    answerPanel.add(submitBackPanel, "growx, span");
+	    
+	    return answerPanel;
+		}
+		else
+		{
+			JPanel submitBackPanel = new JPanel();
+			submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
+			submitBackPanel.add(this.backButton, "sizegroupx group3, grow, gapafter 20");
+			submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, grow, gapafter 20");
+			submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, grow");
+			
+			JPanel answerPanel = new JPanel();
+			answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+			answerPanel.add(submitBackPanel, "growx, span");
+			
+			return answerPanel;
+		}
 	}
 
 	/**
@@ -487,6 +567,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.backButton = this.createNavigationButton();
 		this.nextQuestionButton= this.createNavigationButton();
 		this.nextTossupButton = this.createNavigationButton();
+		this.submitButton = this.createNavigationButton();
 
 		this.configureButtons();
 		this.hasSeenTcqReminder = false;
@@ -528,27 +609,84 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	}
 
 	private void configureButtons() {
-		SubmitAction submitAction = new SubmitAction(this.handler, this.teamA,
-				this.teamB);
-
-		this.nextQuestionButton.setAction(new NextQuestionAction(this.handler));
-		this.nextQuestionButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
-				.getResource(IconFactory.NEXT)));
-		this.nextQuestionButton.setMinimumSize(new Dimension(50, 25));
-		this.nextQuestionButton.setToolTipText("Next question (tossup or bonus)");
-		
-		this.nextTossupButton.setAction(submitAction);
-		this.nextTossupButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
-				.getResource(IconFactory.INCORRECT)));
-		this.nextTossupButton.setMinimumSize(new Dimension(50, 25));
-		this.nextTossupButton.setToolTipText("Next tossup");
-
-		this.backButton.setAction(new BackButtonAction(this.handler));
-		this.backButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
-				.getResource(IconFactory.BACK)));
-		this.backButton.setMinimumSize(new Dimension(50, 25));
-		this.backButton.setToolTipText("Previous tossup or bonus");
-
+		if (this.handler.isUsingScoreboard())
+		{
+	    SubmitAction submitAction = new SubmitAction(this.handler, this.teamA, 
+	        this.teamB);
+	      IncorrectAction incorrectAction = new IncorrectAction(this.handler, 
+	        this.teamA, this.teamB);
+	      
+	      ImageIcon correctIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
+	        "eOSB/game/data/images/checkmark2.png"));
+	      ImageIcon incorrectIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
+	        "eOSB/game/data/images/redXmark2.png"));
+	      
+	      this.teamA_correct.setAction(submitAction);
+	      this.teamA_correct.setActionCommand("TEAM_A");
+	      this.teamA_correct.setIcon(correctIcon);
+	      this.teamA_correct.setFocusable(false);
+	      
+	      this.teamA_incorrect.setAction(incorrectAction);
+	      this.teamA_incorrect.setActionCommand("TEAM_A");
+	      this.teamA_incorrect.setIcon(incorrectIcon);
+	      this.teamA_incorrect.setFocusable(false);
+	      
+	      this.teamA_interrupt.setAction(new InterruptAction(this.teamA_interrupt));
+	      this.teamA_interrupt.setText("Interrupt");
+	      this.teamA_interrupt.setMinimumSize(new Dimension(50, 30));
+	      this.teamA_interrupt.setFocusable(false);
+	      
+	      this.teamB_correct.setAction(submitAction);
+	      this.teamB_correct.setActionCommand("TEAM_B");
+	      this.teamB_correct.setIcon(correctIcon);
+	      this.teamB_correct.setFocusable(false);
+	      
+	      this.teamB_incorrect.setAction(incorrectAction);
+	      this.teamB_incorrect.setActionCommand("TEAM_B");
+	      this.teamB_incorrect.setIcon(incorrectIcon);
+	      this.teamB_incorrect.setFocusable(false);
+	      
+	      this.teamB_interrupt.setAction(new InterruptAction(this.teamB_interrupt));
+	      this.teamB_interrupt.setText("Interrupt");
+	      this.teamB_interrupt.setFocusable(false);
+	      
+	      this.submitButton.setAction(submitAction);
+	      this.submitButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
+	        "eOSB/game/data/images/nextArrow2.png")));
+	      this.submitButton.setText("Submit");
+	      this.submitButton.setHorizontalTextPosition(2);
+	      this.submitButton.setFocusable(false);
+	      
+	      this.backButton.setAction(new BackButtonAction(this.handler));
+	      this.backButton.setText("Back");
+	      this.backButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
+	        "eOSB/game/data/images/backArrow2.png")));
+	      this.backButton.setHorizontalTextPosition(4);
+	      this.backButton.setFocusable(false);
+		}
+		else
+		{
+			SubmitAction submitAction = new SubmitAction(this.handler, this.teamA,
+					this.teamB);
+			
+			this.nextQuestionButton.setAction(new NextQuestionAction(this.handler));
+			this.nextQuestionButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
+					.getResource(IconFactory.NEXT)));
+			this.nextQuestionButton.setMinimumSize(new Dimension(50, 25));
+			this.nextQuestionButton.setToolTipText("Next question (tossup or bonus)");
+			
+			this.nextTossupButton.setAction(submitAction);
+			this.nextTossupButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
+					.getResource(IconFactory.INCORRECT)));
+			this.nextTossupButton.setMinimumSize(new Dimension(50, 25));
+			this.nextTossupButton.setToolTipText("Next tossup");
+			
+			this.backButton.setAction(new BackButtonAction(this.handler));
+			this.backButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
+					.getResource(IconFactory.BACK)));
+			this.backButton.setMinimumSize(new Dimension(50, 25));
+			this.backButton.setToolTipText("Previous tossup or bonus");
+		}
 	}
 
 	/**
@@ -570,18 +708,6 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		if (this.handler.isUsingScoreboard()) {
 			this.teamA_interrupt.setSelected(false);
 			this.teamA_interrupt.setEnabled(false);
-		}
-	}
-
-	/**
-	 * Enable Team B's buttons
-	 */
-	private void enableTeamB() {
-		this.teamB_correct.setEnabled(true);
-		this.teamB_incorrect.setEnabled(true);
-
-		if (this.handler.isUsingScoreboard()) {
-			this.teamB_interrupt.setEnabled(true);
 		}
 	}
 
@@ -650,20 +776,14 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.questionPanelScroller.getViewport().removeAll();
 		
 		JTextPane textPane = this.createJTextPane(this.getQuestionBackground(question));
-//		textPane.setBorder(new TitledBorder(new EtchedBorder(), "Question " + question.getNumber()));
-//		textPane.setBorder(new LineBorder(Color.GRAY, 10 ,true));
-
 		StyledDocument document = this.configureStyledDocument(textPane);
 
 		try {
 			// formats and inserts the question metadata to precede question content
 			String questionNumber = "Question " + question.getNumber() + " is a ";
 			String questionType = question.getType().toString().toLowerCase() + ", " + question.getFormat() + ":";
-			String questionCategoryAndFormat =  question.getCategory().toLowerCase() + ":";
 			document.insertString(document.getLength(), questionNumber, document.getStyle(META_SMALL_STYLE));
 			document.insertString(document.getLength(), questionType, document.getStyle(META_BOLD_STYLE));
-//			document.insertString(document.getLength(), " in ", document.getStyle(META_SMALL_STYLE));
-//			document.insertString(document.getLength(), questionCategoryAndFormat, document.getStyle(META_BOLD_STYLE));
 
 			// inserts the question text
 			this.addTextToDocument("\n\n" + HALF_TAB + question.getText(), document);
@@ -739,6 +859,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.backButton.setEnabled(!question.getNumber().equals("1"));
 
 		this.nextQuestionButton.setEnabled(true);
+    this.submitButton.setEnabled(true);
 
 		// ensure both teams enabled if tossup
 		if (question.getType() == Question.Type.TOSSUP) {
@@ -916,6 +1037,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.toggleTeamButtons(false, true);
 		this.toggleTeamButtons(false, false);
 		this.nextQuestionButton.setEnabled(false);
+		this.submitButton.setEnabled(false);
 	}
 
 
@@ -1049,6 +1171,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 
 		this.backButton.setSelected(false);
 		this.nextQuestionButton.setSelected(false);
+		this.submitButton.setSelected(false);
 	}
 
 	private void updateBorders() {
@@ -1081,7 +1204,8 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 
 		this.backButton.setEnabled(this.gameState.isBackEnabled());
 		this.nextQuestionButton.setEnabled(this.gameState.isSubmitEnabled());
-
+		this.submitButton.setEnabled(this.gameState.isSubmitEnabled());
+		
 		this.hidingQuestions = false;
 		this.frame.setState(Frame.NORMAL);
 	}
@@ -1102,6 +1226,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	
 			this.disableBackButton();
 			this.nextQuestionButton.setEnabled(false);
+			this.submitButton.setEnabled(false);
 		}
 	}
 }

@@ -44,7 +44,7 @@ public class RoundFactory {
 	public static final String ROUND_11 = "eOSB/game/data/questions/round_11";
 	
 	/** round 12 */
-	public static final String ROUND_12 = "eOSB/game/data/questions/round_extra";
+	public static final String ROUND_12 = "eOSB/game/data/questions/round_12";
 	
 	/** round 13 */
 	public static final String ROUND_13 = "eOSB/game/data/questions/round_13";

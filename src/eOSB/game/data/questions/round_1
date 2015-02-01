@@ -278,7 +278,7 @@
       <QuestionType>Bonus</QuestionType>
       <Category>Physical - Air-sea Interface</Category>
       <QuestionFormat>Short Answer</QuestionFormat>
-      <QuestionText>Name the diurnal cycle where coastal wind direction in caused by the differential heating and cooling of the land and water.</QuestionText>
+      <QuestionText>Name the diurnal cycle where coastal wind direction is caused by the differential heating and cooling of the land and water.</QuestionText>
       <CorrectAnswer>Sea breeze OR land breeze</CorrectAnswer>
     </Question>
     <Question QuestionID="14198" QuestionIDString="0000014198">
