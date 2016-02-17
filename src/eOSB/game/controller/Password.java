@@ -6,7 +6,8 @@ import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
-import org.apache.commons.codec.binary.Base64;
+import com.jidesoft.utils.Base64;
+
 
 public class Password {
     // The higher the number of iterations the more 
@@ -21,7 +22,7 @@ public class Password {
     public static String getSaltedHash(String password) throws Exception {
         byte[] salt = SecureRandom.getInstance("SHA1PRNG").generateSeed(saltLen);
         // store the salt with the password
-        return Base64.encodeBase64String(salt) + "$" + hash(password, salt);
+        return Base64.encodeBytes(salt) + "$" + hash(password, salt);
     }
 
     /** Checks whether given plaintext password corresponds 
@@ -30,7 +31,7 @@ public class Password {
         String[] saltAndPass = stored.split("\\$");
         if (saltAndPass.length != 2)
             return false;
-        String hashOfInput = hash(password, Base64.decodeBase64(saltAndPass[0]));
+        String hashOfInput = hash(password, Base64.decode(saltAndPass[0]));
         return hashOfInput.equals(saltAndPass[1]);
     }
 
@@ -41,6 +42,6 @@ public class Password {
         SecretKey key = f.generateSecret(new PBEKeySpec(
             password.toCharArray(), salt, iterations, desiredKeyLen)
         );
-        return Base64.encodeBase64String(key.getEncoded());
+        return Base64.encodeBytes(key.getEncoded());
     }
 }

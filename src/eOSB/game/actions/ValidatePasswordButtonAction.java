@@ -81,11 +81,9 @@ public class ValidatePasswordButtonAction extends AbstractAction {
 				cutoffString = reader.readLine();
 			}
 
-			this.cutoffDate = DateFormat.getDateInstance().parse(cutoffString);
+			this.cutoffDate = new Date(cutoffString);
 		} catch (IOException e1) {
 			e1.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
 		}
 
 		boolean isCorrect;

@@ -91,4 +91,10 @@ public class TcqFactory {
   public static final String TCQ_15_B = "eOSB/game/data/questions/tcq_15_b.pdf";
   public static final String TCQ_15_A_SOLUTIONS = "eOSB/game/data/questions/tcq_15_a_solutions.pdf";
   public static final String TCQ_15_B_SOLUTIONS = "eOSB/game/data/questions/tcq_15_b_solutions.pdf";
+  
+  /** round 15 */
+  public static final String TCQ_EXTRA_A = "eOSB/game/data/questions/tcq_extra_a.pdf";
+  public static final String TCQ_EXTRA_B = "eOSB/game/data/questions/tcq_extra_b.pdf";
+  public static final String TCQ_EXTRA_A_SOLUTIONS = "eOSB/game/data/questions/tcq_extra_a_solutions.pdf";
+  public static final String TCQ_EXTRA_B_SOLUTIONS = "eOSB/game/data/questions/tcq_extra_b_solutions.pdf";
 }

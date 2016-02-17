@@ -395,10 +395,10 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		{
 			this.shouldEnableTcqs = false;
 		}
-		else if (this.handler.IS_ORIENTATION_VERSION) 
-		{
-			this.shouldEnableTcqs = false;
-		}
+//		else if (this.handler.IS_ORIENTATION_VERSION) 
+//		{
+//			this.shouldEnableTcqs = false;
+//		}
 		else 
 		{
 			this.shouldEnableTcqs = true;

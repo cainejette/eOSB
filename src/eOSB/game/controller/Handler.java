@@ -1,7 +1,10 @@
 package eOSB.game.controller;
 
-import java.io.FileInputStream;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -87,10 +90,10 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	public static final int BINDER_SCOREKEEPER = 2;
 	public static final int BINDER_TIMEKEEPER_SCOREKEEPER = 3;
 
-	public static final String QUESTION_CODE = "150204-A";
+	public static final String QUESTION_CODE = "160101-MOP";
 
 	// flag to indicate MOP or actual competition version
-	public static final boolean IS_ORIENTATION_VERSION = false;
+	public static final boolean IS_ORIENTATION_VERSION = true;
 
 	/**
 	 * Initializes the game controller object.
@@ -117,272 +120,131 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 	}
 
-	/**
-	 * Populates the round list with the questions
-	 */
-	private void populateRounds() {
-		List<Tcq> tcqs = new ArrayList<Tcq>();
-		List<Tcq> tcqSolutions = new ArrayList<Tcq>();
-
-		 tcqs.add(new Tcq("n/a", TcqFactory.TCQ_1_A));
-		 tcqs.add(new Tcq("n/a", TcqFactory.TCQ_1_B));
-		 tcqSolutions.add(new Tcq("n/a",
-		 TcqFactory.TCQ_1_A_SOLUTIONS));
-		 tcqSolutions.add(new Tcq("n/a",
-		 TcqFactory.TCQ_1_B_SOLUTIONS));
+	
+	private class RoundInfo {
+		private String Name;
+		private String tcqADuration;
+		private String tcqBDuration;
 		
-
-		this.availableRounds.add(new Round("Six-question warm up",
-				RoundFactory.PRACTICE, tcqs, tcqSolutions));
-//
-		tcqs = new ArrayList<Tcq>();
-		tcqs.add(new Tcq("Round 1 A", TcqFactory.TCQ_1_A, "", "3:00"));
-		tcqs.add(new Tcq("Round 1 B", TcqFactory.TCQ_1_B, "",
-				"4:00"));
-		tcqSolutions = new ArrayList<Tcq>();
-		tcqSolutions.add(new Tcq("Round 1 A Solutions",
-				TcqFactory.TCQ_1_A_SOLUTIONS));
-		tcqSolutions.add(new Tcq("Round 1 B Solutions",
-				TcqFactory.TCQ_1_B_SOLUTIONS));
-
-		this.availableRounds.add(new Round("Round 1",
-				RoundFactory.ROUND_1, tcqs, tcqSolutions));
-
-		tcqs = new ArrayList<Tcq>();
-		tcqs.add(new Tcq("Round 2 A", TcqFactory.TCQ_2_A, "", "3:00"));
-		tcqs.add(new Tcq("Round 2 B", TcqFactory.TCQ_2_B, "", "4:00"));
-		tcqSolutions = new ArrayList<Tcq>();
-		tcqSolutions.add(new Tcq("Round 2 A Solutions",
-				TcqFactory.TCQ_2_A_SOLUTIONS));
-		tcqSolutions.add(new Tcq("Round 2 B Solutions",
-				TcqFactory.TCQ_2_B_SOLUTIONS));
-
-		this.availableRounds.add(new Round("Round 2",
-				RoundFactory.ROUND_2, tcqs, tcqSolutions));
-
-		tcqs = new ArrayList<Tcq>();
-		tcqs.add(new Tcq("Round 3 A", TcqFactory.TCQ_3_A, "", "3:00"));
-		tcqs.add(new Tcq("Round 3 B", TcqFactory.TCQ_3_B, "", "3:00"));
-
-		tcqSolutions = new ArrayList<Tcq>();
-		tcqSolutions.add(new Tcq("Round 3 A Solutions",
-				TcqFactory.TCQ_3_A_SOLUTIONS));
-		tcqSolutions.add(new Tcq("Round 3 B Solutions",
-				TcqFactory.TCQ_3_B_SOLUTIONS));
-
-		this.availableRounds.add(new Round("Round 3",
-				RoundFactory.ROUND_3, tcqs, tcqSolutions));
-
-		if (!Handler.IS_ORIENTATION_VERSION) {
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Round 4 A", TcqFactory.TCQ_4_A, "", "3:00"));
-			tcqs.add(new Tcq("Round 4 B", TcqFactory.TCQ_4_B, "",
-					"4:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq("Round 4 A Solutions",
-					TcqFactory.TCQ_4_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq("Round 4 B Solutions",
-					TcqFactory.TCQ_4_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Round 4",
-					RoundFactory.ROUND_4, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Round 5 A", TcqFactory.TCQ_5_A, "", "3:00"));
-			tcqs.add(new Tcq("Round 5 B", TcqFactory.TCQ_5_B, "", "3:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq("Round 5 A Solutions",
-					TcqFactory.TCQ_5_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq("Round 5 B Solutions",
-					TcqFactory.TCQ_5_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Round 5",
-					RoundFactory.ROUND_5, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Round 6 A",
-					TcqFactory.TCQ_6_A, "", "3:00"));
-			tcqs.add(new Tcq("Round 6 B",
-					TcqFactory.TCQ_6_B, "", "5:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(
-					"Round 6 A Solutions",
-					TcqFactory.TCQ_6_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq(
-					"Round 6 B Solutions",
-					TcqFactory.TCQ_6_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Round 6",
-					RoundFactory.ROUND_6, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Round 7 A",
-					TcqFactory.TCQ_7_A, "", "5:00"));
-			tcqs.add(new Tcq("Round 7 B",
-					TcqFactory.TCQ_7_B, "", "4:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(
-					"Round 7 A Solutions",
-					TcqFactory.TCQ_7_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq(
-					"Round 7 B Solutions",
-					TcqFactory.TCQ_7_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Round 7",
-					RoundFactory.ROUND_7, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Round 8 A",
-					TcqFactory.TCQ_8_A, "", "5:00"));
-			tcqs.add(new Tcq("Round 8 B",
-					TcqFactory.TCQ_8_B, "", "5:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(
-					"Round 8 A Solutions",
-					TcqFactory.TCQ_8_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq(
-					"Round 8 B Solutions",
-					TcqFactory.TCQ_8_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Round 8",
-					RoundFactory.ROUND_8, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Round 9 A",
-					TcqFactory.TCQ_9_A, "", "5:00"));
-			tcqs.add(new Tcq("Round 9 B",
-					TcqFactory.TCQ_9_B, "", "2:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(
-					"Round 9 A Solutions",
-					TcqFactory.TCQ_9_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq(
-					"Round 9 B Solutions",
-					TcqFactory.TCQ_9_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Round 9",
-					RoundFactory.ROUND_9, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Round 10 A",
-					TcqFactory.TCQ_10_A, "", "3:00"));
-			tcqs.add(new Tcq("Round 10 B",
-					TcqFactory.TCQ_10_B, "", "4:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(
-					"Round 10 A Solutions",
-					TcqFactory.TCQ_10_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq(
-					"Round 10 B Solutions",
-					TcqFactory.TCQ_10_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Round 10",
-					RoundFactory.ROUND_10, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Round 11 A",
-					TcqFactory.TCQ_11_A, "", "4:00"));
-			tcqs.add(new Tcq("Round 11 B",
-					TcqFactory.TCQ_11_B, "", "5:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(
-					"Round 11 A Solutions",
-					TcqFactory.TCQ_11_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq(
-					"Round 11 B Solutions",
-					TcqFactory.TCQ_11_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Round 11",
-					RoundFactory.ROUND_11, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Extra A",
-					TcqFactory.TCQ_12_A, "", "3:00"));
-			tcqs.add(new Tcq("Extra B",
-					TcqFactory.TCQ_12_B, "", "4:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(
-					"Extra A Solutions",
-					TcqFactory.TCQ_12_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq(
-					"Extra B Solutions",
-					TcqFactory.TCQ_12_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Extra Round",
-					RoundFactory.EXTRA, tcqs, tcqSolutions));
-
-			// tcqs = new ArrayList<Tcq>();
-			// tcqs.add(new Tcq("Double Elimination / Round 8 A",
-			// 		TcqFactory.TCQ_13_A, "Biology", "4:00"));
-			// tcqs.add(new Tcq("Double Elimination / Round 8 B",
-			// 		TcqFactory.TCQ_13_B, "Geography", "5:00"));
-
-			// tcqSolutions = new ArrayList<Tcq>();
-			// tcqSolutions.add(new Tcq(
-			// 		"Double Elimination / Round 8 A Solutions",
-			// 		TcqFactory.TCQ_13_A_SOLUTIONS));
-			// tcqSolutions.add(new Tcq(
-			// 		"Double Elimination / Round 8 B Solutions",
-			// 		TcqFactory.TCQ_13_B_SOLUTIONS));
-
-			// this.availableRounds.add(new Round("Double Elimination / Round 8",
-			// 		RoundFactory.ROUND_13, tcqs, tcqSolutions));
-
-			// tcqs = new ArrayList<Tcq>();
-			// tcqs.add(new Tcq("Double Elimination / Round 9 A",
-			// 		TcqFactory.TCQ_14_A, "Social Science", "4:00"));
-			// tcqs.add(new Tcq("Double Elimination / Round 9 B",
-			// 		TcqFactory.TCQ_14_B, "Chemistry", "4:00"));
-
-			// tcqSolutions = new ArrayList<Tcq>();
-			// tcqSolutions.add(new Tcq(
-			// 		"Double Elimination / Round 9 A Solutions",
-			// 		TcqFactory.TCQ_14_A_SOLUTIONS));
-			// tcqSolutions.add(new Tcq(
-			// 		"Double Elimination / Round 9 B Solutions",
-			// 		TcqFactory.TCQ_14_B_SOLUTIONS));
-
-			// this.availableRounds.add(new Round("Double Elimination / Round 9",
-			// 		RoundFactory.ROUND_14, tcqs, tcqSolutions));
-
-			// tcqs = new ArrayList<Tcq>();
-			// tcqs.add(new Tcq("Extra Round A", TcqFactory.TCQ_15_A,
-			// 		"Marine Policy", "3:00"));
-			// tcqs.add(new Tcq("Extra Round B", TcqFactory.TCQ_15_B, "Physical",
-			// 		"4:00"));
-
-			// tcqSolutions = new ArrayList<Tcq>();
-			// tcqSolutions.add(new Tcq("Extra Round A Solutions",
-			// 		TcqFactory.TCQ_15_A_SOLUTIONS));
-			// tcqSolutions.add(new Tcq("Extra Round B Solutions",
-			// 		TcqFactory.TCQ_15_B_SOLUTIONS));
-
-			// this.availableRounds.add(new Round("Extra Round",
-			// 		RoundFactory.EXTRA, tcqs, tcqSolutions));
-
-			tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq("Tiebreaker Round A", TcqFactory.TCQ_15_A,
-					"", "3:00"));
-			tcqs.add(new Tcq("Tiebreaker Round B", TcqFactory.TCQ_15_B,
-					"", "4:00"));
-
-			tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq("Tiebreaker Round A Solutions",
-					TcqFactory.TCQ_15_A_SOLUTIONS));
-			tcqSolutions.add(new Tcq("Tiebreaker Round B Solutions",
-					TcqFactory.TCQ_15_B_SOLUTIONS));
-
-			this.availableRounds.add(new Round("Tiebreaker Round",
-					RoundFactory.TIEBREAKER, tcqs, tcqSolutions));
+		public String getName() { return this.Name; }
+		public String getTcqADuration() { return this.tcqADuration; }
+		public String getTcqBDuration() { return this.tcqBDuration; }
+		
+		public void setName(String name) { this.Name = name; }
+		public void setTcqADuration(String duration) { this.tcqADuration = duration; }
+		public void setTcqBDuration(String duration) { this.tcqBDuration = duration; }
+	}
+	
+	/**
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
+	private void populateRounds() {		
+		List<RoundInfo> roundInfos = new ArrayList<RoundInfo>();
+		BufferedReader br = new BufferedReader(new InputStreamReader( Handler.getResourceAsStream(RoundFactory.INFO)));
+		try {
+		    String name = br.readLine();
+		    
+		    while (name != null) {
+		    	String aDuration = br.readLine();
+		    	String bDuration = br.readLine();
+		    	
+		    	if (aDuration != null && bDuration != null) {
+		    		System.out.println("adding round info\n");
+		    		RoundInfo roundInfo = new RoundInfo();
+		    		
+		    		System.out.println(name + " / " + aDuration + " / " + bDuration);
+		    		roundInfo.setName(name);
+		    		roundInfo.setTcqADuration(aDuration);
+		    		roundInfo.setTcqBDuration(bDuration);
+		    		roundInfos.add(roundInfo);
+		    	}
+		    	
+		    	br.readLine();
+		    	name = br.readLine();
+		    }
+		}
+		catch (IOException e) {
+			System.out.println("Something bad happened reading file");
+		}
+		finally {
+		    try {
+				br.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				System.out.println("Failed to clean up round info reader");
+				e.printStackTrace();
+			}
+		}
+		
+		System.out.println("Found this many round infos: " + roundInfos.size());
+		
+		for (int i = 0; i < roundInfos.size(); i++) {
+			RoundInfo roundInfo = roundInfos.get(i);
+			
+			String tcqA, tcqB, tcqASolution, tcqBSolution, buzzer;
+			
+			if (roundInfo.Name.contains("Extra")) {
+				tcqA = TcqFactory.TCQ_EXTRA_A;
+				tcqB = TcqFactory.TCQ_EXTRA_B;
+				tcqASolution = TcqFactory.TCQ_EXTRA_A_SOLUTIONS;
+				tcqBSolution = TcqFactory.TCQ_EXTRA_B_SOLUTIONS;
+				buzzer = RoundFactory.EXTRA;
+			}
+			else if (roundInfo.Name.contains("Tiebreak")) {
+				tcqA = "";
+				tcqB = "";
+				tcqASolution = "";
+				tcqBSolution = "";
+				buzzer = RoundFactory.TIEBREAKER;
+			}
+			else if (roundInfo.Name.contains("Practice")) {
+				tcqA = "";
+				tcqB = "";
+				tcqASolution = "";
+				tcqBSolution = "";
+				buzzer = RoundFactory.PRACTICE;
+			}
+			else {
+				tcqA = RoundFactory.BASE + "tcq_" + (i) + "_a.pdf";
+				tcqB = RoundFactory.BASE + "tcq_" + (i) + "_b.pdf";
+				tcqASolution = RoundFactory.BASE + "tcq_" + (i) + "_a_solutions.pdf";
+				tcqBSolution = RoundFactory.BASE + "tcq_" + (i) + "_b_solutions.pdf";
+				buzzer = RoundFactory.BASE + "round_" + (i) + ".xml";
+			}
+			
+			List<Tcq> tcqs = new ArrayList<Tcq>();
+			tcqs.add(new Tcq(roundInfo.Name + " TCQ A", tcqA, "", roundInfo.tcqADuration));
+			tcqs.add(new Tcq(roundInfo.Name + " TCQ B", tcqB, "", roundInfo.tcqBDuration));
+			
+			List<Tcq> tcqSolutions = new ArrayList<Tcq>();
+			tcqSolutions.add(new Tcq(roundInfo.Name + "TCQ A Solutions", tcqASolution));
+			tcqSolutions.add(new Tcq(roundInfo.Name + "TCQ B Solutions", tcqBSolution));
+						
+			Round round = new Round(roundInfo.Name, buzzer, tcqs, tcqSolutions);
+			this.availableRounds.add(round);
+			System.out.println("adding " + roundInfo.Name + " with buzzers: " + buzzer);
 		}
 	}
 
