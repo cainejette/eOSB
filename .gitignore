@@ -1,1 +1,3 @@
 /bin/
+src/eOSB/game/data/questions/*.xml
+src/eOSB/game/data/questions/*.pdf
