@@ -15,20 +15,20 @@ public class Round {
   private int currentQuestion = -1;
   private ArrayList<Question> questions = new ArrayList<Question>();
   private boolean previouslyOpened = false;
-  private String fileLocation;
-  private String roundName;
+  private String file;
+  private String name;
   private List<Tcq> tcqs;
   private List<Tcq> tcqSolutions;
 
   /**
    * @param roundName the name of this {@link Round}
-   * @param fileLocation the location of this round
+   * @param file the location of this round
    * @param tcqs the list of {link Tcq}s for this round
    * @param tcqSolutions the list of tcq solutions
    */
-  public Round(String roundName, String fileLocation, List<Tcq> tcqs, List<Tcq> tcqSolutions) {
-    this.roundName = roundName;
-    this.fileLocation = fileLocation;
+  public Round(String roundName, String file, List<Tcq> tcqs, List<Tcq> tcqSolutions) {
+    this.name = roundName;
+    this.file = file;
     this.tcqs = tcqs;
     this.tcqSolutions = tcqSolutions;
   }
@@ -124,14 +124,14 @@ public class Round {
    * @return the location of this {@link Round}
    */
   public String getLocation() {
-    return this.fileLocation;
+    return this.file;
   }
 
   /**
    * @return the name of this {@link Round}
    */
   public String getName() {
-    return this.roundName;
+    return this.name;
   }
 
   /**
@@ -139,8 +139,8 @@ public class Round {
    * whether it's been opened.
    */
   public JRadioButton getButton() {
-    JRadioButton button = new JRadioButton(this.roundName);
-    button.setActionCommand(this.roundName);
+    JRadioButton button = new JRadioButton(this.name);
+    button.setActionCommand(this.name);
 
     if (this.previouslyOpened) {
       button.setFont(new Font("Helvetica", Font.ITALIC, 28));

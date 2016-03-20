@@ -12,7 +12,7 @@ import javax.swing.SwingConstants;
 
 @SuppressWarnings("serial")
 public class PackageSelectionListRenderer extends
-		DefaultPackageSelectionListRenderer implements ListCellRenderer<Object> {
+		DefaultPackageSelectionListRenderer implements ListCellRenderer {
 
 	@Override
 	public Component getListCellRendererComponent(JList list, Object value,

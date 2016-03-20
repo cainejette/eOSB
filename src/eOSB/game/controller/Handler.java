@@ -166,7 +166,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		try {
 		    String name = br.readLine();
 		    
-		    while (name != null) {
+		    while (name != null && !name.equals("End")) {
 		    	String aDuration = br.readLine();
 		    	String bDuration = br.readLine();
 		    	
@@ -175,9 +175,9 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		    		RoundInfo roundInfo = new RoundInfo();
 		    		
 		    		System.out.println(name + " / " + aDuration + " / " + bDuration);
-		    		roundInfo.setName(name);
-		    		roundInfo.setTcqADuration(aDuration);
-		    		roundInfo.setTcqBDuration(bDuration);
+		    		roundInfo.setName(name.substring("Round name:".length()));
+		    		roundInfo.setTcqADuration(aDuration.substring("TCQ A duration:".length()));
+		    		roundInfo.setTcqBDuration(bDuration.substring("TCQ B duration:".length()));
 		    		roundInfos.add(roundInfo);
 		    	}
 		    	
@@ -235,12 +235,12 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			}
 			
 			List<Tcq> tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq(roundInfo.Name + " TCQ A", tcqA, "", roundInfo.tcqADuration));
-			tcqs.add(new Tcq(roundInfo.Name + " TCQ B", tcqB, "", roundInfo.tcqBDuration));
+			tcqs.add(new Tcq(roundInfo.Name + " TCQ A", tcqA, roundInfo.tcqADuration));
+			tcqs.add(new Tcq(roundInfo.Name + " TCQ B", tcqB, roundInfo.tcqBDuration));
 			
 			List<Tcq> tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(roundInfo.Name + "TCQ A Solutions", tcqASolution));
-			tcqSolutions.add(new Tcq(roundInfo.Name + "TCQ B Solutions", tcqBSolution));
+			tcqSolutions.add(new Tcq(roundInfo.Name + " TCQ A Solutions", tcqASolution));
+			tcqSolutions.add(new Tcq(roundInfo.Name + " TCQ B Solutions", tcqBSolution));
 						
 			Round round = new Round(roundInfo.Name, buzzer, tcqs, tcqSolutions);
 			this.availableRounds.add(round);

@@ -11,24 +11,26 @@ import javax.swing.JRadioButton;
  */
 public class Tcq {
   private String name;
-  private String location;
+  private String file;
   private boolean previouslyOpened;
   private JRadioButton button;
+  private String duration;
 
   public Tcq(String name, String location) {
     this.name = name;
-    this.location = location;
+    this.file = location;
 		this.previouslyOpened = false;
 		this.button = new JRadioButton(this.name);
     this.button.setActionCommand(this.name);
   }
   
-  public Tcq(String name, String location, String category, String duration) {
+  public Tcq(String name, String file, String duration) {
   	this.name = name;
-    this.location = location;
-		this.previouslyOpened = false;
-		this.button = new JRadioButton(this.name + " (" + duration + ")");
-		this.button.setActionCommand(this.name);
+    this.file = file;
+	this.previouslyOpened = false;
+	this.duration = duration;
+	this.button = new JRadioButton(this.name + " (" + duration + ")");
+	this.button.setActionCommand(this.name);
   }
 
   /**
@@ -72,7 +74,7 @@ public class Tcq {
    * @return the location of this {@link Tcq}
    */
   public String getLocation() {
-    return this.location;
+    return this.file;
   }
   
   /**

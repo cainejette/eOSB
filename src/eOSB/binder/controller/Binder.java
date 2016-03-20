@@ -9,14 +9,12 @@ import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.Insets;
 import java.awt.Point;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.font.TextAttribute;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -36,15 +34,12 @@ import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextPane;
-import javax.swing.JViewport;
 import javax.swing.KeyStroke;
 import javax.swing.border.TitledBorder;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Style;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
-
-import net.miginfocom.swing.MigLayout;
 
 import org.bushe.swing.event.EventBus;
 import org.bushe.swing.event.EventServiceEvent;
@@ -70,11 +65,8 @@ import eOSB.game.controller.Question;
 import eOSB.game.controller.Round;
 import eOSB.game.data.IconFactory;
 import eOSB.game.data.PdfFactory;
-import eOSB.game.controller.Question.Format;
-import eOSB.game.controller.Question.Type;
 import eOSB.score.controller.TeamScoreNumberEvent;
-import eOSB.time.controller.CountDownTimer;
-import eOSB.time.controller.Timekeeper;
+import net.miginfocom.swing.MigLayout;
 
 /**
  * The eOSB UI, serving as a replacement for the traditional binder. Also
@@ -605,6 +597,42 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	 */
 	private JButton createNavigationButton() {
 		JButton button = new JButton();
+		
+		button.addKeyListener(new KeyListener() {
+
+			@Override
+			public void keyPressed(KeyEvent arg0) {
+				int keyCode = arg0.getKeyCode();
+				switch (keyCode) {
+					case KeyEvent.VK_UP:
+						System.out.println("up");
+						nextTossupButton.doClick();
+						break;
+						
+					case KeyEvent.VK_LEFT:
+						System.out.println("left");
+						backButton.doClick();
+						break;
+						
+					case KeyEvent.VK_RIGHT:
+						System.out.println("right");
+						nextQuestionButton.doClick();
+						break;
+				}
+			}
+
+			@Override
+			public void keyReleased(KeyEvent arg0) {
+				
+			}
+
+			@Override
+			public void keyTyped(KeyEvent arg0) {
+				
+			}
+		});
+		
+		
 		return button;
 	}
 
@@ -805,7 +833,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 
 		textPane.setCaretPosition(0);
-		this.questionPanelScroller.getViewport().setView(textPane);
+		this.questionPanelScroller.getViewport().setView(textPane);		
 	}
 	
 	/**
