@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="/Users/jette/src/eOSB/libraries/eventbus-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/jette/src/eOSB/libraries/icepdf-core.jar"/>
+	<classpathentry kind="lib" path="/Users/jette/src/eOSB/libraries/icepdf-viewer.jar"/>
+	<classpathentry kind="lib" path="/Users/jette/src/eOSB/libraries/jide-oss-2.8.8.jar"/>
+	<classpathentry kind="lib" path="/Users/jette/src/eOSB/libraries/miglayout-3.7.3.1-swing.jar"/>
+	<classpathentry kind="lib" path="/Users/jette/src/eOSB/libraries/miglayout-4.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/jette/src/eOSB/libraries/miglayout-4.0-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/jette/src/eOSB/libraries/commons-io-2.2/commons-io-2.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 7 [1.7.0_71]"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
