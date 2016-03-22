@@ -21,7 +21,7 @@ import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
 
 import eOSB.binder.ui.actions.CancelButtonAction;
-import eOSB.game.data.PdfFactory;
+import eOSB.game.data.PathStore;
 
 public class DisplayEulaDialog extends StandardDialog {
   private Handler handler;
@@ -78,7 +78,7 @@ public class DisplayEulaDialog extends StandardDialog {
     JPanel panel = new JPanel();
     JTextArea textArea = new JTextArea();
 
-    BufferedReader reader = new BufferedReader(new InputStreamReader(Handler.getResourceAsStream(PdfFactory.EULA_TXT)));
+    BufferedReader reader = new BufferedReader(new InputStreamReader(Handler.getResourceAsStream(PathStore.EULA_TXT)));
 
     String currentLine = null;
     String text = null;

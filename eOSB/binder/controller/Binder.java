@@ -64,7 +64,7 @@ import eOSB.game.controller.NewRoundEvent;
 import eOSB.game.controller.Question;
 import eOSB.game.controller.Round;
 import eOSB.game.data.IconFactory;
-import eOSB.game.data.PdfFactory;
+import eOSB.game.data.PathStore;
 import eOSB.score.controller.TeamScoreNumberEvent;
 import net.miginfocom.swing.MigLayout;
 
@@ -333,20 +333,20 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		menu.setMnemonic(KeyEvent.VK_H);
 
 		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenPdfAction(PdfFactory.COMPETITION_RULES));
+		menuItem.setAction(new OpenPdfAction(PathStore.COMPETITION_RULES));
 		menuItem.setText("Competition Rules");
 		menuItem.setMnemonic(KeyEvent.VK_C);
 		menu.add(menuItem);
 		menu.addSeparator();
 
 		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenPdfAction(PdfFactory.USER_MANUAL));
+		menuItem.setAction(new OpenPdfAction(PathStore.USER_MANUAL));
 		menuItem.setText("User Manual");
 		menuItem.setMnemonic(KeyEvent.VK_U);
 		menu.add(menuItem);
 
 		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenPdfAction(PdfFactory.EULA_PDF));
+		menuItem.setAction(new OpenPdfAction(PathStore.EULA_PDF));
 		menuItem.setText("Terms of Agreement");
 		menuItem.setMnemonic(KeyEvent.VK_T);
 		menu.addSeparator();

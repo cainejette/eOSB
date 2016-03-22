@@ -26,7 +26,7 @@ import com.jidesoft.dialog.StandardDialog;
 import eOSB.binder.ui.SelectTcqDialog;
 import eOSB.game.controller.CancelAndShowAction;
 import eOSB.game.controller.Handler;
-import eOSB.game.data.PdfFactory;
+import eOSB.game.data.PathStore;
 
 public class TcqPreambleDialog extends StandardDialog {
 
@@ -109,7 +109,7 @@ public class TcqPreambleDialog extends StandardDialog {
     String previousLine = "";
 
     reader = new BufferedReader(new InputStreamReader(ClassLoader.getSystemClassLoader().getResourceAsStream(
-        PdfFactory.TCQ_PREAMBLE)));
+        PathStore.TCQ_PREAMBLE)));
     
     try {
       currentLine = reader.readLine();

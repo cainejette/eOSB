@@ -24,7 +24,7 @@ import com.jidesoft.dialog.StandardDialog;
 
 import eOSB.binder.ui.actions.CancelButtonAction;
 import eOSB.game.controller.Handler;
-import eOSB.game.data.PdfFactory;
+import eOSB.game.data.PathStore;
 
 public class RoundPreambleDialog extends StandardDialog {
   private Handler handler;
@@ -103,7 +103,7 @@ public class RoundPreambleDialog extends StandardDialog {
     String previousLine = "";
 
     reader = new BufferedReader(new InputStreamReader(ClassLoader.getSystemClassLoader().getResourceAsStream(
-        PdfFactory.ROUND_PREAMBLE)));
+        PathStore.ROUND_PREAMBLE)));
     
     try {
       currentLine = reader.readLine();

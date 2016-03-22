@@ -5,7 +5,7 @@ package eOSB.game.data;
  * @author Caine Jette
  *
  */
-public class PdfFactory {
+public class PathStore {
 
 	/** the NOSB competition rules */
 	public static final String COMPETITION_RULES = "eOSB/game/data/pdfs/rules.pdf";
@@ -22,5 +22,13 @@ public class PdfFactory {
 	public static final String ROUND_PREAMBLE = "eOSB/game/data/moderator_preamble.txt";
 	
 	public static final String TCQ_PREAMBLE = "eOSB/game/data/tcq_preamble.txt";
+	
+	public static final String INFO = "eOSB/game/data/questions/info.txt";
+	
+	public static final String BASE = "eOSB/game/data/questions/";
+	
+	public static String MakeTcqPath(String round, boolean isA, boolean isSolutions) {
+		return "eOSB/game/data/questions/tcq_{0}_{1}{2}.pdf".replace("{0}", round).replace("{1}", isA ? "a" : "b").replace("{2}", isSolutions ? "_solutions" : "");
+	}
 
 }

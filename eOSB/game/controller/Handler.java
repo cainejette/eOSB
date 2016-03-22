@@ -1,7 +1,6 @@
 package eOSB.game.controller;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -31,9 +30,8 @@ import eOSB.binder.controller.UpdateQuestionEvent;
 import eOSB.binder.ui.HideBuzzerQuestionsEvent;
 import eOSB.binder.ui.ShowBuzzerQuestionsEvent;
 import eOSB.binder.ui.actions.RoundSelectedEvent;
+import eOSB.game.data.PathStore;
 import eOSB.game.data.QuestionXMLParser;
-import eOSB.game.data.RoundFactory;
-import eOSB.game.data.TcqFactory;
 import eOSB.game.ui.PackageSelectionListEvent;
 import eOSB.game.ui.PackagesSelectedEvent;
 import eOSB.game.ui.RoundSelectionListEvent;
@@ -119,65 +117,48 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(RemindTcqEvent.class, this);
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 	}
-
 	
 	private class RoundInfo {
-		private String Name;
+		private String name;
+		private String filePath;
 		private String tcqADuration;
 		private String tcqBDuration;
 		
-		public String getName() { return this.Name; }
-		public String getTcqADuration() { return this.tcqADuration; }
-		public String getTcqBDuration() { return this.tcqBDuration; }
-		
-		public void setName(String name) { this.Name = name; }
+		public void setName(String name) { this.name = name; }
+		public void setFilePath(String path) { this.filePath = path; }
 		public void setTcqADuration(String duration) { this.tcqADuration = duration; }
 		public void setTcqBDuration(String duration) { this.tcqBDuration = duration; }
+		
+		@Override
+		public String toString() {
+			return name + ", " + filePath + ", " + tcqADuration + ", " + tcqBDuration;
+		}
 	}
 	
-	/**
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * REMEMBER TO SET TCQS FOR THE FIRST 4 ROUNDS CORRECTLY!!
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 */
-	private void populateRounds() {		
+	private List<RoundInfo> getRoundInfos() {
 		List<RoundInfo> roundInfos = new ArrayList<RoundInfo>();
-		BufferedReader br = new BufferedReader(new InputStreamReader( Handler.getResourceAsStream(RoundFactory.INFO)));
+		BufferedReader br = new BufferedReader(new InputStreamReader( Handler.getResourceAsStream(PathStore.INFO)));
+		
 		try {
 		    String name = br.readLine();
 		    
-		    while (name != null && !name.equals("End")) {
+		    while (name != null) {
+		    	String filePath = br.readLine();
 		    	String aDuration = br.readLine();
 		    	String bDuration = br.readLine();
 		    	
 		    	if (aDuration != null && bDuration != null) {
 		    		System.out.println("adding round info\n");
+		    		System.out.println(name + " / " + filePath + " / " + aDuration + " / " + bDuration);
 		    		RoundInfo roundInfo = new RoundInfo();
 		    		
-		    		System.out.println(name + " / " + aDuration + " / " + bDuration);
-		    		roundInfo.setName(name.substring("Round name:".length()));
-		    		roundInfo.setTcqADuration(aDuration.substring("TCQ A duration:".length()));
-		    		roundInfo.setTcqBDuration(bDuration.substring("TCQ B duration:".length()));
+		    		roundInfo.setName(name.split(":")[1].trim());
+		    		roundInfo.setFilePath(filePath.split(":")[1].trim());
+		    		
+		    		roundInfo.setTcqADuration(aDuration.split(":", 2)[1].trim());
+		    		roundInfo.setTcqBDuration(bDuration.split(":", 2)[1].trim());
+		    		
+		    		System.out.println(roundInfo);
 		    		roundInfos.add(roundInfo);
 		    	}
 		    	
@@ -198,53 +179,23 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			}
 		}
 		
-		System.out.println("Found this many round infos: " + roundInfos.size());
-		
-		for (int i = 0; i < roundInfos.size(); i++) {
-			RoundInfo roundInfo = roundInfos.get(i);
-			
-			String tcqA, tcqB, tcqASolution, tcqBSolution, buzzer;
-			
-			if (roundInfo.Name.contains("Extra")) {
-				tcqA = TcqFactory.TCQ_EXTRA_A;
-				tcqB = TcqFactory.TCQ_EXTRA_B;
-				tcqASolution = TcqFactory.TCQ_EXTRA_A_SOLUTIONS;
-				tcqBSolution = TcqFactory.TCQ_EXTRA_B_SOLUTIONS;
-				buzzer = RoundFactory.EXTRA;
-			}
-			else if (roundInfo.Name.contains("Tiebreak")) {
-				tcqA = "";
-				tcqB = "";
-				tcqASolution = "";
-				tcqBSolution = "";
-				buzzer = RoundFactory.TIEBREAKER;
-			}
-			else if (roundInfo.Name.contains("Practice")) {
-				tcqA = "";
-				tcqB = "";
-				tcqASolution = "";
-				tcqBSolution = "";
-				buzzer = RoundFactory.PRACTICE;
-			}
-			else {
-				tcqA = RoundFactory.BASE + "tcq_" + (i) + "_a.pdf";
-				tcqB = RoundFactory.BASE + "tcq_" + (i) + "_b.pdf";
-				tcqASolution = RoundFactory.BASE + "tcq_" + (i) + "_a_solutions.pdf";
-				tcqBSolution = RoundFactory.BASE + "tcq_" + (i) + "_b_solutions.pdf";
-				buzzer = RoundFactory.BASE + "round_" + (i) + ".xml";
-			}
+		return roundInfos;
+	}
+
+	private void populateRounds() {				
+		for (RoundInfo roundInfo : this.getRoundInfos()) {
+			String buzzer = PathStore.BASE + roundInfo.filePath;			
+			String number = roundInfo.filePath.split("(_)|(\\.)")[1];
 			
 			List<Tcq> tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq(roundInfo.Name + " TCQ A", tcqA, roundInfo.tcqADuration));
-			tcqs.add(new Tcq(roundInfo.Name + " TCQ B", tcqB, roundInfo.tcqBDuration));
+			tcqs.add(new Tcq(roundInfo.name + " TCQ A", PathStore.MakeTcqPath(number, true, false), roundInfo.tcqADuration));
+			tcqs.add(new Tcq(roundInfo.name + " TCQ B", PathStore.MakeTcqPath(number, false, false), roundInfo.tcqBDuration));
 			
 			List<Tcq> tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(roundInfo.Name + " TCQ A Solutions", tcqASolution));
-			tcqSolutions.add(new Tcq(roundInfo.Name + " TCQ B Solutions", tcqBSolution));
+			tcqSolutions.add(new Tcq(roundInfo.name + " TCQ A Solutions", PathStore.MakeTcqPath(number, true, true)));
+			tcqSolutions.add(new Tcq(roundInfo.name + " TCQ B Solutions", PathStore.MakeTcqPath(number, false, true)));
 						
-			Round round = new Round(roundInfo.Name, buzzer, tcqs, tcqSolutions);
-			this.availableRounds.add(round);
-			System.out.println("adding " + roundInfo.Name + " with buzzers: " + buzzer);
+			this.availableRounds.add(new Round(roundInfo.name, buzzer, tcqs, tcqSolutions));
 		}
 	}
 
@@ -601,11 +552,9 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 
 	public static InputStream getResourceAsStream(String resource) {
 		System.out.println("input: " + resource);
-		InputStream is = ClassLoader.getSystemClassLoader()
-				.getResourceAsStream(resource);
+		InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream(resource);
 		System.out.println("input stream: " + is);
-		System.out.println("url: "
-				+ ClassLoader.getSystemClassLoader().getResource(resource));
+		System.out.println("url: " + ClassLoader.getSystemClassLoader().getResource(resource));
 		return is;
 	}
 
