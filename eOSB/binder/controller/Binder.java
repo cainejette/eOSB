@@ -48,6 +48,7 @@ import org.bushe.swing.event.EventSubscriber;
 import eOSB.binder.ui.HideBuzzerQuestionsEvent;
 import eOSB.binder.ui.RoundPreambleDialog;
 import eOSB.binder.ui.ShowBuzzerQuestionsEvent;
+import eOSB.binder.ui.eOSBMenuBar;
 import eOSB.binder.ui.actions.BackButtonAction;
 import eOSB.binder.ui.actions.ConfirmExitListener;
 import eOSB.binder.ui.actions.IncorrectAction;
@@ -123,9 +124,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	private boolean hasSeenTcqReminder = false;
 	private boolean shouldEnableTcqs = false;
 	
-	private Dimension frameSize;
-	private Point framePosition;
-	private int launchCounter = 0;
 	private String roundName;
 
 	/**
@@ -145,7 +143,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		EventBus.subscribe(UpdateAndShowQuestionEvent.class, this);
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 
-    Font titleFont = new Font("Helvetica", Font.BOLD, 14);
+		Font titleFont = new Font("Helvetica", Font.BOLD, 14);
 		this.teamABorder.setTitleFont(titleFont);
 		this.teamBBorder.setTitleFont(titleFont);
 		this.updateBorders();
@@ -155,8 +153,8 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.frame.setResizable(false);
 
 		Container contentPane = this.frame.getContentPane();
-    contentPane.setLayout(new BoxLayout(contentPane, BoxLayout.LINE_AXIS));
-    contentPane.add(this.createSplashPanel());
+	    contentPane.setLayout(new BoxLayout(contentPane, BoxLayout.LINE_AXIS));
+	    contentPane.add(this.createSplashPanel());
 
 		this.displayFrame();
 	}
@@ -184,33 +182,10 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	{
 		this.frame.pack();
 		this.frame.setMinimumSize(this.frame.getPreferredSize());
-		
-		System.out.println("Launch counter: " + this.launchCounter);
-		if (this.frameSize == null) 
-		{
-			this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
-		}
-		else  
-		{
-			this.frame.setSize(this.frameSize);
-			if (this.handler.IS_ORIENTATION_VERSION) 
-			{
-				this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
-			}
-		}
-		
-		// remember the previous location, or set to centered for first run
-		if (this.framePosition != null) 
-		{
-			this.frame.setLocation(this.framePosition);
-		}
-		else 
-		{
-			this.frame.setLocationRelativeTo(null);
-		}
-		
+		this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
+		this.frame.setLocationRelativeTo(null);
+				
 		this.frame.setVisible(true);
-		this.launchCounter++;
 	}
 
 	/**
@@ -218,147 +193,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	 */
 	private JMenuBar createMenuBar() 
 	{
-		JMenuBar menuBar = new JMenuBar();
-
-		// file menu
-		JMenu menu = new JMenu("File");
-		menu.setMnemonic(KeyEvent.VK_F);
-
-		// open
-		JMenuItem menuItem = new JMenuItem();
-		menuItem.setAction(new OpenValidateUserDialogAction(this.handler));
-		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O,
-				ActionEvent.CTRL_MASK));
-		menuItem.setMnemonic(KeyEvent.VK_R);
-		menuItem.setText("Open Round");
-
-		menu.add(menuItem);
-
-		menuItem = new JMenuItem();
-		menuItem.setAction(new FireTcqPreambleEventAction());
-
-		menuItem.setText("Open TCQs");
-		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T,
-				ActionEvent.CTRL_MASK));
-		menuItem.setMnemonic(KeyEvent.VK_T);
-		menuItem.setEnabled(this.shouldEnableTcqs);
-
-		menu.add(menuItem);
-		menu.addSeparator();
-
-		// exit
-		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenConfirmExitDialogAction(this.handler));
-		menuItem.setMnemonic(KeyEvent.VK_X);
-		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q,
-				ActionEvent.CTRL_MASK));
-		menu.add(menuItem);
-
-		menuBar.add(menu);
-
-		// options menu
-		menu = new JMenu("Options");
-		menu.setMnemonic(KeyEvent.VK_O);
-
-		// font size submenu
-		JMenu fontSizeMenu = new JMenu("Font Size");
-		fontSizeMenu.setEnabled(this.handler.getCurrentRound() != null);
-		fontSizeMenu.setMnemonic(KeyEvent.VK_S);
-		ButtonGroup buttonGroup = new ButtonGroup();
-
-		JRadioButtonMenuItem radioItem = new JRadioButtonMenuItem("12 point");
-		radioItem.setAction(new SetFontSizeAction(this, "12 point", 12));
-		buttonGroup.add(radioItem);
-		fontSizeMenu.add(radioItem);
-		if (this.fontSize == 12) {
-			radioItem.setSelected(true);
-		}
-
-		radioItem = new JRadioButtonMenuItem("14 point");
-		radioItem.setAction(new SetFontSizeAction(this, "14 point", 14));
-		radioItem.setSelected(true);
-		buttonGroup.add(radioItem);
-		fontSizeMenu.add(radioItem);
-		if (this.fontSize == 14) {
-			radioItem.setSelected(true);
-		}
-
-		radioItem = new JRadioButtonMenuItem("16 point");
-		radioItem.setAction(new SetFontSizeAction(this, "16 point", 16));
-		buttonGroup.add(radioItem);
-		fontSizeMenu.add(radioItem);
-		if (this.fontSize == 16) {
-			radioItem.setSelected(true);
-		}
-
-		radioItem = new JRadioButtonMenuItem("18 point");
-		radioItem.setAction(new SetFontSizeAction(this, "18 point", 18));
-		buttonGroup.add(radioItem);
-		fontSizeMenu.add(radioItem);
-		if (this.fontSize == 18) {
-			radioItem.setSelected(true);
-		}
-		
-		radioItem = new JRadioButtonMenuItem("20 point");
-		radioItem.setAction(new SetFontSizeAction(this, "20 point", 20));
-		buttonGroup.add(radioItem);
-		fontSizeMenu.add(radioItem);
-		if (this.fontSize == 20) {
-			radioItem.setSelected(true);
-		}
-
-		radioItem = new JRadioButtonMenuItem("24 point");
-		radioItem.setAction(new SetFontSizeAction(this, "24 point", 24));
-		buttonGroup.add(radioItem);
-		fontSizeMenu.add(radioItem);
-		if (this.fontSize == 24) {
-			radioItem.setSelected(true);
-		}
-
-		menu.add(fontSizeMenu);
-		menu.addSeparator();
-
-		menuItem = new JMenuItem("Set Team Names");
-		menuItem.setAction(new OpenSetTeamNamesDialogAction(this.handler));
-		menuItem.setEnabled(this.handler.getCurrentRound() != null);
-		menuItem.setMnemonic(KeyEvent.VK_N);
-		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N,
-				ActionEvent.CTRL_MASK));
-		menu.add(menuItem);
-
-		menuBar.add(menu);
-
-		// help menu
-		menu = new JMenu("Help");
-		menu.setMnemonic(KeyEvent.VK_H);
-
-		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenPdfAction(PathStore.COMPETITION_RULES));
-		menuItem.setText("Competition Rules");
-		menuItem.setMnemonic(KeyEvent.VK_C);
-		menu.add(menuItem);
-		menu.addSeparator();
-
-		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenPdfAction(PathStore.USER_MANUAL));
-		menuItem.setText("User Manual");
-		menuItem.setMnemonic(KeyEvent.VK_U);
-		menu.add(menuItem);
-
-		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenPdfAction(PathStore.EULA_PDF));
-		menuItem.setText("Terms of Agreement");
-		menuItem.setMnemonic(KeyEvent.VK_T);
-		menu.addSeparator();
-		menu.add(menuItem);
-		
-		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenAboutEOSBAction(this.frame));
-		menuItem.setText("About eOSB");
-		menu.add(menuItem);
-
-		menuBar.add(menu);
-
+		JMenuBar menuBar = new eOSBMenuBar(this.handler, this);
 		return menuBar;
 	}
 
@@ -372,12 +207,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	public void setBinderToNewRound(String roundName) 
 	{
 		this.roundName = roundName;
-		// save the frame's size and location
-		if (!(roundName.equals("Round 1")) && !(roundName.equals("Six-question warm up"))) 
-		{
-			this.frameSize = this.frame.getSize();
-			this.framePosition = this.frame.getLocationOnScreen();
-		}
 		
 		this.initFrame();
 		this.initComponents();
@@ -387,10 +216,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		{
 			this.shouldEnableTcqs = false;
 		}
-//		else if (this.handler.IS_ORIENTATION_VERSION) 
-//		{
-//			this.shouldEnableTcqs = false;
-//		}
 		else 
 		{
 			this.shouldEnableTcqs = true;
@@ -404,23 +229,23 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 				this.teamB_incorrect, this.teamB_interrupt));
 
 		JPanel panel = new JPanel();
-    if (this.handler.isUsingTimer())
-    {
-      panel.setLayout(new MigLayout("fill, insets 0"));
-      panel.add(this.questionPanelScroller, "grow, pushy, dock north");
-      panel.add(this.answerPanelScroller, "growx, sizegroup group1, wrap");
-      panel.add(this.createTimePanel(), "dock east");
-      panel.add(this.createSubmissionPanel(), "growx, sizegroup group1");
-    }
-    else
-    {
-    	JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
-    			this.questionPanelScroller, this.answerPanelScroller);
-    	splitPane.setResizeWeight(0.8);
-    	panel.setLayout(new MigLayout("wrap 1, fill, insets 0"));
-    	panel.add(splitPane, "grow, push, span");
-    	panel.add(this.createSubmissionPanel(), "growx, sizegroupx group1");
-    }
+	    if (this.handler.isUsingTimer())
+	    {
+			panel.setLayout(new MigLayout("fill, insets 0"));
+			panel.add(this.questionPanelScroller, "grow, pushy, dock north");
+			panel.add(this.answerPanelScroller, "growx, sizegroup group1, wrap");
+			panel.add(this.createTimePanel(), "dock east");
+			panel.add(this.createSubmissionPanel(), "growx, sizegroup group1");
+	    }
+	    else
+	    {
+	    	JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
+	    			this.questionPanelScroller, this.answerPanelScroller);
+	    	splitPane.setResizeWeight(0.8);
+	    	panel.setLayout(new MigLayout("wrap 1, fill, insets 0"));
+	    	panel.add(splitPane, "grow, push, span");
+	    	panel.add(this.createSubmissionPanel(), "growx, sizegroupx group1");
+	    }
 
 		Container contentPane = this.frame.getContentPane();
 		contentPane.setLayout(new MigLayout("fill, insets 0 5 5 5"));
@@ -887,7 +712,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.backButton.setEnabled(!question.getNumber().equals("1"));
 
 		this.nextQuestionButton.setEnabled(true);
-    this.submitButton.setEnabled(true);
+		this.submitButton.setEnabled(true);
 
 		// ensure both teams enabled if tossup
 		if (question.getType() == Question.Type.TOSSUP) {
@@ -1031,16 +856,16 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		newRoundButton.addMouseListener(new java.awt.event.MouseAdapter() {
 			Font originalFont = null;
 	 
-	    public void mouseEntered(java.awt.event.MouseEvent evt) {
-	        originalFont = newRoundButton.getFont();
-	        Map attributes = originalFont.getAttributes();
-	        attributes.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON);
-	        newRoundButton.setFont(originalFont.deriveFont(attributes));
-	    }
-	 
-	    public void mouseExited(java.awt.event.MouseEvent evt) {
-	        newRoundButton.setFont(originalFont);
-	    }
+		    public void mouseEntered(java.awt.event.MouseEvent evt) {
+		        originalFont = newRoundButton.getFont();
+		        Map attributes = originalFont.getAttributes();
+		        attributes.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON);
+		        newRoundButton.setFont(originalFont.deriveFont(attributes));
+		    }
+		 
+		    public void mouseExited(java.awt.event.MouseEvent evt) {
+		        newRoundButton.setFont(originalFont);
+		    }
 		});
 
 		this.questionPanelScroller.getViewport().remove(0);
@@ -1067,7 +892,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.nextQuestionButton.setEnabled(false);
 		this.submitButton.setEnabled(false);
 	}
-
 
 	/**
 	 * Sets the size of the font
@@ -1256,5 +1080,13 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			this.nextQuestionButton.setEnabled(false);
 			this.submitButton.setEnabled(false);
 		}
+	}
+	
+	public int getFontSize() {
+		return this.fontSize;
+	}
+	
+	public boolean shouldEnableTcqs() {
+		return this.shouldEnableTcqs;
 	}
 }

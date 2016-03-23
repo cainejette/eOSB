@@ -9,10 +9,10 @@ public class OpenAboutEOSBAction extends AbstractAction {
 	
 	private JFrame parent;
 	
-	public OpenAboutEOSBAction(JFrame parent) {
-		this.parent = parent;
+	public OpenAboutEOSBAction(JFrame frame) {
+		this.parent = frame;
 	}
-
+	
 	public void actionPerformed(ActionEvent e) {
 		AboutEOSBDialog dialog = new AboutEOSBDialog(this.parent);
 	}

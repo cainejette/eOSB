@@ -26,16 +26,11 @@ public class SetFontSizeAction extends AbstractAction {
 	 * @param size
 	 *            the size to set the font to
 	 */
-	public SetFontSizeAction(Binder binder, String commandName, int size) {
-		super(commandName);
+	public SetFontSizeAction(Binder binder, int size) {
 		this.binder = binder;
 		this.size = size;
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
-//	@Override
 	public void actionPerformed(ActionEvent ae) {
 		this.binder.setFontSize(this.size);
 	}
