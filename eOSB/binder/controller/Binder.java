@@ -182,7 +182,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	 * @param roundName
 	 *          the name of the new round
 	 */
-	public void setBinderToNewRound(String roundName) 
+	private void setBinderToNewRound(String roundName)
 	{
 		this.roundName = roundName;
 

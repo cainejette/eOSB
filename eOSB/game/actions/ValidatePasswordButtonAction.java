@@ -110,7 +110,7 @@ public class ValidatePasswordButtonAction extends AbstractAction {
 			this.handler.displayEula();
 		} 
 		else {
-			this.handler.failedValidation(correctPassword, new String(input));
+			this.handler.failedValidation();
 		}
 	}
 }

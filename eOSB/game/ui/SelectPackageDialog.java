@@ -21,6 +21,7 @@ import eOSB.binder.ui.PackageSelectionListRenderer;
 import eOSB.binder.ui.actions.CancelButtonAction;
 import eOSB.game.actions.SetPackagesAction;
 import eOSB.game.controller.Handler;
+import eOSB.game.controller.PackageSelectionOptions;
 
 public class SelectPackageDialog extends StandardDialog {
 
@@ -83,10 +84,10 @@ public class SelectPackageDialog extends StandardDialog {
 		panel.setLayout(new MigLayout("insets 0, fill"));
 
 		JLabel[] labels = new JLabel[4];
-		labels[Handler.BINDER] = new JLabel("None");
-		labels[Handler.BINDER_TIMEKEEPER] = new JLabel("Timekeeper");
-		labels[Handler.BINDER_SCOREKEEPER] = new JLabel("Scorekeeper");
-		labels[Handler.BINDER_TIMEKEEPER_SCOREKEEPER] = new JLabel(
+		labels[PackageSelectionOptions.BINDER] = new JLabel("None");
+		labels[PackageSelectionOptions.BINDER_TIMEKEEPER] = new JLabel("Timekeeper");
+		labels[PackageSelectionOptions.BINDER_SCOREKEEPER] = new JLabel("Scorekeeper");
+		labels[PackageSelectionOptions.BINDER_TIMEKEEPER_SCOREKEEPER] = new JLabel(
 				"Timekeeper + Scorekeeper");
 		this.list = new JList(labels);
 

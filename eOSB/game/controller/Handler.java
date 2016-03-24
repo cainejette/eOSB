@@ -78,19 +78,9 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	private boolean hasReadTerms = false;
 
 	private String mostRecentRoundSelection = "Round 1";
-	private int mostRecentPackageSelection = BINDER;
+	private int mostRecentPackageSelection = PackageSelectionOptions.BINDER;
 
 	private String token = null;
-
-	public static final int BINDER = 0;
-	public static final int BINDER_TIMEKEEPER = 1;
-	public static final int BINDER_SCOREKEEPER = 2;
-	public static final int BINDER_TIMEKEEPER_SCOREKEEPER = 3;
-
-	public static final String QUESTION_CODE = "160101-MOP";
-
-	// flag to indicate MOP or actual competition version
-	public static final boolean IS_ORIENTATION_VERSION = true;
 
 	/**
 	 * Initializes the game controller object.
@@ -251,7 +241,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	/**
 	 * When a user is not validated (did not type in the correct password.)
 	 */
-	public void failedValidation(String password, String input) {
+	public void failedValidation() {
 		// enter code to tell user what happened
 		JOptionPane.showMessageDialog(this.binder.getFrame(),
 				"Password authentication failed.");
@@ -411,13 +401,13 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			PackageSelectionListEvent e = (PackageSelectionListEvent) event;
 			this.mostRecentPackageSelection = e.getSelection();
 		} else if (event instanceof PackagesSelectedEvent) {
-			if (this.mostRecentPackageSelection == BINDER_TIMEKEEPER || this.mostRecentPackageSelection == BINDER_TIMEKEEPER_SCOREKEEPER) {
+			if (this.mostRecentPackageSelection == PackageSelectionOptions.BINDER_TIMEKEEPER || this.mostRecentPackageSelection == PackageSelectionOptions.BINDER_TIMEKEEPER_SCOREKEEPER) {
 				this.shouldUseTimer = true;
 			} else {
 				this.shouldUseTimer = false;
 			}
 
-			if (this.mostRecentPackageSelection == BINDER_SCOREKEEPER || this.mostRecentPackageSelection == BINDER_TIMEKEEPER_SCOREKEEPER) {
+			if (this.mostRecentPackageSelection == PackageSelectionOptions.BINDER_SCOREKEEPER || this.mostRecentPackageSelection == PackageSelectionOptions.BINDER_TIMEKEEPER_SCOREKEEPER) {
 				this.shouldUseScoreboard = true;
 			} else {
 				this.shouldUseScoreboard = false;
@@ -441,13 +431,13 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 
 	private String getPackageSelectionString() {
 		switch (this.mostRecentPackageSelection) {
-		case Handler.BINDER:
+		case PackageSelectionOptions.BINDER:
 			return "Binder";
-		case Handler.BINDER_SCOREKEEPER:
+		case PackageSelectionOptions.BINDER_SCOREKEEPER:
 			return "Binder + Scorekeeper";
-		case Handler.BINDER_TIMEKEEPER:
+		case PackageSelectionOptions.BINDER_TIMEKEEPER:
 			return "Binder + Timekeeper";
-		case Handler.BINDER_TIMEKEEPER_SCOREKEEPER:
+		case PackageSelectionOptions.BINDER_TIMEKEEPER_SCOREKEEPER:
 			return "Binder + Timekeeper + Scorekeeper";
 		}
 		return "None?";
