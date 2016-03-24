@@ -198,10 +198,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 
 		this.frame.setTitle(roundName + "-- electronic Ocean Sciences Bowl");
 		this.frame.setResizable(true);
-		this.frame.addKeyListener(new ButtonKeyListener(this.teamA_correct,
-				this.teamA_incorrect, this.teamA_interrupt, this.teamB_correct,
-				this.teamB_incorrect, this.teamB_interrupt));
-
+		
 		JPanel panel = new JPanel();
 	    if (this.handler.isUsingTimer())
 	    {
