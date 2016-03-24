@@ -86,11 +86,10 @@ public class eOSBMenuBar extends JMenuBar {
 	
 	private JMenu createFontSizeMenu() {
 		JMenu menu = new JMenu("Font Size");
-		menu.setEnabled(this.handler.getCurrentRound() != null);
 		menu.setMnemonic(KeyEvent.VK_S);
 		ButtonGroup buttonGroup = new ButtonGroup();
 
-		for (int size = 12; size < 32; size += 2) {
+		for (int size = 16; size < 36; size += 4) {
 			JRadioButtonMenuItem menuItem = new JRadioButtonMenuItem(size + " point");
 			menuItem.setAction(new SetFontSizeAction(this.binder, size));
 			menuItem.setText(size + " point"); 

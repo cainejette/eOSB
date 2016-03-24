@@ -28,7 +28,6 @@ import eOSB.binder.controller.TcqPreambleDialog;
 import eOSB.binder.controller.TeamNameEvent;
 import eOSB.binder.controller.UpdateQuestionEvent;
 import eOSB.binder.ui.HideBuzzerQuestionsEvent;
-import eOSB.binder.ui.ShowBuzzerQuestionsEvent;
 import eOSB.binder.ui.actions.RoundSelectedEvent;
 import eOSB.game.data.PathStore;
 import eOSB.game.data.QuestionXMLParser;
@@ -117,60 +116,60 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(RemindTcqEvent.class, this);
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 	}
-	
+
 	private class RoundInfo {
 		private String name;
 		private String filePath;
 		private String tcqADuration;
 		private String tcqBDuration;
-		
+
 		public void setName(String name) { this.name = name; }
 		public void setFilePath(String path) { this.filePath = path; }
 		public void setTcqADuration(String duration) { this.tcqADuration = duration; }
 		public void setTcqBDuration(String duration) { this.tcqBDuration = duration; }
-		
+
 		@Override
 		public String toString() {
 			return name + ", " + filePath + ", " + tcqADuration + ", " + tcqBDuration;
 		}
 	}
-	
+
 	private List<RoundInfo> getRoundInfos() {
 		List<RoundInfo> roundInfos = new ArrayList<RoundInfo>();
 		BufferedReader br = new BufferedReader(new InputStreamReader( Handler.getResourceAsStream(PathStore.INFO)));
-		
+
 		try {
-		    String name = br.readLine();
-		    
-		    while (name != null) {
-		    	String filePath = br.readLine();
-		    	String aDuration = br.readLine();
-		    	String bDuration = br.readLine();
-		    	
-		    	if (aDuration != null && bDuration != null) {
-		    		System.out.println("adding round info\n");
-		    		System.out.println(name + " / " + filePath + " / " + aDuration + " / " + bDuration);
-		    		RoundInfo roundInfo = new RoundInfo();
-		    		
-		    		roundInfo.setName(name.split(":")[1].trim());
-		    		roundInfo.setFilePath(filePath.split(":")[1].trim());
-		    		
-		    		roundInfo.setTcqADuration(aDuration.split(":", 2)[1].trim());
-		    		roundInfo.setTcqBDuration(bDuration.split(":", 2)[1].trim());
-		    		
-		    		System.out.println(roundInfo);
-		    		roundInfos.add(roundInfo);
-		    	}
-		    	
-		    	br.readLine();
-		    	name = br.readLine();
-		    }
+			String name = br.readLine();
+
+			while (name != null) {
+				String filePath = br.readLine();
+				String aDuration = br.readLine();
+				String bDuration = br.readLine();
+
+				if (aDuration != null && bDuration != null) {
+					System.out.println("adding round info\n");
+					System.out.println(name + " / " + filePath + " / " + aDuration + " / " + bDuration);
+					RoundInfo roundInfo = new RoundInfo();
+
+					roundInfo.setName(name.split(":")[1].trim());
+					roundInfo.setFilePath(filePath.split(":")[1].trim());
+
+					roundInfo.setTcqADuration(aDuration.split(":", 2)[1].trim());
+					roundInfo.setTcqBDuration(bDuration.split(":", 2)[1].trim());
+
+					System.out.println(roundInfo);
+					roundInfos.add(roundInfo);
+				}
+
+				br.readLine();
+				name = br.readLine();
+			}
 		}
 		catch (IOException e) {
 			System.out.println("Something bad happened reading file");
 		}
 		finally {
-		    try {
+			try {
 				br.close();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -178,7 +177,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 				e.printStackTrace();
 			}
 		}
-		
+
 		return roundInfos;
 	}
 
@@ -186,15 +185,15 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		for (RoundInfo roundInfo : this.getRoundInfos()) {
 			String buzzer = PathStore.BASE + roundInfo.filePath;			
 			String number = roundInfo.filePath.split("(_)|(\\.)")[1];
-			
+
 			List<Tcq> tcqs = new ArrayList<Tcq>();
 			tcqs.add(new Tcq(roundInfo.name + " TCQ A", PathStore.MakeTcqPath(number, true, false), roundInfo.tcqADuration));
 			tcqs.add(new Tcq(roundInfo.name + " TCQ B", PathStore.MakeTcqPath(number, false, false), roundInfo.tcqBDuration));
-			
+
 			List<Tcq> tcqSolutions = new ArrayList<Tcq>();
 			tcqSolutions.add(new Tcq(roundInfo.name + " TCQ A Solutions", PathStore.MakeTcqPath(number, true, true)));
 			tcqSolutions.add(new Tcq(roundInfo.name + " TCQ B Solutions", PathStore.MakeTcqPath(number, false, true)));
-						
+
 			this.availableRounds.add(new Round(roundInfo.name, buzzer, tcqs, tcqSolutions));
 		}
 	}
@@ -214,10 +213,8 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		this.teamA = new Team("Team A");
 		this.teamB = new Team("Team B");
 
-		EventBus.publish(new TeamNameEvent(this, this.teamA.getName(),
-				this.teamB.getName()));
-		EventBus.publish(new TeamScoreNumberEvent(this, this.teamA.getScore(),
-				this.teamB.getScore()));
+		EventBus.publish(new TeamNameEvent(this, this.teamA.getName(), this.teamB.getName()));
+		EventBus.publish(new TeamScoreNumberEvent(this, this.teamA.getScore(), this.teamB.getScore()));
 
 		this.currentRound = round;
 
@@ -268,7 +265,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			DisplayEulaDialog eulaDialog = new DisplayEulaDialog(this);
 			eulaDialog.setVisible(true);
 		} else {
-      SelectPackageDialog dialog = new SelectPackageDialog(getFrame(), this.mostRecentPackageSelection);
+			SelectPackageDialog dialog = new SelectPackageDialog(getFrame(), this.mostRecentPackageSelection);
 			dialog.setVisible(true);
 		}
 	}
@@ -388,13 +385,16 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	/** {@inheritDoc} */
 	public void onEvent(EventServiceEvent event) {
 		if (event instanceof NewRoundEvent) {
+
+//			RoundPreambleDialog dialog = new RoundPreambleDialog();
+//			dialog.setVisible(true);
+
 			System.out.println("[Handler/onEvent] received NewRoundEvent");
 			NewRoundEvent nre = (NewRoundEvent) event;
 			try {
 				this.setCurrentRound(this.getRoundFromName(nre.getName()));
 			} catch (NoRoundFoundException e) {
-				System.err.println("no round called: " + e.getName()
-						+ " found!");
+				System.err.println("no round called: " + e.getName() + " found!");
 			}
 		} else if (event instanceof TeamNameEvent) {
 			System.out.println("[Handler/onEvent] received TeamNameEvent");
@@ -402,34 +402,22 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			this.teamA.setName(tne.getTeamAName());
 			this.teamB.setName(tne.getTeamBName());
 		} else if (event instanceof ShowSelectPackagesDialogEvent) {
-			System.out
-					.println("[Handler/onEvent] received ShowSelectPackagesDialogEvent");
+			System.out.println("[Handler/onEvent] received ShowSelectPackagesDialogEvent");
 			this.setHasReadEula(true);
-			 this.showSelectPackagesDialog();
-//			this.shouldUseScoreboard = false;
-//			this.shouldUseTimer = false;
-//			this.showSelectRoundDialog();
+			this.showSelectPackagesDialog();
 		}
 
 		else if (event instanceof PackageSelectionListEvent) {
 			PackageSelectionListEvent e = (PackageSelectionListEvent) event;
 			this.mostRecentPackageSelection = e.getSelection();
-			System.out
-					.println("[Handler/onEvent] received PackageSelectionListEvent -- \""
-							+ this.getPackageSelectionString() + "\"");
 		} else if (event instanceof PackagesSelectedEvent) {
-			System.out
-					.println("[Handler/onEvent] received PackagesSelectedEvent -- \""
-							+ this.getPackageSelectionString() + "\"");
-			if (this.mostRecentPackageSelection == BINDER_TIMEKEEPER
-					|| this.mostRecentPackageSelection == BINDER_TIMEKEEPER_SCOREKEEPER) {
+			if (this.mostRecentPackageSelection == BINDER_TIMEKEEPER || this.mostRecentPackageSelection == BINDER_TIMEKEEPER_SCOREKEEPER) {
 				this.shouldUseTimer = true;
 			} else {
 				this.shouldUseTimer = false;
 			}
 
-			if (this.mostRecentPackageSelection == BINDER_SCOREKEEPER
-					|| this.mostRecentPackageSelection == BINDER_TIMEKEEPER_SCOREKEEPER) {
+			if (this.mostRecentPackageSelection == BINDER_SCOREKEEPER || this.mostRecentPackageSelection == BINDER_TIMEKEEPER_SCOREKEEPER) {
 				this.shouldUseScoreboard = true;
 			} else {
 				this.shouldUseScoreboard = false;
@@ -439,28 +427,15 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		} else if (event instanceof RoundSelectionListEvent) {
 			RoundSelectionListEvent e = (RoundSelectionListEvent) event;
 			this.mostRecentRoundSelection = e.getName();
-			System.out
-					.println("[Handler/onEvent] received RoundSelectionListEvent -- \""
-							+ this.mostRecentRoundSelection + "\"");
 		} else if (event instanceof RoundSelectedEvent) {
-			System.out
-					.println("[Handler/onEvent] received RoundSelectedEvent -- \""
-							+ this.mostRecentRoundSelection + "\"");
-			EventBus.publish(new NewRoundEvent(this,
-					this.mostRecentRoundSelection));
+			EventBus.publish(new NewRoundEvent(this, this.mostRecentRoundSelection));
 		} else if (event instanceof RemindTcqEvent) {
 			System.out.println("[Handler/onEvent] received RemindTcqEvent");
 			this.showHalfwayDoneDialog();
 		} else if (event instanceof OpenTcqPreambleEvent) {
 			System.out
-					.println("[Handler/onEvent] received OpenTcqPreambleEvent");
+			.println("[Handler/onEvent] received OpenTcqPreambleEvent");
 			this.showTcqPreambleDialog();
-		} else if (event instanceof ShowBuzzerQuestionsEvent) {
-			System.out
-					.println("[Handler/onEvent] received ShowBuzzerQuestionsEvent");
-			// UpdateQuestionEvent event2 = new UpdateQuestionEvent(this,
-			// this.currentRound.getNextQuestion(), true, true);
-			// EventBus.publish(event2);
 		}
 	}
 
@@ -482,14 +457,8 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		this.currentRound = this.questionReader.getRound();
 		this.currentRound.setOpened();
 
-		if (this.currentRound.getQuestions().size() != 40) {
-			System.err
-					.println("[handler#setCurrentRound] round: "
-							+ this.currentRound.getName()
-							+ " did not parse correctly.");
-			System.err.println("[handler#setCurrentRound] contains only "
-					+ this.currentRound.getQuestions().size() + " questions");
-		}
+		System.out.println("[handler#setCurrentRound] contains "
+				+ this.currentRound.getQuestions().size() + " questions");
 
 		this.timekeeper.close();
 		this.timekeeper = new Timekeeper();
@@ -506,14 +475,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			this.infoFrame.close();
 		}
 
-		System.out
-				.println("[handler/processNewRound] setting binder to new round");
-		this.binder.setBinderToNewRound(this.currentRound.getName());
-
-		System.out
-				.println("[handler/processNewRound] firing update question event");
-		EventBus.publish(new UpdateQuestionEvent(this, this.currentRound
-				.getNextQuestion(), true, true));
+//		EventBus.publish(new UpdateQuestionEvent(this, this.currentRound.getNextQuestion(), true, true));
 	}
 
 	private Round getRoundFromName(String name) throws NoRoundFoundException {
@@ -576,7 +538,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		return new CipherOutputStream(unencryptedOutputStream, makeCipher(key,
 				Cipher.ENCRYPT_MODE));
 	}
-	
+
 	public static Cipher makeCipher(String key, int mode) throws Exception {
 		DESKeySpec dks = new DESKeySpec(key.getBytes());
 		SecretKeyFactory skf = SecretKeyFactory.getInstance("DES");
@@ -585,7 +547,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		cipher.init(mode, desKey);
 		return cipher;
 	}
-	
+
 	public void setRoundToken(String token) {
 		this.token = token;
 	}

@@ -65,16 +65,19 @@ public class Timekeeper implements EventSubscriber<EventServiceEvent> {
 			this.questionClock.pause();
 
 			UpdateQuestionEvent e2 = (UpdateQuestionEvent) e;
-
-			switch (e2.getQuestion().getType()) {
-			case TOSSUP:
-				this.questionClock.setTime(5000, true);
-				this.questionClock.clearThresholds();
-				break;
-			case BONUS:
-				this.questionClock.setTime(20000, true);
-				this.questionClock.addThreshold(5000);    		  
-				break;
+			Question question = e2.getQuestion();
+			
+			if (question != null) {
+				switch (question.getType()) {
+				case TOSSUP:
+					this.questionClock.setTime(5000, true);
+					this.questionClock.clearThresholds();
+					break;
+				case BONUS:
+					this.questionClock.setTime(20000, true);
+					this.questionClock.addThreshold(5000);    		  
+					break;
+				}
 			}
 		}
 	}

@@ -43,6 +43,7 @@ public class SubmitAction extends AbstractAction {
       	this.teamB.setCorrect(false);
       }
     }
+    
     AnswerUtils.processSubmission(this.handler, this.teamA, this.teamB);
   }
 }
