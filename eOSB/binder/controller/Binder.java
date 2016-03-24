@@ -6,35 +6,25 @@ import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Frame;
-import java.awt.Graphics;
 import java.awt.Insets;
-import java.awt.Point;
-import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.font.TextAttribute;
 import java.awt.image.BufferedImage;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import javax.imageio.ImageIO;
 import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JMenu;
 import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
 import javax.swing.JPanel;
-import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextPane;
-import javax.swing.KeyStroke;
 import javax.swing.border.TitledBorder;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Style;
@@ -48,16 +38,13 @@ import org.bushe.swing.event.EventSubscriber;
 import eOSB.binder.ui.HideBuzzerQuestionsEvent;
 import eOSB.binder.ui.RoundPreambleDialog;
 import eOSB.binder.ui.ShowBuzzerQuestionsEvent;
+import eOSB.binder.ui.SplashPanel;
 import eOSB.binder.ui.eOSBMenuBar;
 import eOSB.binder.ui.actions.BackButtonAction;
 import eOSB.binder.ui.actions.ConfirmExitListener;
 import eOSB.binder.ui.actions.IncorrectAction;
 import eOSB.binder.ui.actions.InterruptAction;
-import eOSB.binder.ui.actions.OpenConfirmExitDialogAction;
-import eOSB.binder.ui.actions.OpenPdfAction;
-import eOSB.binder.ui.actions.OpenSetTeamNamesDialogAction;
 import eOSB.binder.ui.actions.OpenValidateUserDialogAction;
-import eOSB.binder.ui.actions.SetFontSizeAction;
 import eOSB.binder.ui.actions.SubmitAction;
 import eOSB.game.controller.GameState;
 import eOSB.game.controller.Handler;
@@ -65,7 +52,6 @@ import eOSB.game.controller.NewRoundEvent;
 import eOSB.game.controller.Question;
 import eOSB.game.controller.Round;
 import eOSB.game.data.IconFactory;
-import eOSB.game.data.PathStore;
 import eOSB.score.controller.TeamScoreNumberEvent;
 import net.miginfocom.swing.MigLayout;
 
@@ -154,7 +140,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 
 		Container contentPane = this.frame.getContentPane();
 	    contentPane.setLayout(new BoxLayout(contentPane, BoxLayout.LINE_AXIS));
-	    contentPane.add(this.createSplashPanel());
+	    contentPane.add(new SplashPanel());
 
 		this.displayFrame();
 	}
@@ -252,37 +238,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		contentPane.add(panel, "grow");
 
 		this.displayFrame();
-	}
-
-	/**
-	 * @return the panel containing the splash image
-	 */
-	private JPanel createSplashPanel() 
-	{
-		try 
-		{
-			this.splash = ImageIO.read(ClassLoader.getSystemResource(
-					IconFactory.SPLASH));
-		} 
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
-
-		JPanel panel = new JPanel() 
-		{
-			@Override
-			public void paintComponent(Graphics g) 
-			{
-				super.paintComponent(g);
-				g.drawImage(Binder.this.splash, 0, 0, null);
-			}
-		};
-
-		panel.setPreferredSize(new Dimension(this.splash.getWidth(), this.splash
-				.getHeight()));
-		
-		return panel;
 	}
 
 	/**
