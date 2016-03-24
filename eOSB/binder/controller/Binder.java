@@ -66,7 +66,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 {
 	private Handler handler;
 	private JFrame frame = new JFrame();
-	private BufferedImage splash;
 
 	private JButton teamA_correct;
 	private JButton teamA_incorrect;
@@ -126,7 +125,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		EventBus.subscribe(NewRoundEvent.class, this);
 		EventBus.subscribe(HideBuzzerQuestionsEvent.class, this);
 		EventBus.subscribe(ShowBuzzerQuestionsEvent.class, this);
-		EventBus.subscribe(UpdateAndShowQuestionEvent.class, this);
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 
 		Font titleFont = new Font("Helvetica", Font.BOLD, 14);
@@ -525,27 +523,8 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.createQuestionPanel(question);
 		this.createAnswerPanel(question);
 		this.updateButtonStates(question);
-		
-		// update question clock if timekeeping package enabled
-		this.updateQuestionClock(question);
 	}
 	
-	/**
-	 * Updates the clocks for the given question
-	 * @param question
-	 */
-	private void updateQuestionClock(Question question) {
-		if (this.handler.isUsingTimer()) {
-			if (question.getType() == Question.Type.TOSSUP) {
-				this.handler.getTimekeeper().getQuestionClock().setTime(5000, true);
-				this.handler.getTimekeeper().getQuestionClock().clearThresholds();
-			} else {
-				this.handler.getTimekeeper().getQuestionClock().setTime(20000, true);
-				this.handler.getTimekeeper().getQuestionClock().addThreshold(5000);
-			}
-		}
-	}
-
 	/**
 	 * Creates a new text panel to display the question 
 	 * @param question the new question 
@@ -853,34 +832,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			this.teamBScore = tsne.getTeamBScore();
 			this.updateBorders();
 		} 
-		else if (ese instanceof UpdateAndShowQuestionEvent) {
-			System.out.println("[Binder/onEvent] received UpdateAndShowQuestionEvent");
-			this.showQuestions();
-			
-			UpdateAndShowQuestionEvent aqe = (UpdateAndShowQuestionEvent) ese;
-			Question question = aqe.getQuestion();
-
-			if (question != null) {
-				this.resetButtons();
-
-				if (aqe.shouldEnableTeamA())
-					this.toggleTeamButtons(true, true);
-				else {
-					this.toggleTeamButtons(false, true);
-				}
-
-				if (aqe.shouldEnableTeamB())
-					this.toggleTeamButtons(true, false);
-				else {
-					this.toggleTeamButtons(false, false);
-				}
-
-				this.updateQuestion(question);
-			} 
-			else {
-				this.roundOver();
-			}
-		}
 		else if (ese instanceof UpdateQuestionEvent) {
 			System.out.println("[Binder/onEvent] received UpdateQuestionEvent");
 			UpdateQuestionEvent aqe = (UpdateQuestionEvent) ese;
