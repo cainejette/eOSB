@@ -32,8 +32,6 @@ import eOSB.time.actions.StartAction;
  */
 public class CountDownTimer {
 
-  private Handler handler;
-
   private long startTime = 0;
   private long currentTime = 0;
 
@@ -66,8 +64,7 @@ public class CountDownTimer {
    * @param timeInMilliseconds current time in millis
    * @param ownFrame whether the clock should have its own frame
    */
-  public CountDownTimer(Handler handler, long timeInMilliseconds, boolean isRoundClock) {
-    this.handler = handler;
+  public CountDownTimer(long timeInMilliseconds, boolean isRoundClock) {
     this.startTime = timeInMilliseconds;
     this.currentTime = timeInMilliseconds;
     this.isRoundClock = isRoundClock;
@@ -143,7 +140,7 @@ public class CountDownTimer {
     this.resetButton = new JButton("Reset");
     this.startButton = new JButton("Start");
 
-    this.editButton.setAction(new OpenEditTimeDialogAction(this, this.handler));
+    this.editButton.setAction(new OpenEditTimeDialogAction(this));
     this.resetButton.setAction(new ResetAction(this, this.startButton));
     this.startButton.setAction(new StartAction(this, this.startButton));
 
@@ -256,7 +253,6 @@ public class CountDownTimer {
       this.lastSetTime = time;
     }
     
-
     this.currentTime = time;
     long minutes = time / 60000l;
     long seconds = (time % 60000l) / 1000;

@@ -16,20 +16,13 @@ import eOSB.game.controller.Handler;
  */
 public class Timekeeper implements EventSubscriber<EventServiceEvent> {
 
-  private Handler handler;
-
   /** the clocks this timekeeper is in charge of */
   private CountDownTimer roundClock;
   private CountDownTimer questionClock;
 
-  /**
-   * Initializes the clocks.
-   * @param handler the {@link Handler}
-   */
-  public Timekeeper(Handler handler) {
-    this.handler = handler;
-    this.roundClock = new CountDownTimer(this.handler, 360000, true);
-    this.questionClock = new CountDownTimer(this.handler, 5000, false);
+  public Timekeeper() {
+    this.roundClock = new CountDownTimer(360000, true);
+    this.questionClock = new CountDownTimer(5000, false);
     
     EventBus.subscribe(QuestionEvent.class, this);
   }

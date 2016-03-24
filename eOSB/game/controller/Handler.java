@@ -100,7 +100,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		this.teamA = new Team("Team A");
 		this.teamB = new Team("Team B");
 		this.binder = new Binder(this);
-		this.timekeeper = new Timekeeper(this);
+		this.timekeeper = new Timekeeper();
 		this.scorekeeper = new Scorekeeper(this.teamA, this.teamB);
 
 		this.populateRounds();
@@ -492,7 +492,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		}
 
 		this.timekeeper.close();
-		this.timekeeper = new Timekeeper(this);
+		this.timekeeper = new Timekeeper();
 
 		this.scorekeeper = new Scorekeeper(this.teamA, this.teamB);
 

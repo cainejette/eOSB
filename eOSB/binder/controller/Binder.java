@@ -20,7 +20,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JMenuBar;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
@@ -39,6 +38,7 @@ import eOSB.binder.ui.HideBuzzerQuestionsEvent;
 import eOSB.binder.ui.RoundPreambleDialog;
 import eOSB.binder.ui.ShowBuzzerQuestionsEvent;
 import eOSB.binder.ui.SplashPanel;
+import eOSB.binder.ui.TimePanel;
 import eOSB.binder.ui.eOSBMenuBar;
 import eOSB.binder.ui.actions.BackButtonAction;
 import eOSB.binder.ui.actions.ConfirmExitListener;
@@ -154,11 +154,10 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.frame.dispose();
 
 		this.frame = new JFrame();
-		this.frame.setIconImage(new ImageIcon(ClassLoader.getSystemResource(
-				IconFactory.LOGO)).getImage());
+		this.frame.setIconImage(new ImageIcon(ClassLoader.getSystemResource(IconFactory.LOGO)).getImage());
 		this.frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		this.frame.addWindowListener(new ConfirmExitListener(this.handler));
-		this.frame.setJMenuBar(this.createMenuBar());
+		this.frame.setJMenuBar(new eOSBMenuBar(this.handler, this));
 	}
 
 	/**
@@ -172,15 +171,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.frame.setLocationRelativeTo(null);
 				
 		this.frame.setVisible(true);
-	}
-
-	/**
-	 * @return the menu bar for the {@link Binder}
-	 */
-	private JMenuBar createMenuBar() 
-	{
-		JMenuBar menuBar = new eOSBMenuBar(this.handler, this);
-		return menuBar;
 	}
 
 	/**
@@ -206,7 +196,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		{
 			this.shouldEnableTcqs = true;
 		}
-		this.frame.setJMenuBar(this.createMenuBar());
+		this.frame.setJMenuBar(new eOSBMenuBar(this.handler, this));
 
 		this.frame.setTitle(roundName + "-- electronic Ocean Sciences Bowl");
 		this.frame.setResizable(true);
@@ -220,7 +210,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			panel.setLayout(new MigLayout("fill, insets 0"));
 			panel.add(this.questionPanelScroller, "grow, pushy, dock north");
 			panel.add(this.answerPanelScroller, "growx, sizegroup group1, wrap");
-			panel.add(this.createTimePanel(), "dock east");
+			panel.add(new TimePanel(this.handler), "dock east");
 			panel.add(this.createSubmissionPanel(), "growx, sizegroup group1");
 	    }
 	    else
@@ -238,26 +228,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		contentPane.add(panel, "grow");
 
 		this.displayFrame();
-	}
-
-	/**
-	 * @return the panel containing the timing-related components
-	 */
-	private JPanel createTimePanel() {
-		final JPanel panel = new JPanel();
-		panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
-
-		JPanel subPanel = this.handler.getTimekeeper().getClockPanel(
-				this.handler.getTimekeeper().getRoundClock());
-		subPanel.setBorder(new TitledBorder("Round Timer"));
-		panel.add(subPanel);
-
-		subPanel = this.handler.getTimekeeper().getClockPanel(
-				this.handler.getTimekeeper().getQuestionClock());
-		subPanel.setBorder(new TitledBorder("Question Timer"));
-		panel.add(subPanel);
-
-		return panel;
 	}
 
 	/**

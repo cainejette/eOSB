@@ -29,7 +29,6 @@ import eOSB.time.controller.CountDownTimer;
  */
 public class EditTimeDialog extends StandardDialog {
 	
-	private Handler handler;
 	private CountDownTimer timer;
 	private JTextField minutesField = new JTextField(2);
 	private JTextField secondsField = new JTextField(2);
@@ -38,9 +37,8 @@ public class EditTimeDialog extends StandardDialog {
 	 * @param timer the {@link CountDownTimer}
 	 * @param handler the {@link Handler}
 	 */
-	public EditTimeDialog(CountDownTimer timer, Handler handler) {
+	public EditTimeDialog(CountDownTimer timer) {
 		this.timer = timer;
-		this.handler = handler;
 		
 		this.init();
 	}
@@ -51,9 +49,7 @@ public class EditTimeDialog extends StandardDialog {
 	private void init() {
 		this.pack();
 		this.setTitle("Set Time");
-//		this.setIconImage( new ImageIcon( this.getClass().getResource(IconFactory.LOGO)).getImage() );
 		this.setResizable(false);
-		this.setLocationRelativeTo(this.handler.getFrame());
 	}	
 
 	/** {@inheritDoc} */
