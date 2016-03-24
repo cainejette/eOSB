@@ -200,24 +200,19 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.frame.setResizable(true);
 		
 		JPanel panel = new JPanel();
+		panel.setLayout(new MigLayout("fill, insets 0"));
+		
+		JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, this.questionPanelScroller, this.answerPanelScroller);
+    	splitPane.setResizeWeight(0.8);
+    	
+    	panel.add(splitPane, "grow, push, span, wrap");
+    	panel.add(this.createSubmissionPanel(), "growx");
+    	
 	    if (this.handler.isUsingTimer())
 	    {
-			panel.setLayout(new MigLayout("fill, insets 0"));
-			panel.add(this.questionPanelScroller, "grow, pushy, dock north");
-			panel.add(this.answerPanelScroller, "growx, sizegroup group1, wrap");
-			panel.add(new TimePanel(this.handler), "dock east");
-			panel.add(this.createSubmissionPanel(), "growx, sizegroup group1");
+			panel.add(new TimePanel(this.handler));
 	    }
-	    else
-	    {
-	    	JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
-	    			this.questionPanelScroller, this.answerPanelScroller);
-	    	splitPane.setResizeWeight(0.8);
-	    	panel.setLayout(new MigLayout("wrap 1, fill, insets 0"));
-	    	panel.add(splitPane, "grow, push, span");
-	    	panel.add(this.createSubmissionPanel(), "growx, sizegroupx group1");
-	    }
-
+	    
 		Container contentPane = this.frame.getContentPane();
 		contentPane.setLayout(new MigLayout("fill, insets 0 5 5 5"));
 		contentPane.add(panel, "grow");
