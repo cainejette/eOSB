@@ -2,42 +2,34 @@ package eOSB.game.controller;
 
 import eOSB.score.controller.ScoreResult;
 
+public class TcqTurn implements Turn {
 
-/**
- * Object encapsulating a {@link Turn} that was a {@link Tcq} question.
- * @author cjette
- * 
- */
-public abstract class TcqTurn implements Turn {
-  
-  private final ScoreResult teamAResult;
-  private final ScoreResult teamBResult;
+	private final ScoreResult teamAResult;
+	private final ScoreResult teamBResult;
+	private final boolean isTcqA;
 
-  /**
-   * @param teamAResult how many points were awarded to {@link Team} A
-   * @param teamBResult how many points were awarded to {@link Team} B
-   */
-  public TcqTurn(ScoreResult teamAResult, ScoreResult teamBResult) {
-    if (teamAResult.getWorth() > 20 || teamAResult.getWorth() < 0) {
-      throw new IllegalArgumentException("invalid score");
-    }
-    if (teamBResult.getWorth() > 20 || teamBResult.getWorth() < 0) {
-      throw new IllegalArgumentException("invalid score");
-    }
-    
-    this.teamAResult = teamAResult;
-    this.teamBResult = teamBResult;
-  }
+	public TcqTurn(boolean isTcqA, ScoreResult teamAResult, ScoreResult teamBResult) {
+		if (teamAResult.getWorth() > 20 || teamAResult.getWorth() < 0) {
+			throw new IllegalArgumentException("invalid score");
+		}
+		if (teamBResult.getWorth() > 20 || teamBResult.getWorth() < 0) {
+			throw new IllegalArgumentException("invalid score");
+		}
 
-  /** {@inheritDoc} */
-//  @Override
-  public ScoreResult getTeamAScore() {
-    return this.teamAResult;
-  }
+		this.teamAResult = teamAResult;
+		this.teamBResult = teamBResult;
+		this.isTcqA = isTcqA;
+	}
 
-  /** {@inheritDoc} */
-//  @Override
-  public ScoreResult getTeamBScore() {
-    return this.teamBResult;
-  }
+	public ScoreResult getTeamAScore() {
+		return this.teamAResult;
+	}
+
+	public ScoreResult getTeamBScore() {
+		return this.teamBResult;
+	}
+	
+	public boolean isTcqA() {
+		return this.isTcqA;
+	}
 }

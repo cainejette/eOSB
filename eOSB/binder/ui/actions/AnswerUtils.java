@@ -9,17 +9,15 @@ import eOSB.game.controller.Question;
 import eOSB.score.controller.BuzzerScoreResult;
 
 public class AnswerUtils {
-
 	public static void processSubmission(Question question, ButtonState teamA, ButtonState teamB) {
-
 		if (question.getType() == Question.Type.TOSSUP) {
-			processTossup(question, teamA, teamB);
+			processTossup(teamA, teamB);
 		} else {
-			processBonus(question, teamA, teamB);
+			processBonus(teamA, teamB);
 		}
 	}
 
-	private static void processTossup(Question question, ButtonState teamA, ButtonState teamB) {
+	private static void processTossup(ButtonState teamA, ButtonState teamB) {
 		BuzzerScoreResult teamAResult = teamA.isCorrect() ? 
 				BuzzerScoreResult.CORRECT_TOSSUP : teamA.isInterrupt() ? 
 							BuzzerScoreResult.INTERRUPT : BuzzerScoreResult.INCORRECT;
@@ -29,19 +27,16 @@ public class AnswerUtils {
 							BuzzerScoreResult.INTERRUPT : BuzzerScoreResult.INCORRECT;
 	
 		BuzzerTurn turn = new BuzzerTurn(teamAResult, teamBResult);
-		turn.setQuestionNumber(question.getNumber());
 		EventBus.publish(new NextQuestionEvent("AnswerUtils", teamA.isCorrect(), teamB.isCorrect(), turn));
 
 		// if both teams were incorrect on a tossup, they don't get the bonus question
 		if (!teamA.isCorrect() && !teamB.isCorrect()) {
 			BuzzerTurn spacerTurn = new BuzzerTurn(BuzzerScoreResult.INCORRECT, BuzzerScoreResult.INCORRECT);
-			spacerTurn.setQuestionNumber(question.getNumber());
 			EventBus.publish(new NextQuestionEvent("AnswerUtils", true, true, spacerTurn));
 		}
 	}
 
-	private static void processBonus(Question question, ButtonState teamA, ButtonState teamB) {
-		
+	private static void processBonus(ButtonState teamA, ButtonState teamB) {
 		BuzzerScoreResult teamAResult = teamA.isCorrect() ? 
 				BuzzerScoreResult.CORRECT_BONUS : BuzzerScoreResult.INCORRECT;
 		
@@ -49,7 +44,6 @@ public class AnswerUtils {
 				BuzzerScoreResult.CORRECT_BONUS : BuzzerScoreResult.INCORRECT;
 
 		BuzzerTurn turn = new BuzzerTurn(teamAResult, teamBResult);
-		turn.setQuestionNumber(question.getNumber());
 
 		EventBus.publish(new NextQuestionEvent("AnswerUtils", true, true, turn));
 	}
