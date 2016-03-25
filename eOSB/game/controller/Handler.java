@@ -42,24 +42,11 @@ import eOSB.score.controller.Scorekeeper;
 import eOSB.score.controller.TeamScoreNumberEvent;
 import eOSB.time.controller.Timekeeper;
 
-/**
- * The main eOSB handler
- * 
- * @author Caine Jette
- * 
- */
 public class Handler implements EventSubscriber<EventServiceEvent> {
 
-	/** the object used to read questions from files */
 	private QuestionXMLParser questionReader;
-
-	/** the gui for the binder */
 	private Binder binder;
-
-	/** the object used to keep score */
 	private Scorekeeper scorekeeper;
-
-	/** the object used to keep time */
 	private Timekeeper timekeeper;
 
 	private List<Round> availableRounds = new ArrayList<Round>();
@@ -83,9 +70,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 
 	private String token = null;
 
-	/**
-	 * Initializes the game controller object.
-	 */
 	public Handler() {
 		this.teamA = new Team("Team A");
 		this.teamB = new Team("Team B");
@@ -190,9 +174,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		}
 	}
 
-	/**
-	 * @return the list of rounds available in this version.
-	 */
 	public List<Round> getAvailableRounds() {
 		return this.availableRounds;
 	}
@@ -215,16 +196,10 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		this.processNewRound();
 	}
 
-	/**
-	 * @return the frame containing the {@link Binder}
-	 */
 	public JFrame getFrame() {
 		return this.binder.getFrame();
 	}
 
-	/**
-	 * @return the {@link Timekeeper}
-	 */
 	public Timekeeper getTimekeeper() {
 		if (this.shouldUseTimer) {
 			return this.timekeeper;
@@ -233,25 +208,15 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		}
 	}
 
-	/**
-	 * @return the current round of the competition
-	 */
 	public Round getCurrentRound() {
 		return this.currentRound;
 	}
 
-	/**
-	 * When a user is not validated (did not type in the correct password.)
-	 */
 	public void failedValidation() {
-		// enter code to tell user what happened
 		JOptionPane.showMessageDialog(this.binder.getFrame(),
 				"Password authentication failed.");
 	}
 
-	/**
-	 * Dialog to select which software packages to enable.
-	 */
 	public void displayEula() {
 		if (!this.hasReadTerms) {
 			DisplayEulaDialog eulaDialog = new DisplayEulaDialog(this);
@@ -266,9 +231,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		this.hasReadTerms = hasRead;
 	}
 
-	/**
-	 * Withdraws the most recent question.
-	 */
 	public void previousQuestion() {
 		if (this.isUsingScoreboard()) {
 			Turn turn = this.scorekeeper.removeTurn();
@@ -294,50 +256,27 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		}
 	}
 
-	/**
-	 * Flags the appropriate packages to use for the current round.
-	 * 
-	 * @param shouldUseScoreboard
-	 *            whether the scoreboard will be used this round
-	 * @param shouldUseTimer
-	 *            whether the timer will be used this round
-	 */
 	public void setPackages(boolean shouldUseScoreboard, boolean shouldUseTimer) {
 		this.shouldUseScoreboard = shouldUseScoreboard;
 		this.shouldUseTimer = shouldUseTimer;
 	}
 
-	/**
-	 * @return true if scorekeeping has been enabled, false otherwise
-	 */
 	public boolean isUsingScoreboard() {
 		return this.shouldUseScoreboard;
 	}
 
-	/**
-	 * @return true if scorekeeping was enabled last round, false otherwise
-	 */
 	public boolean usedScoreboardLastRound() {
 		return this.usedScoreboardLastRound;
 	}
 
-	/**
-	 * @return true if timekeeping has been enabled, false otherwise
-	 */
 	public boolean isUsingTimer() {
 		return this.shouldUseTimer;
 	}
 
-	/**
-	 * @return true if timekeeping was enabled last round, false otherwise
-	 */
 	public boolean usedTimerLastRound() {
 		return this.usedTimerLastRound;
 	}
 
-	/**
-	 * Cleans up the frames
-	 */
 	public void cleanUp() {
 		if (this.shouldUseTimer) {
 			this.timekeeper.close();
@@ -346,27 +285,16 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		this.binder.close();
 	}
 
-	/**
-	 * @return {@link Team} A
-	 */
 	public Team getTeamA() {
 		return this.teamA;
 	}
 
-	/**
-	 * @return {@link Team} B
-	 */
 	public Team getTeamB() {
 		return this.teamB;
 	}
 
-	/** {@inheritDoc} */
 	public void onEvent(EventServiceEvent event) {
 		if (event instanceof NewRoundEvent) {
-
-//			RoundPreambleDialog dialog = new RoundPreambleDialog();
-//			dialog.setVisible(true);
-
 			System.out.println("[Handler/onEvent] received NewRoundEvent");
 			NewRoundEvent nre = (NewRoundEvent) event;
 			try {
@@ -428,20 +356,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 					.getNextQuestion(), enableTeamA, enableTeamB));
 
 		}
-	}
-
-	private String getPackageSelectionString() {
-		switch (this.mostRecentPackageSelection) {
-		case PackageSelectionOptions.BINDER:
-			return "Binder";
-		case PackageSelectionOptions.BINDER_SCOREKEEPER:
-			return "Binder + Scorekeeper";
-		case PackageSelectionOptions.BINDER_TIMEKEEPER:
-			return "Binder + Timekeeper";
-		case PackageSelectionOptions.BINDER_TIMEKEEPER_SCOREKEEPER:
-			return "Binder + Timekeeper + Scorekeeper";
-		}
-		return "None?";
 	}
 
 	private void processNewRound() {

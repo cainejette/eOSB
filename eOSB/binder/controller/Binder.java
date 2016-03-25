@@ -10,7 +10,6 @@ import java.awt.Insets;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.font.TextAttribute;
-import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -58,13 +57,6 @@ import eOSB.game.data.PathStore;
 import eOSB.score.controller.TeamScoreNumberEvent;
 import net.miginfocom.swing.MigLayout;
 
-/**
- * The eOSB UI, serving as a replacement for the traditional binder. Also
- * provides functionality for displaying the score and time.
- * 
- * @author Caine Jette
- * 
- */
 public class Binder implements EventSubscriber<EventServiceEvent> 
 {
 	private Handler handler;
@@ -114,10 +106,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 
 	private String roundName;
 
-	/**
-	 * @param handler
-	 *          the {@link Handler} object
-	 */
 	public Binder(Handler handler) 
 	{
 		this.handler = handler;
@@ -147,9 +135,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.displayFrame();
 	}
 
-	/**
-	 * Initializes the frame's characteristics.
-	 */
 	private void initFrame() 
 	{
 		this.frame.setVisible(false);
@@ -162,9 +147,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.frame.setJMenuBar(new eOSBMenuBar(this.handler, this));
 	}
 
-	/**
-	 * Packs and displays the frame.
-	 */
 	private void displayFrame() 
 	{
 		this.frame.pack();
@@ -175,13 +157,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.frame.setVisible(true);
 	}
 
-	/**
-	 * Sets the UI to display a new {@link Round}, as selected via File --> Open
-	 * Round.
-	 * 
-	 * @param roundName
-	 *          the name of the new round
-	 */
 	private void setBinderToNewRound(String roundName)
 	{
 		this.roundName = roundName;
@@ -224,10 +199,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.displayFrame();
 	}
 
-	/**
-	 * @return the panel containing the team-associated (+scoring) and navigation
-	 *         buttons
-	 */
 	private JPanel createSubmissionPanel() {
 		if (this.handler.isUsingScoreboard())
 		{
@@ -281,9 +252,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 	}
 
-	/**
-	 * Initializes the main components used by the UI
-	 */
 	private void initComponents() {
 		this.initQuestionPanel();
 		this.initAnswerPanel();
@@ -309,9 +277,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.hasSeenTcqReminder = false;
 	}
 
-	/**
-	 * Initializing the components in the question panel
-	 */
 	private void initQuestionPanel() {
 		JTextPane questionTextPane = new JTextPane();
 		questionTextPane.setBorder(new TitledBorder("Question Text"));
@@ -369,9 +334,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		return text;
 	}
 
-	/**
-	 * Initializing the components in the answer panel
-	 */
 	private void initAnswerPanel() {
 		JTextPane answerTextPane = new JTextPane();
 		answerTextPane.setBorder(new TitledBorder("Question Answer"));
@@ -382,10 +344,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.answerPanelScroller.getViewport().setView(answerTextPane);
 	}
 
-	/**
-	 * Creates and customizes the buttons used for navigating the questions
-	 * @return a JButton
-	 */
 	private JButton createNavigationButton() {
 		JButton button = new JButton();
 
@@ -511,16 +469,10 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 	}
 
-	/**
-	 * @return the frame
-	 */
 	public JFrame getFrame() {
 		return this.frame;
 	}
 
-	/**
-	 * Disable Team A's buttons
-	 */
 	private void disableTeamA() {
 		this.teamA_correct.setSelected(false);
 		this.teamA_correct.setEnabled(false);
@@ -533,9 +485,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 	}
 
-	/**
-	 * Disable Team B's buttons
-	 */
 	private void disableTeamB() {
 		this.teamB_correct.setSelected(false);
 		this.teamB_correct.setEnabled(false);
@@ -548,10 +497,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 	}
 
-	/**
-	 * Updates the question displayed.
-	 * @param question the new question
-	 */
 	private void updateQuestion(Question question) {
 		System.out.println("[binder/updateQuestion] updating question to " + question.getNumber());
 
@@ -571,10 +516,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.updateButtonStates(question);
 	}
 
-	/**
-	 * Creates a new text panel to display the question 
-	 * @param question the new question 
-	 */
 	private void createQuestionPanel(Question question) {
 		this.questionPanelScroller.getViewport().removeAll();
 
@@ -611,9 +552,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.questionPanelScroller.getViewport().setView(textPane);		
 	}
 
-	/**
-	 * Creates a new text panel to display the question answer.
-	 */
 	private void createAnswerPanel(Question question) {
 		this.answerPanelScroller.getViewport().remove(0);
 
@@ -653,10 +591,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.answerPanelScroller.getViewport().setView(textPane);
 	}
 
-	/**
-	 * Updates the various buttons based on the type of question
-	 * @param question the current question, to update button states against
-	 */
 	private void updateButtonStates(Question question) {
 		// disable back button if viewing the very first question
 		this.backButton.setEnabled(!question.getNumber().equals("1"));
@@ -672,11 +606,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 	}
 
-	/**
-	 * Toggles the state of the team buttons
-	 * @param shouldEnable whether the buttons should be enabled or not
-	 * @param isTeamA whether the buttons to operate on are TeamA or TeamB
-	 */
 	private void toggleTeamButtons(boolean shouldEnable, boolean isTeamA) {
 		if (isTeamA) {
 			this.teamA_correct.setEnabled(shouldEnable);
@@ -694,11 +623,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 	}
 
-	/**
-	 * Adds the text to the question doc
-	 * @param text the text to add
-	 * @throws BadLocationException
-	 */
 	private void addTextToDocument(String text, StyledDocument document) throws BadLocationException {
 		boolean done = false;
 		while (!done) {
@@ -721,11 +645,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		document.insertString(document.getLength(), text, document.getStyle(REGULAR_STYLE));
 	}
 
-	/**
-	 * Configures and returns the styled document for a given textPane
-	 * @param textPane the input text pane
-	 * @return a styled document loaded with styles
-	 */
 	private StyledDocument configureStyledDocument(JTextPane textPane) {
 		StyledDocument document = (StyledDocument) textPane.getDocument();
 
@@ -753,11 +672,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		return document;
 	}
 
-	/**
-	 * Creates a formatted JTextPane
-	 * @param background background color for the jTextPane
-	 * @return a formatted JTextPane
-	 */
 	private JTextPane createJTextPane(Color background) {
 		JTextPane textPane = new JTextPane();
 		textPane.setEditable(false);
@@ -767,11 +681,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		return textPane;
 	}
 
-	/**
-	 * Returns a white background if question is tossup, yellow if question is bonus
-	 * @param question the input question
-	 * @return the appropriate background color
-	 */
 	private Color getQuestionBackground(Question question) {
 		if (question.getNumber().contains("b")) {
 			return new Color(255, 255, 100);
@@ -781,17 +690,11 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 	}
 
-	/**
-	 * Disables the back button
-	 */
 	public void disableBackButton() {
 		this.backButton.setSelected(false);
 		this.backButton.setEnabled(false);
 	}
 
-	/**
-	 * Updates UI to represent the end of a round
-	 */
 	private void roundOver() {
 		this.currentQuestion = null;
 		final JButton newRoundButton = new JButton("Round over! Open a new round here.");
@@ -843,10 +746,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.submitButton.setEnabled(false);
 	}
 
-	/**
-	 * Sets the size of the font
-	 * @param size the new size
-	 */
 	public void setFontSize(int size) {
 		System.out.println("[Binder/setFontSize] setting font size to: " + size);
 		this.fontSize = size;
@@ -856,15 +755,10 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 	}
 
-	/**
-	 * Disposes of the frame.
-	 */
 	public void close() {
 		this.frame.dispose();
 	}
 
-	/** {@inheritDoc} */
-	// @Override
 	public void onEvent(EventServiceEvent ese) {
 		if (ese instanceof NewRoundEvent) {
 			NewRoundEvent nre = (NewRoundEvent)ese;
