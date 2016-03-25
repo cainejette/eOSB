@@ -11,31 +11,29 @@ import javax.swing.ListCellRenderer;
 import javax.swing.SwingConstants;
 
 @SuppressWarnings("serial")
-public class RoundSelectionListRenderer extends JLabel implements
-		ListCellRenderer {
+public class RoundSelectionListRenderer extends JLabel implements ListCellRenderer {
 
 	private List<String> openedRounds;
-	
+
 	public RoundSelectionListRenderer(List<String> openedRounds) {
 		this.openedRounds = openedRounds;
 	}
-	
-	public Component getListCellRendererComponent(JList list, Object value,
-			int index, boolean isSelected, boolean hasFocus) {
+
+	public Component getListCellRendererComponent(JList list, Object value, int index, boolean isSelected,
+			boolean hasFocus) {
 
 		if (value instanceof JLabel) {
 			JLabel label = (JLabel) value;
 			String name = label.getText();
 			this.setText(name);
-			
+
 			Font font = list.getFont();
 			if (this.openedRounds.contains(name)) {
 				setFont(new Font(font.getName(), Font.ITALIC, font.getSize() + 1));
-			}
-			else {
+			} else {
 				setFont(new Font(font.getName(), Font.BOLD, font.getSize() + 1));
 			}
-			
+
 			setHorizontalTextPosition(SwingConstants.CENTER);
 			setHorizontalAlignment(SwingConstants.CENTER);
 			if (isSelected) {
@@ -51,10 +49,8 @@ public class RoundSelectionListRenderer extends JLabel implements
 			setOpaque(true);
 			setPreferredSize(new Dimension(200, 35));
 			return this;
-		}
-		else {
+		} else {
 			return this;
 		}
 	}
-
 }

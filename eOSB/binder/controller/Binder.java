@@ -240,9 +240,9 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		{
 			JPanel submitBackPanel = new JPanel();
 			submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
-			submitBackPanel.add(this.backButton, "sizegroupx group3, grow, gapafter 20");
-			submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, grow, gapafter 20");
-			submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, grow");
+			submitBackPanel.add(this.backButton, "sizegroupx group3, h 75!, grow, gapafter 20");
+			submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, h 75!, grow, gapafter 20");
+			submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, h 75!, grow");
 
 			JPanel answerPanel = new JPanel();
 			answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));

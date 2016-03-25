@@ -14,7 +14,6 @@ public class CancelAndShowAction extends AbstractAction {
   StandardDialog dialog;
 
   public CancelAndShowAction(StandardDialog dialog) {
-    super("Cancel");
     this.dialog = dialog;
   }
 

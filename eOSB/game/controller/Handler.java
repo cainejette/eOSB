@@ -34,6 +34,7 @@ import eOSB.binder.ui.HideBuzzerQuestionsEvent;
 import eOSB.binder.ui.actions.RoundSelectedEvent;
 import eOSB.game.data.PathStore;
 import eOSB.game.data.QuestionXMLParser;
+import eOSB.game.ui.CloseProgramEvent;
 import eOSB.game.ui.SelectRoundDialog;
 import eOSB.score.controller.LastTurnEvent;
 import eOSB.score.controller.Scorekeeper;
@@ -83,6 +84,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(NextQuestionEvent.class, this);
 		EventBus.subscribe(UserAuthenticatedEvent.class, this);
 		EventBus.subscribe(AuthenticationFailedEvent.class, this);
+		EventBus.subscribe(CloseProgramEvent.class, this);
 	}
 
 	private class RoundInfo {
@@ -315,6 +317,8 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			EventBus.publish(new UpdateQuestionEvent(this, this.currentRound
 					.getNextQuestion(), enableTeamA, enableTeamB));
 
+		} else if (event instanceof CloseProgramEvent) {
+			System.exit(0);
 		}
 	}
 

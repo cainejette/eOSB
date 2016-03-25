@@ -40,7 +40,7 @@ public class Timekeeper implements EventSubscriber<EventServiceEvent> {
 	}
 
 	public void onEvent(EventServiceEvent e) {
-		if (e instanceof QuestionEvent) {
+		if (e instanceof UpdateQuestionEvent) {
 			this.questionClock.pause();
 
 			UpdateQuestionEvent e2 = (UpdateQuestionEvent) e;

@@ -18,6 +18,7 @@ public class PasswordKeyListener implements KeyListener {
 		this.dialog = dialog;
 		this.passField = passField;
 		this.button = button;
+		this.validateDialog();
 	}
 	
 	public void keyPressed(KeyEvent arg0) {

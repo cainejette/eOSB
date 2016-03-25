@@ -40,6 +40,7 @@ public class SelectRoundDialog extends StandardDialog {
 	private JCheckBox scorekeeper;
 
 	public SelectRoundDialog(JFrame parent, List<Round> availableRounds, boolean useTimekeeper, boolean useScorekeeper) {
+		super(parent, true);
 		this.parent = parent;
 		this.availableRounds = availableRounds;
 		
@@ -133,7 +134,9 @@ public class SelectRoundDialog extends StandardDialog {
 
 		if (lastOpened + 1 < this.availableRounds.size()) {
 			this.list.setSelectedIndex(lastOpened + 1);
-			this.list.ensureIndexIsVisible(lastOpened + 1);
+//			this.list.getSe
+//			this.list.
+			this.list.ensureIndexIsVisible(lastOpened - 5);
 		} else {
 			this.list.setSelectedIndex(-1);
 		}
