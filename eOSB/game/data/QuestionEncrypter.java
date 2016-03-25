@@ -18,6 +18,7 @@ import javax.crypto.spec.DESKeySpec;
 
 import org.apache.commons.io.IOUtils;
 
+import eOSB.game.controller.Constants;
 import eOSB.game.controller.Handler;
 
 
@@ -28,7 +29,7 @@ public class QuestionEncrypter {
 		String password = "mop123";
 
 		InputStreamReader isReader = new InputStreamReader(Handler.getResourceAsStream(
-				"eOSB/game/data/password.txt"));
+				Constants.PASSWORD_FILE));
 		BufferedReader reader = new BufferedReader(isReader);
 		try {
 			if (reader.ready()) {

@@ -16,20 +16,20 @@ import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
 
 import eOSB.binder.ui.actions.CancelButtonAction;
-import eOSB.game.actions.ValidatePasswordButtonAction;
+import eOSB.game.actions.AuthenticateUserAction;
 import eOSB.game.controller.Handler;
 
 @SuppressWarnings("serial")
 public class ValidateUserDialog extends StandardDialog {
   private Handler handler;
   private JPasswordField passwordField;
-  private ValidatePasswordButtonAction validateUserAction;
+  private AuthenticateUserAction validateUserAction;
   private JButton okButton = new JButton();
   
   public ValidateUserDialog(Handler handler) {
     this.handler = handler;
     this.passwordField = new JPasswordField(25);
-    this.validateUserAction = new ValidatePasswordButtonAction(this, 
+    this.validateUserAction = new AuthenticateUserAction(this, 
     	      this.handler, this.passwordField);
     this.passwordField.addKeyListener(new PasswordKeyListener(this, this.passwordField, this.okButton));
     
