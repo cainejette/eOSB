@@ -13,70 +13,55 @@ import eOSB.binder.ui.actions.CancelButtonAction;
 import eOSB.binder.ui.actions.CloseProgramButtonAction;
 import eOSB.game.controller.Handler;
 
-/**
- * Dialog used to confirm a user's intention of closing eOSB to prevent data loss.
- * @author cjette
- * 
- */
 public class ConfirmExitDialog extends StandardDialog {
 
-  private Handler handler;
+	private Handler handler;
 
-  /**
-   * @param handler the {@link Handler}
-   */
-  public ConfirmExitDialog(Handler handler) {
-    this.handler = handler;
-    this.init();
-  }
+	public ConfirmExitDialog(Handler handler) {
+		this.handler = handler;
+		this.init();
+	}
 
-  /**
-   * Basic dialog initializations.
-   */
-  private void init() {
-    this.pack();
-    this.setTitle("Confirm Exit");
-//    this.setIconImage(new ImageIcon(this.getClass().getResource(IconFactory.LOGO)).getImage());
-    this.setLocationRelativeTo(this.handler.getFrame());
-    this.setResizable(false);
-  }
+	private void init() {
+		this.pack();
+		this.setTitle("Confirm Exit");
+		this.setLocationRelativeTo(this.handler.getFrame());
+		this.setResizable(false);
+	}
 
-  /** {@inheritDoc} */
-  @Override
-  public JComponent createBannerPanel() {
-    final JLabel message = new JLabel("Are you sure you'd like to exit eOSB?");
+	@Override
+	public JComponent createBannerPanel() {
+		final JLabel message = new JLabel("Are you sure you'd like to exit eOSB?");
 
-    final JPanel panel = new JPanel();
-    panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
-    panel.add(message);
+		final JPanel panel = new JPanel();
+		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
+		panel.add(message);
 
-    return panel;
-  }
+		return panel;
+	}
 
-  /** {@inheritDoc} */
-  @Override
-  public ButtonPanel createButtonPanel() {
-    ButtonPanel panel = new ButtonPanel();
-    panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
+	@Override
+	public ButtonPanel createButtonPanel() {
+		ButtonPanel panel = new ButtonPanel();
+		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
 
-    CloseProgramButtonAction closeAction = new CloseProgramButtonAction(this, this.handler);
-    CancelButtonAction cancelAction = new CancelButtonAction(this);
-    this.setDefaultCancelAction(cancelAction);
+		CloseProgramButtonAction closeAction = new CloseProgramButtonAction(this, this.handler);
+		CancelButtonAction cancelAction = new CancelButtonAction(this);
+		this.setDefaultCancelAction(cancelAction);
 
-    JButton button = new JButton();
-    button.setAction(cancelAction);
-    panel.add(button);
+		JButton button = new JButton();
+		button.setAction(cancelAction);
+		panel.add(button);
 
-    button = new JButton();
-    button.setAction(closeAction);
-    panel.add(button);
+		button = new JButton();
+		button.setAction(closeAction);
+		panel.add(button);
 
-    return panel;
-  }
+		return panel;
+	}
 
-  /** {@inheritDoc} */
-  @Override
-  public JComponent createContentPanel() {
-    return null;
-  }
+	@Override
+	public JComponent createContentPanel() {
+		return null;
+	}
 }

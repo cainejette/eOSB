@@ -9,8 +9,12 @@ import java.util.Date;
 import javax.swing.AbstractAction;
 import javax.swing.JPasswordField;
 
+import org.bushe.swing.event.EventBus;
+
 import com.jidesoft.dialog.StandardDialog;
 
+import eOSB.binder.controller.AuthenticationFailedEvent;
+import eOSB.binder.controller.UserAuthenticatedEvent;
 import eOSB.game.controller.Constants;
 import eOSB.game.controller.Handler;
 import eOSB.game.controller.Password;
@@ -18,13 +22,11 @@ import eOSB.game.controller.Password;
 public class AuthenticateUserAction extends AbstractAction {
 
 	private StandardDialog parent;
-	private Handler handler;
 
 	private JPasswordField passwordField;
 
-	public AuthenticateUserAction(StandardDialog parent, Handler handler, JPasswordField passwordField) {
+	public AuthenticateUserAction(StandardDialog parent, JPasswordField passwordField) {
 		this.parent = parent;
-		this.handler = handler;
 		this.passwordField = passwordField;
 	}
 
@@ -47,10 +49,10 @@ public class AuthenticateUserAction extends AbstractAction {
 		this.parent.dispose();
 
 		if (validPassword && validDate) {
-			this.handler.displayEula();
+			EventBus.publish(new UserAuthenticatedEvent(this));
 		} 
 		else {
-			this.handler.failedValidation();
+			EventBus.publish(new AuthenticationFailedEvent(this));
 		}
 	}
 	

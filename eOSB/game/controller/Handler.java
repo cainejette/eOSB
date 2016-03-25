@@ -21,6 +21,7 @@ import org.bushe.swing.event.EventBus;
 import org.bushe.swing.event.EventServiceEvent;
 import org.bushe.swing.event.EventSubscriber;
 
+import eOSB.binder.controller.AuthenticationFailedEvent;
 import eOSB.binder.controller.Binder;
 import eOSB.binder.controller.NextQuestionEvent;
 import eOSB.binder.controller.OpenTcqPreambleEvent;
@@ -28,14 +29,11 @@ import eOSB.binder.controller.RemindTcqEvent;
 import eOSB.binder.controller.TcqPreambleDialog;
 import eOSB.binder.controller.TeamNameEvent;
 import eOSB.binder.controller.UpdateQuestionEvent;
+import eOSB.binder.controller.UserAuthenticatedEvent;
 import eOSB.binder.ui.HideBuzzerQuestionsEvent;
 import eOSB.binder.ui.actions.RoundSelectedEvent;
 import eOSB.game.data.PathStore;
 import eOSB.game.data.QuestionXMLParser;
-import eOSB.game.ui.PackageSelectionListEvent;
-import eOSB.game.ui.PackagesSelectedEvent;
-import eOSB.game.ui.RoundSelectionListEvent;
-import eOSB.game.ui.SelectPackageDialog;
 import eOSB.game.ui.SelectRoundDialog;
 import eOSB.score.controller.LastTurnEvent;
 import eOSB.score.controller.Scorekeeper;
@@ -62,12 +60,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	private Team teamB;
 
 	private InformationFrame infoFrame;
-
-	private boolean hasReadTerms = false;
-
-	private String mostRecentRoundSelection = "Round 1";
-	private int mostRecentPackageSelection = PackageSelectionOptions.BINDER;
-
+	
 	private String token = null;
 
 	public Handler() {
@@ -82,15 +75,14 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(NewRoundEvent.class, this);
 		EventBus.subscribe(LastTurnEvent.class, this);
 		EventBus.subscribe(TeamNameEvent.class, this);
-		EventBus.subscribe(RoundSelectionListEvent.class, this);
 		EventBus.subscribe(RoundSelectedEvent.class, this);
-		EventBus.subscribe(PackageSelectionListEvent.class, this);
-		EventBus.subscribe(PackagesSelectedEvent.class, this);
 		EventBus.subscribe(ShowSelectPackagesDialogEvent.class, this);
 		EventBus.subscribe(RoundLoadedEvent.class, this);
 		EventBus.subscribe(RemindTcqEvent.class, this);
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 		EventBus.subscribe(NextQuestionEvent.class, this);
+		EventBus.subscribe(UserAuthenticatedEvent.class, this);
+		EventBus.subscribe(AuthenticationFailedEvent.class, this);
 	}
 
 	private class RoundInfo {
@@ -212,25 +204,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		return this.currentRound;
 	}
 
-	public void failedValidation() {
-		JOptionPane.showMessageDialog(this.binder.getFrame(),
-				"Password authentication failed.");
-	}
-
-	public void displayEula() {
-		if (!this.hasReadTerms) {
-			DisplayEulaDialog eulaDialog = new DisplayEulaDialog(this);
-			eulaDialog.setVisible(true);
-		} else {
-			SelectPackageDialog dialog = new SelectPackageDialog(getFrame(), this.mostRecentPackageSelection);
-			dialog.setVisible(true);
-		}
-	}
-
-	public void setHasReadEula(boolean hasRead) {
-		this.hasReadTerms = hasRead;
-	}
-
 	public void previousQuestion() {
 		if (this.isUsingScoreboard()) {
 			Turn turn = this.scorekeeper.removeTurn();
@@ -294,7 +267,14 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	}
 
 	public void onEvent(EventServiceEvent event) {
-		if (event instanceof NewRoundEvent) {
+		if (event instanceof UserAuthenticatedEvent) {
+			this.showSelectRoundDialog();
+		}
+		else if (event instanceof AuthenticationFailedEvent) {
+			JOptionPane.showMessageDialog(this.binder.getFrame(),
+					"Password authentication failed.");
+		}
+		else if (event instanceof NewRoundEvent) {
 			System.out.println("[Handler/onEvent] received NewRoundEvent");
 			NewRoundEvent nre = (NewRoundEvent) event;
 			try {
@@ -307,34 +287,14 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			TeamNameEvent tne = (TeamNameEvent) event;
 			this.teamA.setName(tne.getTeamAName());
 			this.teamB.setName(tne.getTeamBName());
-		} else if (event instanceof ShowSelectPackagesDialogEvent) {
-			System.out.println("[Handler/onEvent] received ShowSelectPackagesDialogEvent");
-			this.setHasReadEula(true);
-			this.showSelectPackagesDialog();
-		}
-
-		else if (event instanceof PackageSelectionListEvent) {
-			PackageSelectionListEvent e = (PackageSelectionListEvent) event;
-			this.mostRecentPackageSelection = e.getSelection();
-		} else if (event instanceof PackagesSelectedEvent) {
-			if (this.mostRecentPackageSelection == PackageSelectionOptions.BINDER_TIMEKEEPER || this.mostRecentPackageSelection == PackageSelectionOptions.BINDER_TIMEKEEPER_SCOREKEEPER) {
-				this.shouldUseTimer = true;
-			} else {
-				this.shouldUseTimer = false;
-			}
-
-			if (this.mostRecentPackageSelection == PackageSelectionOptions.BINDER_SCOREKEEPER || this.mostRecentPackageSelection == PackageSelectionOptions.BINDER_TIMEKEEPER_SCOREKEEPER) {
-				this.shouldUseScoreboard = true;
-			} else {
-				this.shouldUseScoreboard = false;
-			}
-
-			this.showSelectRoundDialog();
-		} else if (event instanceof RoundSelectionListEvent) {
-			RoundSelectionListEvent e = (RoundSelectionListEvent) event;
-			this.mostRecentRoundSelection = e.getName();
 		} else if (event instanceof RoundSelectedEvent) {
-			EventBus.publish(new NewRoundEvent(this, this.mostRecentRoundSelection));
+			RoundSelectedEvent rse = (RoundSelectedEvent) event;
+			this.shouldUseTimer = rse.useTimekeeper();
+			this.usedTimerLastRound = this.shouldUseTimer;
+			this.shouldUseScoreboard = rse.useScorekeeper();
+			this.usedScoreboardLastRound = this.shouldUseScoreboard;
+
+			EventBus.publish(new NewRoundEvent(this, rse.getRoundName()));
 		} else if (event instanceof RemindTcqEvent) {
 			System.out.println("[Handler/onEvent] received RemindTcqEvent");
 			this.showHalfwayDoneDialog();
@@ -392,15 +352,8 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		throw new NoRoundFoundException(name);
 	}
 
-	private void showSelectPackagesDialog() {
-		SelectPackageDialog dialog = new SelectPackageDialog(this.getFrame(),
-				this.mostRecentPackageSelection);
-		dialog.setVisible(true);
-	}
-
 	private void showSelectRoundDialog() {
-		SelectRoundDialog dialog = new SelectRoundDialog(this.getFrame(),
-				this.availableRounds);
+		SelectRoundDialog dialog = new SelectRoundDialog(this.getFrame(), this.availableRounds, this.usedTimerLastRound, this.usedScoreboardLastRound);
 		dialog.setVisible(true);
 	}
 

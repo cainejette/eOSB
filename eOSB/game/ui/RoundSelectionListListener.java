@@ -31,18 +31,11 @@ public class RoundSelectionListListener implements ListSelectionListener {
 			if (list.getSelectedIndex() != -1) {
 				this.button.setEnabled(true);
 				this.parent.setDefaultAction(this.button.getAction());
-				Object selectedObject = list.getModel().getElementAt(list.getSelectedIndex());
-				if (selectedObject instanceof JLabel) {
-					JLabel label = (JLabel) selectedObject;
-					RoundSelectionListEvent event = new RoundSelectionListEvent(list, label.getText());
-					EventBus.publish(event);
-				}
 			}
 			else {
 				this.button.setEnabled(false);
 				this.parent.setDefaultAction(null);
 			}
-			
 		}
 	}
 }

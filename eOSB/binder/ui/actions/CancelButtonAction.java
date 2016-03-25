@@ -5,15 +5,14 @@ import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 
 public class CancelButtonAction extends AbstractAction {
-  StandardDialog dialog;
+	StandardDialog dialog;
 
-  public CancelButtonAction(StandardDialog dialog) {
-    super("Cancel");
-    this.dialog = dialog;
-  }
+	public CancelButtonAction(StandardDialog dialog) {
+		this.dialog = dialog;
+	}
 
-  public void actionPerformed(ActionEvent ae) {
-    this.dialog.setVisible(true);
-    this.dialog.dispose();
-  }
+	public void actionPerformed(ActionEvent ae) {
+		this.dialog.setVisible(true);
+		this.dialog.dispose();
+	}
 }
