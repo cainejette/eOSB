@@ -17,7 +17,6 @@ public class OpenEditTimeDialogAction extends AbstractAction {
 		this.timer = timer;
 	}
 	
-	/** {@inheritDoc} */
 	public void actionPerformed(ActionEvent ae) {
 		EditTimeDialog dialog = new EditTimeDialog(this.timer);
 		dialog.setLocationRelativeTo( null );

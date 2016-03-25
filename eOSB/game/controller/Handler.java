@@ -22,6 +22,7 @@ import org.bushe.swing.event.EventServiceEvent;
 import org.bushe.swing.event.EventSubscriber;
 
 import eOSB.binder.controller.Binder;
+import eOSB.binder.controller.NextQuestionEvent;
 import eOSB.binder.controller.OpenTcqPreambleEvent;
 import eOSB.binder.controller.RemindTcqEvent;
 import eOSB.binder.controller.TcqPreambleDialog;
@@ -105,6 +106,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(RoundLoadedEvent.class, this);
 		EventBus.subscribe(RemindTcqEvent.class, this);
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
+		EventBus.subscribe(NextQuestionEvent.class, this);
 	}
 
 	private class RoundInfo {
@@ -265,20 +267,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	}
 
 	/**
-	 * Proceeds to the next (appropriate) question. (If current question is
-	 * tossup, move to corresponding bonus. else, current question is bonus,
-	 * move to next tossup.)
-	 */
-	public void nextQuestion(boolean enableTeamA, boolean enableTeamB, Turn turn) {
-		if (turn != null) {
-			this.scorekeeper.addTurn(turn);
-		}
-
-		EventBus.publish(new UpdateQuestionEvent(this, this.currentRound
-				.getNextQuestion(), enableTeamA, enableTeamB));
-	}
-
-	/**
 	 * Withdraws the most recent question.
 	 */
 	public void previousQuestion() {
@@ -426,6 +414,19 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			System.out
 			.println("[Handler/onEvent] received OpenTcqPreambleEvent");
 			this.showTcqPreambleDialog();
+		} else if (event instanceof NextQuestionEvent) {
+			
+			NextQuestionEvent nqe = (NextQuestionEvent)event;
+			Turn turn = nqe.getTurn();
+			if (turn != null) {
+				this.scorekeeper.addTurn(turn);
+			}
+
+			boolean enableTeamA = nqe.getEnableTeamA();
+			boolean enableTeamB = nqe.getEnableTeamB();
+			EventBus.publish(new UpdateQuestionEvent(this, this.currentRound
+					.getNextQuestion(), enableTeamA, enableTeamB));
+
 		}
 	}
 

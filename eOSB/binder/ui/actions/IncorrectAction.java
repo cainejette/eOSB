@@ -58,14 +58,15 @@ public class IncorrectAction extends AbstractAction {
       }
     }
     
+    Question question = this.handler.getCurrentRound().getCurrentQuestion();
     // "one-click" incorrect if question is a bonus question
-    if (this.handler.getCurrentRound().getCurrentQuestion().getType() == Question.Type.BONUS) {
-      AnswerUtils.processSubmission(this.handler, this.teamA, this.teamB);
+    if (question.getType() == Question.Type.BONUS) {
+      AnswerUtils.processSubmission(question, this.teamA, this.teamB);
     }
     
     // "one-click" incorrect if both teams have their correct buttons selected
     if (this.teamA.isIncorrect() && this.teamB.isIncorrect()) {
-      AnswerUtils.processSubmission(this.handler, this.teamA, this.teamB);
+      AnswerUtils.processSubmission(question, this.teamA, this.teamB);
     }
   }
 }

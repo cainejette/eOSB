@@ -489,7 +489,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			SubmitAction submitAction = new SubmitAction(this.handler, this.teamA,
 					this.teamB);
 
-			this.nextQuestionButton.setAction(new NextQuestionAction(this.handler));
+			this.nextQuestionButton.setAction(new NextQuestionAction());
 			this.nextQuestionButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
 					.getResource(IconFactory.NEXT)));
 			this.nextQuestionButton.setMinimumSize(new Dimension(50, 25));
