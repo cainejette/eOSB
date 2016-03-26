@@ -1,5 +1,6 @@
 package eOSB.game.ui;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 
@@ -24,13 +25,18 @@ public class ValidateUserDialog extends StandardDialog {
 	private Handler handler;
 	private JPasswordField passwordField;
 	private JButton okButton;
+	private JLabel tryAgainLabel;
 
 	public ValidateUserDialog(Handler handler) {
 		super(handler.getFrame(), true);
 		this.handler = handler;
 		this.passwordField = new JPasswordField(25);
+		tryAgainLabel = new JLabel("failed. Try again.");
+		tryAgainLabel.setForeground(Color.RED);
+		tryAgainLabel.setFont(new Font(tryAgainLabel.getFont().getName(), Font.PLAIN, tryAgainLabel.getFont().getSize() + 2));
+
 		okButton = new JButton();
-		this.passwordField.addKeyListener(new PasswordKeyListener(this, passwordField, okButton));
+		this.passwordField.addKeyListener(new PasswordKeyListener(this, passwordField, okButton, tryAgainLabel));
 
 		this.init();
 	}
@@ -58,6 +64,7 @@ public class ValidateUserDialog extends StandardDialog {
 		panel.setLayout(new MigLayout());
 		panel.setBorder(BorderFactory.createEmptyBorder(6, 15, 0, 15));
 		panel.add(message);
+		panel.add(tryAgainLabel);
 
 		return panel;
 	}
@@ -77,7 +84,7 @@ public class ValidateUserDialog extends StandardDialog {
 
 		panel.add(cancelButton, "w 150!, h 65!");
 
-		AuthenticateUserAction okAction = new AuthenticateUserAction(this, this.passwordField);
+		AuthenticateUserAction okAction = new AuthenticateUserAction(this, this.passwordField, this.tryAgainLabel);
 		this.setDefaultAction(okAction);
 		okButton.setAction(okAction);
 

@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.util.Date;
 
 import javax.swing.AbstractAction;
+import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 
 import org.bushe.swing.event.EventBus;
@@ -24,10 +25,12 @@ public class AuthenticateUserAction extends AbstractAction {
 	private StandardDialog parent;
 
 	private JPasswordField passwordField;
+	private JLabel label;
 
-	public AuthenticateUserAction(StandardDialog parent, JPasswordField passwordField) {
+	public AuthenticateUserAction(StandardDialog parent, JPasswordField passwordField, JLabel label) {
 		this.parent = parent;
 		this.passwordField = passwordField;
+		this.label = label;
 	}
 
 	public void actionPerformed(ActionEvent ae) {
@@ -53,6 +56,7 @@ public class AuthenticateUserAction extends AbstractAction {
 		} 
 		else {
 			this.passwordField.setBackground(Color.RED);
+			this.label.setVisible(true);
 		}
 	}
 	
