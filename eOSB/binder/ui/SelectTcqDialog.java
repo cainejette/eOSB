@@ -1,62 +1,63 @@
 package eOSB.binder.ui;
 
+import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.GridLayout;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import javax.swing.BorderFactory;
-import javax.swing.ButtonGroup;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JList;
 import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JTabbedPane;
-import javax.swing.WindowConstants;
+import javax.swing.JScrollPane;
+import javax.swing.ListSelectionModel;
 
 import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
 
-import eOSB.binder.ui.actions.CloseTcqDialogAction;
 import eOSB.binder.ui.actions.OpenTcqAction;
+import eOSB.game.controller.CancelAndShowAction;
 import eOSB.game.controller.Handler;
 import eOSB.game.controller.Round;
 import eOSB.game.controller.Tcq;
+import eOSB.game.data.IconFactory;
+import eOSB.game.ui.RoundSelectionListCellRenderer;
+import eOSB.game.ui.RoundSelectionListListener;
 import eOSB.score.actions.OpenTcqResultsDialogAction;
 import net.miginfocom.swing.MigLayout;
 
 public class SelectTcqDialog extends StandardDialog {
 
+	private JList list;
 	private JFrame parent;
-	private Handler handler;
-	private Round round;
+	private List<Tcq> availableTcqs;
+	private List<String> openedTcqs;
+	private JButton okButton;
 
-	private ButtonGroup buttonGroup = new ButtonGroup();
-	private Map<String, Tcq> map = new HashMap<String, Tcq>();
-	private List<Tcq> availableRounds;
-	private List<JRadioButton> radioButtons;
-	private JTabbedPane radioButtonsPane;
+	private Round round;
+	private Handler handler;
 
 	public SelectTcqDialog(Handler handler) {
 		this.handler = handler;
 		this.parent = handler.getFrame();
 		this.round = handler.getCurrentRound();
 
-		this.availableRounds = (ArrayList<Tcq>) round.getTcqs();
-		this.availableRounds.addAll((ArrayList<Tcq>) round.getTcqSolutions());
-		this.radioButtons = new ArrayList<JRadioButton>();
-
-		JRadioButton button;
-		for (int i = 0; i < availableRounds.size(); i++) {
-			button = availableRounds.get(i).getButton();
-			this.map.put(button.getActionCommand(), availableRounds.get(i));
-			this.radioButtons.add(button);
-			this.buttonGroup.add(button);
+		this.availableTcqs = new ArrayList<Tcq>();
+		availableTcqs.addAll(round.getTcqs());
+		availableTcqs.addAll(round.getTcqSolutions());
+		this.openedTcqs = new ArrayList<String>();
+		
+		JLabel[] labels = new JLabel[this.availableTcqs.size()];
+		for (int i = 0; i < this.availableTcqs.size(); i++) {
+			JLabel label = new JLabel(this.availableTcqs.get(i).getName());
+			labels[i] = label;
 		}
+		
+		this.list = new JList(labels);
 
 		this.init();
 	}
@@ -71,29 +72,6 @@ public class SelectTcqDialog extends StandardDialog {
 		this.setVisible(true);
 	}
 
-	public void setSelected(JRadioButton button) {
-		for (int i = 0; i < radioButtons.size(); i++) {
-			if (button.equals(radioButtons.get(i))) {
-				if (i + 1 < radioButtons.size()) {
-					radioButtons.get(i + 1).setSelected(true);
-
-					if (i + 1 < 2) {
-						radioButtonsPane.setSelectedIndex(0);
-					} else {
-						radioButtonsPane.setSelectedIndex(1);
-					}
-				} else {
-					radioButtons.get(0).setSelected(false);
-					radioButtons.get(1).setSelected(false);
-					radioButtons.get(2).setSelected(false);
-					radioButtons.get(3).setSelected(false);
-					radioButtonsPane.setSelectedIndex(0);
-				}
-			}
-		}
-	}
-
-	@Override
 	public JComponent createBannerPanel() {
 		JLabel message = new JLabel("Select a TCQ:");
 		JLabel note = new JLabel("<HTML>(<i>previously opened</i>, <b>not yet opened</b>)");
@@ -109,34 +87,37 @@ public class SelectTcqDialog extends StandardDialog {
 
 	@Override
 	public ButtonPanel createButtonPanel() {
-		final ButtonPanel panel = new ButtonPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
+		ButtonPanel panel = new ButtonPanel();
+		panel.setBorder(BorderFactory.createEmptyBorder(0, 6, 0, 6));
+		panel.setLayout(new MigLayout("wrap 2"));
 
-		OpenTcqAction openTcqAction = new OpenTcqAction(this, this.map, this.buttonGroup);
-		CloseTcqDialogAction cancelAction = new CloseTcqDialogAction(this);
-		this.setDefaultCancelAction(cancelAction);
-		this.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
+		JButton cancelButton = new JButton();
+		CancelAndShowAction cancelAction = new CancelAndShowAction(this);
+		this.setDefaultCancelAction(cancelAction);		
+		cancelButton.setAction(cancelAction);
+		
+		ImageIcon cancelIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.INCORRECT));
+		cancelButton.setIcon(cancelIcon);
+		
+		panel.add(cancelButton, "w 150!, h 75!");
 
-		JButton button;
+		this.okButton = new JButton();
+		OpenTcqAction okAction = new OpenTcqAction(this, this.list, this.availableTcqs, this.openedTcqs, this.okButton);
+		this.okButton.setAction(okAction);
+		this.setDefaultAction(okAction);
+		this.okButton.requestFocus();
+		
+		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT));
+		okButton.setIcon(okIcon);
 
-		button = new JButton();
-		button.setAction(openTcqAction);
-		this.setDefaultAction(openTcqAction);
-		panel.add(button);
-
-		OpenTcqResultsDialogAction addTcqResultsAction = new OpenTcqResultsDialogAction(this, this.handler);
-		button = new JButton();
-		button.setAction(addTcqResultsAction);
-		panel.add(button);
-		if (!this.handler.isUsingScoreboard()) {
-			button.setEnabled(false);
+		panel.add(this.okButton, "gapleft 10, w 150!, h 75!");
+		
+		if (this.handler.isUsingScoreboard()) {
+			OpenTcqResultsDialogAction addTcqResultsAction = new OpenTcqResultsDialogAction(this, this.handler);
+			JButton button = new JButton();
+			button.setAction(addTcqResultsAction);
+			panel.add(button, "span, growx, h 50!, gaptop 10");
 		}
-
-		button = new JButton();
-		button.setAction(cancelAction);
-		this.setDefaultCancelAction(cancelAction);
-		button.setText("Close");
-		panel.add(button);
 
 		return panel;
 	}
@@ -144,37 +125,21 @@ public class SelectTcqDialog extends StandardDialog {
 	@Override
 	public JComponent createContentPanel() {
 
-		radioButtonsPane = new JTabbedPane();
-		JPanel questionTab = new JPanel();
-		questionTab.setLayout(new GridLayout(2, 1));
-		questionTab.add(radioButtons.get(0));
-		questionTab.add(radioButtons.get(1));
-
-		JPanel solutionTab = new JPanel();
-		solutionTab.setLayout(new GridLayout(2, 1));
-		solutionTab.add(radioButtons.get(2));
-		solutionTab.add(radioButtons.get(3));
-
-		radioButtonsPane.addTab("Questions", questionTab);
-		radioButtonsPane.addTab("Solutions", solutionTab);
-
-		// preselect the round and set its tab as open
-		for (int i = 0; i < availableRounds.size(); i++) {
-			if (!availableRounds.get(i).wasPreviouslyOpened()) {
-				radioButtons.get(i).setSelected(true);
-				if (i < 2) {
-					radioButtonsPane.setSelectedIndex(0);
-				} else {
-					radioButtonsPane.setSelectedIndex(1);
-				}
-				break;
-			}
-		}
-
 		JPanel panel = new JPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-		panel.add(radioButtonsPane);
+		panel.setLayout(new MigLayout("fill, insets 0, debug"));
 
+		this.list.setCellRenderer(new RoundSelectionListCellRenderer(this.openedTcqs));
+		this.list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		this.list.addListSelectionListener(
+				new RoundSelectionListListener(this, this.okButton, this.list.getSelectedIndex()));
+//		this.list.addMouseListener(new DoubleClickRoundListListener(this, this.list, this.timekeeper, this.scorekeeper));
+		this.list.setSelectedIndex(0);
+		
+		JScrollPane scroller = new JScrollPane(this.list);
+		scroller.setPreferredSize(new Dimension(316, 145));
+		
+		panel.add(scroller, "align center, grow, push, span");
+		
 		return panel;
 	}
 }

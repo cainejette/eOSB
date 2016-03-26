@@ -2,20 +2,21 @@ package eOSB.game.controller;
 
 import java.awt.Font;
 
+import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import net.miginfocom.swing.MigLayout;
-
 import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
 
 import eOSB.binder.controller.FireTcqPreambleEventAction;
-import eOSB.binder.ui.actions.CancelButtonAction;
+import eOSB.game.data.IconFactory;
+import net.miginfocom.swing.MigLayout;
 
 public class HalfwayDoneDialog extends StandardDialog {
 
@@ -48,23 +49,31 @@ public class HalfwayDoneDialog extends StandardDialog {
 
 	public ButtonPanel createButtonPanel() {
 		ButtonPanel panel = new ButtonPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
+		panel.setBorder(BorderFactory.createEmptyBorder(0, 6, 0, 6));
+		panel.setLayout(new MigLayout("fill"));
 
-		JButton button = new JButton();
-		FireTcqPreambleEventAction okAction = new FireTcqPreambleEventAction(this);
-		button.setAction(okAction);
-		button.setText("Launch TCQs");
-		panel.add(button);
+		JButton cancelButton = new JButton();
+		AbstractAction cancelAction = new CancelAndShowAction(this);
+		this.setDefaultCancelAction(cancelAction);		
+		cancelButton.setAction(cancelAction);
+		cancelButton.setToolTipText("Continue buzzers");
 		
-		button = new JButton();
-		CancelAndShowAction action = new CancelAndShowAction(this);
-		button.setAction(action);
-		button.setText("Dismiss");
-		panel.add(button);
+		ImageIcon cancelIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.INCORRECT));
+		cancelButton.setIcon(cancelIcon);
 		
+		panel.add(cancelButton, "growx, h 75!");
+
+		JButton okButton = new JButton();
+		AbstractAction okAction = new FireTcqPreambleEventAction(this);
+		okButton.setAction(okAction);
 		this.setDefaultAction(okAction);
-		this.setDefaultCancelAction(action);
-		this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		okButton.requestFocus();
+		okButton.setToolTipText("Open TCQs");
+		
+		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT));
+		okButton.setIcon(okIcon);
+
+		panel.add(okButton, "gapleft 10, growx, h 75!");
 
 		return panel;
  	}

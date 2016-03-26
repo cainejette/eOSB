@@ -24,7 +24,6 @@ public class SetTcqResultsAction extends AbstractAction {
 
 	public SetTcqResultsAction(StandardDialog parent, JTextField teamAFieldA, JTextField teamAFieldB,
 			JTextField teamBFieldA, JTextField teamBFieldB) {
-		super("Add Scores");
 		this.parent = parent;
 		this.teamAFieldA = teamAFieldA;
 		this.teamAFieldB = teamAFieldB;

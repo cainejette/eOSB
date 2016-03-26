@@ -10,12 +10,11 @@ import javax.swing.JList;
 import javax.swing.ListCellRenderer;
 import javax.swing.SwingConstants;
 
-@SuppressWarnings("serial")
-public class RoundSelectionListRenderer extends JLabel implements ListCellRenderer {
+public class RoundSelectionListCellRenderer extends JLabel implements ListCellRenderer {
 
 	private List<String> openedRounds;
 
-	public RoundSelectionListRenderer(List<String> openedRounds) {
+	public RoundSelectionListCellRenderer(List<String> openedRounds) {
 		this.openedRounds = openedRounds;
 	}
 

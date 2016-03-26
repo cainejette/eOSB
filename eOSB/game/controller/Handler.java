@@ -157,12 +157,12 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			String number = roundInfo.filePath.split("(_)|(\\.)")[1];
 
 			List<Tcq> tcqs = new ArrayList<Tcq>();
-			tcqs.add(new Tcq(roundInfo.name + " TCQ A", PathStore.MakeTcqPath(number, true, false), roundInfo.tcqADuration));
-			tcqs.add(new Tcq(roundInfo.name + " TCQ B", PathStore.MakeTcqPath(number, false, false), roundInfo.tcqBDuration));
+			tcqs.add(new Tcq("TCQ A", PathStore.MakeTcqPath(number, true, false), roundInfo.tcqADuration));
+			tcqs.add(new Tcq("TCQ B", PathStore.MakeTcqPath(number, false, false), roundInfo.tcqBDuration));
 
 			List<Tcq> tcqSolutions = new ArrayList<Tcq>();
-			tcqSolutions.add(new Tcq(roundInfo.name + " TCQ A Solutions", PathStore.MakeTcqPath(number, true, true)));
-			tcqSolutions.add(new Tcq(roundInfo.name + " TCQ B Solutions", PathStore.MakeTcqPath(number, false, true)));
+			tcqSolutions.add(new Tcq("TCQ A Solutions", PathStore.MakeTcqPath(number, true, true)));
+			tcqSolutions.add(new Tcq("TCQ B Solutions", PathStore.MakeTcqPath(number, false, true)));
 
 			this.availableRounds.add(new Round(roundInfo.name, buzzer, tcqs, tcqSolutions));
 		}

@@ -17,8 +17,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.ListSelectionModel;
 
-import org.bushe.swing.event.EventBus;
-
 import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
 
@@ -123,7 +121,7 @@ public class SelectRoundDialog extends StandardDialog {
 			}
 		}
 
-		this.list.setCellRenderer(new RoundSelectionListRenderer(openedRounds));
+		this.list.setCellRenderer(new RoundSelectionListCellRenderer(openedRounds));
 		this.list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		this.list.addListSelectionListener(
 				new RoundSelectionListListener(this, this.okButton, this.list.getSelectedIndex()));
@@ -134,8 +132,6 @@ public class SelectRoundDialog extends StandardDialog {
 
 		if (lastOpened + 1 < this.availableRounds.size()) {
 			this.list.setSelectedIndex(lastOpened + 1);
-//			this.list.getSe
-//			this.list.
 			this.list.ensureIndexIsVisible(lastOpened - 5);
 		} else {
 			this.list.setSelectedIndex(-1);

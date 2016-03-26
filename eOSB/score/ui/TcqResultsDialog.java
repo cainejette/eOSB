@@ -1,13 +1,18 @@
 package eOSB.score.ui;
 
 import java.awt.Font;
+import java.text.NumberFormat;
 
+import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.text.AttributeSet;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.PlainDocument;
 
 import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
@@ -15,23 +20,40 @@ import com.jidesoft.dialog.StandardDialog;
 import eOSB.binder.controller.TcqResultsTabListener;
 import eOSB.binder.ui.actions.CancelButtonAction;
 import eOSB.game.controller.Handler;
+import eOSB.game.data.IconFactory;
 import eOSB.score.actions.SetTcqResultsAction;
 import net.miginfocom.swing.MigLayout;
 
 public class TcqResultsDialog extends StandardDialog {
 
 	private final Handler handler;
-	private JTextField teamAFieldA = new JTextField(8);
-	private JTextField teamAFieldB = new JTextField(8);
-	private JTextField teamBFieldA = new JTextField(8);
-	private JTextField teamBFieldB = new JTextField(8);
+	private ImprovedFormattedTextField teamAFieldA;
+	private ImprovedFormattedTextField teamAFieldB;
+	private ImprovedFormattedTextField teamBFieldA;
+	private ImprovedFormattedTextField teamBFieldB;
+
 	private JButton okButton;
 	private JButton cancelButton;
 
 	public TcqResultsDialog(Handler handler) {
 		this.handler = handler;
-
-		this.teamAFieldA.setText(Integer.toString(this.handler.getTeamA().getTcqA().getWorth()));
+		
+		NumberFormat integerNumberInstance = NumberFormat.getIntegerInstance();
+        teamAFieldA = new ImprovedFormattedTextField( integerNumberInstance, 20 );
+        teamAFieldA.setColumns( 2 );
+        teamAFieldB = new ImprovedFormattedTextField( integerNumberInstance, 20 );
+        teamAFieldB.setColumns( 2 );
+        teamBFieldA = new ImprovedFormattedTextField( integerNumberInstance, 20 );
+        teamBFieldA.setColumns( 2 );
+        teamBFieldB = new ImprovedFormattedTextField( integerNumberInstance, 20 );
+        teamBFieldB.setColumns( 2 );
+        
+		teamAFieldA.setDocument(new LengthRestrictedDocument(2));
+		teamAFieldB.setDocument(new LengthRestrictedDocument(2));
+		teamBFieldA.setDocument(new LengthRestrictedDocument(2));
+		teamBFieldB.setDocument(new LengthRestrictedDocument(2));
+		
+		teamAFieldA.setText(Integer.toString(this.handler.getTeamA().getTcqA().getWorth()));
 		this.teamAFieldB.setText(Integer.toString(this.handler.getTeamA().getTcqB().getWorth()));
 		this.teamBFieldA.setText(Integer.toString(this.handler.getTeamB().getTcqA().getWorth()));
 		this.teamBFieldB.setText(Integer.toString(this.handler.getTeamB().getTcqB().getWorth()));
@@ -41,10 +63,11 @@ public class TcqResultsDialog extends StandardDialog {
 
 	private void init() {
 		this.pack();
+		this.setModal(true);
 		this.setTitle("TCQ Results");
 		this.setLocationRelativeTo(this.handler.getFrame());
 		this.setResizable(false);
-		TcqResultsTabListener keyListener = new TcqResultsTabListener(this.teamAFieldA, this.teamAFieldB,
+		TcqResultsTabListener keyListener = new TcqResultsTabListener(teamAFieldA, this.teamAFieldB,
 				this.teamBFieldA, this.teamBFieldB, this.okButton, this.cancelButton);
 		this.addKeyListener(keyListener);
 	}
@@ -63,31 +86,41 @@ public class TcqResultsDialog extends StandardDialog {
 
 	@Override
 	public ButtonPanel createButtonPanel() {
-		final ButtonPanel panel = new ButtonPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
+		ButtonPanel panel = new ButtonPanel();
+		panel.setBorder(BorderFactory.createEmptyBorder(0, 6, 0, 6));
+		panel.setLayout(new MigLayout("fillx"));
 
-		SetTcqResultsAction setTcqResultsAction = new SetTcqResultsAction(this, this.teamAFieldA, this.teamAFieldB,
-				this.teamBFieldA, this.teamBFieldB);
+		JButton cancelButton = new JButton();
 		CancelButtonAction cancelAction = new CancelButtonAction(this);
-
-		this.okButton = new JButton(setTcqResultsAction);
-		this.setDefaultAction(setTcqResultsAction);
-		panel.add(this.okButton);
-
-		this.cancelButton = new JButton(cancelAction);
 		this.setDefaultCancelAction(cancelAction);
-		panel.add(this.cancelButton);
+		cancelButton.setAction(cancelAction);
+
+		ImageIcon cancelIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.INCORRECT));
+		cancelButton.setIcon(cancelIcon);
+
+		panel.add(cancelButton, "w 150!, h 75!");
+
+		this.okButton = new JButton();
+		AbstractAction okAction = new SetTcqResultsAction(this, this.teamAFieldA, this.teamAFieldB, this.teamBFieldA,
+				this.teamBFieldB);
+		this.okButton.setAction(okAction);
+		this.setDefaultAction(okAction);
+		this.okButton.requestFocus();
+
+		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT));
+		okButton.setIcon(okIcon);
+
+		panel.add(this.okButton, "gapleft 10, w 150!, h 75!");
 
 		return panel;
 	}
 
 	@Override
 	public JComponent createContentPanel() {
-
 		final JLabel tcqALabel = new JLabel(
-				"<HTML><b>" + this.handler.getCurrentRound().getName() + " TCQ A</b></HTML>");
+				"<HTML><b>TCQ A</b></HTML>");
 		final JLabel tcqBLabel = new JLabel(
-				"<HTML><b>" + this.handler.getCurrentRound().getName() + " TCQ B</b></HTML>");
+				"<HTML><b>TCQ B</b></HTML>");
 
 		final JLabel teamALabel1 = new JLabel(this.handler.getTeamA().getName());
 		final JLabel teamALabel2 = new JLabel(this.handler.getTeamA().getName());
@@ -99,18 +132,18 @@ public class TcqResultsDialog extends StandardDialog {
 		tcqAPanel.setBorder(BorderFactory.createEmptyBorder(6, 15, 6, 6));
 		tcqAPanel.add(tcqALabel, "wrap, alignx center, growx");
 		tcqAPanel.add(teamALabel1, "sizegroupx name, growx, pushx");
-		tcqAPanel.add(this.teamAFieldA, "gapright 20, sizegroupx label");
+		tcqAPanel.add(this.teamAFieldA, "gapright 20, w 60!, h 45!, wrap");
 		tcqAPanel.add(teamBLabel1, "sizegroupx name");
-		tcqAPanel.add(this.teamBFieldA, "sizegroupx label");
+		tcqAPanel.add(this.teamBFieldA, "w 60!, h 45!");
 
 		JPanel tcqBPanel = new JPanel();
 		tcqBPanel.setLayout(new MigLayout("wrap 4, insets 0, fill"));
 		tcqBPanel.setBorder(BorderFactory.createEmptyBorder(6, 15, 6, 6));
 		tcqBPanel.add(tcqBLabel, "wrap, alignx center, growx");
 		tcqBPanel.add(teamALabel2, "sizegroupx name, growx, pushx");
-		tcqBPanel.add(this.teamAFieldB, "gapright 20, sizegroupx label");
+		tcqBPanel.add(this.teamAFieldB, "gapright 20, w 60!, wrap, h 45!");
 		tcqBPanel.add(teamBLabel2, "sizegroupx name, growx, pushx");
-		tcqBPanel.add(this.teamBFieldB, "sizegroupx label");
+		tcqBPanel.add(this.teamBFieldB, "w 60!, h 45!");
 
 		JPanel panel = new JPanel();
 		panel.setLayout(new MigLayout("wrap 1, insets 0, fill"));
@@ -119,5 +152,24 @@ public class TcqResultsDialog extends StandardDialog {
 		panel.add(tcqBPanel, "gapy 10, growx, sizegroupx panel");
 
 		return panel;
+	}
+
+	private final class LengthRestrictedDocument extends PlainDocument {
+
+		private final int limit;
+
+		public LengthRestrictedDocument(int limit) {
+			this.limit = limit;
+		}
+
+		@Override
+		public void insertString(int offs, String str, AttributeSet a) throws BadLocationException {
+			if (str == null)
+				return;
+
+			if ((getLength() + str.length()) <= limit) {
+				super.insertString(offs, str, a);
+			}
+		}
 	}
 }

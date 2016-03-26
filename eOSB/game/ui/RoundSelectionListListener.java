@@ -1,12 +1,9 @@
 package eOSB.game.ui;
 
 import javax.swing.JButton;
-import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-
-import org.bushe.swing.event.EventBus;
 
 import com.jidesoft.dialog.StandardDialog;
 

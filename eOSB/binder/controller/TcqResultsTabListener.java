@@ -6,6 +6,8 @@ import java.awt.event.KeyListener;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
+import eOSB.score.ui.ImprovedFormattedTextField;
+
 public class TcqResultsTabListener implements KeyListener {
 
 	private JTextField teamAFieldA;

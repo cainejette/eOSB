@@ -33,7 +33,6 @@ public class SetTeamNamesAction extends AbstractAction {
    */
   public SetTeamNamesAction(StandardDialog parent, Handler handler, JTextField teamAField,
       JTextField teamBField) {
-    super("OK");
     this.parent = parent;
     this.handler = handler;
     this.teamAField = teamAField;

@@ -21,7 +21,7 @@ public class CancelAndShowAction extends AbstractAction {
   	ShowBuzzerQuestionsEvent event = new ShowBuzzerQuestionsEvent(this);
   	EventBus.publish(event);
   	
-    this.dialog.setVisible(true);
+    this.dialog.setVisible(false);
     this.dialog.dispose();
   }
 }

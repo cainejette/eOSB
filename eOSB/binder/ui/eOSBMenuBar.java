@@ -76,7 +76,7 @@ public class eOSBMenuBar extends JMenuBar {
 
 		JMenuItem menuItem = new JMenuItem("Set Team Names");
 		menuItem.setAction(new OpenSetTeamNamesDialogAction(this.handler));
-		menuItem.setEnabled(this.handler.getCurrentRound() != null);
+		menuItem.setEnabled(this.handler.isUsingScoreboard());
 		menuItem.setMnemonic(KeyEvent.VK_N);
 		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.CTRL_MASK));
 		menu.add(menuItem);
@@ -115,19 +115,6 @@ public class eOSBMenuBar extends JMenuBar {
 		menuItem.setMnemonic(KeyEvent.VK_C);
 		menu.add(menuItem);
 		menu.addSeparator();
-
-		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenPdfAction(PathStore.USER_MANUAL));
-		menuItem.setText("User Manual");
-		menuItem.setMnemonic(KeyEvent.VK_U);
-		menu.add(menuItem);
-
-		menuItem = new JMenuItem();
-		menuItem.setAction(new OpenPdfAction(PathStore.EULA_PDF));
-		menuItem.setText("Terms of Agreement");
-		menuItem.setMnemonic(KeyEvent.VK_T);
-		menu.addSeparator();
-		menu.add(menuItem);
 		
 		menuItem = new JMenuItem();
 		menuItem.setAction(new OpenAboutEOSBAction(this.binder.getFrame()));
