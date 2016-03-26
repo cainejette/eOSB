@@ -6,7 +6,6 @@ import org.bushe.swing.event.EventBus;
 import org.bushe.swing.event.EventServiceEvent;
 import org.bushe.swing.event.EventSubscriber;
 
-import eOSB.binder.controller.QuestionEvent;
 import eOSB.binder.controller.UpdateQuestionEvent;
 import eOSB.game.controller.Question;
 
@@ -19,16 +18,12 @@ public class Timekeeper implements EventSubscriber<EventServiceEvent> {
 		this.roundClock = new CountDownTimer(360000, true);
 		this.questionClock = new CountDownTimer(5000, false);
 
-		EventBus.subscribe(QuestionEvent.class, this);
+		EventBus.subscribe(UpdateQuestionEvent.class, this);
 	}
 
 	public void close() {
 		this.roundClock.close();
 		this.questionClock.close();
-	}
-
-	public JPanel getClockPanel(CountDownTimer clock) {
-		return clock.getStandaloneTimer();
 	}
 
 	public CountDownTimer getQuestionClock() {
@@ -45,8 +40,8 @@ public class Timekeeper implements EventSubscriber<EventServiceEvent> {
 
 			UpdateQuestionEvent e2 = (UpdateQuestionEvent) e;
 			Question question = e2.getQuestion();
-			
 			if (question != null) {
+				System.out.println("\nTimekeeper calling setTime");
 				switch (question.getType()) {
 				case TOSSUP:
 					this.questionClock.setTime(5000, true);
@@ -55,6 +50,9 @@ public class Timekeeper implements EventSubscriber<EventServiceEvent> {
 				case BONUS:
 					this.questionClock.setTime(20000, true);
 					this.questionClock.addThreshold(5000);    		  
+					break;
+				default:
+					System.out.println("um?");
 					break;
 				}
 			}

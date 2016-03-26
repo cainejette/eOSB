@@ -114,8 +114,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 				String bDuration = br.readLine();
 
 				if (aDuration != null && bDuration != null) {
-					System.out.println("adding round info\n");
-					System.out.println(name + " / " + filePath + " / " + aDuration + " / " + bDuration);
 					RoundInfo roundInfo = new RoundInfo();
 
 					roundInfo.setName(name.split(":")[1].trim());
@@ -270,7 +268,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			this.showSelectRoundDialog();
 		}
 		else if (event instanceof NewRoundEvent) {
-			System.out.println("[Handler/onEvent] received NewRoundEvent");
 			NewRoundEvent nre = (NewRoundEvent) event;
 			try {
 				this.setCurrentRound(this.getRoundFromName(nre.getName()));
@@ -278,7 +275,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 				System.err.println("no round called: " + e.getName() + " found!");
 			}
 		} else if (event instanceof TeamNameEvent) {
-			System.out.println("[Handler/onEvent] received TeamNameEvent");
 			TeamNameEvent tne = (TeamNameEvent) event;
 			this.teamA.setName(tne.getTeamAName());
 			this.teamB.setName(tne.getTeamBName());
@@ -291,14 +287,10 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 
 			EventBus.publish(new NewRoundEvent(this, rse.getRoundName()));
 		} else if (event instanceof RemindTcqEvent) {
-			System.out.println("[Handler/onEvent] received RemindTcqEvent");
 			this.showHalfwayDoneDialog();
 		} else if (event instanceof OpenTcqPreambleEvent) {
-			System.out
-			.println("[Handler/onEvent] received OpenTcqPreambleEvent");
 			this.showTcqPreambleDialog();
 		} else if (event instanceof NextQuestionEvent) {
-			
 			NextQuestionEvent nqe = (NextQuestionEvent)event;
 			Turn turn = nqe.getTurn();
 			if (turn != null) {
@@ -307,6 +299,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 
 			boolean enableTeamA = nqe.getEnableTeamA();
 			boolean enableTeamB = nqe.getEnableTeamB();
+			
 			EventBus.publish(new UpdateQuestionEvent(this, this.currentRound
 					.getNextQuestion(), enableTeamA, enableTeamB));
 
@@ -318,9 +311,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	private void processNewRound() {
 		this.currentRound = this.questionReader.getRound();
 		this.currentRound.setOpened();
-
-		System.out.println("[handler#setCurrentRound] contains "
-				+ this.currentRound.getQuestions().size() + " questions");
 
 		this.timekeeper.close();
 		this.timekeeper = new Timekeeper();
@@ -336,8 +326,8 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		} else if (this.infoFrame != null) {
 			this.infoFrame.close();
 		}
-
-//		EventBus.publish(new UpdateQuestionEvent(this, this.currentRound.getNextQuestion(), true, true));
+		
+		binder.setBinderToNewRound(currentRound.getName());
 	}
 
 	private Round getRoundFromName(String name) throws NoRoundFoundException {

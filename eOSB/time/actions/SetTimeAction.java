@@ -39,7 +39,9 @@ public class SetTimeAction extends AbstractAction {
 		long minutesLong = Long.parseLong(minutesString);
 		long secondsLong = Long.parseLong(secondsString);
 
-		this.timer.setTime(minutesLong, secondsLong);
+		long time = minutesLong * 60000 + secondsLong * 1000;
+		System.out.println("\nSetTimeAction calling setTime");
+		this.timer.setTime(time, true);
 		this.dialog.setVisible(false);
 	}
 }

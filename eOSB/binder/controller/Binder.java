@@ -157,7 +157,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.frame.setVisible(true);
 	}
 
-	private void setBinderToNewRound(String roundName)
+	public void setBinderToNewRound(String roundName)
 	{
 		this.roundName = roundName;
 
@@ -498,8 +498,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	}
 
 	private void updateQuestion(Question question) {
-		System.out.println("[binder/updateQuestion] updating question to " + question.getNumber());
-
 		this.currentQuestion = question;
 
 		if (question.getNumber().equals("11") && !this.hasSeenTcqReminder && !this.roundName.contains("Tie")) {
@@ -747,7 +745,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	}
 
 	public void setFontSize(int size) {
-		System.out.println("[Binder/setFontSize] setting font size to: " + size);
 		this.fontSize = size;
 
 		if (this.currentQuestion != null) {
@@ -760,26 +757,23 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	}
 
 	public void onEvent(EventServiceEvent ese) {
-		if (ese instanceof NewRoundEvent) {
-			NewRoundEvent nre = (NewRoundEvent)ese;
-			this.setBinderToNewRound(nre.getName());
-		}
-		else if (ese instanceof TeamNameEvent) {
-			System.out.println("[Binder/onEvent] received TeamNameEvent");
+//		if (ese instanceof NewRoundEvent) {
+//			NewRoundEvent nre = (NewRoundEvent)ese;
+//			this.setBinderToNewRound(nre.getName());
+//		}
+		if (ese instanceof TeamNameEvent) {
 			TeamNameEvent tne = (TeamNameEvent) ese;
 			this.teamAName = tne.getTeamAName();
 			this.teamBName = tne.getTeamBName();
 			this.updateBorders();
 		} 
 		else if (ese instanceof TeamScoreNumberEvent) {
-			System.out.println("[Binder/onEvent] received TeamScoreNumberEvent");
 			TeamScoreNumberEvent tsne = (TeamScoreNumberEvent) ese;
 			this.teamAScore = tsne.getTeamAScore();
 			this.teamBScore = tsne.getTeamBScore();
 			this.updateBorders();
 		} 
 		else if (ese instanceof UpdateQuestionEvent) {
-			System.out.println("[Binder/onEvent] received UpdateQuestionEvent");
 			UpdateQuestionEvent aqe = (UpdateQuestionEvent) ese;
 			Question question = aqe.getQuestion();
 
@@ -805,11 +799,9 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			}
 		} 
 		else if (ese instanceof HideBuzzerQuestionsEvent) {
-			System.out.println("[Binder/onEvent] hiding buzzer questions");
 			this.hideQuestions();
 		}
 		else if (ese instanceof ShowBuzzerQuestionsEvent) {
-			System.out.println("[Binder/onEvent] showing buzzer questions");
 			this.showQuestions();
 		}
 		else if (ese instanceof OpenTcqPreambleEvent) {
@@ -857,8 +849,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	}
 
 	private void showQuestions() {
-		System.out.println("[Binder/showQuestions] showing questions");
-
 		this.teamA_correct.setEnabled(this.gameState.isTeamACorrectEnabled());
 		this.teamA_incorrect.setEnabled(this.gameState.isTeamAIncorrectEnabled());
 		this.teamA_interrupt.setEnabled(this.gameState.isTeamAInterruptEnabled());
@@ -879,7 +869,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		if (!this.hidingQuestions) {
 			this.hidingQuestions = true;
 			this.frame.setState(Frame.ICONIFIED);
-			System.out.println("[Binder/hideQuestions] hiding questions");
 			this.gameState = new GameState(this.teamA_correct.isEnabled(),
 					this.teamA_incorrect.isEnabled(), this.teamA_interrupt.isEnabled(),
 					this.teamB_correct.isEnabled(), this.teamB_incorrect.isEnabled(),

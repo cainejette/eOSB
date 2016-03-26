@@ -51,8 +51,6 @@ public class ValidateUserDialog extends StandardDialog {
 //		this.setMaximumSize(new Dimension(306, 200));
 		this.setPreferredSize(new Dimension(506, 500));
 //		this.setMinimumSize(new Dimension(306, 200));
-		System.out.println("hello");
-		System.out.println(this.getPreferredSize());
 		this.setSize(new Dimension(506, 500));
 	}
 
