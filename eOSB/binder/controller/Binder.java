@@ -210,7 +210,9 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			
 			ImageIcon interruptIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.INTERRUPT));
 			this.teamA_interrupt.setIcon(interruptIcon);
+			teamA_interrupt.setFont(new Font(teamA_interrupt.getFont().getName(), Font.PLAIN, teamA_interrupt.getFont().getSize() + 4));
 			this.teamB_interrupt.setIcon(interruptIcon);
+			teamB_interrupt.setFont(new Font(teamB_interrupt.getFont().getName(), Font.PLAIN, teamB_interrupt.getFont().getSize() + 4));
 
 			updateBorders();
 
@@ -262,13 +264,17 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.initAnswerPanel();
 
 		this.teamA_correct = new JButton();
+		teamA_correct.setFont(new Font(teamA_correct.getFont().getName(), Font.PLAIN, teamA_correct.getFont().getSize() + 4));
 		this.teamA_incorrect = new JButton();
+		teamA_incorrect.setFont(new Font(teamA_incorrect.getFont().getName(), Font.PLAIN, teamA_incorrect.getFont().getSize() + 4));
 		this.teamA_interrupt = new JButton();
 		this.teamA = new ButtonState(this.teamA_correct, this.teamA_incorrect,
 				this.teamA_interrupt);
 
 		this.teamB_correct = new JButton();
+		teamB_correct.setFont(new Font(teamB_correct.getFont().getName(), Font.PLAIN, teamB_correct.getFont().getSize() + 4));
 		this.teamB_incorrect = new JButton();
+		teamB_incorrect.setFont(new Font(teamB_incorrect.getFont().getName(), Font.PLAIN, teamB_incorrect.getFont().getSize() + 4));
 		this.teamB_interrupt = new JButton();
 		this.teamB = new ButtonState(this.teamB_correct, this.teamB_incorrect,
 				this.teamB_interrupt);
@@ -352,6 +358,8 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	private JButton createNavigationButton() {
 		JButton button = new JButton();
 
+		button.setFont(new Font(button.getFont().getName(), Font.PLAIN, button.getFont().getSize() + 4));
+		
 		button.addKeyListener(new KeyListener() {
 
 			@Override
