@@ -15,13 +15,11 @@ import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 
 import org.bushe.swing.event.EventBus;
 import org.bushe.swing.event.EventServiceEvent;
 import org.bushe.swing.event.EventSubscriber;
 
-import eOSB.binder.controller.AuthenticationFailedEvent;
 import eOSB.binder.controller.Binder;
 import eOSB.binder.controller.NextQuestionEvent;
 import eOSB.binder.controller.OpenTcqPreambleEvent;
@@ -83,7 +81,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 		EventBus.subscribe(NextQuestionEvent.class, this);
 		EventBus.subscribe(UserAuthenticatedEvent.class, this);
-		EventBus.subscribe(AuthenticationFailedEvent.class, this);
 		EventBus.subscribe(CloseProgramEvent.class, this);
 	}
 
@@ -271,10 +268,6 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	public void onEvent(EventServiceEvent event) {
 		if (event instanceof UserAuthenticatedEvent) {
 			this.showSelectRoundDialog();
-		}
-		else if (event instanceof AuthenticationFailedEvent) {
-			JOptionPane.showMessageDialog(this.binder.getFrame(),
-					"Password authentication failed.");
 		}
 		else if (event instanceof NewRoundEvent) {
 			System.out.println("[Handler/onEvent] received NewRoundEvent");

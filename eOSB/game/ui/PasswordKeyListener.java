@@ -1,5 +1,6 @@
 package eOSB.game.ui;
 
+import java.awt.Color;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
@@ -38,6 +39,7 @@ public class PasswordKeyListener implements KeyListener {
 		if (pass.length == 0) {
 			this.button.setEnabled(false);
 			this.dialog.setDefaultAction(null);
+			this.passField.setBackground(Color.WHITE);
 		}
 		else {
 			this.button.setEnabled(true);

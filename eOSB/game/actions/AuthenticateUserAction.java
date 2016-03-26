@@ -1,5 +1,6 @@
 package eOSB.game.actions;
 
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +14,6 @@ import org.bushe.swing.event.EventBus;
 
 import com.jidesoft.dialog.StandardDialog;
 
-import eOSB.binder.controller.AuthenticationFailedEvent;
 import eOSB.binder.controller.UserAuthenticatedEvent;
 import eOSB.game.controller.Constants;
 import eOSB.game.controller.Handler;
@@ -45,14 +45,14 @@ public class AuthenticateUserAction extends AbstractAction {
 		String date = this.readFile(Constants.EXPIRATION_FILE);
 		validDate = date != null && currentDate.before(new Date(date));
 
-		this.parent.setVisible(false);
-		this.parent.dispose();
-
 		if (validPassword && validDate) {
+			this.parent.setVisible(false);
+			this.parent.dispose();
+
 			EventBus.publish(new UserAuthenticatedEvent(this));
 		} 
 		else {
-			EventBus.publish(new AuthenticationFailedEvent(this));
+			this.passwordField.setBackground(Color.RED);
 		}
 	}
 	
