@@ -42,16 +42,13 @@ public class SetTeamNamesDialog extends StandardDialog {
 	}
 
 	public JComponent createBannerPanel() {
-		JLabel message = new JLabel("Input desired team names:");
-		// JLabel note = new JLabel("<HTML>(<i>previously opened</i>, <b>not yet
-		// opened</b>)");
+		JLabel message = new JLabel("Set team names:");
 		message.setFont(new Font(message.getFont().getName(), Font.PLAIN, message.getFont().getSize() + 2));
 
 		JPanel panel = new JPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(6, 15, 6, 6));
+		panel.setBorder(BorderFactory.createEmptyBorder(0, 15, 0, 15));
 		panel.setLayout(new MigLayout());
-		panel.add(message, "wrap");
-		// panel.add(note);
+		panel.add(message);
 		return panel;
 	}
 
@@ -90,12 +87,12 @@ public class SetTeamNamesDialog extends StandardDialog {
 		final JLabel teamBLabel = new JLabel(this.handler.getTeamB().getName());
 
 		JPanel panel = new JPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(6, 15, 6, 15));
-		panel.setLayout(new MigLayout("wrap 2, insets 0"));
+		panel.setBorder(BorderFactory.createEmptyBorder(0, 15, 0, 15));
+		panel.setLayout(new MigLayout("wrap, fill"));
 		panel.add(teamALabel);
-		panel.add(this.teamAField, "gapx 5");
-		panel.add(teamBLabel, "gapy 10");
-		panel.add(this.teamBField, "gapx 5, gapy 10");
+		panel.add(this.teamAField, "h 45!, growx, span");
+		panel.add(teamBLabel, "gapy 20");
+		panel.add(this.teamBField, "gapy 5, h 45!, growx, span");
 
 		return panel;
 	}
