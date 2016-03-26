@@ -185,7 +185,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		splitPane.setResizeWeight(0.8);
 
 		panel.add(splitPane, "grow, push, span, wrap");
-		panel.add(this.createSubmissionPanel(), "growx");
+		panel.add(this.createSubmissionPanel(), "grow");
 
 		if (this.handler.isUsingTimer())
 		{
@@ -239,14 +239,14 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		else
 		{
 			JPanel submitBackPanel = new JPanel();
-			submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
-			submitBackPanel.add(this.backButton, "sizegroupx group3, h 75!, grow, gapafter 20");
-			submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, h 75!, grow, gapafter 20");
-			submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, h 75!, grow");
+			submitBackPanel.setLayout(new MigLayout("fill, insets 0"));
+			submitBackPanel.add(this.backButton, "sizegroupx group3, hmin 75, growx, growy, gapafter 20");
+			submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, hmin 75, growx, growy, gapafter 20");
+			submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, hmin 75, growx, growy");
 
 			JPanel answerPanel = new JPanel();
-			answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
-			answerPanel.add(submitBackPanel, "growx, span");
+			answerPanel.setLayout(new MigLayout("wrap 2, fill, insets 0"));
+			answerPanel.add(submitBackPanel, "grow, span");
 
 			return answerPanel;
 		}
