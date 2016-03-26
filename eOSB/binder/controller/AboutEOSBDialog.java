@@ -1,7 +1,6 @@
 package eOSB.binder.controller;
 
 import java.awt.Font;
-import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
@@ -15,7 +14,6 @@ import javax.swing.JPanel;
 import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
 
-import eOSB.binder.ui.SelectTcqDialog;
 import eOSB.binder.ui.actions.CancelButtonAction;
 import eOSB.game.data.IconFactory;
 import net.miginfocom.swing.MigLayout;
@@ -25,12 +23,12 @@ public class AboutEOSBDialog extends StandardDialog {
 	private JFrame parent;
 	
 	public AboutEOSBDialog(JFrame frame) {
+		super(frame, true);
 		this.init();
 		this.parent = frame;
 	}
 	
 	private void init() {
-		this.setModal(true);
 		this.pack();
 		this.setTitle("About eOSB");
 		

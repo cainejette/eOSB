@@ -353,7 +353,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		HideBuzzerQuestionsEvent event = new HideBuzzerQuestionsEvent(this);
 		EventBus.publish(event);
 
-		TcqPreambleDialog dialog = new TcqPreambleDialog(this);
+		TcqPreambleDialog dialog = new TcqPreambleDialog(this, this.binder);
 		dialog.setVisible(true);
 	}
 

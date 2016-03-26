@@ -25,13 +25,15 @@ public class OpenTcqAction extends AbstractAction {
 	private List<Tcq> availableTcqs;
 	private List<String> openedTcqs;
 	private JButton button;
+	private List<JFrame> frames;
 	
-	public OpenTcqAction(StandardDialog parent, JList list, List<Tcq> availableTcqs, List<String> openedTcqs, JButton button) {
+	public OpenTcqAction(StandardDialog parent, JList list, List<Tcq> availableTcqs, List<String> openedTcqs, JButton button, List<JFrame> frames) {
 		this.parent = parent;
 		this.list = list;
 		this.availableTcqs = availableTcqs;
 		this.openedTcqs = openedTcqs;
 		this.button = button;
+		this.frames = frames;
 	}
 
 	public void actionPerformed(ActionEvent ae) {
@@ -82,6 +84,8 @@ public class OpenTcqAction extends AbstractAction {
 		controller.openDocument(tcqAsUrl);
 		controller.setCompleteToolBar(new JToolBar());
 		viewerFrame.setTitle(name);
+		
+		this.frames.add(viewerFrame);
 
 		viewerFrame.pack();
 		viewerFrame.setVisible(true);

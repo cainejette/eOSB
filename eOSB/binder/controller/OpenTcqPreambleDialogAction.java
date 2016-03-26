@@ -15,7 +15,7 @@ public class OpenTcqPreambleDialogAction extends AbstractAction {
   }
   
   public void actionPerformed(ActionEvent ae) {
-    TcqPreambleDialog dialog = new TcqPreambleDialog(this.handler);
-    dialog.setVisible(true);
+//    TcqPreambleDialog dialog = new TcqPreambleDialog(this.handler);
+//    dialog.setVisible(true);
   }
 }

@@ -40,6 +40,8 @@ public class SelectTcqDialog extends StandardDialog {
 
 	private Round round;
 	private Handler handler;
+	
+	private List<JFrame> frames;
 
 	public SelectTcqDialog(Handler handler) {
 		this.handler = handler;
@@ -58,6 +60,7 @@ public class SelectTcqDialog extends StandardDialog {
 		}
 		
 		this.list = new JList(labels);
+		this.frames = new ArrayList<JFrame>();
 
 		this.init();
 	}
@@ -92,7 +95,7 @@ public class SelectTcqDialog extends StandardDialog {
 		panel.setLayout(new MigLayout("wrap 2"));
 
 		JButton cancelButton = new JButton();
-		CancelAndShowAction cancelAction = new CancelAndShowAction(this);
+		CancelAndShowAction cancelAction = new CancelAndShowAction(this, this.frames);
 		this.setDefaultCancelAction(cancelAction);		
 		cancelButton.setAction(cancelAction);
 		
@@ -102,7 +105,7 @@ public class SelectTcqDialog extends StandardDialog {
 		panel.add(cancelButton, "w 150!, h 75!");
 
 		this.okButton = new JButton();
-		OpenTcqAction okAction = new OpenTcqAction(this, this.list, this.availableTcqs, this.openedTcqs, this.okButton);
+		OpenTcqAction okAction = new OpenTcqAction(this, this.list, this.availableTcqs, this.openedTcqs, this.okButton, this.frames);
 		this.okButton.setAction(okAction);
 		this.setDefaultAction(okAction);
 		this.okButton.requestFocus();
@@ -126,7 +129,7 @@ public class SelectTcqDialog extends StandardDialog {
 	public JComponent createContentPanel() {
 
 		JPanel panel = new JPanel();
-		panel.setLayout(new MigLayout("fill, insets 0, debug"));
+		panel.setLayout(new MigLayout("fill, insets 0"));
 
 		this.list.setCellRenderer(new RoundSelectionListCellRenderer(this.openedTcqs));
 		this.list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
