@@ -1,8 +1,11 @@
 package eOSB.binder.controller;
 
 import java.awt.Font;
+import java.awt.event.ActionEvent;
 
+import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
@@ -12,7 +15,9 @@ import javax.swing.JPanel;
 import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
 
+import eOSB.binder.ui.SelectTcqDialog;
 import eOSB.binder.ui.actions.CancelButtonAction;
+import eOSB.game.data.IconFactory;
 import net.miginfocom.swing.MigLayout;
 
 public class AboutEOSBDialog extends StandardDialog {
@@ -43,7 +48,7 @@ public class AboutEOSBDialog extends StandardDialog {
 		label.setFont(new Font(label.getFont().getName(), Font.PLAIN, label.getFont().getSize() + 2));
 		
 		JPanel panel = new JPanel();
-	    panel.setBorder(BorderFactory.createEmptyBorder(6, 15, 6, 6));
+	    panel.setBorder(BorderFactory.createEmptyBorder(0, 15, 0, 6));
 	    panel.setLayout(new MigLayout("wrap 1"));
 	    panel.add(label);
 	    panel.add(label2);
@@ -54,17 +59,22 @@ public class AboutEOSBDialog extends StandardDialog {
 
 	@Override
 	public ButtonPanel createButtonPanel() {
-		CancelButtonAction action = new CancelButtonAction(this);
-		this.setDefaultAction(action);
-		this.setDefaultCancelAction(action);
-		
-		JButton button = new JButton();
-		button.setAction(action);
-		button.setText("OK");
-		
 		ButtonPanel panel = new ButtonPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
-		panel.add(button);
+		panel.setBorder(BorderFactory.createEmptyBorder(0, 6, 0, 6));
+		panel.setLayout(new MigLayout("fillx"));
+
+		JButton okButton = new JButton();
+		AbstractAction action = new CancelButtonAction(this);
+		this.setDefaultCancelAction(action);		
+		okButton.setAction(action);
+		this.setDefaultAction(action);
+		
+		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.CORRECT));
+		okButton.setIcon(okIcon);
+		
+		this.setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
+
+		panel.add(okButton, "growx, sizegroupx 1, w 200::, h 65!");
 		return panel;
 	}
 

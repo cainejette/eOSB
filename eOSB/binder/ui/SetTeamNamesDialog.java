@@ -74,7 +74,7 @@ public class SetTeamNamesDialog extends StandardDialog {
 		okButton.setAction(okAction);
 		okButton.requestFocus();
 		
-		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT));
+		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.CORRECT));
 		okButton.setIcon(okIcon);
 
 		panel.add(okButton, "w 150!, h 75!");

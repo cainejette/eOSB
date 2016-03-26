@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import javax.swing.AbstractButton;
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -185,11 +186,11 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		splitPane.setResizeWeight(0.8);
 
 		panel.add(splitPane, "grow, push, span, wrap");
-		panel.add(this.createSubmissionPanel(), "grow");
+		panel.add(this.createSubmissionPanel(), "grow, sizegroupy 1y");
 
 		if (this.handler.isUsingTimer())
 		{
-			panel.add(new TimePanel(this.handler));
+			panel.add(new TimePanel(this.handler), "grow, sizegroupy 1y");
 		}
 
 		Container contentPane = this.frame.getContentPane();
@@ -204,29 +205,33 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		{
 			JPanel teamAPanel = new JPanel();
 
-			teamAPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+			teamAPanel.setLayout(new MigLayout("fillx, insets 0"));
 			this.teamA_interrupt.setMinimumSize(new Dimension(35, 35));
+			
+			ImageIcon interruptIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.INTERRUPT));
+			this.teamA_interrupt.setIcon(interruptIcon);
+			this.teamB_interrupt.setIcon(interruptIcon);
 
 			updateBorders();
 
 			teamAPanel.add(this.teamALabel, "span, wrap, align left, gaptop 5, gapleft 15");
-			teamAPanel.add(this.teamA_interrupt, "span, growx");
-			teamAPanel.add(this.teamA_correct, "sizegroupy group1y, sizegroupx group1x, growx");
+			teamAPanel.add(this.teamA_correct, "sizegroupy group1y, sizegroupx group1x, growx, h 100!");
 			teamAPanel.add(this.teamA_incorrect, "sizegroupy group1y, sizegroupx group1x, growx");
+			teamAPanel.add(this.teamA_interrupt, "sizegroupy group1y, sizegroupx group1x, growx");
 
 			JPanel teamBPanel = new JPanel();
-			teamBPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
+			teamBPanel.setLayout(new MigLayout("fillx, insets 0"));
 			this.teamB_interrupt.setMinimumSize(new Dimension(35, 35));
 
 			teamBPanel.add(this.teamBLabel, "span, wrap, align left, gaptop 5, gapleft 15");
-			teamBPanel.add(this.teamB_interrupt, "span, growx");
-			teamBPanel.add(this.teamB_correct, "sizegroupy group2y, sizegroupx group2x, growx");
+			teamBPanel.add(this.teamB_correct, "sizegroupy group2y, sizegroupx group2x, growx, h 100!");
 			teamBPanel.add(this.teamB_incorrect, "sizegroupy group2y, sizegroupx group2x, growx");
+			teamBPanel.add(this.teamB_interrupt, "sizegroupy group2y, sizegroupx group2x, growx");
 
 			JPanel submitBackPanel = new JPanel();
 			submitBackPanel.setLayout(new MigLayout("fillx, insets 0"));
-			submitBackPanel.add(this.backButton, "sizegroup group3, growx");
-			submitBackPanel.add(this.submitButton, "sizegroup group3, growx");
+			submitBackPanel.add(this.backButton, "sizegroup group3, growx, h 100!");
+			submitBackPanel.add(this.submitButton, "sizegroup group3, growx, h 100!");
 
 			JPanel answerPanel = new JPanel();
 			answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
@@ -240,9 +245,9 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		{
 			JPanel submitBackPanel = new JPanel();
 			submitBackPanel.setLayout(new MigLayout("fill, insets 0"));
-			submitBackPanel.add(this.backButton, "sizegroupx group3, hmin 75, growx, growy, gapafter 20");
-			submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, hmin 75, growx, growy, gapafter 20");
-			submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, hmin 75, growx, growy");
+			submitBackPanel.add(this.backButton, "sizegroupx group3, hmin 100, growx, growy, gapafter 20");
+			submitBackPanel.add(this.nextTossupButton, "sizegroupx group3, hmin 100, growx, growy, gapafter 20");
+			submitBackPanel.add(this.nextQuestionButton, "sizegroupx group3, hmin 100, growx, growy");
 
 			JPanel answerPanel = new JPanel();
 			answerPanel.setLayout(new MigLayout("wrap 2, fill, insets 0"));
@@ -401,31 +406,48 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			this.teamA_correct.setAction(submitAction);
 			this.teamA_correct.setActionCommand("TEAM_A");
 			this.teamA_correct.setIcon(correctIcon);
+			teamA_correct.setText("Correct");
 			this.teamA_correct.setFocusable(false);
+			teamA_correct.setVerticalTextPosition(AbstractButton.BOTTOM);
+			teamA_correct.setHorizontalTextPosition(AbstractButton.CENTER);
 
 			this.teamA_incorrect.setAction(incorrectAction);
 			this.teamA_incorrect.setActionCommand("TEAM_A");
 			this.teamA_incorrect.setIcon(incorrectIcon);
+			teamA_incorrect.setText("Incorrect");
 			this.teamA_incorrect.setFocusable(false);
+			teamA_incorrect.setVerticalTextPosition(AbstractButton.BOTTOM);
+			teamA_incorrect.setHorizontalTextPosition(AbstractButton.CENTER);
 
 			this.teamA_interrupt.setAction(new InterruptAction(this.teamA_interrupt));
 			this.teamA_interrupt.setText("Interrupt");
 			this.teamA_interrupt.setMinimumSize(new Dimension(50, 30));
 			this.teamA_interrupt.setFocusable(false);
+			teamA_interrupt.setVerticalTextPosition(AbstractButton.BOTTOM);
+			teamA_interrupt.setHorizontalTextPosition(AbstractButton.CENTER);
 
 			this.teamB_correct.setAction(submitAction);
 			this.teamB_correct.setActionCommand("TEAM_B");
 			this.teamB_correct.setIcon(correctIcon);
+			teamB_correct.setText("Correct");
+			teamB_correct.setVerticalTextPosition(AbstractButton.BOTTOM);
+			teamB_correct.setHorizontalTextPosition(AbstractButton.CENTER);
+
 			this.teamB_correct.setFocusable(false);
 
 			this.teamB_incorrect.setAction(incorrectAction);
 			this.teamB_incorrect.setActionCommand("TEAM_B");
+			teamB_incorrect.setText("Inorrect");
 			this.teamB_incorrect.setIcon(incorrectIcon);
 			this.teamB_incorrect.setFocusable(false);
+			teamB_incorrect.setVerticalTextPosition(AbstractButton.BOTTOM);
+			teamB_incorrect.setHorizontalTextPosition(AbstractButton.CENTER);
 
 			this.teamB_interrupt.setAction(new InterruptAction(this.teamB_interrupt));
 			this.teamB_interrupt.setText("Interrupt");
 			this.teamB_interrupt.setFocusable(false);
+			teamB_interrupt.setVerticalTextPosition(AbstractButton.BOTTOM);
+			teamB_interrupt.setHorizontalTextPosition(AbstractButton.CENTER);
 
 			this.submitButton.setAction(submitAction);
 			this.submitButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(

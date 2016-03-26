@@ -135,7 +135,6 @@ public class InformationFrame extends JFrame implements EventSubscriber<EventSer
 			this.minutesLabel.setText(this.addZeroes(String.valueOf(tue.getMinutes()), 2));
 			this.secondsLabel.setText(this.addZeroes(String.valueOf(tue.getSeconds()), 2));
 		}
-
 	}
 
 	private String addZeroes(String string, int size) {

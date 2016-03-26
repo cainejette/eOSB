@@ -143,8 +143,8 @@ public class CountDownTimer {
 
 		this.timePanel = new JPanel();
 		this.timePanel.setLayout(new MigLayout("wrap 1, fill, insets 0"));
-		this.timePanel.add(displayPanel, "grow, sizegroupx group2");
-		this.timePanel.add(actionButtonPanel, "growx, sizegroupx group2");
+		this.timePanel.add(displayPanel, "grow, sizegroupx group2, h 50!");
+		this.timePanel.add(actionButtonPanel, "growx, sizegroupx group2, dock south");
 	}
 
 	public void setActionButtonsEnabled(boolean enabled) {

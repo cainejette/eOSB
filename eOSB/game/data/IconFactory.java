@@ -16,6 +16,8 @@ public class IconFactory {
 	/** the location of the Incorrect button icon */
 	public static final String INCORRECT = "eOSB/game/data/images/redXmark2.png";
 	
+	public static final String INTERRUPT = "eOSB/game/data/images/interrupt.png";
+	
 	/** the location of the Next button icon */
 	public static final String NEXT = "eOSB/game/data/images/nextArrow2.png";
 	

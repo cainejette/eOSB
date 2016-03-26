@@ -64,7 +64,7 @@ public class TcqPreambleDialog extends StandardDialog {
 	@Override
 	public ButtonPanel createButtonPanel() {
 		ButtonPanel panel = new ButtonPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
+		panel.setBorder(BorderFactory.createEmptyBorder(0, 6, 0, 6));
 		panel.setLayout(new MigLayout());
 
 		JButton cancelButton = new JButton();

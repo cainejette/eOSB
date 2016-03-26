@@ -99,7 +99,7 @@ public class SelectRoundDialog extends StandardDialog {
 		this.setDefaultAction(okAction);
 		this.okButton.requestFocus();
 		
-		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT));
+		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.CORRECT));
 		okButton.setIcon(okIcon);
 
 		panel.add(this.okButton, "gapleft 10, w 150!, h 75!");
