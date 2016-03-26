@@ -1,6 +1,7 @@
 package eOSB.binder.controller;
 
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Container;
 import java.awt.Cursor;
 import java.awt.Dimension;
@@ -10,12 +11,10 @@ import java.awt.Insets;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.font.TextAttribute;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 import javax.swing.AbstractButton;
 import javax.swing.BoxLayout;
@@ -52,7 +51,6 @@ import eOSB.game.controller.GameState;
 import eOSB.game.controller.Handler;
 import eOSB.game.controller.NewRoundEvent;
 import eOSB.game.controller.Question;
-import eOSB.game.controller.Round;
 import eOSB.game.data.IconFactory;
 import eOSB.game.data.PathStore;
 import eOSB.score.controller.TeamScoreNumberEvent;
@@ -295,9 +293,8 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		
 		StyledDocument document = this.configureStyledDocument(questionTextPane);
 		try {
-			this.addTextToDocument(this.readText(), document);
+			this.addTextToDocument(this.getRoundPreambleText(), document);
 		} catch (BadLocationException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -309,40 +306,9 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.questionPanelScroller.getViewport().setView(questionTextPane);
 	}
 
-	private String readText() {
-		BufferedReader reader = null;
-		String text = "";
-		String currentLine = "";
-		String previousLine = "";
-
-		reader = new BufferedReader(new InputStreamReader(ClassLoader.getSystemClassLoader().getResourceAsStream(
-				PathStore.ROUND_PREAMBLE)));
-
-		try {
-			currentLine = reader.readLine();
-			previousLine = currentLine;
-			currentLine = reader.readLine();
-			text += previousLine + "\n";
-		}
-
-		catch (IOException ioe) {
-			ioe.printStackTrace();
-		}
-
-		while (currentLine != null) {
-			text += currentLine + "\n";
-
-			try {
-				previousLine = currentLine;
-				currentLine = reader.readLine();
-			}
-
-			catch (IOException exception) {
-				exception.printStackTrace();
-			}
-		}
-
-		return text;
+	private String getRoundPreambleText() {
+		Scanner scanner = new Scanner(ClassLoader.getSystemClassLoader().getResourceAsStream(PathStore.ROUND_PREAMBLE)).useDelimiter("\\Z"); 
+		return scanner.next();
 	}
 
 	private void initAnswerPanel() {
@@ -777,8 +743,21 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	public void setFontSize(int size) {
 		this.fontSize = size;
 
-		if (this.currentQuestion != null) {
-			this.updateQuestion(this.currentQuestion);
+		Component component = this.questionPanelScroller.getViewport().getComponent(0);
+		JTextPane questionPane = (JTextPane) component;
+		
+		StyledDocument document = (StyledDocument) questionPane.getDocument();
+		Style style = document.getStyle(REGULAR_STYLE);
+		StyleConstants.setFontSize(style, this.fontSize);
+		document.setCharacterAttributes(0, document.getLength(), style, false);
+		
+		component = this.answerPanelScroller.getViewport().getComponent(0);
+		JTextPane answerPane = (JTextPane) component;
+		document = (StyledDocument) answerPane.getDocument();
+		style = document.getStyle(REGULAR_STYLE);
+		if (style != null) {
+			StyleConstants.setFontSize(style, this.fontSize);
+			document.setCharacterAttributes(0, document.getLength(), style, false);			
 		}
 	}
 
