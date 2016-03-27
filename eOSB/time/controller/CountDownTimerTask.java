@@ -15,7 +15,6 @@ public class CountDownTimerTask extends TimerTask {
 		long temp = this.timer.getCurrentTime();
 		temp -= 1000;
 
-		System.out.println("\nCountDownTimerTask calling setTime");
 		this.timer.setTime(temp, false);
 		if (temp <= 0) {
 			this.timer.pause();

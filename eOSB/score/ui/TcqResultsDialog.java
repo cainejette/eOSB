@@ -128,7 +128,7 @@ public class TcqResultsDialog extends StandardDialog {
 		final JLabel teamBLabel2 = new JLabel(this.handler.getTeamB().getName());
 
 		JPanel tcqAPanel = new JPanel();
-		tcqAPanel.setLayout(new MigLayout("wrap 4, insets 0, fill, debug"));
+		tcqAPanel.setLayout(new MigLayout("wrap 4, insets 0, fill"));
 		tcqAPanel.setBorder(BorderFactory.createEmptyBorder(6, 15, 6, 6));
 		tcqAPanel.add(tcqALabel, "wrap, alignx center, growx");
 		tcqAPanel.add(teamALabel1, "sizegroupx name, growx, pushx");
