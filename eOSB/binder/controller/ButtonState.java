@@ -19,7 +19,7 @@ public class ButtonState {
   }
 
   public boolean isInterrupt() {
-    return this.interruptButton.isEnabled() && this.interruptButton.isSelected() && this.isIncorrect();
+    return this.interruptButton.isEnabled() && this.interruptButton.isSelected();
   }
 
   public boolean isIncorrect() {

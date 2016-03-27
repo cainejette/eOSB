@@ -64,9 +64,6 @@ public class CountDownTimer {
 		this.makePanel();
 		this.setup();
 		this.setToNormalColors();
-		
-		if (!this.isRoundClock)
-			System.out.println("new CountDownTimer made (current time: " + this.currentTime + ")");
 	}
 
 	public long getCurrentTime() {
@@ -80,16 +77,10 @@ public class CountDownTimer {
 
 		this.timer = new Timer();
 
-		if (!this.isRoundClock) {
-			System.out.println("setup: create CountDownTimerTask with time: " + currentTime);
-		}
-		
 		this.countdownTimerTask = new CountDownTimerTask(this, this.currentTime);
 		this.threshholdTimerTask = new ThreshholdCountDownTimerTask(this, this.thresholds);
 
 		this.currentTime = this.startTime;
-		if (!this.isRoundClock)
-			System.out.println("\nCountDownTimer/setup calling setTime");
 		
 		this.setTime(this.startTime, true);
 	}
@@ -103,8 +94,6 @@ public class CountDownTimer {
 	}
 	
 	public void makePanel() {
-		System.out.println("\nget standalone timer for " + (isRoundClock ? " round " : " question ") + "clock");
-		
 		JPanel displayPanel = new JPanel();
 		displayPanel.setLayout(new BoxLayout(displayPanel, BoxLayout.LINE_AXIS));
 		displayPanel.setAlignmentX(JFrame.CENTER_ALIGNMENT);
@@ -161,9 +150,6 @@ public class CountDownTimer {
 	}
 
 	public void start() {
-		if (!this.isRoundClock)
-			System.out.println("CountDownTimer/start says currentTime is : " + currentTime);
-	
 		if (this.currentTime <= 0) {
 			return;
 		}
@@ -174,8 +160,6 @@ public class CountDownTimer {
 		this.timer.purge();
 		this.timer = new Timer();
 
-		if (!this.isRoundClock)
-			System.out.println("start: create CountDownTimerTask with time: " + currentTime);
 		this.countdownTimerTask = new CountDownTimerTask(this, this.currentTime);
 		this.threshholdTimerTask = new ThreshholdCountDownTimerTask(this, this.thresholds);
 
@@ -197,24 +181,15 @@ public class CountDownTimer {
 		this.timer.purge();
 		this.timer = new Timer();
 
-		if (!this.isRoundClock) {
-			System.out.println("reset: create CountDownTimerTask with time: " + currentTime);
-		}
 		this.countdownTimerTask = new CountDownTimerTask(this, this.currentTime);
 		this.threshholdTimerTask = new ThreshholdCountDownTimerTask(this, this.thresholds);
 
-		if (!this.isRoundClock) {
-			System.out.println("\nCountDownTimer/reset calling setTime");
-		}
 		this.setTime(this.currentTime, false);
 	}
 
 	private long lastSetTime = this.startTime;
 
 	public void setTime(long time, boolean shouldResetLastSetTime) {
-		if (!this.isRoundClock) {
-			System.out.println("setting time to: " + time);
-		}
 		if (shouldResetLastSetTime) {
 			this.lastSetTime = time;
 		}
@@ -230,11 +205,7 @@ public class CountDownTimer {
 		this.smallMinutesLabel.setText(this.addZeroes(String.valueOf(minutes), 2));
 		this.smallSecondsLabel.setText(this.addZeroes(String.valueOf(seconds), 2));
 
-		this.setToNormalColors();
-		
-		if (!this.isRoundClock) {
-			System.out.println("at least, for : " + this);
-		}
+		this.setToNormalColors();		
 	}
 
 	public boolean isTimeRunning() {

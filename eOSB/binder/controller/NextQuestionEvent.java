@@ -11,10 +11,12 @@ public class NextQuestionEvent implements QuestionEvent {
 	
 	public NextQuestionEvent(Object source, boolean enableTeamA, boolean enableTeamB, Turn turn) {
 		this.source = source;
+		System.out.println("next question event: " + enableTeamA + " / " + enableTeamB);
 		this.enableTeamA = enableTeamA;
 		this.enableTeamB = enableTeamB;
 		this.turn = turn;
 	}
+	
 	@Override
 	public Object getSource() {
 		return this.source;

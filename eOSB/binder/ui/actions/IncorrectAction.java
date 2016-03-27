@@ -27,21 +27,28 @@ public class IncorrectAction extends AbstractAction {
 			JButton button = (JButton) source;
 			String actionCommand = button.getActionCommand();
 
+			boolean isIncorrect;
 			if (actionCommand.equals("TEAM_A")) {
-				this.teamA.setIncorrect(!this.teamA.isIncorrect());
+				isIncorrect = !this.teamA.isIncorrect();
+				this.teamA.setIncorrect(isIncorrect);
+				if (isIncorrect) {
+					teamA.setInterrupt(false);
+				}
 			} else if (actionCommand.equals("TEAM_B")) {
-				this.teamB.setIncorrect(!this.teamB.isIncorrect());
+				isIncorrect = !this.teamB.isIncorrect();
+				this.teamB.setIncorrect(isIncorrect);
+				if (isIncorrect) {
+					teamB.setInterrupt(false);
+				}
 			}
 		}
 
 		Question question = this.handler.getCurrentRound().getCurrentQuestion();
-		// "one-click" incorrect if question is a bonus question
 		if (question.getType() == Question.Type.BONUS) {
 			AnswerUtils.processSubmission(question, this.teamA, this.teamB);
 		}
 
-		// "one-click" incorrect if both teams have their correct buttons selected
-		if (this.teamA.isIncorrect() && this.teamB.isIncorrect()) {
+		if ((teamA.isIncorrect() || teamA.isInterrupt()) && (teamB.isIncorrect() || teamB.isInterrupt())) {
 			AnswerUtils.processSubmission(question, this.teamA, this.teamB);
 		}
 	}

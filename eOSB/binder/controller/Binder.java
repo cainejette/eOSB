@@ -174,7 +174,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 		this.frame.setJMenuBar(new eOSBMenuBar(this.handler, this));
 
-		this.frame.setTitle(roundName + "-- electronic Ocean Sciences Bowl");
+		this.frame.setTitle(roundName + " -- electronic Ocean Sciences Bowl");
 		this.frame.setResizable(true);
 
 		JPanel panel = new JPanel();
@@ -266,16 +266,14 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.teamA_incorrect = new JButton();
 		teamA_incorrect.setFont(new Font(teamA_incorrect.getFont().getName(), Font.PLAIN, teamA_incorrect.getFont().getSize() + 4));
 		this.teamA_interrupt = new JButton();
-		this.teamA = new ButtonState(this.teamA_correct, this.teamA_incorrect,
-				this.teamA_interrupt);
+		this.teamA = new ButtonState(this.teamA_correct, this.teamA_incorrect, this.teamA_interrupt);
 
 		this.teamB_correct = new JButton();
 		teamB_correct.setFont(new Font(teamB_correct.getFont().getName(), Font.PLAIN, teamB_correct.getFont().getSize() + 4));
 		this.teamB_incorrect = new JButton();
 		teamB_incorrect.setFont(new Font(teamB_incorrect.getFont().getName(), Font.PLAIN, teamB_incorrect.getFont().getSize() + 4));
 		this.teamB_interrupt = new JButton();
-		this.teamB = new ButtonState(this.teamB_correct, this.teamB_incorrect,
-				this.teamB_interrupt);
+		this.teamB = new ButtonState(this.teamB_correct, this.teamB_incorrect, this.teamB_interrupt);
 
 		this.backButton = this.createNavigationButton();
 		this.nextQuestionButton= this.createNavigationButton();
@@ -288,7 +286,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 
 	private void initQuestionPanel() {
 		JTextPane questionTextPane = new JTextPane();
-		questionTextPane.setBorder(new TitledBorder("Question Text"));
+		questionTextPane.setBorder(new TitledBorder("Introduction"));
 		questionTextPane.setEditable(false);
 		
 		StyledDocument document = this.configureStyledDocument(questionTextPane);
@@ -313,7 +311,6 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 
 	private void initAnswerPanel() {
 		JTextPane answerTextPane = new JTextPane();
-		answerTextPane.setBorder(new TitledBorder("Question Answer"));
 
 		this.answerPanelScroller = new JScrollPane();
 		this.answerPanelScroller.setPreferredSize(new Dimension(250, 300));
@@ -367,15 +364,11 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 	private void configureButtons() {
 		if (this.handler.isUsingScoreboard())
 		{
-			SubmitAction submitAction = new SubmitAction(this.handler, this.teamA, 
-					this.teamB);
-			IncorrectAction incorrectAction = new IncorrectAction(this.handler, 
-					this.teamA, this.teamB);
+			SubmitAction submitAction = new SubmitAction(this.handler, this.teamA, this.teamB);
+			IncorrectAction incorrectAction = new IncorrectAction(this.handler, this.teamA, this.teamB);
 
-			ImageIcon correctIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
-					"eOSB/game/data/images/checkmark2.png"));
-			ImageIcon incorrectIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
-					"eOSB/game/data/images/redXmark2.png"));
+			ImageIcon correctIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource("eOSB/game/data/images/checkmark2.png"));
+			ImageIcon incorrectIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource("eOSB/game/data/images/redXmark2.png"));
 
 			this.teamA_correct.setAction(submitAction);
 			this.teamA_correct.setActionCommand("TEAM_A");
@@ -384,6 +377,7 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			this.teamA_correct.setFocusable(false);
 			teamA_correct.setVerticalTextPosition(AbstractButton.BOTTOM);
 			teamA_correct.setHorizontalTextPosition(AbstractButton.CENTER);
+			teamA_correct.setEnabled(false);
 
 			this.teamA_incorrect.setAction(incorrectAction);
 			this.teamA_incorrect.setActionCommand("TEAM_A");
@@ -392,13 +386,16 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			this.teamA_incorrect.setFocusable(false);
 			teamA_incorrect.setVerticalTextPosition(AbstractButton.BOTTOM);
 			teamA_incorrect.setHorizontalTextPosition(AbstractButton.CENTER);
+			teamA_incorrect.setEnabled(false);
 
-			this.teamA_interrupt.setAction(new InterruptAction(this.teamA_interrupt));
+			this.teamA_interrupt.setAction(new InterruptAction(handler, teamA, teamB));
 			this.teamA_interrupt.setText("Interrupt");
+			this.teamA_interrupt.setActionCommand("TEAM_A");
 			this.teamA_interrupt.setMinimumSize(new Dimension(50, 30));
 			this.teamA_interrupt.setFocusable(false);
 			teamA_interrupt.setVerticalTextPosition(AbstractButton.BOTTOM);
 			teamA_interrupt.setHorizontalTextPosition(AbstractButton.CENTER);
+			teamA_interrupt.setEnabled(false);
 
 			this.teamB_correct.setAction(submitAction);
 			this.teamB_correct.setActionCommand("TEAM_B");
@@ -406,27 +403,30 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			teamB_correct.setText("Correct");
 			teamB_correct.setVerticalTextPosition(AbstractButton.BOTTOM);
 			teamB_correct.setHorizontalTextPosition(AbstractButton.CENTER);
-
+			teamB_correct.setEnabled(false);
 			this.teamB_correct.setFocusable(false);
 
 			this.teamB_incorrect.setAction(incorrectAction);
 			this.teamB_incorrect.setActionCommand("TEAM_B");
-			teamB_incorrect.setText("Inorrect");
+			teamB_incorrect.setText("Incorrect");
 			this.teamB_incorrect.setIcon(incorrectIcon);
 			this.teamB_incorrect.setFocusable(false);
 			teamB_incorrect.setVerticalTextPosition(AbstractButton.BOTTOM);
 			teamB_incorrect.setHorizontalTextPosition(AbstractButton.CENTER);
+			teamB_incorrect.setEnabled(false);
 
-			this.teamB_interrupt.setAction(new InterruptAction(this.teamB_interrupt));
+			this.teamB_interrupt.setAction(new InterruptAction(handler, teamA, teamB));
 			this.teamB_interrupt.setText("Interrupt");
+			this.teamB_interrupt.setActionCommand("TEAM_B");
 			this.teamB_interrupt.setFocusable(false);
 			teamB_interrupt.setVerticalTextPosition(AbstractButton.BOTTOM);
 			teamB_interrupt.setHorizontalTextPosition(AbstractButton.CENTER);
+			teamB_interrupt.setEnabled(false);
 
 			this.submitButton.setAction(submitAction);
 			this.submitButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(
 					"eOSB/game/data/images/nextArrow2.png")));
-			this.submitButton.setText("Submit");
+			this.submitButton.setText("Begin");
 			this.submitButton.setHorizontalTextPosition(2);
 			this.submitButton.setFocusable(false);
 
@@ -440,25 +440,21 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		}
 		else
 		{
-			SubmitAction submitAction = new SubmitAction(this.handler, this.teamA,
-					this.teamB);
+			SubmitAction submitAction = new SubmitAction(this.handler, this.teamA, this.teamB);
 
 			this.nextQuestionButton.setAction(new NextQuestionAction());
-			this.nextQuestionButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
-					.getResource(IconFactory.NEXT)));
+			this.nextQuestionButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT)));
 			this.nextQuestionButton.setMinimumSize(new Dimension(50, 25));
 			this.nextQuestionButton.setToolTipText("Next question (tossup or bonus)");
 
 			this.nextTossupButton.setAction(submitAction);
-			this.nextTossupButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
-					.getResource(IconFactory.INCORRECT)));
+			this.nextTossupButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.INCORRECT)));
 			this.nextTossupButton.setMinimumSize(new Dimension(50, 25));
 			this.nextTossupButton.setToolTipText("Next tossup");
 			this.nextTossupButton.setEnabled(false);
 
 			this.backButton.setAction(new BackButtonAction(this.handler));
-			this.backButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader()
-					.getResource(IconFactory.BACK)));
+			this.backButton.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.BACK)));
 			this.backButton.setMinimumSize(new Dimension(50, 25));
 			this.backButton.setToolTipText("Previous tossup or bonus");
 			this.backButton.setEnabled(false);
@@ -504,7 +500,9 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 			this.hasSeenTcqReminder = true;
 		}
 
-		// update question text and answer panels and buttons
+		if (this.submitButton != null) {
+			this.submitButton.setText("Submit");
+		}
 		this.createQuestionPanel(question);
 		this.createAnswerPanel(question);
 		this.updateButtonStates(question);
@@ -517,16 +515,13 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		StyledDocument document = this.configureStyledDocument(textPane);
 
 		try {
-			// formats and inserts the question metadata to precede question content
 			String questionNumber = "Question " + question.getNumber() + " is a ";
 			String questionType = question.getType().toString().toLowerCase() + ", " + question.getFormat() + ":";
 			document.insertString(document.getLength(), questionNumber, document.getStyle(META_SMALL_STYLE));
 			document.insertString(document.getLength(), questionType, document.getStyle(META_BOLD_STYLE));
 
-			// inserts the question text
 			this.addTextToDocument("\n\n" + HALF_TAB + question.getText(), document);
 
-			// inserts the question choices
 			List<String> questionChoices = question.getAnswerOptions();
 			List<String> questionChoicePrefixes = new ArrayList<String>();
 			questionChoicePrefixes.add("W");
@@ -592,11 +587,23 @@ public class Binder implements EventSubscriber<EventServiceEvent>
 		this.nextQuestionButton.setEnabled(true);
 		this.nextTossupButton.setEnabled(true);
 		this.submitButton.setEnabled(true);
+		
+		String correctValue = question.getType() == Question.Type.TOSSUP ? "(+4)" : "(+6)"; 
+		teamA_correct.setText("Correct " + correctValue);
+		teamB_correct.setText("Correct " + correctValue);
+		
+		teamA_incorrect.setText("Incorrect (+0)");
+		teamB_incorrect.setText("Incorrect (+0)");
+		
+		teamA_interrupt.setText("Interrupt (-4)");
+		teamB_interrupt.setText("Interrupt (-4)");
 
-		// ensure both teams enabled if tossup
 		if (question.getType() == Question.Type.TOSSUP) {
 			this.toggleTeamButtons(true, true);
 			this.toggleTeamButtons(true, false);
+		} else {
+			teamA_interrupt.setEnabled(false);
+			teamB_interrupt.setEnabled(false);
 		}
 	}
 

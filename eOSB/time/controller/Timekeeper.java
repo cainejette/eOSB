@@ -41,7 +41,6 @@ public class Timekeeper implements EventSubscriber<EventServiceEvent> {
 			UpdateQuestionEvent e2 = (UpdateQuestionEvent) e;
 			Question question = e2.getQuestion();
 			if (question != null) {
-				System.out.println("\nTimekeeper calling setTime");
 				switch (question.getType()) {
 				case TOSSUP:
 					this.questionClock.setTime(5000, true);
