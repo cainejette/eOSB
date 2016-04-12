@@ -206,7 +206,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			submitBackPanel.add(this.submitButton, "sizegroup group3, growx, h 100!");
 
 			JPanel answerPanel = new JPanel();
-			answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0, debug"));
+			answerPanel.setLayout(new MigLayout("wrap 2, fillx, insets 0"));
 			answerPanel.add(new ScorePanel(), "growx, wrap, span");
 			answerPanel.add(teamAPanel, "growx");
 			answerPanel.add(teamBPanel, "growx");
