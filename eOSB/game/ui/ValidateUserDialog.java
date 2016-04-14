@@ -97,10 +97,10 @@ public class ValidateUserDialog extends StandardDialog {
 	public JComponent createContentPanel() {
 		JPanel panel = new JPanel();
 
-		panel.setLayout(new MigLayout());
+		panel.setLayout(new MigLayout("fill"));
 		panel.setBorder(BorderFactory.createEmptyBorder(0, 15, 0, 15));
 
-		panel.add(this.passwordField, "h 45!");
+		panel.add(this.passwordField, "h 45!, growx");
 
 		return panel;
 	}
