@@ -91,6 +91,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 
 	private boolean hasSeenTcqReminder = false;
 	private boolean shouldEnableTcqs = false;
+	private boolean roundOpened = false;
 
 	private String roundName;
 
@@ -128,7 +129,11 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private void displayFrame() {
 		this.frame.pack();
 		this.frame.setMinimumSize(this.frame.getPreferredSize());
-		this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
+		
+		if (roundOpened) {
+			this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);			
+		}
+		
 		this.frame.setLocationRelativeTo(null);
 
 		this.frame.setVisible(true);
@@ -136,6 +141,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 
 	public void setBinderToNewRound(String roundName) {
 		this.roundName = roundName;
+		roundOpened = true;
 
 		this.initFrame();
 		this.initComponents();
