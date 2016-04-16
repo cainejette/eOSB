@@ -65,7 +65,8 @@ public class TcqResultsDialog extends StandardDialog {
 		this.pack();
 		this.setModal(true);
 		this.setTitle("TCQ Results");
-		this.setLocationRelativeTo(this.handler.getFrame());
+		this.setLocationRelativeTo(null);
+//		this.setLocationRelativeTo(this.handler.getFrame());
 		this.setResizable(false);
 		TcqResultsTabListener keyListener = new TcqResultsTabListener(teamAFieldA, this.teamAFieldB,
 				this.teamBFieldA, this.teamBFieldB, this.okButton, this.cancelButton);

@@ -70,7 +70,8 @@ public class SelectTcqDialog extends StandardDialog {
 		this.pack();
 		this.setTitle("TCQ Selection");
 
-		this.setLocationRelativeTo(this.parent);
+		this.setLocationRelativeTo(null);
+//		this.setLocationRelativeTo(this.parent);
 		this.setResizable(false);
 		this.setVisible(true);
 	}
