@@ -35,13 +35,22 @@ public class eOSBMenuBar extends JMenuBar {
 		this.add(createHelpMenu());
 	}
 	
-	private JMenu createFileMenu() {
+	private boolean isMac() {
+		return System.getProperty("os.name").toLowerCase().indexOf("mac") > -1;
+	}
+	
+	private JMenu createFileMenu() {		
 		JMenu menu = new JMenu("File");
 		menu.setMnemonic(KeyEvent.VK_F);
 
 		JMenuItem menuItem = new JMenuItem();
 		menuItem.setAction(new OpenValidateUserDialogAction(this.handler));
-		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
+		
+		if (isMac())
+			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.META_MASK));
+		else 
+			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
+		
 		menuItem.setMnemonic(KeyEvent.VK_R);
 		menuItem.setText("Open Round");
 
@@ -51,7 +60,12 @@ public class eOSBMenuBar extends JMenuBar {
 		menuItem.setAction(new FireTcqPreambleEventAction());
 
 		menuItem.setText("Open TCQs");
-		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T, ActionEvent.CTRL_MASK));
+		
+		if (isMac())
+			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T, ActionEvent.META_MASK));
+		else 
+			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T, ActionEvent.CTRL_MASK));
+		
 		menuItem.setMnemonic(KeyEvent.VK_T);
 		menuItem.setEnabled(this.binder.shouldEnableTcqs());
 
@@ -61,7 +75,11 @@ public class eOSBMenuBar extends JMenuBar {
 		menuItem = new JMenuItem();
 		menuItem.setAction(new OpenConfirmExitDialogAction(this.handler));
 		menuItem.setMnemonic(KeyEvent.VK_X);
-		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.CTRL_MASK));
+		
+		if (isMac())
+			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.META_MASK));
+		else 
+			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.CTRL_MASK));
 		menu.add(menuItem);
 		
 		return menu;
@@ -78,7 +96,12 @@ public class eOSBMenuBar extends JMenuBar {
 		menuItem.setAction(new OpenSetTeamNamesDialogAction(this.handler));
 		menuItem.setEnabled(this.handler.isUsingScoreboard());
 		menuItem.setMnemonic(KeyEvent.VK_N);
-		menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.CTRL_MASK));
+		
+		if (isMac()) 
+			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.META_MASK));
+		else
+			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.CTRL_MASK));
+		
 		menu.add(menuItem);
 
 		return menu;
