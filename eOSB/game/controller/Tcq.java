@@ -25,7 +25,7 @@ public class Tcq {
   }
   
   public Tcq(String name, String file, String duration) {
-  	this.name = name;
+  	this.name = name + (duration.trim().equals("n/a") ? "" : " (" + duration.trim() + ")");
     this.file = file;
 	this.previouslyOpened = false;
 	this.duration = duration;
