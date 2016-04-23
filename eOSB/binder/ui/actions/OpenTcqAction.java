@@ -78,6 +78,7 @@ public class OpenTcqAction extends AbstractAction {
 		button.setEnabled(shouldEnable);
 				
 		URL tcqAsUrl = ClassLoader.getSystemClassLoader().getResource(path);
+		System.out.println("opening TCQ: " + tcqAsUrl);
 		SwingController controller = new SwingController();
 		SwingViewBuilder factory = new SwingViewBuilder(controller);
 		JFrame viewerFrame = factory.buildViewerFrame();

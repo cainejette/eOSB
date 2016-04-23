@@ -55,7 +55,7 @@ public class SelectTcqDialog extends StandardDialog {
 		
 		JLabel[] labels = new JLabel[this.availableTcqs.size()];
 		for (int i = 0; i < this.availableTcqs.size(); i++) {
-			JLabel label = new JLabel(this.availableTcqs.get(i).getName());
+			JLabel label = new JLabel(this.round.getName() + " " + this.availableTcqs.get(i).getName());
 			labels[i] = label;
 		}
 		
