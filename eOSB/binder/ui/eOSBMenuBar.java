@@ -15,6 +15,7 @@ import eOSB.binder.controller.FireTcqPreambleEventAction;
 import eOSB.binder.controller.OpenAboutEOSBAction;
 import eOSB.binder.ui.actions.OpenConfirmExitDialogAction;
 import eOSB.binder.ui.actions.OpenPdfAction;
+import eOSB.binder.ui.actions.OpenSetScoresDialogAction;
 import eOSB.binder.ui.actions.OpenSetTeamNamesDialogAction;
 import eOSB.binder.ui.actions.OpenValidateUserDialogAction;
 import eOSB.binder.ui.actions.SetFontSizeAction;
@@ -104,6 +105,13 @@ public class eOSBMenuBar extends JMenuBar {
 		
 		menu.add(menuItem);
 
+		menu.addSeparator();
+
+		menuItem = new JMenuItem("Manual score override");
+		menuItem.setAction(new OpenSetScoresDialogAction(this.handler));
+		menuItem.setEnabled(this.handler.isUsingScoreboard());
+		menu.add(menuItem);
+		
 		return menu;
 	}
 	

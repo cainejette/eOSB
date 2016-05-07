@@ -8,6 +8,7 @@ import org.bushe.swing.event.EventServiceEvent;
 import org.bushe.swing.event.EventSubscriber;
 
 import eOSB.binder.ui.actions.AddTurnEvent;
+import eOSB.binder.ui.actions.SetScoreEvent;
 import eOSB.game.controller.BuzzerTurn;
 import eOSB.game.controller.TcqTurn;
 import eOSB.game.controller.Team;
@@ -30,6 +31,7 @@ public class Scorekeeper implements EventSubscriber<EventServiceEvent> {
 
 		EventBus.subscribe(AddTurnEvent.class, this);
 		EventBus.subscribe(WithdrawQuestionEvent.class, this);
+		EventBus.subscribe(SetScoreEvent.class, this);
 	}
 
 	public void onEvent(EventServiceEvent ese) {
@@ -38,6 +40,12 @@ public class Scorekeeper implements EventSubscriber<EventServiceEvent> {
 			this.addTurn(ate.getTurn());
 		} else if (ese instanceof WithdrawQuestionEvent) {
 			this.removeTurn();
+		} else if (ese instanceof SetScoreEvent) {
+			SetScoreEvent e = (SetScoreEvent)ese;
+			this.teamA.setScore(e.getTeamAScore());
+			this.teamB.setScore(e.getTeamBScore());
+			
+			EventBus.publish(new TeamScoreNumberEvent(this, this.teamA.getScore(), this.teamB.getScore()));
 		}
 	}
 

@@ -10,14 +10,12 @@ import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.PlainDocument;
 
 import com.jidesoft.dialog.ButtonPanel;
 import com.jidesoft.dialog.StandardDialog;
 
 import eOSB.binder.controller.TcqResultsTabListener;
+import eOSB.binder.ui.LengthRestrictedDocument;
 import eOSB.binder.ui.actions.CancelButtonAction;
 import eOSB.game.controller.Handler;
 import eOSB.game.data.IconFactory;
@@ -153,24 +151,5 @@ public class TcqResultsDialog extends StandardDialog {
 		panel.add(tcqBPanel, "gapy 10, growx, sizegroupx panel");
 
 		return panel;
-	}
-
-	private final class LengthRestrictedDocument extends PlainDocument {
-
-		private final int limit;
-
-		public LengthRestrictedDocument(int limit) {
-			this.limit = limit;
-		}
-
-		@Override
-		public void insertString(int offs, String str, AttributeSet a) throws BadLocationException {
-			if (str == null)
-				return;
-
-			if ((getLength() + str.length()) <= limit) {
-				super.insertString(offs, str, a);
-			}
-		}
 	}
 }

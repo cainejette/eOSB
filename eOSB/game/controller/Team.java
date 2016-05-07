@@ -84,6 +84,10 @@ public class Team {
   public int getScore() {
     return this.score;
   }
+  
+  public void setScore(int score) {
+	  this.score = score;
+  }
 
   /**
    * Adds some number of points to the score of this {@link Team}, corresponding

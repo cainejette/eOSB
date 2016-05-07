@@ -119,6 +119,15 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 					roundInfo.setName(name.split(":")[1].trim());
 					roundInfo.setFilePath(filePath.split(":")[1].trim());
 
+					System.out.println(aDuration);
+					for (String hi : aDuration.split(":", 2)) {
+						System.out.println(hi);
+					}
+					
+					System.out.println(bDuration);
+					for (String hi : bDuration.split(":", 2)) {
+						System.out.println(hi);
+					}
 					roundInfo.setTcqADuration(aDuration.split(":", 2)[1].trim());
 					roundInfo.setTcqBDuration(bDuration.split(":", 2)[1].trim());
 

@@ -117,7 +117,7 @@ public class SelectTcqDialog extends StandardDialog {
 		panel.add(this.okButton, "gapleft 10, w 150!, h 75!");
 		
 		if (this.handler.isUsingScoreboard()) {
-			OpenTcqResultsDialogAction addTcqResultsAction = new OpenTcqResultsDialogAction(this, this.handler);
+			OpenTcqResultsDialogAction addTcqResultsAction = new OpenTcqResultsDialogAction(this.handler);
 			JButton button = new JButton();
 			button.setAction(addTcqResultsAction);
 			panel.add(button, "span, growx, h 50!, gaptop 10");
