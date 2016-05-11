@@ -29,4 +29,6 @@ public class IconFactory {
 	/** the location of the splash image */
 	public static final String SPLASH = "eOSB/game/data/images/bowl.png";
 	
+	public static final String WARNING = "eOSB/game/data/images/warning-icon-hi.png";
+	
 }

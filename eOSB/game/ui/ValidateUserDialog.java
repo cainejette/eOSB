@@ -26,6 +26,7 @@ public class ValidateUserDialog extends StandardDialog {
 	private JPasswordField passwordField;
 	private JButton okButton;
 	private JLabel tryAgainLabel;
+	private JLabel capsLockLabel;
 
 	public ValidateUserDialog(Handler handler) {
 		super(handler.getFrame(), true);
@@ -35,8 +36,13 @@ public class ValidateUserDialog extends StandardDialog {
 		tryAgainLabel.setForeground(Color.RED);
 		tryAgainLabel.setFont(new Font(tryAgainLabel.getFont().getName(), Font.PLAIN, tryAgainLabel.getFont().getSize() + 2));
 
+		ImageIcon icon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.WARNING));
+		capsLockLabel = new JLabel("Caps locked!");
+		capsLockLabel.setFont(new Font(capsLockLabel.getFont().getName(), Font.PLAIN, capsLockLabel.getFont().getSize() + 2));
+		capsLockLabel.setIcon(icon);
+		
 		okButton = new JButton();
-		this.passwordField.addKeyListener(new PasswordKeyListener(this, passwordField, okButton, tryAgainLabel));
+		this.passwordField.addKeyListener(new PasswordKeyListener(this, passwordField, okButton, tryAgainLabel, capsLockLabel));
 
 		this.init();
 	}
@@ -63,6 +69,8 @@ public class ValidateUserDialog extends StandardDialog {
 		panel.setBorder(BorderFactory.createEmptyBorder(6, 15, 0, 15));
 		panel.add(message);
 		panel.add(tryAgainLabel);
+		panel.add(capsLockLabel);
+
 
 		return panel;
 	}
@@ -70,7 +78,7 @@ public class ValidateUserDialog extends StandardDialog {
 	public ButtonPanel createButtonPanel() {
 		ButtonPanel panel = new ButtonPanel();
 		panel.setBorder(BorderFactory.createEmptyBorder(0, 15, 0, 15));
-		panel.setLayout(new MigLayout());
+		panel.setLayout(new MigLayout("fill"));
 
 		JButton cancelButton = new JButton();
 		CancelButtonAction cancelAction = new CancelButtonAction(this);
@@ -80,7 +88,7 @@ public class ValidateUserDialog extends StandardDialog {
 		ImageIcon cancelIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.INCORRECT));
 		cancelButton.setIcon(cancelIcon);
 
-		panel.add(cancelButton, "w 150!, h 65!");
+		panel.add(cancelButton, "growx, h 65!, gapright push");
 
 		AuthenticateUserAction okAction = new AuthenticateUserAction(this, this.passwordField, this.tryAgainLabel);
 		this.setDefaultAction(okAction);
@@ -89,7 +97,7 @@ public class ValidateUserDialog extends StandardDialog {
 		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT));
 		okButton.setIcon(okIcon);
 
-		panel.add(okButton, "gapleft 10, w 150!, h 65!");
+		panel.add(okButton, "gapleft 10, growx, h 65!");
 
 		return panel;
 	}
@@ -97,7 +105,7 @@ public class ValidateUserDialog extends StandardDialog {
 	public JComponent createContentPanel() {
 		JPanel panel = new JPanel();
 
-		panel.setLayout(new MigLayout("fill"));
+		panel.setLayout(new MigLayout("fill, wrap 1"));
 		panel.setBorder(BorderFactory.createEmptyBorder(0, 15, 0, 15));
 
 		panel.add(this.passwordField, "h 45!, growx");

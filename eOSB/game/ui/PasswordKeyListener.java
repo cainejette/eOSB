@@ -1,6 +1,7 @@
 package eOSB.game.ui;
 
 import java.awt.Color;
+import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
@@ -16,12 +17,15 @@ public class PasswordKeyListener implements KeyListener {
 	private JPasswordField passField;
 	private JButton button;
 	private JLabel label;
+	private JLabel capsLockLabel;
 
-	public PasswordKeyListener(StandardDialog dialog, JPasswordField passField, JButton button, JLabel label) {
+	public PasswordKeyListener(StandardDialog dialog, JPasswordField passField, JButton button, JLabel label, JLabel capsLockLabel) {
 		this.dialog = dialog;
 		this.passField = passField;
 		this.button = button;
 		this.label = label;
+		this.capsLockLabel = capsLockLabel;
+		
 		this.validateDialog();
 	}
 	
@@ -40,6 +44,8 @@ public class PasswordKeyListener implements KeyListener {
 	private void validateDialog() {
 		char[] pass = this.passField.getPassword();
 	
+		capsLockLabel.setVisible(Toolkit.getDefaultToolkit().getLockingKeyState(KeyEvent.VK_CAPS_LOCK));
+		
 		if (pass.length == 0) {
 			this.button.setEnabled(false);
 			this.dialog.setDefaultAction(null);
