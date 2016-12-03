@@ -3,65 +3,80 @@ File name: round_practice.xml
 TCQ A duration: n/a
 TCQ B duration: n/a
 
-Round name: Round 1
+Round name: Round Robin 1
 File name: round_1.xml
 TCQ A duration: 2:00
-TCQ B duration: 2:00
+TCQ B duration: 3:00
 
-Round name: Round 2
+Round name: Round Robin 2
 File name: round_2.xml
-TCQ A duration: 2:00
-TCQ B duration: 3:00
+TCQ A duration: 3:00
+TCQ B duration: 4:00
 
-Round name: Round 3
+Round name: Round Robin 3
 File name: round_3.xml
-TCQ A duration: 4:00
-TCQ B duration: 2:00
+TCQ A duration: 3:00
+TCQ B duration: 3:00
 
-Round name: Round 4
+Round name: Round Robin 4
 File name: round_4.xml
-TCQ A duration: 3:00
-TCQ B duration: 3:00
-
-Round name: Round 5
-File name: round_5.xml
-TCQ A duration: 4:00
-TCQ B duration: 2:00
-
-Round name: Round 6
-File name: round_6.xml
-TCQ A duration: 4:00
-TCQ B duration: 3:00
-
-Round name: Round 7
-File name: round_7.xml
-TCQ A duration: 3:00
-TCQ B duration: 4:00
-
-Round name: Round 8
-File name: round_8.xml
-TCQ A duration: 3:00
-TCQ B duration: 4:00
-
-Round name: Round 9
-File name: round_9.xml
 TCQ A duration: 4:00
 TCQ B duration: 5:00
 
-Round name: Round 10
-File name: round_10.xml
+Round name: Round Robin 5
+File name: round_5.xml
+TCQ A duration: 3:00
+TCQ B duration: 4:00
+
+Round name: Double Elimination 1
+File name: round_6.xml
+TCQ A duration: 3:00
+TCQ B duration: 3:00
+
+Round name: Double Elimination 2
+File name: round_7.xml
+TCQ A duration: 3:00
+TCQ B duration: 5:00
+
+Round name: Double Elimination 3
+File name: round_8.xml
 TCQ A duration: 4:00
 TCQ B duration: 4:00
 
-Round name: Round 11
-File name: round_11.xml
-TCQ A duration: 3:00
+Round name: Double Elimination 4
+File name: round_9.xml
+TCQ A duration: 4:00
 TCQ B duration: 4:00
+
+Round name: Double Elimination 5
+File name: round_10.xml
+TCQ A duration: 4:00
+TCQ B duration: 3:00
+
+Round name: Double Elimination 6
+File name: round_11.xml
+TCQ A duration: 4:00
+TCQ B duration: 5:00
+
+Round name: Double Elimination 7
+File name: round_12.xml
+TCQ A duration: 4:00
+TCQ B duration: 5:00
+
+Round name: Double Elimination 8
+File name: round_13.xml
+TCQ A duration: 4:00
+TCQ B duration: 5:00
+
+Round name: Double Elimination 9
+File name: round_14.xml
+TCQ A duration: 4:00
+TCQ B duration: 5:00
 
 Round name: Extra
 File name: round_extra.xml
 TCQ A duration: 4:00
-TCQ B duration: 3:00
+TCQ B duration: 4:00
 
 Round name: Tiebreakers
 File name: round_tiebreakers.xml
