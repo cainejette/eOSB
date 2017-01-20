@@ -100,47 +100,83 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			return name + ", " + filePath + ", " + tcqADuration + ", " + tcqBDuration;
 		}
 	}
+	
+	private String findNextLine(BufferedReader br) {
+		String line = null;
+		try {
+			line = br.readLine();
+			System.out.println("reading in: " + line);
+			int count = 0;
+			while (line == null || line.trim().length() == 0) {
+				line = br.readLine();
+				System.out.println("reading in: " + line);
+				count++;
+				if (count > 5) {
+					break;
+				}
+			}
+		} 
+		catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("returning: " + line);
+		return line;
+	}
 
 	private List<RoundInfo> getRoundInfos() {
 		List<RoundInfo> roundInfos = new ArrayList<RoundInfo>();
 		BufferedReader br = new BufferedReader(new InputStreamReader( Handler.getResourceAsStream(PathStore.INFO)));
 
 		try {
-			String name = br.readLine();
+			String line = "starting...";
+			while (line != null) {
+				System.out.println("trying to find new round...");
+				String name = findNextLine(br);
+				String filePath = findNextLine(br);
+				String aDuration = findNextLine(br);
+				String bDuration = findNextLine(br);
+				
+				if (name == null && filePath == null && aDuration == null && bDuration == null) {
+					break;
+				}
 
-			while (name != null) {
-				String filePath = br.readLine();
-				String aDuration = br.readLine();
-				String bDuration = br.readLine();
-
+				System.out.println("unparsed:");
+				System.out.println("[name] " + name);
+				System.out.println("[filePath] " + filePath);
+				System.out.println("[aDuration] " + aDuration);
+				System.out.println("[bDuration] " + bDuration);
 				if (aDuration != null && bDuration != null) {
 					RoundInfo roundInfo = new RoundInfo();
 
 					roundInfo.setName(name.split(":")[1].trim());
 					roundInfo.setFilePath(filePath.split(":")[1].trim());
 
-					System.out.println(aDuration);
-					for (String hi : aDuration.split(":", 2)) {
-						System.out.println(hi);
+					if (aDuration.indexOf("n/a") > 0) { 
+						roundInfo.setTcqADuration("n/a");
+					} else {
+						for (String thing : aDuration.split(":", 2)) {
+							System.out.println("duration blob: " + thing);
+						}
+						roundInfo.setTcqADuration(aDuration.split(":", 2)[1].trim());
 					}
 					
-					System.out.println(bDuration);
-					for (String hi : bDuration.split(":", 2)) {
-						System.out.println(hi);
+					if (bDuration.indexOf("n/a") > 0) { 
+						roundInfo.setTcqBDuration("n/a");
+					} else {
+						for (String thing : bDuration.split(":", 2)) {
+							System.out.println("duration blob: " + thing);
+						}
+						roundInfo.setTcqBDuration(bDuration.split(":", 2)[1].trim());
 					}
-					roundInfo.setTcqADuration(aDuration.split(":", 2)[1].trim());
-					roundInfo.setTcqBDuration(bDuration.split(":", 2)[1].trim());
 
-					System.out.println(roundInfo);
+					System.out.println("round info gathered: " + roundInfo);
 					roundInfos.add(roundInfo);
 				}
 
-				br.readLine();
-				name = br.readLine();
+				line = bDuration;
 			}
-		}
-		catch (IOException e) {
-			System.out.println("Something bad happened reading file");
 		}
 		finally {
 			try {

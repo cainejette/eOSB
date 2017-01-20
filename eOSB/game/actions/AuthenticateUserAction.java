@@ -55,6 +55,7 @@ public class AuthenticateUserAction extends AbstractAction {
 			EventBus.publish(new UserAuthenticatedEvent(this));
 		} 
 		else {
+			System.out.println("valid password: " + validPassword + ", valid date: " + validDate);
 			this.passwordField.setBackground(Color.RED);
 			this.label.setVisible(true);
 		}
