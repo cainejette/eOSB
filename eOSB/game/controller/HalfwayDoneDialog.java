@@ -37,7 +37,7 @@ public class HalfwayDoneDialog extends StandardDialog {
 	}
 
 	public JComponent createBannerPanel() {
-		JLabel message = new JLabel("Please administer the TCQs if you haven't already.");
+		JLabel message = new JLabel("It's time for the 2 minute break, if you haven't already taken it!");
 	  message.setFont(new Font(message.getFont().getName(), Font.PLAIN, message.getFont().getSize() + 2));
 
 		JPanel panel = new JPanel();
@@ -52,23 +52,12 @@ public class HalfwayDoneDialog extends StandardDialog {
 		panel.setBorder(BorderFactory.createEmptyBorder(0, 6, 0, 6));
 		panel.setLayout(new MigLayout("fill"));
 
-		JButton cancelButton = new JButton();
-		AbstractAction cancelAction = new CancelAndShowAction(this);
-		this.setDefaultCancelAction(cancelAction);		
-		cancelButton.setAction(cancelAction);
-		cancelButton.setToolTipText("Continue buzzers");
-		
-		ImageIcon cancelIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.INCORRECT));
-		cancelButton.setIcon(cancelIcon);
-		
-		panel.add(cancelButton, "growx, h 75!");
-
 		JButton okButton = new JButton();
-		AbstractAction okAction = new FireTcqPreambleEventAction(this);
+		AbstractAction okAction = new CancelAndShowAction(this);
 		okButton.setAction(okAction);
 		this.setDefaultAction(okAction);
 		okButton.requestFocus();
-		okButton.setToolTipText("Open TCQs");
+		okButton.setToolTipText("OK");
 		
 		ImageIcon okIcon = new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT));
 		okButton.setIcon(okIcon);
