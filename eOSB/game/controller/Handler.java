@@ -23,7 +23,7 @@ import org.bushe.swing.event.EventSubscriber;
 import eOSB.binder.controller.Binder;
 import eOSB.binder.controller.NextQuestionEvent;
 import eOSB.binder.controller.OpenTcqPreambleEvent;
-import eOSB.binder.controller.RemindTcqEvent;
+import eOSB.binder.controller.ShowHalftimeWarningEvent;
 import eOSB.binder.controller.TcqPreambleDialog;
 import eOSB.binder.controller.TeamNameEvent;
 import eOSB.binder.controller.UpdateQuestionEvent;
@@ -77,7 +77,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 		EventBus.subscribe(RoundSelectedEvent.class, this);
 		EventBus.subscribe(ShowSelectPackagesDialogEvent.class, this);
 		EventBus.subscribe(RoundLoadedEvent.class, this);
-		EventBus.subscribe(RemindTcqEvent.class, this);
+		EventBus.subscribe(ShowHalftimeWarningEvent.class, this);
 		EventBus.subscribe(OpenTcqPreambleEvent.class, this);
 		EventBus.subscribe(NextQuestionEvent.class, this);
 		EventBus.subscribe(UserAuthenticatedEvent.class, this);
@@ -331,7 +331,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 			this.usedScoreboardLastRound = this.shouldUseScoreboard;
 
 			EventBus.publish(new NewRoundEvent(this, rse.getRoundName()));
-		} else if (event instanceof RemindTcqEvent) {
+		} else if (event instanceof ShowHalftimeWarningEvent) {
 			this.showHalfwayDoneDialog();
 		} else if (event instanceof OpenTcqPreambleEvent) {
 			this.showTcqPreambleDialog();
@@ -395,6 +395,7 @@ public class Handler implements EventSubscriber<EventServiceEvent> {
 	}
 
 	private void showTcqPreambleDialog() {
+		System.out.println("Handler#showTcqPreambleDialog");
 		HideBuzzerQuestionsEvent event = new HideBuzzerQuestionsEvent(this);
 		EventBus.publish(event);
 

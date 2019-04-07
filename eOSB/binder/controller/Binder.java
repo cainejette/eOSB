@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+import javax.swing.AbstractAction;
 import javax.swing.AbstractButton;
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
@@ -78,6 +79,7 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private int fontSize = 20;
 
 	private boolean hidingQuestions = false;
+	private boolean hasSeenHalftimeBreak = false;
 	private JScrollPane questionPanelScroller;
 	private JScrollPane answerPanelScroller;
 
@@ -89,7 +91,6 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	private final String TAB = "            ";
 	private final String HALF_TAB = "      ";
 
-	private boolean hasSeenTcqReminder = false;
 	private boolean shouldEnableTcqs = false;
 	private boolean roundOpened = false;
 
@@ -140,18 +141,24 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	}
 
 	public void setBinderToNewRound(String roundName) {
+		System.out.println("Settin binder to round: " + roundName);
 		this.roundName = roundName;
 		roundOpened = true;
-
-		this.initFrame();
-		this.initComponents();
+		this.hasSeenHalftimeBreak = false;
 
 		// disable TCQs on the Tiebreaker round
-		if (roundName.contains("Tie") || roundName.contains("warm")) {
+		if (roundName.contains("Tie") || roundName.contains("warm") || roundName.contains("Practice")) {
 			this.shouldEnableTcqs = false;
 		} else {
 			this.shouldEnableTcqs = true;
 		}
+		System.out.println("Should enable TCQs: " + this.shouldEnableTcqs);
+		
+		this.initFrame();
+		this.initComponents();
+
+		
+		
 		this.frame.setJMenuBar(new eOSBMenuBar(this.handler, this));
 
 		this.frame.setTitle(roundName + " -- electronic Ocean Sciences Bowl");
@@ -262,7 +269,6 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.submitButton = this.createNavigationButton();
 
 		this.configureButtons();
-		this.hasSeenTcqReminder = false;
 	}
 
 	private void initQuestionPanel() {
@@ -405,7 +411,14 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			teamB_interrupt.setHorizontalTextPosition(AbstractButton.CENTER);
 			teamB_interrupt.setEnabled(false);
 
-			this.submitButton.setAction(submitAction);
+			if (this.shouldEnableTcqs) {
+				System.out.println("configureButtons: using scoreboard, should enable TCQs: setting Submit to FireTcqPreambleEventAction");
+				AbstractAction tcqPreambleAction = new FireTcqPreambleEventAction();
+				this.submitButton.setAction(tcqPreambleAction);				
+			} else {
+				System.out.println("configureButtons: using scoreboard, should NOT enable TCQs: setting Submit to SubmitAction");
+				this.submitButton.setAction(submitAction);
+			}
 			this.submitButton.setIcon(new ImageIcon(
 					ClassLoader.getSystemClassLoader().getResource("eOSB/game/data/images/nextArrow2.png")));
 			this.submitButton.setText("Begin");
@@ -422,7 +435,15 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		} else {
 			SubmitAction submitAction = new SubmitAction(this.handler, this.teamA, this.teamB);
 
-			this.nextQuestionButton.setAction(new NextQuestionAction());
+			if (this.shouldEnableTcqs) {
+				System.out.println("configureButtons: not using scoreboard, should enable TCQs: setting NextQuestionButton to FireTcqPreambleEventAction");
+				AbstractAction tcqAction = new FireTcqPreambleEventAction();
+				this.nextQuestionButton.setAction(tcqAction);				
+			} else {
+				System.out.println("configureButtons: not using scoreboard, should NOT enable TCQs: setting NextQuestionButton to SubmitAction");
+
+				this.nextQuestionButton.setAction(submitAction);
+			}
 			this.nextQuestionButton
 					.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT)));
 			this.nextQuestionButton.setMinimumSize(new Dimension(50, 25));
@@ -472,12 +493,13 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 	}
 
 	private void updateQuestion(Question question) {
-		if (question.getNumber().equals("11") && !this.hasSeenTcqReminder && !this.roundName.contains("Tie")) {
+		if (question.getNumber().equals("11") && !this.roundName.contains("Tie") && !this.hasSeenHalftimeBreak) {
 			this.hideQuestions();
 
-			RemindTcqEvent event = new RemindTcqEvent(this);
+			ShowHalftimeWarningEvent event = new ShowHalftimeWarningEvent(this);
 			EventBus.publish(event);
-			this.hasSeenTcqReminder = true;
+			
+			this.hasSeenHalftimeBreak = true;
 		}
 
 		if (this.submitButton != null) {
@@ -769,8 +791,6 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 			this.hideQuestions();
 		} else if (ese instanceof ShowBuzzerQuestionsEvent) {
 			this.showQuestions();
-		} else if (ese instanceof OpenTcqPreambleEvent) {
-			this.hasSeenTcqReminder = true;
 		}
 	}
 
@@ -808,9 +828,26 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 		this.backButton.setEnabled(this.gameState.isBackEnabled());
 		this.nextQuestionButton.setEnabled(this.gameState.isSubmitEnabled());
 		this.submitButton.setEnabled(this.gameState.isSubmitEnabled());
+		
+		if (this.handler.isUsingScoreboard()) {
+			System.out.println("Setting action to new Submit Action");
+			this.submitButton.setAction(new SubmitAction(this.handler, this.teamA, this.teamB) );
+			this.submitButton.setIcon(new ImageIcon(
+					ClassLoader.getSystemClassLoader().getResource("eOSB/game/data/images/nextArrow2.png")));
+			this.submitButton.setText("Begin");
+			this.submitButton.setHorizontalTextPosition(2);
+			this.submitButton.setFocusable(false);
+		} else {
+			System.out.println("Setting action to new Next Question Action");
+			this.nextQuestionButton.setAction(new NextQuestionAction());
+			this.nextQuestionButton
+				.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT)));
+			this.nextQuestionButton.setMinimumSize(new Dimension(50, 25));
+			this.nextQuestionButton.setToolTipText("Next question (tossup or bonus)");
+		}
 
 		this.hidingQuestions = false;
-		this.frame.setState(Frame.NORMAL);
+		this.frame.setExtendedState(Frame.MAXIMIZED_BOTH);
 	}
 
 	private void hideQuestions() {

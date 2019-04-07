@@ -2,11 +2,11 @@ package eOSB.binder.controller;
 
 import org.bushe.swing.event.EventServiceEvent;
 
-public class RemindTcqEvent implements EventServiceEvent {
+public class ShowHalftimeWarningEvent implements EventServiceEvent {
 	
 	private Object source;
 	
-	public RemindTcqEvent(Object source) {
+	public ShowHalftimeWarningEvent(Object source) {
 		this.source = source;
 	}
 
