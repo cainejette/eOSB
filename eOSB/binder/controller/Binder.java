@@ -440,9 +440,9 @@ public class Binder implements EventSubscriber<EventServiceEvent> {
 				AbstractAction tcqAction = new FireTcqPreambleEventAction();
 				this.nextQuestionButton.setAction(tcqAction);				
 			} else {
-				System.out.println("configureButtons: not using scoreboard, should NOT enable TCQs: setting NextQuestionButton to SubmitAction");
+				System.out.println("configureButtons: not using scoreboard, should NOT enable TCQs: setting NextQuestionButton to NextQuestionAction");
 
-				this.nextQuestionButton.setAction(submitAction);
+				this.nextQuestionButton.setAction(new NextQuestionAction());
 			}
 			this.nextQuestionButton
 					.setIcon(new ImageIcon(ClassLoader.getSystemClassLoader().getResource(IconFactory.NEXT)));

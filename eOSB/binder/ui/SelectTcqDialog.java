@@ -74,6 +74,7 @@ public class SelectTcqDialog extends StandardDialog {
 //		this.setLocationRelativeTo(this.parent);
 		this.setResizable(false);
 		this.setVisible(true);
+		this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 	}
 
 	public JComponent createBannerPanel() {
